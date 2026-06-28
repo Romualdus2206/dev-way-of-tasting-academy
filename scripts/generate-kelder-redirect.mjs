@@ -14,7 +14,7 @@ if (mode !== 'academy' && mode !== 'moment') {
 }
 
 const host = (process.env.KELDER_HOST ?? 'https://way-of-tasting.netlify.app').replace(/\/$/, '');
-const homePath = mode === 'academy' ? '/academy' : '/moment';
+const homePath = mode === 'academy' ? '/academy' : '/advies';
 const outDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../redirect-static');
 
 fs.mkdirSync(outDir, { recursive: true });

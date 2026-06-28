@@ -134,7 +134,7 @@ export function LessonDetailPage() {
       {isIntegratedApp && category === 'biodynamic' ? (
         <p className="cross-app-links">
           <Link
-            to={`/moment?date=${new Date().toISOString().slice(0, 10)}`}
+            to={`/advies?date=${new Date().toISOString().slice(0, 10)}`}
             className="btn-link"
           >
             🌙 Open kalender vandaag
