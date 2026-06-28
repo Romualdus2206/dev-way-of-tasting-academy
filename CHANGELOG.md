@@ -8,6 +8,14 @@ _(Bij upload: patch bump in `version.json` + bullet hier — zie [`docs/VERSIE.m
 
 ---
 
+## v0.1.2 — Academy-voortgang batching
+
+*Juni 2026.*
+
+- `fetchAcademyTrackProgress`: max 3 tracks parallel (Profiel laadt sneller in kelder-host)
+
+---
+
 ## v0.1.1 — Gedeeld profiel-UI
 
 *Juni 2026.*
