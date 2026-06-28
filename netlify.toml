@@ -1,0 +1,5 @@
+# Standalone Academy-site → geïntegreerde kelder-host (Fase 5).
+# Productie-web draait alleen op way-of-tasting.netlify.app (/academy/*).
+[build]
+  command = "node scripts/generate-kelder-redirect.mjs academy"
+  publish = "redirect-static"

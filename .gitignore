@@ -1,0 +1,9 @@
+node_modules/
+dist/
+redirect-static/
+.env
+.env.local
+web/.env
+.DS_Store
+*.log
+.vite/

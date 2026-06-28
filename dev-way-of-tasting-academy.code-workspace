@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "dev-way-of-tasting-academy",
+			"path": "."
+		},
+		{
+			"name": "dev-way-of-wine-exploring-app",
+			"path": "../dev-way-of-wine-exploring-app"
+		},
+		{
+			"name": "biodynamische-kalender",
+			"path": "../biodynamische-kalender"
+		}
+	],
+	"settings": {}
+}
