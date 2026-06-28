@@ -1,6 +1,6 @@
 import React from 'react';
-import { fetchTrackLessons } from '../lib/academy';
-import { ACADEMY_TRACKS, academyCategoryPath, type BeverageCategory } from '../navigation';
+import { AcademyProfielSections } from '../components/AcademyProfielSections';
+import { fetchAcademyTrackProgress } from '../lib/academyProfiel';
 import { fetchMyProfile, saveDisplayName } from '../lib/profile';
 import { getSupabaseAuth } from '../lib/supabase';
 import { config } from '../config';
@@ -15,33 +15,28 @@ export function ProfielPage() {
   const { userId, email } = useSession();
   const [displayName, setDisplayName] = React.useState('');
   const [trackProgress, setTrackProgress] = React.useState<
-    { title: string; completed: number; total: number; href: string }[]
+    Awaited<ReturnType<typeof fetchAcademyTrackProgress>>
   >([]);
-  const [loading, setLoading] = React.useState(true);
+  const [tracksLoading, setTracksLoading] = React.useState(true);
+  const [tracksLoaded, setTracksLoaded] = React.useState(false);
   const [saving, setSaving] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
   const [info, setInfo] = React.useState<string | null>(null);
 
   React.useEffect(() => {
     if (!userId) return;
-    void Promise.all([
-      fetchMyProfile(userId),
-      ...Object.entries(ACADEMY_TRACKS).map(async ([category, track]) => {
-        const lessons = await fetchTrackLessons(userId, track.trackSlug);
-        return {
-          title: track.title,
-          completed: lessons.filter((l) => l.progress?.status === 'completed').length,
-          total: lessons.length,
-          href: academyCategoryPath(category as BeverageCategory),
-        };
-      }),
-    ])
-      .then(([profile, ...tracks]) => {
+    setTracksLoading(true);
+    setTracksLoaded(false);
+    void Promise.all([fetchMyProfile(userId), fetchAcademyTrackProgress(userId)])
+      .then(([profile, tracks]) => {
         setDisplayName(profile?.display_name ?? '');
         setTrackProgress(tracks);
       })
       .catch((e: Error) => setError(e.message))
-      .finally(() => setLoading(false));
+      .finally(() => {
+        setTracksLoading(false);
+        setTracksLoaded(true);
+      });
   }, [userId]);
 
   async function handleSaveName(e: React.FormEvent) {
@@ -64,7 +59,7 @@ export function ProfielPage() {
     await getSupabaseAuth().auth.signOut();
   }
 
-  if (loading) {
+  if (tracksLoading && !tracksLoaded) {
     return <p className="muted">Profiel laden…</p>;
   }
 
@@ -72,50 +67,19 @@ export function ProfielPage() {
 
   return (
     <div className="profiel-page">
-      <section className="card profiel-hero">
-        <p className="profiel-greeting">Hoi {greetingName}</p>
-        <p className="muted">Academy-account · zelfde login als Way of tasting</p>
-      </section>
-
-      <section className="card">
-        <h2 className="section">Academy-voortgang</h2>
-        {trackProgress.map((track) => (
-          <p key={track.title} className="profiel-stat">
-            <strong>
-              {track.completed}/{track.total}
-            </strong>
-            <span className="muted">
-              {' '}
-              · {track.title} —{' '}
-              <a href={track.href} className="profiel-track-link">
-                bekijk track
-              </a>
-            </span>
-          </p>
-        ))}
-      </section>
-
-      <section className="card">
-        <h2 className="section">Weergavenaam</h2>
-        <p className="muted">Wordt gebruikt in de Academy (los van kelder-profiel).</p>
-        <form onSubmit={(e) => void handleSaveName(e)} className="form profiel-form">
-          <label>
-            Naam
-            <input
-              type="text"
-              value={displayName}
-              onChange={(e) => setDisplayName(e.target.value)}
-              placeholder={displayNameFromEmail(email)}
-              maxLength={80}
-            />
-          </label>
-          <button type="submit" disabled={saving}>
-            {saving ? 'Opslaan…' : 'Naam opslaan'}
-          </button>
-        </form>
-        {info ? <p className="profiel-info">{info}</p> : null}
-        {error ? <p className="err">{error}</p> : null}
-      </section>
+      <AcademyProfielSections
+        greetingName={greetingName}
+        trackProgress={trackProgress}
+        tracksLoading={tracksLoading}
+        tracksLoaded={tracksLoaded}
+        displayName={displayName}
+        onDisplayNameChange={setDisplayName}
+        onSaveName={handleSaveName}
+        savingName={saving}
+        namePlaceholder={displayNameFromEmail(email)}
+        info={info}
+        error={error}
+      />
 
       <section className="card">
         <h2 className="section">Account</h2>

@@ -3,12 +3,12 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const expected = JSON.parse(readFileSync(join(root, 'version.json'), 'utf8')).appVersion as string;
+const expected = JSON.parse(readFileSync(join(root, 'version.json'), 'utf8')).appVersion;
 
-const checks: { label: string; ok: boolean }[] = [];
+const checks = [];
 
-function readJson(path: string) {
-  return JSON.parse(readFileSync(join(root, path), 'utf8')) as { version?: string };
+function readJson(path) {
+  return JSON.parse(readFileSync(join(root, path), 'utf8'));
 }
 
 const shared = readJson('packages/academy-shared/package.json');
