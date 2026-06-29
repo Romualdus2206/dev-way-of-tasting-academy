@@ -1,6 +1,6 @@
 # Bier 0.0 — content gaps
 
-**Laatste audit:** 2026-06-28
+**Laatste audit:** 2026-06-29
 
 Wat nog ontbreekt in de bron-markdown voordat deze track op 10/10 staat.
 Bijwerken: `python3 scripts/audit_academy_gaps.py`

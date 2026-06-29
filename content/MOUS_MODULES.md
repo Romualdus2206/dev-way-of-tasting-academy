@@ -180,6 +180,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 2 — Hoe ontstaan bubbels?
 ## Metadata
 
@@ -333,6 +335,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 3 — Waarom is mousserend uniek?
 ## Metadata
 
@@ -465,7 +469,6 @@ D. Alleen kaas
 
 ---
 
-
 ## Quiz-feedback
 
 Goed.
@@ -489,6 +492,8 @@ Belangrijkste leerpunten:
 - frisheid
 
 ---
+
+
 
 
 
@@ -625,7 +630,6 @@ D. Dessertdrank
 
 ---
 
-
 ## Quiz-feedback
 
 Sterk.
@@ -640,14 +644,6 @@ Belangrijkste leerpunten:
 
 ---
 
-
-# MOUS_MODULE_02_REPAIR.md
-
-# Repair — Module 2 Productie
-Doel: alle ontbrekende quizblokken, quiz-feedback en praktijkopdrachten herstellen.
-
----
-
 ## Kernbegrippen (DB field)
 
 - Champagne
@@ -657,6 +653,8 @@ Doel: alle ontbrekende quizblokken, quiz-feedback en praktijkopdrachten herstell
 - methode
 
 ---
+
+
 
 
 
@@ -830,6 +828,8 @@ Goed! Je hebt nu de basis van mousserende wijn gelegd.
 
 
 
+
+
 # LES 6 — Méthode Traditionnelle
 ## Metadata
 
@@ -994,6 +994,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 7 — Charmat / Tankmethode
 ## Metadata
 
@@ -1145,6 +1147,8 @@ Belangrijkste leerpunten:
 - tweede gisting
 
 ---
+
+
 
 
 
@@ -1306,6 +1310,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 9 — Méthode Ancestrale (Pet-Nat)
 ## Metadata
 
@@ -1457,6 +1463,8 @@ Belangrijkste leerpunten:
 - spontane gisting
 
 ---
+
+
 
 
 
@@ -1631,6 +1639,8 @@ Goed! Je begrijpt nu hoe productiemethode en dosage de stijl van mousserende wij
 
 
 
+
+
 # LES 11 — Hoe proef je mousserende wijn?
 ## Metadata
 
@@ -1788,6 +1798,8 @@ Belangrijkste leerpunten:
 - structuur
 
 ---
+
+
 
 
 
@@ -1955,6 +1967,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 13 — Aroma’s herkennen
 ## Metadata
 
@@ -2112,6 +2126,8 @@ Belangrijkste leerpunten:
 - rijping
 
 ---
+
+
 
 
 
@@ -2284,6 +2300,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 15 — Mini-toets Explorer
 ## Metadata
 
@@ -2362,14 +2380,6 @@ Doel: ontbrekende quizblokken en quiz-feedback herstellen.
 
 ---
 
-
-# MOUS_MODULE_04_REPAIR.md
-
-# Repair — Module 4 Champagne
-Doel: ontbrekende quizblokken en quiz-feedback herstellen.
-
----
-
 ## Kernbegrippen (DB field)
 
 - blindproeven
@@ -2404,6 +2414,8 @@ Doel: ontbrekende quizblokken en quiz-feedback herstellen.
 - Prestige Cuvée
 
 ---
+
+
 
 
 
@@ -2562,6 +2574,8 @@ Belangrijkste leerpunten:
 - subregio
 
 ---
+
+
 
 
 
@@ -2736,6 +2750,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 18 — Blanc de Blancs vs Blanc de Noirs
 ## Metadata
 
@@ -2901,6 +2917,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 19 — Vintage vs Non-Vintage
 ## Metadata
 
@@ -3052,6 +3070,8 @@ Belangrijkste leerpunten:
 - huisstijl
 
 ---
+
+
 
 
 
@@ -3231,6 +3251,8 @@ Sterk. Je hebt nu de kern van Champagne op Specialist-niveau.
 
 
 
+
+
 # LES 21 — Cava
 ## Metadata
 
@@ -3387,6 +3409,8 @@ Belangrijkste leerpunten:
 - Penedès
 
 ---
+
+
 
 
 
@@ -3553,6 +3577,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 23 — Crémant
 ## Metadata
 
@@ -3712,6 +3738,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 24 — Franciacorta
 ## Metadata
 
@@ -3863,6 +3891,8 @@ Belangrijkste leerpunten:
 - rijping
 
 ---
+
+
 
 
 
@@ -4038,6 +4068,8 @@ Sterk. Je kent nu de belangrijkste mousserende wereldstijlen buiten Champagne.
 
 
 
+
+
 # LES 26 — Brut Nature
 ## Metadata
 
@@ -4201,6 +4233,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 27 — Extra Brut
 ## Metadata
 
@@ -4352,6 +4386,8 @@ Belangrijkste leerpunten:
 - finesse
 
 ---
+
+
 
 
 
@@ -4517,6 +4553,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 29 — Extra Dry / Dry
 ## Metadata
 
@@ -4672,6 +4710,8 @@ Belangrijkste leerpunten:
 - fruitig
 
 ---
+
+
 
 
 
@@ -4846,6 +4886,8 @@ Sterk. Je begrijpt nu hoe suiker en dosage de stijl van mousserende wijn bepalen
 
 
 
+
+
 # LES 31 — Serveertemperatuur
 ## Metadata
 
@@ -5003,6 +5045,8 @@ Belangrijkste leerpunten:
 - service
 
 ---
+
+
 
 
 
@@ -5174,6 +5218,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 33 — Openen zonder verlies
 ## Metadata
 
@@ -5322,6 +5368,8 @@ Belangrijkste leerpunten:
 - mousse
 
 ---
+
+
 
 
 
@@ -5504,6 +5552,8 @@ Sterk. Je beheerst nu de servicebasis van mousserende wijn op professioneel nive
 
 
 
+
+
 # LES 35 — Mousserend & Oesters
 ## Metadata
 
@@ -5670,6 +5720,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 36 — Mousserend & Kaas
 ## Metadata
 
@@ -5819,6 +5871,8 @@ Belangrijkste leerpunten:
 - blauwschimmel
 
 ---
+
+
 
 
 
@@ -6010,6 +6064,8 @@ Uitstekend. Je begrijpt nu waarom mousserende wijn één van de meest gastronomi
 
 
 
+
+
 # LES 38 — Champagne vs Cava blind
 ## Metadata
 
@@ -6179,6 +6235,8 @@ Belangrijkste leerpunten:
 
 
 
+
+
 # LES 39 — Traditioneel vs Tank blind
 ## Metadata
 
@@ -6334,6 +6392,8 @@ Belangrijkste leerpunten:
 - structuur
 
 ---
+
+
 
 
 

@@ -168,6 +168,8 @@ Goed! Je begrijpt nu wat een cocktail is.
 
 
 
+
+
 # LES 2 — De geschiedenis van cocktails
 ## Metadata
 
@@ -304,6 +306,8 @@ Goed. Je begrijpt nu hoe cocktails historisch zijn ontstaan en waarom klassieke 
 - bars
 
 ---
+
+
 
 
 
@@ -464,6 +468,8 @@ Sterk. Je begrijpt nu hoe cocktailbalans werkt en waarom structuur de basis vorm
 
 
 
+
+
 # LES 4 — De basisstructuren van cocktails
 ## Metadata
 
@@ -605,6 +611,8 @@ Perfect. Je kunt nu de vier belangrijkste cocktailstructuren herkennen en analys
 - highball
 
 ---
+
+
 
 
 
@@ -771,6 +779,8 @@ Perfect. Je hebt nu de volledige cocktailbasis gelegd.
 
 
 
+
+
 # LES 6 — Shaken
 ## Metadata
 
@@ -915,6 +925,8 @@ Goed. Je begrijpt nu waarom shaken essentieel is voor citrus, eiwit en textuur.
 - dilution
 
 ---
+
+
 
 
 
@@ -1065,6 +1077,8 @@ Goed. Je begrijpt nu hoe stirred techniek helderheid, controle en elegantie bewa
 
 
 
+
+
 # LES 8 — Built
 ## Metadata
 
@@ -1206,6 +1220,8 @@ Goed. Je begrijpt nu hoe eenvoud en precisie samenkomen in built cocktails.
 
 
 
+
+
 # LES 9 — Layering
 ## Metadata
 
@@ -1342,6 +1358,8 @@ Sterk. Je begrijpt nu hoe dichtheid en techniek samenwerken in layered cocktails
 - spoon
 
 ---
+
+
 
 
 
@@ -1514,6 +1532,8 @@ Perfect. Je beheerst nu de basis van cocktailtechnieken.
 
 
 
+
+
 # LES 11 — Base Spirits
 ## Metadata
 
@@ -1657,6 +1677,8 @@ Perfect. Je kunt nu de belangrijkste base spirits herkennen en hun rol in cockta
 
 
 
+
+
 # LES 12 — Likeuren
 ## Metadata
 
@@ -1793,6 +1815,8 @@ Goed. Je begrijpt nu hoe likeuren complexiteit, zoetheid en diepte toevoegen.
 - flavor
 
 ---
+
+
 
 
 
@@ -1940,6 +1964,8 @@ Sterk. Je begrijpt nu waarom bitters in kleine hoeveelheden grote impact maken.
 
 
 
+
+
 # LES 14 — Citrus en suikers
 ## Metadata
 
@@ -2082,6 +2108,8 @@ Perfect. Je begrijpt nu hoe zuur en zoet de kern vormen van cocktailbalans.
 
 
 
+
+
 # LES 15 — Mini-toets Cocktails
 ## Metadata
 
@@ -2185,6 +2213,8 @@ Perfect. Je hebt Explorer-niveau afgerond.
 - structure
 
 ---
+
+
 
 
 
@@ -2337,6 +2367,8 @@ Goed. Je begrijpt nu waarom de Martini hét voorbeeld is van spirit-forward perf
 
 
 
+
+
 # LES 17 — Old Fashioned
 ## Metadata
 
@@ -2475,6 +2507,8 @@ Sterk. Je begrijpt nu de meest pure klassieke cocktailstructuur.
 - classic
 
 ---
+
+
 
 
 
@@ -2621,6 +2655,8 @@ Perfect. Je kunt nu Manhattan analyseren als balans tussen kracht en elegantie.
 
 
 
+
+
 # LES 19 — Negroni
 ## Metadata
 
@@ -2759,6 +2795,8 @@ Goed. Je begrijpt nu hoe bitterheid en equal-parts balans samenkomen.
 - gin
 
 ---
+
+
 
 
 
@@ -2931,6 +2969,8 @@ Perfect. Je kent nu de vijf belangrijkste klassieke cocktailstructuren.
 
 
 
+
+
 # LES 21 — Whiskey Sour
 ## Metadata
 
@@ -3072,6 +3112,8 @@ Sterk. Je begrijpt nu hoe textuur en balans de Whiskey Sour definiëren.
 - balance
 
 ---
+
+
 
 
 
@@ -3221,6 +3263,8 @@ Perfect. Je begrijpt nu waarom Margarita één van de belangrijkste sours ter we
 
 
 
+
+
 # LES 23 — Sidecar
 ## Metadata
 
@@ -3355,6 +3399,8 @@ Goed. Je begrijpt nu hoe cognac, citrus en likeur samen elegantie bouwen.
 - balance
 
 ---
+
+
 
 
 
@@ -3495,6 +3541,8 @@ Sterk. Je begrijpt nu hoe botanicals en citrus verfijning creëren.
 - citrus
 
 ---
+
+
 
 
 
@@ -3664,6 +3712,8 @@ Perfect. Je begrijpt nu de volledige sour family en kunt structuren vergelijken.
 
 
 
+
+
 # LES 26 — Mojito
 ## Metadata
 
@@ -3808,6 +3858,8 @@ Perfect. Je begrijpt nu waarom techniek en frisheid cruciaal zijn in Mojito.
 
 
 
+
+
 # LES 27 — Tom Collins
 ## Metadata
 
@@ -3943,6 +3995,8 @@ Goed. Je begrijpt nu hoe sourstructuur verlengd wordt naar highball.
 - highball
 
 ---
+
+
 
 
 
@@ -4091,6 +4145,8 @@ Sterk. Je begrijpt nu de rol van ginger beer als krachtige modifier.
 
 
 
+
+
 # LES 29 — Dark ’n Stormy
 ## Metadata
 
@@ -4227,6 +4283,8 @@ Goed. Je begrijpt nu hoe rum extra body en diepte toevoegt.
 - depth
 
 ---
+
+
 
 
 
@@ -4397,6 +4455,8 @@ Perfect. Je begrijpt nu de belangrijkste highball- en longdrinkstructuren.
 
 
 
+
+
 # LES 31 — Glaswerk
 ## Metadata
 
@@ -4539,6 +4599,8 @@ Perfect. Je begrijpt nu hoe glaswerk aroma, presentatie en beleving beïnvloedt.
 - highball
 
 ---
+
+
 
 
 
@@ -4688,6 +4750,8 @@ Goed. Je begrijpt nu hoe ijs direct invloed heeft op balans en textuur.
 
 
 
+
+
 # LES 33 — Garnishes
 ## Metadata
 
@@ -4827,6 +4891,8 @@ Sterk. Je begrijpt nu dat garnishes functioneel onderdeel zijn van de cocktail.
 - olive
 
 ---
+
+
 
 
 
@@ -4996,8 +5062,13 @@ Perfect. Je beheerst nu de servicekant van cocktails op Master-niveau.
 - intensity
 - balance
 - contrast
+- carbonation
+- prosecco
+- spritz
 
 ---
+
+
 
 
 
@@ -5151,6 +5222,8 @@ Goed. Je begrijpt nu waarom bitter, fris en droog ideaal zijn vóór de maaltijd
 
 
 
+
+
 # LES 36 — Cocktails bij foodpairing
 ## Metadata
 
@@ -5297,6 +5370,8 @@ Perfect. Je begrijpt nu hoe cocktailstructuur gekoppeld wordt aan gerechten.
 
 
 
+
+
 # LES 37 — Cocktails als digestief
 ## Metadata
 
@@ -5435,6 +5510,164 @@ Perfect. Je begrijpt nu hoe cocktails gastronomisch kunnen worden ingezet.
 - aromatic
 - finish
 
+
+
+# LES 38 — Aperol Spritz als aperitief
+## Metadata
+
+**Slug:** aperol-spritz  
+**Duration:** 8 min  
+**Quiz questions:** 5
+
+---
+
+## Leerdoel
+
+Na deze les begrijp jij waarom Aperol Spritz één van de belangrijkste moderne aperitiefcocktails is en waarom deze cocktail perfect werkt bij warm weer.
+
+---
+
+## Theorie
+
+De Aperol Spritz is één van de bekendste aperitiefcocktails ter wereld.
+
+Structuur:
+
+- prosecco
+- Aperol
+- bruiswater
+
+Klassieke verhouding:
+
+3 - 2 - 1
+
+Dit betekent:
+
+- 3 delen prosecco
+- 2 delen Aperol
+- 1 deel bruiswater
+
+De cocktail werkt door balans tussen:
+
+- bitterheid
+- frisheid
+- lichte zoetheid
+- carbonatie
+
+Waarom werkt dit goed?
+
+Bitter stimuleert de eetlust.
+
+Carbonatie maakt de cocktail lichter.
+
+Lage alcohol maakt hem toegankelijk.
+
+Bij warm weer voelt dit fris en energiek.
+
+Daarom is Aperol Spritz een schoolvoorbeeld van aperitiefdenken.
+
+---
+
+## Wist-je-dat
+
+De Spritz ontstond in Noord-Italië en groeide uit tot wereldwijd aperitiefsymbool.
+
+---
+
+## Samenvatting
+
+- Aperol Spritz is een aperitiefcocktail
+- Bitterheid opent de eetlust
+- Carbonatie zorgt voor frisheid
+- Warm weer versterkt de drinkbaarheid
+- Structuur is simpel maar precies
+
+---
+
+## Praktijkopdracht
+
+### Opdracht
+
+Maak of observeer een Aperol Spritz.
+
+### Checklist
+
+- Ik herken de 3-2-1 structuur
+- Ik proef bitterheid
+- Ik proef carbonatie
+- Ik begrijp het aperitiefeffect
+
+### Reflectievraag
+
+Waarom werkt bitter beter vóór een maaltijd dan tijdens dessert?
+
+---
+
+## Quiz
+
+### Vraag 1
+
+Wat is de klassieke verhouding?
+
+A. 2-2-2  
+B. 3-2-1 ✅  
+C. 1-3-2  
+D. 4-1-1
+
+### Vraag 2
+
+Welke component geeft bitterheid?
+
+A. Aperol ✅  
+B. Prosecco  
+C. Soda  
+D. IJs
+
+### Vraag 3
+
+Waarom werkt bitter als aperitief?
+
+A. Stimuleert eetlust ✅  
+B. Verhoogt alcohol  
+C. Verlaagt temperatuur  
+D. Verhoogt suiker
+
+### Vraag 4
+
+Welke component geeft bruis?
+
+A. Prosecco + soda ✅  
+B. Aperol  
+C. Sinaasappel  
+D. IJs
+
+### Vraag 5
+
+Wanneer werkt Aperol Spritz vaak het best?
+
+A. Warm weer ✅  
+B. Koude winteravond  
+C. Na dessert  
+D. Bij zware stoofschotel
+
+---
+
+## Quiz-feedback
+
+Sterk. Je kunt nu spirits beter blind herkennen op aroma en structuur.
+
+---
+
+## Kernbegrippen (DB field)
+
+- aperol spritz
+- aperitif
+- bitterness
+- carbonation
+- prosecco
+- warm weather
+- summer drinking
+
 # COCK_MODULE_09.md
 
 # Way of Tasting Academy
@@ -5466,7 +5699,9 @@ Perfect. Je begrijpt nu hoe cocktails gastronomisch kunnen worden ingezet.
 
 
 
-# LES 38 — Spirit blind herkennen
+
+
+# LES 39 — Spirit blind herkennen
 ## Metadata
 
 **Slug:** spirit-blind-herkennen  
@@ -5602,7 +5837,7 @@ D. Garnish
 
 ## Quiz-feedback
 
-Sterk. Je kunt nu spirits beter blind herkennen op aroma en structuur.
+Perfect. Je kunt nu cocktailfamilies blind analyseren op basis van structuur.
 
 ---
 
@@ -5620,7 +5855,9 @@ Sterk. Je kunt nu spirits beter blind herkennen op aroma en structuur.
 
 
 
-# LES 39 — Cocktailstructuren blind analyseren
+
+
+# LES 40 — Cocktailstructuren blind analyseren
 ## Metadata
 
 **Slug:** cocktailstructuren-blind  
@@ -5768,7 +6005,9 @@ Perfect. Je kunt nu cocktailfamilies blind analyseren op basis van structuur.
 
 
 
-# LES 40 — Theorie- en praktijkexamen
+
+
+# LES 41 — Theorie- en praktijkexamen
 ## Metadata
 
 **Slug:** theorie-praktijkexamen  

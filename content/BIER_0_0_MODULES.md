@@ -163,6 +163,8 @@ Goed. Je begrijpt nu de basis van bier 0.0.
 
 
 
+
+
 # LES 2 — Hoe wordt alcohol verwijderd?
 ## Metadata
 
@@ -298,6 +300,8 @@ Dit inzicht helpt je later beter te begrijpen waarom sommige 0.0-bieren voller o
 - techniek
 
 ---
+
+
 
 
 
@@ -449,6 +453,8 @@ Dat maakt deze categorie relevanter dan ooit.
 
 
 
+
+
 # LES 4 — Geschiedenis van alcoholvrij bier
 ## Metadata
 
@@ -584,6 +590,8 @@ Dat historische perspectief helpt je de huidige markt beter te begrijpen.
 - kwaliteit
 
 ---
+
+
 
 
 
@@ -741,6 +749,8 @@ Dit vormt de basis voor de Specialist-module, waar je deze stijlen veel dieper g
 
 
 
+
+
 # LES 6 — Gestopte fermentatie
 ## Metadata
 
@@ -880,6 +890,8 @@ Dit helpt je later beter verklaren waarom sommige 0.0-bieren zoeter smaken.
 
 
 
+
+
 # LES 7 — Vacuümdestillatie
 ## Metadata
 
@@ -1011,6 +1023,8 @@ Het behoud van aroma maakt hier vaak het verschil.
 - temperatuur
 
 ---
+
+
 
 
 
@@ -1154,6 +1168,8 @@ Dit maakt het één van de meest precieze productiemethoden.
 
 
 
+
+
 # LES 9 — Aroma-retentie
 ## Metadata
 
@@ -1289,6 +1305,8 @@ Behoud van geur bepaalt sterk hoe “echt” een bier aanvoelt.
 - balans
 
 ---
+
+
 
 
 
@@ -1436,6 +1454,8 @@ Vanaf nu kun je productiemethoden koppelen aan smaakresultaten.
 # ZERO_MODULE_03.md
 
 # Way of Tasting Academy
+
+
 
 
 
@@ -1595,6 +1615,8 @@ De structuur kijken, ruiken en proeven vormt de basis voor alles wat volgt.
 
 
 
+
+
 # LES 12 — Body analyseren
 ## Metadata
 
@@ -1738,6 +1760,8 @@ Body bepaalt vaak hoe compleet een bier aanvoelt.
 
 
 
+
+
 # LES 13 — Zoetheid herkennen
 ## Metadata
 
@@ -1871,6 +1895,8 @@ Balans is belangrijker dan intensiteit.
 - smaak
 
 ---
+
+
 
 
 
@@ -2021,6 +2047,8 @@ Dat is cruciaal in bier 0.0.
 
 
 
+
+
 # LES 15 — Mini-toets 0.0
 ## Metadata
 
@@ -2156,6 +2184,8 @@ Je bent klaar voor Specialist.
 # ZERO_MODULE_04.md
 
 # Way of Tasting Academy
+
+
 
 
 
@@ -2302,6 +2332,8 @@ Je begrijpt nu waarom pils de puurste test is voor kwaliteit binnen bier 0.0.
 
 
 
+
+
 # LES 17 — Alcoholvrije IPA
 ## Metadata
 
@@ -2438,6 +2470,8 @@ Je begrijpt nu waarom IPA één van de meest succesvolle bier 0.0-stijlen is.
 - tropisch fruit
 
 ---
+
+
 
 
 
@@ -2581,6 +2615,8 @@ Je begrijpt nu waarom witbier één van de meest toegankelijke alcoholvrije stij
 
 
 
+
+
 # LES 19 — Alcoholvrije blond
 ## Metadata
 
@@ -2714,6 +2750,8 @@ Je begrijpt nu waarom blond een sterke brugstijl is binnen bier 0.0.
 - rondheid
 
 ---
+
+
 
 
 
@@ -2862,6 +2900,8 @@ Je begrijpt nu waarom donkere bierstijlen vaak verrassend goed werken in alcohol
 
 
 
+
+
 # LES 21 — Grote merken
 ## Metadata
 
@@ -2999,6 +3039,8 @@ Je begrijpt nu waarom grote merken cruciaal zijn in de groei en acceptatie van b
 - groei
 
 ---
+
+
 
 
 
@@ -3145,6 +3187,8 @@ Je begrijpt nu waarom craft-brouwers de innovatie-motor zijn van bier 0.0.
 
 
 
+
+
 # LES 23 — Isotone positionering
 ## Metadata
 
@@ -3285,6 +3329,8 @@ Je begrijpt nu dat marketingpositionering niet altijd gelijk staat aan functione
 
 
 
+
+
 # LES 24 — Functionele bieren
 ## Metadata
 
@@ -3419,6 +3465,8 @@ Je begrijpt nu hoe bier 0.0 steeds meer richting lifestyle en functionaliteit be
 - wellness
 
 ---
+
+
 
 
 
@@ -3567,6 +3615,8 @@ Je begrijpt nu hoe premium bier 0.0 zich ontwikkelt en waarom consumenten daarin
 
 
 
+
+
 # LES 26 — Sport en herstel
 ## Metadata
 
@@ -3709,6 +3759,8 @@ Je begrijpt nu waarom bier 0.0 in sportcontext steeds vaker een rol speelt, maar
 
 
 
+
+
 # LES 27 — Calorieën vergelijken
 ## Metadata
 
@@ -3843,6 +3895,8 @@ Je begrijpt nu hoe calorieën en voedingswaarde elkaar beïnvloeden binnen bier 
 - energie
 
 ---
+
+
 
 
 
@@ -3992,6 +4046,8 @@ Je begrijpt nu dat suiker een belangrijke nuance is binnen alcoholvrij bier.
 
 
 
+
+
 # LES 29 — Hydratatie
 ## Metadata
 
@@ -4127,6 +4183,8 @@ Je begrijpt nu de rol van bier 0.0 binnen hydratatie en waarom context belangrij
 - balans
 
 ---
+
+
 
 
 
@@ -4271,6 +4329,8 @@ Je begrijpt nu dat bier 0.0 niet alleen een product is, maar onderdeel van een b
 # ZERO_MODULE_07.md
 
 # Way of Tasting Academy
+
+
 
 
 
@@ -4422,6 +4482,8 @@ Je begrijpt nu hoe temperatuur direct invloed heeft op smaak, frisheid en percep
 
 
 
+
+
 # LES 32 — Glaswerk
 ## Metadata
 
@@ -4563,6 +4625,8 @@ Je begrijpt nu waarom glaswerk een essentieel onderdeel is van professionele ser
 
 
 
+
+
 # LES 33 — Presentatie
 ## Metadata
 
@@ -4699,6 +4763,8 @@ Je begrijpt nu dat presentatie niet decoratief is, maar onderdeel van kwaliteits
 - service
 
 ---
+
+
 
 
 
@@ -4849,6 +4915,8 @@ Je begrijpt nu waarom opslag en versheid direct invloed hebben op kwaliteit.
 
 
 
+
+
 # LES 35 — Service in de praktijk
 ## Metadata
 
@@ -4985,6 +5053,8 @@ Dit vormt de brug naar pairing en gastronomie.
 # ZERO_MODULE_08.md
 
 # Way of Tasting Academy
+
+
 
 
 
@@ -5133,6 +5203,8 @@ Je begrijpt nu waarom bier 0.0 perfect past binnen lichte lunchpairings.
 
 
 
+
+
 # LES 37 — 0.0 & kaas
 ## Metadata
 
@@ -5271,6 +5343,8 @@ Je begrijpt nu waarom kaas één van de beste leermiddelen is voor bierpairing.
 - bitterheid
 
 ---
+
+
 
 
 
@@ -5417,6 +5491,8 @@ Je begrijpt nu hoe lichte gerechten vragen om precisie en subtiliteit.
 - pairing
 
 ---
+
+
 
 
 
@@ -5570,6 +5646,8 @@ Je begrijpt nu de twee fundamenten van professionele pairing.
 
 
 
+
+
 # LES 40 — Bier 0.0 in gastronomie
 ## Metadata
 
@@ -5713,6 +5791,8 @@ Je begrijpt nu hoe bier 0.0 een serieuze rol speelt binnen moderne gastronomie e
 
 
 
+
+
 # LES 41 — 0.0 pils vs gewone pils
 ## Metadata
 
@@ -5850,6 +5930,8 @@ Je begrijpt nu hoe subtiele verschillen tussen gewone pils en 0.0 pils zichtbaar
 - structuur
 
 ---
+
+
 
 
 
@@ -6001,6 +6083,8 @@ Je begrijpt nu waarom IPA blindproeven een geavanceerdere oefening is dan pils.
 
 
 
+
+
 # LES 43 — Stijlherkenning blind
 ## Metadata
 
@@ -6147,6 +6231,8 @@ Je begrijpt nu hoe blindproeven jouw analysevaardigheid verdiept en objectiever 
 
 
 
+
+
 # LES 44 — Theorie-examen
 ## Metadata
 
@@ -6248,6 +6334,8 @@ Dit is de theoretische afronding van jouw Bier 0.0 Academy.
 - toetsing
 
 ---
+
+
 
 
 

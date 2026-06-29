@@ -176,6 +176,8 @@ Sterke basis voor de rest van de track.
 
 
 
+
+
 # LES 2 — Hoe ontstaat witte wijn?
 ## Metadata
 
@@ -332,6 +334,8 @@ Dit fundament is essentieel voor alle volgende modules.
 
 
 
+
+
 # LES 3 — Waarom is witte wijn uniek?
 ## Metadata
 
@@ -475,6 +479,8 @@ Dit maakt witte wijn één van de meest veelzijdige wijncategorieën.
 
 
 
+
+
 # LES 4 — Geschiedenis van witte wijn
 ## Metadata
 
@@ -603,6 +609,8 @@ Belangrijk om te begrijpen:
 - Tokaj
 
 ---
+
+
 
 
 
@@ -772,6 +780,8 @@ Goed! Je begrijpt nu de basis van witte wijn.
 
 
 
+
+
 # LES 6 — Direct Press uitgelegd
 ## Metadata
 
@@ -909,6 +919,8 @@ Dit is de basis van moderne witte wijnproductie.
 
 
 
+
+
 # LES 7 — Alcoholische gisting
 ## Metadata
 
@@ -1036,6 +1048,8 @@ Je begrijpt nu:
 - temperatuur
 
 ---
+
+
 
 
 
@@ -1186,6 +1200,8 @@ Je begrijpt nu:
 
 
 
+
+
 # LES 9 — Malolactische gisting
 ## Metadata
 
@@ -1315,6 +1331,8 @@ Je begrijpt nu:
 - romigheid
 
 ---
+
+
 
 
 
@@ -1488,6 +1506,8 @@ Goed! Je begrijpt nu hoe witte wijn technisch wordt gevormd.
 
 
 
+
+
 # LES 11 — Hoe proef je witte wijn?
 ## Metadata
 
@@ -1650,6 +1670,8 @@ Dit vormt de basis van alle blindproeverijen.
 
 
 
+
+
 # LES 12 — Kleur analyseren
 ## Metadata
 
@@ -1781,6 +1803,8 @@ Je begrijpt nu hoe kleur een eerste indicatie geeft van stijl en leeftijd.
 - leeftijd
 
 ---
+
+
 
 
 
@@ -1933,6 +1957,8 @@ Dat maakt je proefanalyse veel sterker.
 
 
 
+
+
 # LES 14 — Zuur herkennen
 ## Metadata
 
@@ -2065,6 +2091,8 @@ Je begrijpt nu hoe belangrijk zuur is voor kwaliteit, frisheid en bewaarpotentie
 
 
 
+
+
 # LES 15 — Mini-toets witte wijn
 ## Metadata
 
@@ -2177,6 +2205,8 @@ Volgende stap:
 - frisheid
 
 ---
+
+
 
 
 
@@ -2331,6 +2361,8 @@ Belangrijk onderscheidend profiel in blindproeven.
 
 
 
+
+
 # LES 17 — Riesling
 ## Metadata
 
@@ -2470,6 +2502,8 @@ Je begrijpt Riesling nu beter:
 
 
 
+
+
 # LES 18 — Albariño
 ## Metadata
 
@@ -2599,6 +2633,8 @@ Je herkent Albariño nu op:
 - Atlantisch
 
 ---
+
+
 
 
 
@@ -2735,6 +2771,8 @@ Je herkent Grüner nu op:
 - frisheid
 
 ---
+
+
 
 
 
@@ -2910,6 +2948,8 @@ Volgende stap:
 
 
 
+
+
 # LES 21 — Chardonnay
 ## Metadata
 
@@ -3067,6 +3107,8 @@ Chardonnay is één van de belangrijkste benchmark-druiven.
 
 
 
+
+
 # LES 22 — Chenin Blanc
 ## Metadata
 
@@ -3201,6 +3243,8 @@ Je begrijpt Chenin nu op:
 - zuur
 
 ---
+
+
 
 
 
@@ -3342,6 +3386,8 @@ Je herkent Viognier nu op:
 
 
 
+
+
 # LES 24 — Semillon
 ## Metadata
 
@@ -3476,6 +3522,8 @@ Je begrijpt Semillon nu op:
 - wasachtig
 
 ---
+
+
 
 
 
@@ -3657,6 +3705,8 @@ Volgende stap:
 
 
 
+
+
 # LES 26 — Gewürztraminer
 ## Metadata
 
@@ -3796,6 +3846,8 @@ Een extreem herkenbare druif in blindproeven.
 - Alsace
 
 ---
+
+
 
 
 
@@ -3941,6 +3993,8 @@ Je begrijpt Muscat nu op:
 
 
 
+
+
 # LES 28 — Torrontés
 ## Metadata
 
@@ -4071,6 +4125,8 @@ Je herkent Torrontés nu op:
 - frisheid
 
 ---
+
+
 
 
 
@@ -4213,6 +4269,8 @@ Belangrijk in blindvergelijkingen.
 - textuur
 
 ---
+
+
 
 
 
@@ -4389,6 +4447,8 @@ Volgende stap:
 
 
 
+
+
 # LES 31 — Serveertemperatuur
 ## Metadata
 
@@ -4541,6 +4601,8 @@ Professionele service begint hier.
 
 
 
+
+
 # LES 32 — Glaswerk
 ## Metadata
 
@@ -4683,6 +4745,8 @@ Essentieel voor professionele service.
 
 
 
+
+
 # LES 33 — Decanteren van witte wijn
 ## Metadata
 
@@ -4817,6 +4881,8 @@ Belangrijk voor gevorderde service.
 - openen
 
 ---
+
+
 
 
 
@@ -5000,6 +5066,8 @@ Volgende stap:
 
 
 
+
+
 # LES 35 — Witte wijn & vis
 ## Metadata
 
@@ -5153,6 +5221,8 @@ Vispairing is één van de belangrijkste fundamenten van wijn-spijs.
 
 
 
+
+
 # LES 36 — Witte wijn & kaas
 ## Metadata
 
@@ -5288,6 +5358,8 @@ Je begrijpt nu:
 - zuur
 
 ---
+
+
 
 
 
@@ -5474,6 +5546,8 @@ Volgende stap:
 
 
 
+
+
 # LES 38 — Sauvignon Blanc vs Riesling blind
 ## Metadata
 
@@ -5646,6 +5720,8 @@ Dit is één van de belangrijkste blindvergelijkingen binnen witte wijn.
 
 
 
+
+
 # LES 39 — Chardonnay vs Chenin Blanc blind
 ## Metadata
 
@@ -5808,6 +5884,8 @@ Dit onderscheid is cruciaal op Master-niveau.
 - spanning
 
 ---
+
+
 
 
 

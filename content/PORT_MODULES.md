@@ -162,6 +162,8 @@ Goed! Je kent nu de basis van Port.
 
 
 
+
+
 # LES 2 — Fortificatie
 ## Metadata
 
@@ -302,6 +304,8 @@ Fortificatie is het fundament van Port. Zonder dit proces zou Port geen versterk
 
 
 
+
+
 # LES 3 — Waarom is Port uniek?
 ## Metadata
 
@@ -435,6 +439,8 @@ Port onderscheidt zich door zijn combinatie van restsuiker, alcohol en rijpingss
 - veelzijdigheid
 
 ---
+
+
 
 
 
@@ -575,6 +581,8 @@ De geschiedenis van Port verklaart waarom Engeland zo’n grote rol speelt in de
 - bescherming
 
 ---
+
+
 
 
 
@@ -736,6 +744,8 @@ Goed! Je kent nu de basisstijlen van Port.
 
 
 
+
+
 # LES 6 — Druiven van Port
 ## Metadata
 
@@ -879,6 +889,8 @@ Goed! Je begrijpt nu waarom druivenkeuze zo belangrijk is.
 
 
 
+
+
 # LES 7 — De Douro-vallei
 ## Metadata
 
@@ -1011,6 +1023,8 @@ Goed! Je begrijpt nu waarom de Douro uniek is.
 - concentratie
 
 ---
+
+
 
 
 
@@ -1151,6 +1165,8 @@ Goed! Je begrijpt nu hoe terroir werkt.
 
 
 
+
+
 # LES 9 — Houtlagering
 ## Metadata
 
@@ -1283,6 +1299,8 @@ Goed! Je begrijpt nu houtlagering.
 - rijping
 
 ---
+
+
 
 
 
@@ -1445,6 +1463,8 @@ Goed! Je begrijpt nu waarom oxidatie belangrijk is in Port.
 - blindproeven
 
 ---
+
+
 
 
 
@@ -1671,6 +1691,8 @@ Goed! Je hebt nu geleerd hoe je Port systematisch kunt analyseren. Dit is de bas
 - balans
 
 ---
+
+
 
 
 
@@ -1907,6 +1929,8 @@ Goed! Je begrijpt nu dat structuur minstens zo belangrijk is als aroma. Dit help
 
 
 
+
+
 # LES 13 — Aroma’s herkennen
 ## Metadata
 
@@ -2128,6 +2152,8 @@ Goed! Je begrijpt nu hoe aroma’s ontstaan en hoe je ze gebruikt om Portstijlen
 - blindproeven
 
 ---
+
+
 
 
 
@@ -2366,6 +2392,8 @@ Goed! Je kunt nu de belangrijkste verschillen tussen Ruby en Tawny herkennen. Di
 
 
 
+
+
 # LES 15 — Mini-toets Port Proeven
 ## Metadata
 
@@ -2571,6 +2599,8 @@ Goed! Je hebt Module 3 afgerond. Je beschikt nu over de basisvaardigheden om Por
 
 
 
+
+
 # LES 16 — Waar komt Port vandaan?
 ## Metadata
 
@@ -2724,6 +2754,8 @@ Goed! Je begrijpt nu waar Port vandaan komt en waarom de Douro de basis vormt va
 - authenticiteit
 
 # PORT_017.md
+
+
 
 
 
@@ -2941,6 +2973,8 @@ Goed! Je kent nu de belangrijkste druiven van Port en begrijpt waarom blending z
 
 
 
+
+
 # LES 18 — De Douro-vallei
 ## Metadata
 
@@ -3135,6 +3169,8 @@ Goed! Je begrijpt nu hoe de Douro is opgebouwd en waarom deze regio de basis vor
 
 
 
+
+
 # LES 19 — Klimaat en terroir
 ## Metadata
 
@@ -3320,6 +3356,8 @@ Goed! Je begrijpt nu hoe klimaat en terroir direct invloed hebben op de stijl, s
 - concentratie
 
 # PORT_020.md
+
+
 
 
 
@@ -3516,6 +3554,8 @@ Goed! Je begrijpt nu hoe de Douro zijn wijngaarden beoordeelt en waarom classifi
 
 
 
+
+
 # LES 21 — Ruby Port
 ## Metadata
 
@@ -3692,6 +3732,8 @@ Goed! Je begrijpt nu waarom Ruby Port de meest fruitige en toegankelijke stijl i
 - korte rijping
 
 # PORT_022.md
+
+
 
 
 
@@ -3887,6 +3929,8 @@ Goed! Je begrijpt nu waarom Tawny Port zachter, rijper en complexer is dan Ruby.
 - leeftijdsaanduiding
 
 # PORT_023.md
+
+
 
 
 
@@ -4096,6 +4140,8 @@ Goed! Je begrijpt nu waarom LBV een belangrijke stijl is tussen Ruby en Vintage 
 - toegankelijkheid
 
 # PORT_024.md
+
+
 
 
 
@@ -4311,6 +4357,8 @@ Goed! Je begrijpt nu waarom White Port een unieke en veelzijdige stijl binnen Po
 
 
 
+
+
 # LES 25 — Rosé Port
 ## Metadata
 
@@ -4512,6 +4560,8 @@ Goed! Je begrijpt nu waarom Rosé Port een moderne en toegankelijke stijl is bin
 
 
 
+
+
 # LES 26 — Crusted Port
 ## Metadata
 
@@ -4705,6 +4755,8 @@ Goed! Je begrijpt nu waarom Crusted Port een verborgen parel is binnen de Portwe
 - flesrijping
 
 # PORT_027.md
+
+
 
 
 
@@ -4918,6 +4970,8 @@ Goed! Je begrijpt nu waarom Vintage Port als de meest prestigieuze Portstijl wor
 - topjaar
 
 # PORT_028.md
+
+
 
 
 
@@ -5145,6 +5199,8 @@ Goed! Je begrijpt nu waarom Vintage Port één van de grootste bewaarwijnen ter 
 
 
 
+
+
 # LES 29 — Single Quinta Vintage Port
 ## Metadata
 
@@ -5338,6 +5394,8 @@ Goed! Je begrijpt nu waarom Single Quinta Vintage Port zo interessant is voor li
 - flesrijping
 
 # PORT_030.md
+
+
 
 
 
@@ -5555,6 +5613,8 @@ Goed! Je begrijpt nu waarom Aged Tawny één van de meest verfijnde en complexe 
 
 
 
+
+
 # LES 31 — Colheita Port
 ## Metadata
 
@@ -5769,6 +5829,8 @@ Goed! Je begrijpt nu waarom Colheita een unieke brug vormt tussen Tawny en Vinta
 
 
 
+
+
 # LES 32 — Garrafeira Port
 ## Metadata
 
@@ -5980,6 +6042,8 @@ Goed! Je begrijpt nu waarom Garrafeira één van de meest unieke en mysterieuze 
 - zeldzaamheid
 
 # PORT_033.md
+
+
 
 
 
@@ -6481,6 +6545,8 @@ Sterk. Je beheerst nu één van de meest onderschatte onderdelen van Port: corre
 
 
 
+
+
 # LES 34 — Port & Kaas
 ## Metadata
 
@@ -6779,6 +6845,8 @@ Sterk. Je begrijpt nu waarom Port en kaas één van de krachtigste gastronomisch
 - intensiteit
 
 # PORT_035.md
+
+
 
 
 
@@ -7099,6 +7167,8 @@ Sterk. Je begrijpt nu hoe Port en desserts elkaar kunnen versterken en waarom de
 - karamel
 
 # PORT_036.md
+
+
 
 
 
@@ -7447,6 +7517,8 @@ Uitstekend. Je begrijpt nu dat Port in gastronomie veel breder inzetbaar is dan 
 
 
 
+
+
 # LES 37 — Blindproeven: Ruby vs Tawny
 ## Metadata
 
@@ -7723,6 +7795,8 @@ Sterk. Dit is de basis van Port blindproeven: jong fruit tegenover oxidatieve ri
 - tertiaire aroma’s
 
 # PORT_038.md
+
+
 
 
 
@@ -8023,6 +8097,8 @@ Sterk. Dit is één van de moeilijkste Port-blindtests. Als je deze beheerst, zi
 
 
 
+
+
 # LES 39 — Praktijkexamen Port
 ## Metadata
 
@@ -8305,6 +8381,8 @@ Sterk. Dit is het moment waarop losse kennis verandert in echte Portvaardigheid.
 - integratie
 
 # PORT_040.md
+
+
 
 
 

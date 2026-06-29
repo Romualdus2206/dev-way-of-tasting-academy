@@ -1,5 +1,8 @@
 # ROSE_REPAIR_MODULE_01.md
 
+> **Status:** samengevoegd in [`ROSE_MODULES.md`](ROSE_MODULES.md) (2026-06-25) via `scripts/merge_academy_add.py`.  
+> Archief/referentie — canonieke bron is `ROSE_MODULES.md`.
+
 # MODULE 1 REPAIR — FUNDAMENT
 
 Doel:

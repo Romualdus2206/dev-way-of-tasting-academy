@@ -1,10 +1,10 @@
 import type { BeverageCategory } from '../navigation';
 
-/** Kelder profiel-tab → Academy tracks (prioriteit volgorde). */
+/** Kelder profiel-tab → Academy tracks (prioriteit volgorde; fundamentals altijd eerst). */
 export const TASTE_TO_ACADEMY: Record<string, BeverageCategory[]> = {
-  red_wine: ['red-wine', 'wine'],
-  white_wine: ['white-wine', 'wine'],
-  rose: ['rose-wine'],
+  red_wine: ['wine', 'red-wine'],
+  white_wine: ['wine', 'white-wine'],
+  rose: ['wine', 'rose-wine'],
   sparkling: ['champagne'],
   port: ['port'],
   beer: ['beer', 'beer-zero'],

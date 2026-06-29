@@ -169,6 +169,8 @@ Goed. Je begrijpt nu dat biodynamisch proeven draait om ritme, observatie en tim
 ---
 
 
+
+
 # LES 2 — Maria Thun en de oorsprong
 ## Metadata
 
@@ -303,6 +305,8 @@ Sterk. Je begrijpt nu waar de biodynamische kalender vandaan komt.
 - agriculture
 
 ---
+
+
 
 
 # LES 3 — De vier dagtypen
@@ -440,6 +444,8 @@ Perfect. Je kent nu de vier basisdagen.
 ---
 
 
+
+
 # LES 4 — Aarde, water, lucht en vuur
 ## Metadata
 
@@ -574,6 +580,8 @@ Goed. Je begrijpt nu de energetische basisstructuur.
 - elements
 
 ---
+
+
 
 
 # LES 5 — Waarom gebruiken sommeliers en wijnmakers dit?
@@ -745,6 +753,8 @@ Perfect. Je begrijpt nu waarom biodynamische timing praktisch waardevol kan zijn
 ---
 
 
+
+
 # LES 6 — Worteldagen uitgelegd
 ## Metadata
 
@@ -887,6 +897,8 @@ Goed. Je begrijpt nu de aardse logica van Worteldagen.
 ---
 
 
+
+
 # LES 7 — Bladdagen uitgelegd
 ## Metadata
 
@@ -1023,6 +1035,8 @@ Sterk. Je begrijpt nu waarom Bladdagen anders aanvoelen.
 - softness
 
 ---
+
+
 
 
 # LES 8 — Bloemdagen uitgelegd
@@ -1163,6 +1177,8 @@ Perfect. Je begrijpt nu de rol van Bloemdagen.
 ---
 
 
+
+
 # LES 9 — Vruchtdagen uitgelegd
 ## Metadata
 
@@ -1294,6 +1310,8 @@ Sterk. Je begrijpt nu waarom Vruchtdagen zo populair zijn.
 - balance
 
 ---
+
+
 
 
 # LES 10 — Hoe lees je de biodynamische kalender?
@@ -1462,6 +1480,8 @@ Perfect. Je kunt nu zelfstandig de biodynamische kalender lezen.
 ---
 
 
+
+
 # LES 11 — Wijn op een Worteldag
 ## Metadata
 
@@ -1604,6 +1624,8 @@ Goed. Je begrijpt nu hoe Worteldagen structuur blootleggen.
 ---
 
 
+
+
 # LES 12 — Wijn op een Bladdag
 ## Metadata
 
@@ -1737,6 +1759,8 @@ Sterk. Je begrijpt nu hoe Bladdagen groenere tonen kunnen accentueren.
 - balance
 
 ---
+
+
 
 
 # LES 13 — Wijn op een Bloemdag
@@ -1873,6 +1897,8 @@ Perfect. Je begrijpt nu de finesse-logica van Bloemdagen.
 - perfume
 
 ---
+
+
 
 
 # LES 14 — Wijn op een Vruchtdag
@@ -2014,8 +2040,9 @@ Sterk. Je begrijpt nu waarom Vruchtdagen zo geliefd zijn.
 ---
 
 
-# LES 15 — Eerste proefexperiment
 
+
+# LES 15 — Eerste proefexperiment
 ## Metadata
 
 **Slug:** eerste-proefexperiment  
@@ -2183,6 +2210,8 @@ Perfect. Je begrijpt nu hoe verschillende dagtypes de proefervaring kunnen beïn
 ---
 
 
+
+
 # LES 16 — Temperatuur en smaakbeleving
 ## Metadata
 
@@ -2320,6 +2349,8 @@ Goed. Je begrijpt nu hoe temperatuur directe invloed heeft op beleving.
 - balance
 
 ---
+
+
 
 
 # LES 17 — Luchtdruk en expressie
@@ -2461,6 +2492,8 @@ Sterk. Je begrijpt nu de mogelijke rol van luchtdruk.
 ---
 
 
+
+
 # LES 18 — Luchtvochtigheid en perceptie
 ## Metadata
 
@@ -2592,6 +2625,8 @@ Goed. Je begrijpt nu hoe luchtvochtigheid subtiele invloed kan hebben.
 - texture
 
 ---
+
+
 
 
 # LES 19 — Weersomslag en proefmomenten
@@ -2728,6 +2763,8 @@ Sterk. Je begrijpt nu waarom stabiliteit belangrijk is.
 - timing
 
 ---
+
+
 
 
 # LES 20 — Dynamic vs Strategic Advice
@@ -2908,6 +2945,8 @@ Perfect. Je begrijpt nu de volledige logica achter Dynamic en Strategic Advice e
 ---
 
 
+
+
 # LES 21 — Rode wijn per dagtype
 ## Metadata
 
@@ -3047,6 +3086,8 @@ Sterk. Je begrijpt nu hoe rood strategisch te plannen is.
 - harmony
 
 ---
+
+
 
 
 # LES 22 — Witte wijn per dagtype
@@ -3189,6 +3230,8 @@ Goed. Je begrijpt nu hoe witte wijn slim te plannen is.
 ---
 
 
+
+
 # LES 23 — Rosé per dagtype
 ## Metadata
 
@@ -3328,6 +3371,8 @@ Sterk. Je begrijpt nu de biodynamische logica van rosé.
 ---
 
 
+
+
 # LES 24 — Mousserende wijn per dagtype
 ## Metadata
 
@@ -3465,6 +3510,8 @@ Perfect. Je begrijpt nu hoe mousserend zeer gevoelig reageert.
 - tension
 
 ---
+
+
 
 
 # LES 25 — Port per dagtype
@@ -3633,6 +3680,8 @@ Perfect. Je begrijpt nu hoe Port biodynamisch kan worden ingezet.
 ---
 
 
+
+
 # LES 26 — Bier en biodynamische dagen
 ## Metadata
 
@@ -3776,6 +3825,8 @@ Sterk. Je begrijpt nu hoe bier biodynamisch anders kan aanvoelen.
 ---
 
 
+
+
 # LES 27 — Bier 0.0 en timing
 ## Metadata
 
@@ -3909,6 +3960,8 @@ Goed. Je begrijpt nu waarom alcoholvrije dranken extra gevoelig zijn.
 - structure
 
 ---
+
+
 
 
 # LES 28 — Cocktails en dagtypes
@@ -4051,6 +4104,8 @@ Sterk. Je begrijpt nu hoe cocktails biodynamisch beïnvloed kunnen worden.
 - balance
 
 ---
+
+
 
 
 # LES 29 — Barrel-aged dranken
@@ -4199,6 +4254,8 @@ Perfect. Je begrijpt nu hoe barrel-aged dranken reageren.
 - maturity
 
 ---
+
+
 
 
 # LES 30 — Alcoholvrij en proefmomenten
@@ -4369,6 +4426,8 @@ Perfect. Je beheerst nu de cross-category toepassing van biodynamische timing.
 ---
 
 
+
+
 # LES 31 — De juiste fles op het juiste moment
 ## Metadata
 
@@ -4514,6 +4573,8 @@ Sterk. Je begrijpt nu hoe fleskeuze strategisch werkt.
 ---
 
 
+
+
 # LES 32 — Wanneer openen en wanneer wachten?
 ## Metadata
 
@@ -4648,6 +4709,8 @@ Goed. Je begrijpt nu wanneer wachten slimmer is.
 - strategy
 
 ---
+
+
 
 
 # LES 33 — Drinkvensters en dagtypes
@@ -4789,6 +4852,8 @@ Perfect. Je begrijpt nu hoe drinkvensters en dagtypes samenwerken.
 ---
 
 
+
+
 # LES 34 — Slim voorraadbeheer met kalender
 ## Metadata
 
@@ -4926,6 +4991,8 @@ Sterk. Je begrijpt nu hoe voorraadbeheer strategisch wordt.
 - calendar logic
 
 ---
+
+
 
 
 # LES 35 — Strategic opening planning
@@ -5092,6 +5159,8 @@ Perfect. Je beheerst nu de strategische kern van biodynamisch drinken.
 ---
 
 
+
+
 # LES 36 — Tasting journal gebruiken
 ## Metadata
 
@@ -5233,6 +5302,8 @@ Sterk. Je begrijpt nu waarom een tasting journal de basis is van tasting intelli
 ---
 
 
+
+
 # LES 37 — Patronen herkennen
 ## Metadata
 
@@ -5366,6 +5437,8 @@ Goed. Je begrijpt nu hoe patroonherkenning werkt.
 - personal logic
 
 ---
+
+
 
 
 # LES 38 — Je eigen smaakprofiel bouwen
@@ -5502,6 +5575,8 @@ Sterk. Je begrijpt nu hoe jouw smaakprofiel ontstaat.
 ---
 
 
+
+
 # LES 39 — Data en persoonlijke voorkeuren
 ## Metadata
 
@@ -5633,6 +5708,8 @@ Goed. Je begrijpt nu hoe data jouw drinkkeuzes slimmer maakt.
 - analytics
 
 ---
+
+
 
 
 # LES 40 — Jouw persoonlijke drinkintelligentie
@@ -5803,8 +5880,9 @@ Perfect. Je beheerst nu jouw persoonlijke tasting intelligence en bent klaar voo
 ---
 
 
-# LES 41 — Theorie-examen Biodynamisch Proeven
 
+
+# LES 41 — Theorie-examen Biodynamisch Proeven
 ## Metadata
 
 **Slug:** theorie-examen-biodynamisch  
@@ -6094,6 +6172,8 @@ Uitstekend. Je beheerst nu de volledige theoriebasis en bent klaar voor het prak
 ---
 
 
+
+
 # LES 42 — Praktijkproef op Worteldag
 ## Metadata
 
@@ -6160,6 +6240,8 @@ De student moet aantonen:
 ---
 
 
+
+
 # LES 43 — Praktijkproef op Vruchtdag
 ## Metadata
 
@@ -6223,6 +6305,8 @@ De student moet aantonen:
 - openness
 
 ---
+
+
 
 
 # LES 44 — Vergelijking en analyse
@@ -6304,6 +6388,8 @@ De student toont:
 - difference
 
 ---
+
+
 
 
 # LES 45 — Eindassessment Biodynamic Intelligence

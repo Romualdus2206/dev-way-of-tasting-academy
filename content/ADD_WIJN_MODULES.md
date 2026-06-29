@@ -1,5 +1,8 @@
 # WINE_MODULE_01_REPAIR.md
 
+> **Status:** samengevoegd in [`WIJN_MODULES.md`](WIJN_MODULES.md) (2026-06-25) via `scripts/merge_academy_add.py`.  
+> Archief/referentie — canonieke bron is `WIJN_MODULES.md`.
+
 # Repair scope
 
 Module 1 — Fundament

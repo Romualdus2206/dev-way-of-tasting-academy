@@ -1,5 +1,8 @@
 # MOUS_REPAIR_FULL.md
 
+> **Status:** samengevoegd in [`MOUS_MODULES.md`](MOUS_MODULES.md) (2026-06-25) via `scripts/merge_academy_add.py`.  
+> Archief/referentie — canonieke bron is `MOUS_MODULES.md`.
+
 # Sparkling Track Repair Patch
 Doel: alle ontbrekende quizblokken, feedbackblokken en praktijkopdrachten toevoegen zonder bestaande content te overschrijven.
 

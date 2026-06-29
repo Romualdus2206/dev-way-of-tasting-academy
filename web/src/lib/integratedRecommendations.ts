@@ -75,6 +75,8 @@ export async function fetchAcademyTasteRecommendations(
   }
 
   items.sort((a, b) => {
+    if (a.category === 'wine' && b.category !== 'wine') return -1;
+    if (b.category === 'wine' && a.category !== 'wine') return 1;
     if (a.reason === 'in_progress' && b.reason !== 'in_progress') return -1;
     if (b.reason === 'in_progress' && a.reason !== 'in_progress') return 1;
     const aRatio = a.total ? a.completed / a.total : 0;

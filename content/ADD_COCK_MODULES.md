@@ -1,5 +1,8 @@
 # COCK_REPAIR_PATCH.md
 
+> **Status:** samengevoegd in [`COCK_MODULES.md`](COCK_MODULES.md) (2026-06-25) via `scripts/merge_academy_add.py`.  
+> Archief/referentie — canonieke bron is `COCK_MODULES.md`.
+
 # Way of Tasting Academy
 ## Cocktail Track Repair Patch
 ### Doel: consistency repair naar 100%
@@ -250,7 +253,7 @@ Perfect. Je kunt nu cocktailfamilies blind analyseren op basis van structuur.
 
 ---
 
-# TOEVOEGEN — PRAKTIJKOPDRACHT BIJ LES 40 (EXAMEN)
+# TOEVOEGEN — PRAKTIJKOPDRACHT BIJ LES 41 (EXAMEN)
 
 ## Praktijkopdracht
 

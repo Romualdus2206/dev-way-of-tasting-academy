@@ -163,6 +163,8 @@ Goed! Je begrijpt nu de basis van rosé.
 
 
 
+
+
 # LES 2 — Hoe ontstaat rosé?
 ## Metadata
 
@@ -776,6 +778,8 @@ Sterk. Je kent nu de fundamentele basis van rosé.
 - gastronomische rosé
 
 ---
+
+
 
 
 
@@ -1516,6 +1520,8 @@ Perfect. Je begrijpt nu de productiebasis van rosé.
 
 
 
+
+
 # LES 11 — Hoe proef je rosé?
 ## Metadata
 
@@ -2234,6 +2240,8 @@ Sterk. Je hebt nu een solide basis in roséproeven.
 - gastronomische rosé
 
 ---
+
+
 
 
 
@@ -2963,6 +2971,8 @@ Sterk. Je herkent nu de klassieke stijlen en hun verschillen.
 
 
 
+
+
 # LES 21 — Grenache
 ## Metadata
 
@@ -3684,6 +3694,8 @@ Sterk. Je begrijpt nu hoe druivenrassen roséstijl vormen.
 - balans
 
 ---
+
+
 
 
 
@@ -4443,6 +4455,8 @@ Uitstekend. Je begrijpt nu waarom rosé veel serieuzer is dan zijn imago.
 
 
 
+
+
 # LES 31 — Serveertemperatuur
 ## Metadata
 
@@ -5059,6 +5073,8 @@ Sterk. Je beheerst nu de serviceprincipes van rosé op professioneel niveau.
 - gastronomische balans
 
 ---
+
+
 
 
 
@@ -5943,6 +5959,8 @@ Uitstekend. Je beheerst nu rosépairing op hoog niveau.
 - examen
 
 ---
+
+
 
 
 

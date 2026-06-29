@@ -1,5 +1,8 @@
 # RED_WINE_FULL_REPAIR.md
 
+> **Status:** samengevoegd in [`ROOD_MODULES.md`](ROOD_MODULES.md) (2026-06-25) via `scripts/merge_academy_add.py`.  
+> Archief/referentie — canonieke bron is `ROOD_MODULES.md`.
+
 # MODULE 1 — ONTBREKENDE QUIZ-FEEDBACKS
 
 ## PATCH — RED-002 Hoe ontstaat rode wijn?

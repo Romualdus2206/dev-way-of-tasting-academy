@@ -1,4 +1,8 @@
 # PORT ACADEMY — REPAIR PATCH v1
+
+> **Status:** samengevoegd in [`PORT_MODULES.md`](PORT_MODULES.md) (2026-06-25) via `scripts/merge_academy_add.py`.  
+> Archief/referentie — canonieke bron is `PORT_MODULES.md`.
+
 Doel: 100% compliance herstellen op basis van PORT_GAPS audit.
 
 NIET herschrijven.

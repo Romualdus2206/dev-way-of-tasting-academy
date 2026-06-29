@@ -160,6 +160,8 @@ Goed! Je begrijpt nu wat wijn in essentie is.
 
 
 
+
+
 # LES 2 — Hoe ontstaat wijn?
 ## Metadata
 
@@ -303,6 +305,8 @@ Je bent klaar voor de volgende stap: wijncategorieën.
 - wijngaard
 
 ---
+
+
 
 
 
@@ -452,6 +456,8 @@ Dit onderscheid is essentieel voor verdere specialisatie.
 
 
 
+
+
 # LES 4 — Geschiedenis van wijn
 ## Metadata
 
@@ -593,6 +599,8 @@ Historische kennis helpt wijnregio’s beter begrijpen.
 - wijncultuur
 
 ---
+
+
 
 
 
@@ -760,6 +768,8 @@ Perfect. Je kent nu de fundamentele wereld van wijn.
 
 
 
+
+
 # LES 6 — Van druif naar wijn
 ## Metadata
 
@@ -908,6 +918,8 @@ Dit proces vormt de technische basis van alle wijn.
 
 
 
+
+
 # LES 7 — Alcoholische gisting
 ## Metadata
 
@@ -1049,6 +1061,8 @@ Zonder fermentatie bestaat wijn niet.
 - temperatuur
 
 ---
+
+
 
 
 
@@ -1201,6 +1215,8 @@ Houtgebruik is een bewuste stijlkeuze.
 
 
 
+
+
 # LES 9 — Oxidatie vs reductie
 ## Metadata
 
@@ -1338,6 +1354,8 @@ Dit concept is essentieel voor stijlherkenning.
 - notigheid
 
 ---
+
+
 
 
 
@@ -1507,6 +1525,8 @@ Perfect. Je begrijpt nu hoe wijn technisch wordt opgebouwd.
 
 
 
+
+
 # LES 11 — Hoe proef je wijn?
 ## Metadata
 
@@ -1658,6 +1678,8 @@ Dit is de fundering van elke sommelier.
 
 
 
+
+
 # LES 12 — Kleur analyseren
 ## Metadata
 
@@ -1799,6 +1821,8 @@ Visuele analyse is altijd de eerste stap.
 - druif
 
 ---
+
+
 
 
 
@@ -1946,6 +1970,8 @@ Aromalogica versnelt blindproeven.
 - rijping
 
 ---
+
+
 
 
 
@@ -2100,6 +2126,8 @@ Structuur is de ruggengraat van analyse.
 - afdronk
 
 ---
+
+
 
 
 
@@ -2314,6 +2342,8 @@ Vanaf module 4 ga je veel dieper in op structuur, druivenrassen en terroir.
 
 
 
+
+
 # LES 16 — Zuur
 ## Metadata
 
@@ -2459,6 +2489,8 @@ Zuur is één van de sterkste kwaliteitsindicatoren.
 - speekselvorming
 
 ---
+
+
 
 
 
@@ -2612,6 +2644,8 @@ Tannines zijn essentieel bij rode wijnanalyse.
 
 
 
+
+
 # LES 18 — Alcohol
 ## Metadata
 
@@ -2751,6 +2785,8 @@ Alcohol is een belangrijk structuurelement.
 - balans
 
 ---
+
+
 
 
 
@@ -2899,6 +2935,8 @@ Body is een belangrijke schakel tussen structuur en stijl.
 - mondgevoel
 
 ---
+
+
 
 
 
@@ -3068,6 +3106,8 @@ Vanaf module 5 ga je de druivenrassen analyseren — de genetische basis van wij
 
 
 
+
+
 # LES 21 — Witte druivenbasis
 ## Metadata
 
@@ -3215,6 +3255,8 @@ Deze drie vormen de basis van veel witte wijnstijlen.
 
 
 
+
+
 # LES 22 — Rode druivenbasis
 ## Metadata
 
@@ -3356,6 +3398,8 @@ Deze druiven vormen de kern van veel klassieke rode wijnen.
 - finesse
 
 ---
+
+
 
 
 
@@ -3511,6 +3555,8 @@ Aromatische herkenning versnelt je proefontwikkeling.
 
 
 
+
+
 # LES 24 — Neutrale druiven
 ## Metadata
 
@@ -3651,6 +3697,8 @@ Neutrale druiven zijn essentieel om terroir te leren begrijpen.
 - kameleon
 
 ---
+
+
 
 
 
@@ -3821,6 +3869,8 @@ Vanaf module 6 ga je leren waarom klimaat en terroir die identiteit verder vorme
 
 
 
+
+
 # LES 26 — Koel klimaat
 ## Metadata
 
@@ -3967,6 +4017,8 @@ Koele klimaten zijn essentieel voor precisie en finesse.
 - frisheid
 
 ---
+
+
 
 
 
@@ -4118,6 +4170,8 @@ Dit klimaat levert vaak complete en harmonieuze wijnen.
 - Rioja
 
 ---
+
+
 
 
 
@@ -4277,6 +4331,8 @@ Warm klimaat geeft vaak krachtigere wijnstijlen.
 
 
 
+
+
 # LES 29 — Bodemtypes
 ## Metadata
 
@@ -4420,6 +4476,8 @@ Bodem is een cruciaal onderdeel van terroir.
 - drainage
 
 ---
+
+
 
 
 
@@ -4587,6 +4645,8 @@ Vanaf module 7 ga je naar service — de vertaalslag van kennis naar gastbelevin
 
 
 
+
+
 # LES 31 — Serveertemperatuur
 ## Metadata
 
@@ -4741,6 +4801,8 @@ Correct serveren verhoogt kwaliteit direct.
 
 
 
+
+
 # LES 32 — Glaswerk
 ## Metadata
 
@@ -4889,6 +4951,8 @@ Goed glaswerk is een essentieel service-instrument.
 
 
 
+
+
 # LES 33 — Decanteren
 ## Metadata
 
@@ -5029,6 +5093,8 @@ Decanteren is een belangrijk onderdeel van professionele service.
 - ontwikkeling
 
 ---
+
+
 
 
 
@@ -5196,6 +5262,8 @@ Vanaf module 8 ga je wijn koppelen aan gastronomie — de kern van sommelierdenk
 
 
 
+
+
 # LES 35 — Wijn & kaas
 ## Metadata
 
@@ -5348,6 +5416,8 @@ Kaaspairing draait om textuur, zout en harmonie.
 
 
 
+
+
 # LES 36 — Wijn & vis
 ## Metadata
 
@@ -5492,6 +5562,8 @@ Vispairing draait sterk om zuur en textuur.
 - body
 
 ---
+
+
 
 
 
@@ -5661,6 +5733,8 @@ Je bent klaar voor de laatste module: blindproeven en het afsluitende examen.
 
 
 
+
+
 # LES 38 — Blindproeven wit
 ## Metadata
 
@@ -5821,6 +5895,8 @@ Blindproeven begint altijd met observatie.
 
 
 
+
+
 # LES 39 — Blindproeven rood
 ## Metadata
 
@@ -5969,6 +6045,8 @@ Rode blindproeverij vraagt sterke structuurkennis.
 - deductie
 
 ---
+
+
 
 
 

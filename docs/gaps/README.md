@@ -1,6 +1,6 @@
 # Academy — gaps per dranksoort
 
-**Laatste audit:** 2026-06-28 (`python3 scripts/audit_academy_gaps.py`)
+**Laatste audit:** 2026-06-29 (`python3 scripts/audit_academy_gaps.py`)
 
 Per track een apart gap-document. Gecombineerd overzicht: [`ACADEMY_CONTENT_GAPS.md`](../ACADEMY_CONTENT_GAPS.md).
 
@@ -10,7 +10,7 @@ Per track een apart gap-document. Gecombineerd overzicht: [`ACADEMY_CONTENT_GAPS
 | Rode wijn | `red-wine` | 40 | 38/40 | 40/40 | 40/40 | [ROOD_GAPS.md](ROOD_GAPS.md) |
 | Witte wijn | `white-wine` | 40 | 38/40 | 40/40 | 40/40 | [WIT_GAPS.md](WIT_GAPS.md) |
 | Rosé | `rose-wine` | 43 | 42/43 | 43/43 | 43/43 | [ROSE_GAPS.md](ROSE_GAPS.md) |
-| Cocktails | `cocktails` | 40 | 38/40 | 40/40 | 40/40 | [COCK_GAPS.md](COCK_GAPS.md) |
+| Cocktails | `cocktails` | 41 | 39/41 | 41/41 | 41/41 | [COCK_GAPS.md](COCK_GAPS.md) |
 | Port | `port` | 40 | 39/40 | 40/40 | 40/40 | [PORT_GAPS.md](PORT_GAPS.md) |
 | Mousserend | `sparkling` | 40 | 38/40 | 40/40 | 40/40 | [MOUS_GAPS.md](MOUS_GAPS.md) |
 | Bier | `beer` | 40 | 38/40 | 40/40 | 40/40 | [BIER_GAPS.md](BIER_GAPS.md) |

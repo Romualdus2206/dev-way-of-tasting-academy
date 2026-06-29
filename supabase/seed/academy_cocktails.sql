@@ -1,5 +1,5 @@
 -- Cocktails track seed (na 20260625140000_academy_v1_tracks.sql)
--- 1 track · 9 modules · 40 lessons · quizvragen per les
+-- 1 track · 9 modules · 41 lessons · quizvragen per les
 
 delete from academy.tracks where slug = 'cocktails';
 
@@ -2040,7 +2040,7 @@ Wat viel je op?
   )
 ) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
 
--- pairing-cocktails (3 lessons)
+-- pairing-cocktails (4 lessons)
 with m as (
   select m.id from academy.modules m
   join academy.tracks t on t.id = m.track_id
@@ -2230,6 +2230,81 @@ Welke zou jij na dessert kiezen?
 ',
     8,
     3
+  ),
+  (
+    'aperol-spritz',
+    'Aperol Spritz als aperitief',
+    'Na deze les begrijp jij waarom Aperol Spritz één van de belangrijkste moderne aperitiefcocktails is en waarom deze cocktail perfect werkt bij warm weer.
+',
+    'De Aperol Spritz is één van de bekendste aperitiefcocktails ter wereld.
+
+Structuur:
+
+- prosecco
+- Aperol
+- bruiswater
+
+Klassieke verhouding:
+
+3 - 2 - 1
+
+Dit betekent:
+
+- 3 delen prosecco
+- 2 delen Aperol
+- 1 deel bruiswater
+
+De cocktail werkt door balans tussen:
+
+- bitterheid
+- frisheid
+- lichte zoetheid
+- carbonatie
+
+Waarom werkt dit goed?
+
+Bitter stimuleert de eetlust.
+
+Carbonatie maakt de cocktail lichter.
+
+Lage alcohol maakt hem toegankelijk.
+
+Bij warm weer voelt dit fris en energiek.
+
+Daarom is Aperol Spritz een schoolvoorbeeld van aperitiefdenken.
+',
+    '- aperol spritz
+- aperitif
+- bitterness
+- carbonation
+- prosecco
+- warm weather
+- summer drinking',
+    'De Spritz ontstond in Noord-Italië en groeide uit tot wereldwijd aperitiefsymbool.
+',
+    '- Aperol Spritz is een aperitiefcocktail
+- Bitterheid opent de eetlust
+- Carbonatie zorgt voor frisheid
+- Warm weer versterkt de drinkbaarheid
+- Structuur is simpel maar precies
+',
+    '### Opdracht
+
+Maak of observeer een Aperol Spritz.
+
+### Checklist
+
+- Ik herken de 3-2-1 structuur
+- Ik proef bitterheid
+- Ik proef carbonatie
+- Ik begrijp het aperitiefeffect
+
+### Reflectievraag
+
+Waarom werkt bitter beter vóór een maaltijd dan tijdens dessert?
+',
+    8,
+    4
   )
 ) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
 
@@ -2676,6 +2751,11 @@ join (values
   ('pairing-cocktails', 'cocktails-als-digestief', 3, 'Welke past goed?', '["Old Fashioned", "Mojito", "Tom Collins", "Paloma"]', 0, 'Correct: Old Fashioned'),
   ('pairing-cocktails', 'cocktails-als-digestief', 4, 'Na eten mag meer:', '["Complexiteit", "Water", "Koolzuur", "Lichtheid"]', 0, 'Correct: Complexiteit'),
   ('pairing-cocktails', 'cocktails-als-digestief', 5, 'Digestief draait vaak om:', '["Afsluiting", "Opening", "Hydratatie", "Energie"]', 0, 'Correct: Afsluiting'),
+  ('pairing-cocktails', 'aperol-spritz', 1, 'Wat is de klassieke verhouding?', '["2-2-2", "3-2-1", "1-3-2", "4-1-1"]', 1, 'Correct: 3-2-1'),
+  ('pairing-cocktails', 'aperol-spritz', 2, 'Welke component geeft bitterheid?', '["Aperol", "Prosecco", "Soda", "IJs"]', 0, 'Correct: Aperol'),
+  ('pairing-cocktails', 'aperol-spritz', 3, 'Waarom werkt bitter als aperitief?', '["Stimuleert eetlust", "Verhoogt alcohol", "Verlaagt temperatuur", "Verhoogt suiker"]', 0, 'Correct: Stimuleert eetlust'),
+  ('pairing-cocktails', 'aperol-spritz', 4, 'Welke component geeft bruis?', '["Prosecco + soda", "Aperol", "Sinaasappel", "IJs"]', 0, 'Correct: Prosecco + soda'),
+  ('pairing-cocktails', 'aperol-spritz', 5, 'Wanneer werkt Aperol Spritz vaak het best?', '["Warm weer", "Koude winteravond", "Na dessert", "Bij zware stoofschotel"]', 0, 'Correct: Warm weer'),
   ('examen-cocktails', 'spirit-blind-herkennen', 1, 'Welke spirit is vaak neutraal?', '["Vodka", "Gin", "Rum", "Whisky"]', 0, 'Correct: Vodka'),
   ('examen-cocktails', 'spirit-blind-herkennen', 2, 'Welke spirit herken je vaak aan botanicals?', '["Gin", "Vodka", "Tequila", "Rum"]', 0, 'Correct: Gin'),
   ('examen-cocktails', 'spirit-blind-herkennen', 3, 'Welke spirit is agave-based?', '["Tequila", "Rum", "Whisky", "Vodka"]', 0, 'Correct: Tequila'),

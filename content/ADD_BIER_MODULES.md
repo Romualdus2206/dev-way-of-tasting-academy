@@ -1,5 +1,8 @@
 # BEER_TRACK_REPAIR_V1.md
 
+> **Status:** samengevoegd in [`BIER_MODULES.md`](BIER_MODULES.md) (2026-06-25) via `scripts/merge_academy_add.py`.  
+> Archief/referentie — canonieke bron is `BIER_MODULES.md`.
+
 ## Doel
 
 Herstel alle content-gaps in `content/BIER_MODULES.md` zonder bestaande theorie, praktijkopdrachten, quizvragen of kernbegrippen te wijzigen.

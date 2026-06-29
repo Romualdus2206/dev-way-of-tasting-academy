@@ -1,5 +1,8 @@
 # WHITE_MODULE_01_REPAIR.md
 
+> **Status:** samengevoegd in [`WIT_MODULES.md`](WIT_MODULES.md) (2026-06-25) via `scripts/merge_academy_add.py`.  
+> Archief/referentie — canonieke bron is `WIT_MODULES.md`.
+
 # Way of Tasting Academy
 ## White Wine Track
 ### Module 1 Repair Patch

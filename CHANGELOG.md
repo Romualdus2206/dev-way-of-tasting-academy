@@ -8,6 +8,18 @@ _(Bij upload: patch bump in `version.json` + bullet hier — zie [`docs/VERSIE.m
 
 ---
 
+## v0.1.3 — Canonieke MODULES + Aperol Spritz
+
+*Juni 2026.*
+
+- Alle `ADD_*_MODULES.md`-patches samengevoegd in `*_MODULES.md` (10 tracks, 285 lessen)
+- Cocktails: LES 38 Aperol Spritz; seed `academy_cocktails.sql` herbouwd (41 lessen)
+- Migratie `20260625180000_academy_aperol_spritz_lesson.sql` voor bestaande databases
+- Gap-audit bijgewerkt; quiz-feedback op 100% voor de meeste tracks
+- `merge_academy_add.py`: examen-praktijk koppelt aan les met “praktijkexamen” in titel
+
+---
+
 ## v0.1.2 — Academy-voortgang batching
 
 *Juni 2026.*

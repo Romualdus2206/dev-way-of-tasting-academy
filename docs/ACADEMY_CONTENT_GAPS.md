@@ -1,6 +1,6 @@
 # Academy — openstaande content
 
-**Laatste audit:** 2026-06-28 (`python3 scripts/audit_academy_gaps.py`)
+**Laatste audit:** 2026-06-29 (`python3 scripts/audit_academy_gaps.py`)
 
 Gecombineerd overzicht. **Per dranksoort:** [`docs/gaps/README.md`](gaps/README.md).
 
@@ -184,17 +184,17 @@ Open examen — geen meerkeuze-quiz in MD; feedback kan wel aanwezig zijn.
 ## Cocktails (`cocktails`)
 
 **Track slug:** `cocktails` · **App-chip:** `cocktails`
-**Bron:** `content/COCK_MODULES.md` · **Lessen:** 40
+**Bron:** `content/COCK_MODULES.md` · **Lessen:** 41
 **Seed:** `supabase/seed/academy_cocktails.sql` · **Rebuild:** `scripts/rebuild_cocktails_track.py`
 
 ## Samenvatting
 
 | Onderdeel | Aanwezig | Ontbreekt | % |
 |-----------|----------|-----------|---|
-| Quiz (`## Quiz`) | 38/40 | 2 | 95% |
-| Quiz-feedback | 40/40 (38 bij quiz-lessen) | 0 | 100% |
-| Kernbegrippen | 40/40 | 0 | 100% |
-| Praktijkopdracht | 40/40 | 0 | 100% |
+| Quiz (`## Quiz`) | 39/41 | 2 | 95% |
+| Quiz-feedback | 41/41 (39 bij quiz-lessen) | 0 | 100% |
+| Kernbegrippen | 41/41 | 0 | 100% |
+| Praktijkopdracht | 41/41 | 0 | 100% |
 
 ## Per module
 
@@ -207,7 +207,7 @@ Open examen — geen meerkeuze-quiz in MD; feedback kan wel aanwezig zijn.
 | 5 | Sour Family | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
 | 6 | Highballs & Longdrinks | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
 | 7 | Service | 4 | 4/4 | 4/4 | 4/4 | 4/4 |
-| 8 | Pairing & Gastronomie | 3 | 3/3 | 3/3 | 3/3 | 3/3 |
+| 8 | Pairing & Gastronomie | 4 | 4/4 | 4/4 | 4/4 | 4/4 |
 | 9 | Blindproeven & Examen | 3 | 2/3 | 3/3 | 3/3 | 3/3 |
 
 ## Geen quiz-sectie

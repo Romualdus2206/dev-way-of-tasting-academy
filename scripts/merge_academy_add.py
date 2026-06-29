@@ -421,13 +421,20 @@ def apply_bio_sections(body: str, sections: dict[str, str], lesson_num: int) -> 
 
 def parse_cocktail_exam_praktijk(add_text: str) -> dict[str, str] | None:
     m = re.search(
-        r"# TOEVOEGEN — PRAKTIJKOPDRACHT BIJ LES 40[^\n]*\n(.*)",
+        r"# TOEVOEGEN — PRAKTIJKOPDRACHT BIJ LES \d+ \(EXAMEN\)[^\n]*\n(.*)",
         add_text,
         flags=re.M | re.S,
     )
     if not m:
         return None
     return extract_sections(m.group(1))
+
+
+def cocktail_exam_lesson_index(lessons: list[tuple[str, str]]) -> int | None:
+    for idx, (title, _) in enumerate(lessons, start=1):
+        if re.search(r"praktijkexamen", title, flags=re.I):
+            return idx
+    return len(lessons) if lessons else None
 
 
 def merge_track(name: str) -> int:
@@ -446,8 +453,9 @@ def merge_track(name: str) -> int:
         patches = parse_les_feedback(add_text)
         if name == "cocktails":
             exam = parse_cocktail_exam_praktijk(add_text)
-            if exam:
-                patches[40] = {**patches.get(40, {}), **exam}
+            exam_idx = cocktail_exam_lesson_index(lessons)
+            if exam and exam_idx:
+                patches[exam_idx] = {**patches.get(exam_idx, {}), **exam}
     elif parser == "mous":
         patches = parse_les_mous(add_text)
     elif parser == "beer_zero":

@@ -1,6 +1,7 @@
 # BIO_REPAIR_FINAL.md
 
-**Status:** gemerged in `BIO_MODULES.md` (2026-06-28) via `merge_academy_add.py --track bio`.
+> **Status:** samengevoegd in [`BIO_MODULES.md`](BIO_MODULES.md) (2026-06-25) via `scripts/merge_academy_add.py`.  
+> Archief/referentie — canonieke bron is `BIO_MODULES.md`.
 
 # Doel
 

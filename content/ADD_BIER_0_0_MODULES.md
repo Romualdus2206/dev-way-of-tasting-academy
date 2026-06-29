@@ -1,5 +1,8 @@
 # ZERO_MODULE_01_REPAIR.md
 
+> **Status:** samengevoegd in [`BIER_0_0_MODULES.md`](BIER_0_0_MODULES.md) (2026-06-25) via `scripts/merge_academy_add.py`.  
+> Archief/referentie — canonieke bron is `BIER_0_0_MODULES.md`.
+
 # Bier 0.0 Academy — Module 1 Repair
 
 Module: 1  

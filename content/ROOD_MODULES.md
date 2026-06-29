@@ -170,6 +170,8 @@ Sterk begin. Je begrijpt nu de basis van rode wijn.
 
 
 
+
+
 # LES 2 — Hoe ontstaat rode wijn?
 ## Metadata
 
@@ -315,6 +317,8 @@ Ga door naar de volgende les.
 - rijping
 
 ---
+
+
 
 
 
@@ -470,6 +474,8 @@ Ga door naar de volgende les.
 
 
 
+
+
 # LES 4 — Geschiedenis van rode wijn
 ## Metadata
 
@@ -612,6 +618,8 @@ Ga door naar de volgende les.
 - Piemonte
 
 ---
+
+
 
 
 
@@ -780,6 +788,8 @@ Perfect. Je hebt nu de fundering van rode wijn gelegd.
 
 
 
+
+
 # LES 6 — Schilcontact uitgelegd
 ## Metadata
 
@@ -925,6 +935,8 @@ Ga door naar de volgende les.
 - extractie
 
 ---
+
+
 
 
 
@@ -1084,6 +1096,8 @@ Ga door naar de volgende les.
 
 
 
+
+
 # LES 8 — Alcoholische gisting
 ## Metadata
 
@@ -1229,6 +1243,8 @@ Ga door naar de volgende les.
 - fermentatie
 
 ---
+
+
 
 
 
@@ -1379,6 +1395,8 @@ Ga door naar de volgende les.
 - vanille
 
 ---
+
+
 
 
 
@@ -1553,6 +1571,8 @@ Perfect. Je begrijpt nu hoe rode wijn wordt gemaakt en ontwikkelt.
 
 
 
+
+
 # LES 11 — Hoe proef je rode wijn?
 ## Metadata
 
@@ -1710,6 +1730,8 @@ Ga door naar de volgende les.
 - balans
 
 ---
+
+
 
 
 
@@ -1873,6 +1895,8 @@ Ga door naar de volgende les.
 
 
 
+
+
 # LES 13 — Aroma’s herkennen
 ## Metadata
 
@@ -2030,6 +2054,8 @@ Ga door naar de volgende les.
 
 
 
+
+
 # LES 14 — Tannines herkennen
 ## Metadata
 
@@ -2183,6 +2209,8 @@ Ga door naar de volgende les.
 
 
 
+
+
 # LES 15 — Mini-toets Rode Wijn
 ## Metadata
 
@@ -2281,6 +2309,8 @@ Je bent klaar voor Specialist-niveau.
 - terroir
 
 ---
+
+
 
 
 
@@ -2420,6 +2450,8 @@ Je begrijpt nu beter:
 
 
 
+
+
 # LES 17 — Gamay
 ## Metadata
 
@@ -2546,6 +2578,8 @@ Je begrijpt nu beter:
 - fris
 
 ---
+
+
 
 
 
@@ -2678,6 +2712,8 @@ Je begrijpt nu beter:
 
 
 
+
+
 # LES 19 — Cinsault
 ## Metadata
 
@@ -2803,6 +2839,8 @@ Je begrijpt nu beter:
 - rosé
 
 ---
+
+
 
 
 
@@ -2978,6 +3016,8 @@ Dit vormt de brug tussen elegantie en kracht.
 
 
 
+
+
 # LES 21 — Merlot
 ## Metadata
 
@@ -3112,6 +3152,8 @@ Je begrijpt nu beter:
 
 
 
+
+
 # LES 22 — Sangiovese
 ## Metadata
 
@@ -3236,6 +3278,8 @@ Je begrijpt nu beter:
 - kers
 
 ---
+
+
 
 
 
@@ -3368,6 +3412,8 @@ Je begrijpt nu beter:
 
 
 
+
+
 # LES 24 — Barbera
 ## Metadata
 
@@ -3491,6 +3537,8 @@ Je begrijpt nu beter:
 - sappig
 
 ---
+
+
 
 
 
@@ -3663,6 +3711,8 @@ Dit is het zwaarste en meest gestructureerde deel van rode wijn.
 
 
 
+
+
 # LES 26 — Cabernet Sauvignon
 ## Metadata
 
@@ -3798,6 +3848,8 @@ Je begrijpt nu beter:
 
 
 
+
+
 # LES 27 — Syrah
 ## Metadata
 
@@ -3923,6 +3975,8 @@ Je begrijpt nu beter:
 - Rhône
 
 ---
+
+
 
 
 
@@ -4054,6 +4108,8 @@ Je begrijpt nu beter:
 
 
 
+
+
 # LES 29 — Nebbiolo
 ## Metadata
 
@@ -4181,6 +4237,8 @@ Je begrijpt nu beter:
 - tannine
 
 ---
+
+
 
 
 
@@ -4353,6 +4411,8 @@ Vanaf hier verschuift de focus van druif naar praktijk.
 
 
 
+
+
 # LES 31 — Serveertemperatuur
 ## Metadata
 
@@ -4506,6 +4566,8 @@ Je begrijpt nu beter:
 
 
 
+
+
 # LES 32 — Glaswerk
 ## Metadata
 
@@ -4650,6 +4712,8 @@ Je begrijpt nu beter:
 - concentratie
 
 ---
+
+
 
 
 
@@ -4801,6 +4865,8 @@ Je begrijpt nu beter:
 - opening
 
 ---
+
+
 
 
 
@@ -4993,6 +5059,8 @@ Vanaf daar ga je wijn koppelen aan eten — het echte sommelierwerk.
 
 
 
+
+
 # LES 35 — Rode wijn & vlees
 ## Metadata
 
@@ -5141,6 +5209,8 @@ Je begrijpt nu beter:
 
 
 
+
+
 # LES 36 — Rode wijn & kaas
 ## Metadata
 
@@ -5284,6 +5354,8 @@ Je begrijpt nu beter:
 - intensiteit
 
 ---
+
+
 
 
 
@@ -5477,6 +5549,8 @@ Hier komt alles samen.
 
 
 
+
+
 # LES 38 — Pinot Noir vs Nebbiolo blind
 ## Metadata
 
@@ -5640,6 +5714,8 @@ Ga door naar de volgende les.
 
 
 
+
+
 # LES 39 — Merlot vs Cabernet blind
 ## Metadata
 
@@ -5788,6 +5864,8 @@ Ga door naar de volgende les.
 - rondheid
 
 ---
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 **Doel:** inhoud doorlopen, annoteren en wijzigingen doorgeven.
 
-**Totaal:** 1 track (`cocktails`) · 9 modules · 40 lessen
+**Totaal:** 1 track (`cocktails`) · 9 modules · 41 lessen
 
 ---
 
@@ -82,14 +82,15 @@
 35. Cocktails als aperitief
 36. Cocktails bij foodpairing
 37. Cocktails als digestief
+38. Aperol Spritz als aperitief
 
 ---
 
 ## Module 9 — Blindproeven & Examen (Master)
 
-38. Spirit blind herkennen
-39. Cocktailstructuren blind analyseren
-40. Theorie- en praktijkexamen
+39. Spirit blind herkennen
+40. Cocktailstructuren blind analyseren
+41. Theorie- en praktijkexamen
 
 ---
 
@@ -409,21 +410,27 @@ Bitter en kruidig werken sterk.
 
 ---
 
+## COCKTAIL-038 — Aperol Spritz als aperitief
+
+Moderne aperitiefklassieker: 3-2-1, bitter + bruis, ideaal bij warm weer.
+
+---
+
 # Module 9: Blind & Examen
 
-## COCKTAIL-038 — Spirit blind herkennen
+## COCKTAIL-039 — Spirit blind herkennen
 
 Basisvaardigheid.
 
 ---
 
-## COCKTAIL-039 — Cocktailstructuren blind analyseren
+## COCKTAIL-040 — Cocktailstructuren blind analyseren
 
 Herkennen van opbouw en balans.
 
 ---
 
-## COCKTAIL-040 — Theorie- en praktijkexamen
+## COCKTAIL-041 — Theorie- en praktijkexamen
 
 Volledige integratie van:
 - techniek

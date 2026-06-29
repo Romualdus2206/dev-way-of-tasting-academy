@@ -95,10 +95,13 @@ Geen custom JWT; geen service role in de browser.
 
 ## 5. Navigatie (geïntegreerd — Fase 5)
 
-| Van | Naar | Mechanisme |
+| Kelder | Academy | Mechanisme |
 |-----|------|------------|
 | Kelder | Academy | Tab **Academy** → `/academy` (zelfde origin) |
-| Kelder | Moment | Tab **Moment** → `/moment` |
+| Kelder | Advies | Tab **Advies** → `/advies` |
+| Advies | Cocktail Quick Learn | `/advies/cocktail/:cocktailId` |
+| Advies | Academy les (cocktail) | `/academy/cocktails/module/:moduleId/lesson/:lessonId` → resolve → `/academy/cocktails/lessons/:uuid` |
+| Kelder | Moment | Redirect `/moment` → `/advies` |
 | Academy track | Smaakprofiel | `/profiel#taste-{category}` |
 | Flesdetail | Academy / Moment | Kruislinks in kelder UI |
 | Oude standalone-URL | Host | 301 → `way-of-tasting.netlify.app` + pad |

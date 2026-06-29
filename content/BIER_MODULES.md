@@ -157,6 +157,8 @@ Sterk begin. Je begrijpt nu wat bier in essentie is.
 
 
 
+
+
 # LES 2 — De vier basisingrediënten
 ## Metadata
 
@@ -286,6 +288,8 @@ Goed gedaan. Je begrijpt nu hoe de vier basisingrediënten samen bier vormen.
 - ingrediënten
 
 ---
+
+
 
 
 
@@ -425,6 +429,8 @@ Sterk. Je begrijpt nu hoe gisting alcohol, koolzuur en aroma’s produceert.
 
 
 
+
+
 # LES 4 — Ondergisting vs bovengisting
 ## Metadata
 
@@ -554,6 +560,8 @@ Goed. Je kunt nu het verschil tussen de twee belangrijkste gistingsvormen uitleg
 - lager
 
 ---
+
+
 
 
 
@@ -718,6 +726,8 @@ Perfect. Je kent nu het fundament van bier.
 
 
 
+
+
 # LES 6 — Mouten uitgelegd
 ## Metadata
 
@@ -854,6 +864,8 @@ Goed gedaan. Je begrijpt nu hoe mout kleur, body en alcohol beïnvloedt.
 
 
 
+
+
 # LES 7 — Maischen
 ## Metadata
 
@@ -983,6 +995,8 @@ Sterk. Je begrijpt nu hoe suikers vrijkomen tijdens het brouwen.
 - suiker
 
 ---
+
+
 
 
 
@@ -1124,6 +1138,8 @@ Goed. Je begrijpt nu hoe hop bitterheid en aroma opbouwt.
 
 
 
+
+
 # LES 9 — Gist en aromaontwikkeling
 ## Metadata
 
@@ -1255,6 +1271,8 @@ Sterk. Je begrijpt nu waarom gist zo belangrijk is voor bierstijl.
 - fermentatie
 
 ---
+
+
 
 
 
@@ -1418,6 +1436,8 @@ Perfect. Je begrijpt nu het volledige brouwfundament.
 
 
 
+
+
 # LES 11 — Hoe proef je bier?
 ## Metadata
 
@@ -1558,6 +1578,8 @@ Goed gedaan. Je kunt nu bier systematisch analyseren.
 
 
 
+
+
 # LES 12 — Schuim analyseren
 ## Metadata
 
@@ -1692,6 +1714,8 @@ Sterk. Je begrijpt nu waarom schuim belangrijk is voor kwaliteit en presentatie.
 - oxidatie
 
 ---
+
+
 
 
 
@@ -1841,6 +1865,8 @@ Goed. Je ontwikkelt nu actief je aromageheugen.
 
 
 
+
+
 # LES 14 — Structuur en mondgevoel
 ## Metadata
 
@@ -1977,6 +2003,8 @@ Sterk. Je kunt nu body, koolzuur en textuur beter herkennen.
 - alcoholwarmte
 
 ---
+
+
 
 
 
@@ -2134,6 +2162,8 @@ Sterk gedaan. Je hebt nu het volledige Explorer-fundament van bier afgerond.
 
 
 
+
+
 # LES 16 — Pilsner
 ## Metadata
 
@@ -2275,6 +2305,8 @@ Goed gedaan. Je herkent nu de basisstructuur van Pilsner.
 
 
 
+
+
 # LES 17 — Blond
 ## Metadata
 
@@ -2406,6 +2438,8 @@ Sterk. Je begrijpt nu waarom Blond meer complexiteit biedt dan pils.
 - complexiteit
 
 ---
+
+
 
 
 
@@ -2549,6 +2583,8 @@ Goed. Je kunt nu Weizen herkennen aan gistkarakter en tarwe.
 
 
 
+
+
 # LES 19 — Witbier
 ## Metadata
 
@@ -2681,6 +2717,8 @@ Sterk. Je begrijpt nu het verschil tussen Witbier en Weizen.
 - tarwe
 
 ---
+
+
 
 
 
@@ -2847,6 +2885,8 @@ Sterk. Je beheerst nu de klassieke bierfundamenten.
 
 
 
+
+
 # LES 21 — Dubbel
 ## Metadata
 
@@ -2981,6 +3021,8 @@ Goed gedaan. Je herkent nu de moutige diepte van Dubbel.
 - gist
 
 ---
+
+
 
 
 
@@ -3128,6 +3170,8 @@ Sterk. Je begrijpt nu de balans tussen kracht en elegantie in Tripel.
 
 
 
+
+
 # LES 23 — Quadrupel
 ## Metadata
 
@@ -3261,6 +3305,8 @@ Goed. Je herkent nu de intensiteit en rijpingswaarde van Quadrupel.
 - body
 
 ---
+
+
 
 
 
@@ -3400,6 +3446,8 @@ Sterk. Je begrijpt nu waarom Saison gastronomisch zo breed inzetbaar is.
 - gastronomie
 
 ---
+
+
 
 
 
@@ -3565,6 +3613,8 @@ Sterk. Je begrijpt nu het hart van de Belgische biertraditie.
 
 
 
+
+
 # LES 26 — IPA
 ## Metadata
 
@@ -3701,6 +3751,8 @@ Goed gedaan. Je begrijpt nu waarom IPA centraal staat in craft beer.
 - craft
 
 ---
+
+
 
 
 
@@ -3847,6 +3899,8 @@ Sterk. Je herkent nu het verschil tussen klassieke IPA en NEIPA.
 
 
 
+
+
 # LES 28 — Porter
 ## Metadata
 
@@ -3979,6 +4033,8 @@ Goed. Je begrijpt nu de zachtere roast-structuur van Porter.
 - body
 
 ---
+
+
 
 
 
@@ -4120,6 +4176,8 @@ Sterk. Je kunt nu Stout onderscheiden op roast, body en intensiteit.
 - intensiteit
 
 ---
+
+
 
 
 
@@ -4291,6 +4349,8 @@ Sterk. Je beheerst nu de belangrijkste moderne bierstijlen.
 
 
 
+
+
 # LES 31 — Serveertemperatuur
 ## Metadata
 
@@ -4430,6 +4490,8 @@ Goed gedaan. Je begrijpt nu hoe temperatuur smaakbeleving beïnvloedt.
 - stijl
 
 ---
+
+
 
 
 
@@ -4576,6 +4638,8 @@ Sterk. Je weet nu hoe glaswerk aroma en schuim beïnvloedt.
 
 
 
+
+
 # LES 33 — Schenktechniek
 ## Metadata
 
@@ -4710,6 +4774,8 @@ Goed. Je begrijpt nu hoe correct schenken kwaliteit verhoogt.
 - presentatie
 
 ---
+
+
 
 
 
@@ -4882,6 +4948,8 @@ Sterk. Je beheerst nu professionele bier-service.
 
 
 
+
+
 # LES 35 — Bier & kaas
 ## Metadata
 
@@ -5022,6 +5090,8 @@ Sterk. Je begrijpt nu waarom bier en kaas zo krachtig kunnen combineren.
 - pairing
 
 ---
+
+
 
 
 
@@ -5169,6 +5239,8 @@ Goed gedaan. Je kunt nu bier afstemmen op vleesstructuur en grill.
 - intensiteit
 
 ---
+
+
 
 
 
@@ -5335,6 +5407,8 @@ Sterk. Je begrijpt nu hoe bier gastronomisch breed inzetbaar is.
 
 
 
+
+
 # LES 38 — Lager vs Ale blind
 ## Metadata
 
@@ -5484,6 +5558,8 @@ Sterk. Je kunt nu blind onderscheid maken tussen de basisfamilies van bier.
 
 
 
+
+
 # LES 39 — IPA vs Stout blind
 ## Metadata
 
@@ -5628,6 +5704,8 @@ Goed gedaan. Je herkent nu hop- versus roast-gedreven structuren blind.
 - aroma
 
 ---
+
+
 
 
 

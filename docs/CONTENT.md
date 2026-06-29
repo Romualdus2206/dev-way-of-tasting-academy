@@ -4,12 +4,13 @@ Curriculum staat primair in **Postgres** (`academy.*`). Optioneel beheer je bron
 
 ---
 
-## Aanpak v1
+## Bronbestanden
 
 | Methode | Wanneer |
 |---------|---------|
+| **`*_MODULES.md`** | Canonieke bron per track — altijd up-to-date houden |
 | **SQL seed** | Demo + eerste echte cursus (`supabase/seed/`) |
-| **Markdown in `content/`** | Auteurswerk offline; importscript later |
+| **`ADD_*` / repair** | Archief na merge; patches horen in `*_MODULES.md` |
 | **Dashboard + service role** | Snelle fixes, niet voor dagelijks schrijven |
 
 De browser-app **leest** alleen gepubliceerde rijen (`published_at is not null` op course).
