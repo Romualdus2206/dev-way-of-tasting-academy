@@ -1,38 +1,34 @@
-# BIO_MODULE_01.md
+# BIO_REPAIR_CONTENT.md
 
-# Way of Tasting Academy
-## Biodynamic Track
-### Module 1 — Fundament
+> **Status:** samengevoegd in [`BIO_MODULES.md`](BIO_MODULES.md) (45 lessen).  
+> **Bron voorbereiding:** `scripts/prepare_bio_repair_content.py`  
+> **Merge:** `scripts/merge_bio_repair_content.py`
 
-**Level:** Explorer  
-**Framework pillar:** Fundament  
-**Module goal:** In deze module ontdek je wat biodynamisch proeven is, waar het vandaan komt, hoe de vier dagtypen werken en waarom steeds meer sommeliers en wijnmakers hiermee werken.
+## Opmerking curriculum (LES 34–45)
+
+Deze repair bevat vernieuwde inhoud voor module 7–9. **LES 34–45** hebben nieuwe titels t.o.v. de oude `BIO_MODULES.md`; bij merge worden slugs en quizzen daarop afgestemd.
+
+## Herbruikbaarheid
+
+Bewaar je ruwe rewrite als `BIO_REPAIR_SOURCE.md` (formaat `Theorie Repair` / `Sommelier Insight`).  
+Draai `python3 scripts/prepare_bio_repair_content.py` alleen op dat bronbestand — niet op dit merge-klare bestand.
+
+## Sectiestructuur (Academy-formaat)
+
+| Sectie | Bron |
+|--------|------|
+| `## Leerdoel` | Bijgewerkt, specifieker |
+| `## Theorie` | Premium rewrite |
+| `## Wist-je-dat` | Sommelier Insight |
+| `## Samenvatting` | 3–4 bullets + optionele app-link |
+| `## Praktijkopdracht` | Opdracht + Checklist + Reflectievraag |
+
+Quiz, quiz-feedback en kernbegrippen blijven bij merge uit bestaande `BIO_MODULES.md`.
 
 ---
 
-## Module kernbegrippen (DB field)
-
-- biodynamisch
-- maria thun
-- root day
-- leaf day
-- flower day
-- fruit day
-- lunar cycle
-- tasting rhythm
-- vitality
-- agricultural energy
-
----
 
 # LES 1 — Wat is biodynamisch proeven?
-## Metadata
-
-**Slug:** wat-is-biodynamisch-proeven  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -81,87 +77,9 @@ Herhaal dit op een ander dagtype.
 
 Welke sensorische verschillen verwacht je tussen vandaag en een Vruchtdag, en hoe zou dat jouw beoordeling veranderen?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Waar draait biodynamisch proeven om?
-
-A. Alleen terroir  
-B. Timing en ritme ✅  
-C. Alleen temperatuur  
-D. Alleen druivenras
-
-### Vraag 2
-
-Wat beïnvloedt volgens deze visie smaak?
-
-A. Dagtypes ✅  
-B. Alleen glaswerk  
-C. Alleen luchtvochtigheid  
-D. Alleen alcohol
-
-### Vraag 3
-
-Wie gebruiken dit?
-
-A. Sommeliers ✅  
-B. Alleen boeren  
-C. Alleen bartenders  
-D. Niemand
-
-### Vraag 4
-
-Wat is de kern?
-
-A. Observatie ✅  
-B. Geloof  
-C. Marketing  
-D. Fermentatie
-
-### Vraag 5
-
-Kan wijn anders smaken op verschillende dagen?
-
-A. Ja ✅  
-B. Nee  
-C. Alleen rood  
-D. Alleen oud
-
----
-
-## Quiz-feedback
-
-Goed. Je begrijpt nu dat biodynamisch proeven draait om ritme, observatie en timing.
-
----
-
-## Kernbegrippen (DB field)
-
-- biodynamic
-- timing
-- observation
-- rhythm
-- tasting
-
----
-
-
-
-
-
 
 
 # LES 2 — Maria Thun en de oorsprong
-## Metadata
-
-**Slug:** maria-thun-oorsprong  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -208,87 +126,9 @@ Koppel drie flessen uit je voorraad aan deze momenten.
 
 Welke fles uit jouw collectie zou het meest profiteren van een strategisch gekozen openingsmoment?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wie ontwikkelde de kalender?
-
-A. Maria Thun ✅  
-B. Rudolf Steiner  
-C. Louis Pasteur  
-D. Dom Pérignon
-
-### Vraag 2
-
-Waar kwam zij vandaan?
-
-A. Duitsland ✅  
-B. Frankrijk  
-C. Italië  
-D. Spanje
-
-### Vraag 3
-
-Wat onderzocht zij?
-
-A. Kosmische ritmes ✅  
-B. Alleen regen  
-C. Alleen temperatuur  
-D. Alleen druiven
-
-### Vraag 4
-
-Hoeveel dagtypes?
-
-A. Vier ✅  
-B. Twee  
-C. Drie  
-D. Vijf
-
-### Vraag 5
-
-Waar wordt haar werk veel gebruikt?
-
-A. Wijnbouw ✅  
-B. Bierindustrie  
-C. Distillatie  
-D. Koffie
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu waar de biodynamische kalender vandaan komt.
-
----
-
-## Kernbegrippen (DB field)
-
-- maria thun
-- calendar
-- lunar cycles
-- biodynamics
-- agriculture
-
----
-
-
-
-
-
 
 
 # LES 3 — De vier dagtypen
-## Metadata
-
-**Slug:** vier-dagtypen  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -344,87 +184,9 @@ Vergelijk:
 
 Welk dagtype geeft jou de meeste informatie over bewaarpotentieel?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Hoeveel dagtypes?
-
-A. Vier ✅  
-B. Drie  
-C. Vijf  
-D. Twee
-
-### Vraag 2
-
-Welke dag is vaak fruitiger?
-
-A. Vruchtdag ✅  
-B. Bladdag  
-C. Worteldag  
-D. Bloemdag
-
-### Vraag 3
-
-Welke dag draait om aroma?
-
-A. Bloemdag ✅  
-B. Worteldag  
-C. Vruchtdag  
-D. Bladdag
-
-### Vraag 4
-
-Welke dag is aardser?
-
-A. Worteldag ✅  
-B. Vruchtdag  
-C. Bloemdag  
-D. Bladdag
-
-### Vraag 5
-
-Welke dag is vegetaler?
-
-A. Bladdag ✅  
-B. Bloemdag  
-C. Vruchtdag  
-D. Worteldag
-
----
-
-## Quiz-feedback
-
-Perfect. Je kent nu de vier basisdagen.
-
----
-
-## Kernbegrippen (DB field)
-
-- root day
-- leaf day
-- flower day
-- fruit day
-- energy
-
----
-
-
-
-
-
 
 
 # LES 4 — Aarde, water, lucht en vuur
-## Metadata
-
-**Slug:** elementen-biodynamiek  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -477,87 +239,9 @@ Bepaal welk element daar volgens jou het sterkst bij past en onderbouw waarom.
 
 Welke drankcategorie lijkt volgens jou het meest gevoelig voor elementwisselingen?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wortel hoort bij:
-
-A. Aarde ✅  
-B. Water  
-C. Lucht  
-D. Vuur
-
-### Vraag 2
-
-Vrucht hoort bij:
-
-A. Vuur ✅  
-B. Aarde  
-C. Water  
-D. Lucht
-
-### Vraag 3
-
-Bloem hoort bij:
-
-A. Lucht ✅  
-B. Water  
-C. Vuur  
-D. Aarde
-
-### Vraag 4
-
-Blad hoort bij:
-
-A. Water ✅  
-B. Vuur  
-C. Aarde  
-D. Lucht
-
-### Vraag 5
-
-Elementen helpen bij:
-
-A. Interpretatie ✅  
-B. Koeling  
-C. Fermentatie  
-D. Glaswerk
-
----
-
-## Quiz-feedback
-
-Goed. Je begrijpt nu de energetische basisstructuur.
-
----
-
-## Kernbegrippen (DB field)
-
-- earth
-- water
-- air
-- fire
-- elements
-
----
-
-
-
-
-
 
 
 # LES 5 — Waarom gebruiken sommeliers en wijnmakers dit?
-## Metadata
-
-**Slug:** waarom-gebruiken-professionals-dit  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -609,112 +293,9 @@ Gebruik hiervoor de biodynamische kalender.
 
 Welke factoren wegen voor jou zwaarder: dagtype, gezelschap, gerecht of ontwikkelingsfase van de wijn?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Waarom gebruiken sommeliers dit?
-
-A. Voor timing ✅  
-B. Voor marketing  
-C. Voor prijs  
-D. Voor etiketten
-
-### Vraag 2
-
-Waarom gebruiken wijnmakers dit?
-
-A. Voor bottelen ✅  
-B. Voor glaswerk  
-C. Voor opslag  
-D. Voor labels
-
-### Vraag 3
-
-Wat is het doel?
-
-A. Maximale expressie ✅  
-B. Meer alcohol  
-C. Minder zuur  
-D. Meer suiker
-
-### Vraag 4
-
-Welke dag wordt vaak gekozen?
-
-A. Vruchtdag ✅  
-B. Bladdag  
-C. Worteldag  
-D. Bloemdag
-
-### Vraag 5
-
-Wat helpt timing?
-
-A. Kwaliteit verbeteren ✅  
-B. Fermentatie versnellen  
-C. Koeling vervangen  
-D. Kurk verbeteren
-
----
-
-## Quiz-feedback
-
-Perfect. Je begrijpt nu waarom biodynamische timing praktisch waardevol kan zijn.
-
----
-
-## Kernbegrippen (DB field)
-
-- sommelier
-- winemaker
-- timing
-- expression
-- strategy
-
-# BIO_MODULE_02.md
-
-# Way of Tasting Academy
-## Biodynamic Track
-### Module 2 — De kalender begrijpen
-
-**Level:** Explorer  
-**Framework pillar:** Fundament / Kalenderlogica  
-**Module goal:** In deze module leer je de vier biodynamische dagtypen praktisch lezen, begrijpen en toepassen binnen proefmomenten.
-
----
-
-## Module kernbegrippen (DB field)
-
-- root day
-- leaf day
-- flower day
-- fruit day
-- lunar cycle
-- ascending moon
-- descending moon
-- node days
-- perigee
-- apogee
-
----
-
-
-
-
-
 
 
 # LES 6 — Worteldagen uitgelegd
-## Metadata
-
-**Slug:** worteldagen-uitgelegd  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -761,87 +342,9 @@ Open een jonge Nebbiolo of Cabernet Sauvignon en noteer:
 
 Geeft een strengere wijn jou meer inzicht of minder drinkplezier?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Worteldag hoort bij:
-
-A. Aarde ✅  
-B. Water  
-C. Lucht  
-D. Vuur
-
-### Vraag 2
-
-Wat staat centraal?
-
-A. Structuur ✅  
-B. Fruit  
-C. Aroma  
-D. Zoetheid
-
-### Vraag 3
-
-Hoe voelt wijn vaak?
-
-A. Strakker ✅  
-B. Zoeter  
-C. Zachter  
-D. Romiger
-
-### Vraag 4
-
-Waarvoor is Worteldag nuttig?
-
-A. Terroiranalyse ✅  
-B. Cocktails  
-C. Carbonatie  
-D. Distillatie
-
-### Vraag 5
-
-Fruit is vaak:
-
-A. Minder dominant ✅  
-B. Sterker  
-C. Zoeter  
-D. Rijper
-
----
-
-## Quiz-feedback
-
-Goed. Je begrijpt nu de aardse logica van Worteldagen.
-
----
-
-## Kernbegrippen (DB field)
-
-- root day
-- structure
-- earth
-- minerality
-- tension
-
----
-
-
-
-
-
 
 
 # LES 7 — Bladdagen uitgelegd
-## Metadata
-
-**Slug:** bladdagen-uitgelegd  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -888,87 +391,9 @@ Open een Sauvignon Blanc of frisse 0.0 wijn en analyseer:
 
 Wanneer wordt frisheid een kwaliteit en wanneer wordt het een verstoring?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Bladdag hoort bij:
-
-A. Water ✅  
-B. Aarde  
-C. Vuur  
-D. Lucht
-
-### Vraag 2
-
-Wat wordt versterkt?
-
-A. Vegetaal ✅  
-B. Hout  
-C. Zoet  
-D. Alcohol
-
-### Vraag 3
-
-Welke stijl past soms goed?
-
-A. Frisse witte wijn ✅  
-B. Vintage Port  
-C. Barleywine  
-D. Cognac
-
-### Vraag 4
-
-Fruit is vaak:
-
-A. Minder dominant ✅  
-B. Dominant  
-C. Intenser  
-D. Zoeter
-
-### Vraag 5
-
-Bladdagen worden vaak gezien als:
-
-A. Minder ideaal voor topwijn ✅  
-B. Beste voor rood  
-C. Beste voor Port  
-D. Beste voor bubbels
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu waarom Bladdagen anders aanvoelen.
-
----
-
-## Kernbegrippen (DB field)
-
-- leaf day
-- freshness
-- green notes
-- water
-- softness
-
----
-
-
-
-
-
 
 
 # LES 8 — Bloemdagen uitgelegd
-## Metadata
-
-**Slug:** bloemdagen-uitgelegd  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -1015,87 +440,9 @@ Open een Riesling of mousserende wijn en analyseer:
 
 Welke rol speelt finesse in jouw persoonlijke wijnwaardering?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Bloemdagen horen bij:
-
-A. Lucht ✅  
-B. Water  
-C. Vuur  
-D. Aarde
-
-### Vraag 2
-
-Wat wordt versterkt?
-
-A. Aroma ✅  
-B. Structuur  
-C. Alcohol  
-D. Zoetheid
-
-### Vraag 3
-
-Welke druif past?
-
-A. Riesling ✅  
-B. Cabernet Sauvignon  
-C. Syrah  
-D. Malbec
-
-### Vraag 4
-
-Bloemdagen zijn vaak:
-
-A. Verfijnd ✅  
-B. Grof  
-C. Gesloten  
-D. Zwaar
-
-### Vraag 5
-
-Wat staat centraal?
-
-A. Finesse ✅  
-B. Tannine  
-C. Hout  
-D. Suiker
-
----
-
-## Quiz-feedback
-
-Perfect. Je begrijpt nu de rol van Bloemdagen.
-
----
-
-## Kernbegrippen (DB field)
-
-- flower day
-- aroma
-- finesse
-- elegance
-- air
-
----
-
-
-
-
-
 
 
 # LES 9 — Vruchtdagen uitgelegd
-## Metadata
-
-**Slug:** vruchtdagen-uitgelegd  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -1144,87 +491,9 @@ Noteer:
 
 Zou jij een topfles liever op een Vruchtdag bewaren dan direct openen?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Vruchtdag hoort bij:
-
-A. Vuur ✅  
-B. Aarde  
-C. Water  
-D. Lucht
-
-### Vraag 2
-
-Wat wordt versterkt?
-
-A. Fruit ✅  
-B. Structuur  
-C. Vegetaal  
-D. Bitterheid
-
-### Vraag 3
-
-Welke energie hoort erbij?
-
-A. Expressie ✅  
-B. Rust  
-C. Geslotenheid  
-D. Neutraliteit
-
-### Vraag 4
-
-Professionals kiezen vaak:
-
-A. Vruchtdag ✅  
-B. Bladdag  
-C. Worteldag  
-D. Geen voorkeur
-
-### Vraag 5
-
-Waarom?
-
-A. Maximale expressie ✅  
-B. Minder alcohol  
-C. Minder zuur  
-D. Meer suiker
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu waarom Vruchtdagen zo populair zijn.
-
----
-
-## Kernbegrippen (DB field)
-
-- fruit day
-- fire
-- expression
-- energy
-- balance
-
----
-
-
-
-
-
 
 
 # LES 10 — Hoe lees je de biodynamische kalender?
-## Metadata
-
-**Slug:** hoe-lees-je-de-kalender  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -1272,112 +541,9 @@ Koppel hier één fles uit je voorraad aan.
 
 Wat zou jij belangrijker vinden: een Vruchtdag met onstabiel weer of een Bloemdag met volledige atmosferische stabiliteit?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wat toont de kalender?
-
-A. Dagtypes ✅  
-B. Alleen temperatuur  
-C. Alleen wijnadvies  
-D. Alleen regen
-
-### Vraag 2
-
-Kan een dag wisselen?
-
-A. Ja ✅  
-B. Nee  
-C. Alleen in winter  
-D. Alleen bij regen
-
-### Vraag 3
-
-Wat zijn nodes?
-
-A. Kritische momenten ✅  
-B. Druivenrassen  
-C. Glastypes  
-D. Wijnfouten
-
-### Vraag 4
-
-Wat is belangrijk?
-
-A. Tijdsblok ✅  
-B. Kleur wijn  
-C. Prijs  
-D. Leeftijd
-
-### Vraag 5
-
-Voor optimaal proeven kies je:
-
-A. Stabiele blokken ✅  
-B. Willekeurig  
-C. Nacht  
-D. Alleen ochtend
-
----
-
-## Quiz-feedback
-
-Perfect. Je kunt nu zelfstandig de biodynamische kalender lezen.
-
----
-
-## Kernbegrippen (DB field)
-
-- calendar
-- node
-- perigee
-- apogee
-- timing
-
-# BIO_MODULE_03.md
-
-# Way of Tasting Academy
-## Biodynamic Track
-### Module 3 — Proeven per dagtype
-
-**Level:** Explorer  
-**Framework pillar:** Praktijk / Observatie  
-**Module goal:** In deze module leer je hoe dezelfde wijn zich anders kan gedragen op verschillende biodynamische dagtypes en hoe je dat praktisch analyseert.
-
----
-
-## Module kernbegrippen (DB field)
-
-- comparative tasting
-- root day
-- leaf day
-- flower day
-- fruit day
-- expression
-- structure
-- aromatics
-- observation
-- tasting memory
-
----
-
-
-
-
-
 
 
 # LES 11 — Wijn op een Worteldag
-## Metadata
-
-**Slug:** wijn-op-worteldag  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -1426,87 +592,9 @@ Open een jonge Bordeaux of Nebbiolo en noteer:
 
 Hoe verandert jouw oordeel over een wijn als structuur belangrijker wordt dan charme?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wat wordt versterkt?
-
-A. Structuur ✅  
-B. Zoetheid  
-C. Alcohol  
-D. Fruit
-
-### Vraag 2
-
-Fruit is vaak:
-
-A. Geslotener ✅  
-B. Open  
-C. Zoeter  
-D. Rijper
-
-### Vraag 3
-
-Waarvoor is dit nuttig?
-
-A. Structuuranalyse ✅  
-B. Cocktails  
-C. Bierpairing  
-D. Carbonatie
-
-### Vraag 4
-
-Worteldag is vaak:
-
-A. Serieuzer ✅  
-B. Speelser  
-C. Zoeter  
-D. Lichter
-
-### Vraag 5
-
-Wat kan beter zichtbaar worden?
-
-A. Tannine ✅  
-B. Suiker  
-C. Koolzuur  
-D. Alcohol
-
----
-
-## Quiz-feedback
-
-Goed. Je begrijpt nu hoe Worteldagen structuur blootleggen.
-
----
-
-## Kernbegrippen (DB field)
-
-- structure
-- tannin
-- acidity
-- minerality
-- root day
-
----
-
-
-
-
-
 
 
 # LES 12 — Wijn op een Bladdag
-## Metadata
-
-**Slug:** wijn-op-bladdag  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -1555,87 +643,9 @@ Open een Sauvignon Blanc of alcoholvrije witte wijn en noteer:
 
 Kun jij frisheid los beoordelen van fruitexpressie?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wat wordt vaak versterkt?
-
-A. Vegetaal ✅  
-B. Hout  
-C. Suiker  
-D. Oxidatie
-
-### Vraag 2
-
-Welke stijl reageert sterk?
-
-A. Sauvignon Blanc ✅  
-B. Port  
-C. Stout  
-D. Tawny
-
-### Vraag 3
-
-Hoe voelt wijn soms?
-
-A. Groener ✅  
-B. Zoeter  
-C. Dikker  
-D. Ouder
-
-### Vraag 4
-
-Bladdagen horen bij:
-
-A. Water ✅  
-B. Aarde  
-C. Lucht  
-D. Vuur
-
-### Vraag 5
-
-Wat kan veranderen?
-
-A. Balansbeleving ✅  
-B. Alcoholpercentage  
-C. Kleur  
-D. Leeftijd
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu hoe Bladdagen groenere tonen kunnen accentueren.
-
----
-
-## Kernbegrippen (DB field)
-
-- leaf day
-- green notes
-- freshness
-- vegetal
-- balance
-
----
-
-
-
-
-
 
 
 # LES 13 — Wijn op een Bloemdag
-## Metadata
-
-**Slug:** wijn-op-bloemdag  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -1684,87 +694,9 @@ Open een Riesling, Champagne of Pinot Noir en analyseer:
 
 Wat weegt voor jou zwaarder: kracht of finesse?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wat wordt versterkt?
-
-A. Aroma ✅  
-B. Tannine  
-C. Alcohol  
-D. Bitterheid
-
-### Vraag 2
-
-Welke stijl past goed?
-
-A. Riesling ✅  
-B. Barolo  
-C. Vintage Port  
-D. Stout
-
-### Vraag 3
-
-Hoe voelt wijn vaak?
-
-A. Verfijnder ✅  
-B. Harder  
-C. Zoeter  
-D. Zwaarder
-
-### Vraag 4
-
-Bloemdagen horen bij:
-
-A. Lucht ✅  
-B. Water  
-C. Vuur  
-D. Aarde
-
-### Vraag 5
-
-Wat analyseer je goed?
-
-A. Finesse ✅  
-B. Koolzuur  
-C. Alcohol  
-D. Zoetheid
-
----
-
-## Quiz-feedback
-
-Perfect. Je begrijpt nu de finesse-logica van Bloemdagen.
-
----
-
-## Kernbegrippen (DB field)
-
-- flower day
-- aroma
-- elegance
-- finesse
-- perfume
-
----
-
-
-
-
-
 
 
 # LES 14 — Wijn op een Vruchtdag
-## Metadata
-
-**Slug:** wijn-op-vruchtdag  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -1813,87 +745,9 @@ Open een topfles of favoriete wijn op een Vruchtdag en noteer:
 
 Wanneer kies jij voor maximaal drinkplezier en wanneer voor maximale analyse?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wat wordt versterkt?
-
-A. Fruit ✅  
-B. Vegetaal  
-C. Bitter  
-D. Zout
-
-### Vraag 2
-
-Hoe voelt wijn vaak?
-
-A. Harmonieuzer ✅  
-B. Strenger  
-C. Groener  
-D. Geslotener
-
-### Vraag 3
-
-Welke dag is populair voor topflessen?
-
-A. Vruchtdag ✅  
-B. Bladdag  
-C. Worteldag  
-D. Willekeurig
-
-### Vraag 4
-
-Vruchtdag hoort bij:
-
-A. Vuur ✅  
-B. Water  
-C. Aarde  
-D. Lucht
-
-### Vraag 5
-
-Wat komt vaak samen?
-
-A. Balans en fruit ✅  
-B. Hout en zout  
-C. Suiker en bitter  
-D. Tannine en rook
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu waarom Vruchtdagen zo geliefd zijn.
-
----
-
-## Kernbegrippen (DB field)
-
-- fruit day
-- expression
-- harmony
-- energy
-- openness
-
----
-
-
-
-
-
 
 
 # LES 15 — Eerste proefexperiment
-## Metadata
-
-**Slug:** eerste-proefexperiment  
-**Duration:** 10 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -1915,7 +769,6 @@ Dit experiment vormt de kern van biodynamisch leren: niet theorie geloven, maar 
 Voor serieuze wijnliefhebbers is dit vaak het moment waarop biodynamische logica echt tastbaar wordt.
 
 ---
-
 
 ## Wist-je-dat
 
@@ -1957,120 +810,9 @@ Noteer telkens:
 
 Welk dagtype gaf de meest complete ervaring, en waarom?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Welke dag toont meestal de meeste structuur?
-
-A. Worteldag ✅  
-B. Vruchtdag  
-C. Bloemdag  
-D. Bladdag
-
----
-
-### Vraag 2
-
-Welke dag geeft vaak de meeste fruitexpressie?
-
-A. Vruchtdag ✅  
-B. Worteldag  
-C. Bladdag  
-D. Bloemdag
-
----
-
-### Vraag 3
-
-Welke dag is vaak ideaal voor aromatische finesse?
-
-A. Bloemdag ✅  
-B. Worteldag  
-C. Vruchtdag  
-D. Bladdag
-
----
-
-### Vraag 4
-
-Welke dag versterkt vegetale tonen?
-
-A. Bladdag ✅  
-B. Bloemdag  
-C. Worteldag  
-D. Vruchtdag
-
----
-
-### Vraag 5
-
-Wat is het doel van een biodynamische vergelijkproef?
-
-A. Verschillen herkennen ✅  
-B. Alcohol meten  
-C. Leeftijd bepalen  
-D. Druivenras raden
-
----
-
-## Quiz-feedback
-
-Perfect. Je begrijpt nu hoe verschillende dagtypes de proefervaring kunnen beïnvloeden en hoe je dit systematisch analyseert.
-
----
-
-## Kernbegrippen (DB field)
-
-- comparative tasting
-- observation
-- pattern recognition
-- tasting memory
-- experiment
-
-# BIO_MODULE_04.md
-
-# Way of Tasting Academy
-## Biodynamic Track
-### Module 4 — Weer & atmosfeer
-
-**Level:** Specialist  
-**Framework pillar:** Omgevingsinvloeden  
-**Module goal:** In deze module leer je hoe temperatuur, luchtdruk, luchtvochtigheid en weersverandering invloed kunnen hebben op smaakbeleving en drinkmomenten.
-
----
-
-## Module kernbegrippen (DB field)
-
-- temperature
-- air pressure
-- humidity
-- atmospheric stability
-- weather front
-- sensory perception
-- aroma lift
-- volatility
-- tension
-- drinking strategy
-
----
-
-
-
-
-
 
 
 # LES 16 — Temperatuur en smaakbeleving
-## Metadata
-
-**Slug:** temperatuur-en-smaak  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -2124,87 +866,9 @@ Vergelijk:
 
 Wanneer voelde de wijn het meest in balans, en waarom?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Warmte versterkt vaak:
-
-A. Zoetheid ✅  
-B. Bitterheid  
-C. Koolzuur  
-D. Zout
-
-### Vraag 2
-
-Kou versterkt vaak:
-
-A. Zuren ✅  
-B. Alcohol  
-C. Zoet  
-D. Hout
-
-### Vraag 3
-
-Kan temperatuur perceptie veranderen?
-
-A. Ja ✅  
-B. Nee  
-C. Alleen bij bier  
-D. Alleen bij Port
-
-### Vraag 4
-
-Warmte maakt wijn soms:
-
-A. Logger ✅  
-B. Strakker  
-C. Groener  
-D. Bitterder
-
-### Vraag 5
-
-Wat verandert?
-
-A. Smaakbeleving ✅  
-B. Alcoholpercentage  
-C. Leeftijd  
-D. Druivenras
-
----
-
-## Quiz-feedback
-
-Goed. Je begrijpt nu hoe temperatuur directe invloed heeft op beleving.
-
----
-
-## Kernbegrippen (DB field)
-
-- temperature
-- perception
-- sweetness
-- acidity
-- balance
-
----
-
-
-
-
-
 
 
 # LES 17 — Luchtdruk en expressie
-## Metadata
-
-**Slug:** luchtdruk-en-expressie  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -2255,87 +919,9 @@ Analyseer:
 
 Merk jij verschil tussen helderheid en diffusie in wijnexpressie?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Hoge luchtdruk geeft vaak:
-
-A. Focus ✅  
-B. Chaos  
-C. Bitterheid  
-D. Zoetheid
-
-### Vraag 2
-
-Lage druk geeft soms:
-
-A. Geslotenheid ✅  
-B. Open fruit  
-C. Meer alcohol  
-D. Minder zuur
-
-### Vraag 3
-
-Wat verandert vaak?
-
-A. Aromatische expressie ✅  
-B. Kleur  
-C. Leeftijd  
-D. Tannine
-
-### Vraag 4
-
-Wordt dit veel geobserveerd?
-
-A. Ja ✅  
-B. Nee  
-C. Alleen bij bier  
-D. Alleen bij cocktails
-
-### Vraag 5
-
-Is dit absolute wetenschap?
-
-A. Nee ✅  
-B. Ja  
-C. Altijd  
-D. Nooit
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu de mogelijke rol van luchtdruk.
-
----
-
-## Kernbegrippen (DB field)
-
-- air pressure
-- stability
-- focus
-- expression
-- weather systems
-
----
-
-
-
-
-
 
 
 # LES 18 — Luchtvochtigheid en perceptie
-## Metadata
-
-**Slug:** luchtvochtigheid-en-perceptie  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -2384,87 +970,9 @@ Controleer tegelijk de luchtvochtigheid.
 
 Voelde de wijn scherper of ronder dan je had verwacht?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Hoge vochtigheid kan aroma:
-
-A. Dempen ✅  
-B. Versterken  
-C. Oxideren  
-D. Fermenteren
-
-### Vraag 2
-
-Lage vochtigheid geeft vaak:
-
-A. Meer spanning ✅  
-B. Meer zoet  
-C. Meer alcohol  
-D. Meer rijping
-
-### Vraag 3
-
-Wat verandert?
-
-A. Mondgevoel ✅  
-B. Leeftijd  
-C. Kleur  
-D. Glaswerk
-
-### Vraag 4
-
-Welke stijl reageert sterk?
-
-A. Champagne ✅  
-B. Port  
-C. Cognac  
-D. Stout
-
-### Vraag 5
-
-Vochtigheid beïnvloedt:
-
-A. Perceptie ✅  
-B. Alcoholpercentage  
-C. Druivenras  
-D. Leeftijd
-
----
-
-## Quiz-feedback
-
-Goed. Je begrijpt nu hoe luchtvochtigheid subtiele invloed kan hebben.
-
----
-
-## Kernbegrippen (DB field)
-
-- humidity
-- aroma
-- softness
-- dryness
-- texture
-
----
-
-
-
-
-
 
 
 # LES 19 — Weersomslag en proefmomenten
-## Metadata
-
-**Slug:** weersomslag-en-proeven  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -2515,87 +1023,9 @@ Bepaal daarna of je opent of wacht.
 
 Ben jij bereid een fles uit te stellen voor betere omstandigheden?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Weersomslag betekent:
-
-A. Verandering ✅  
-B. Stabiliteit  
-C. Zon  
-D. Nacht
-
-### Vraag 2
-
-Wat gebeurt vaak?
-
-A. Minder focus ✅  
-B. Meer balans  
-C. Meer fruit  
-D. Meer suiker
-
-### Vraag 3
-
-Is dit ideaal voor topflessen?
-
-A. Vaak niet ✅  
-B. Altijd wel  
-C. Alleen rood  
-D. Alleen wit
-
-### Vraag 4
-
-Wat helpt meestal?
-
-A. Stabiliteit ✅  
-B. Chaos  
-C. Regen  
-D. Wind
-
-### Vraag 5
-
-Welke situatie vermijden sommeliers soms?
-
-A. Onweerfront ✅  
-B. Zon  
-C. Winter  
-D. Ochtend
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu waarom stabiliteit belangrijk is.
-
----
-
-## Kernbegrippen (DB field)
-
-- weather front
-- instability
-- pressure drop
-- storm
-- timing
-
----
-
-
-
-
-
 
 
 # LES 20 — Dynamic vs Strategic Advice
-## Metadata
-
-**Slug:** dynamic-vs-strategic-advice  
-**Duration:** 10 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -2662,112 +1092,9 @@ Plan voor beide:
 
 Gebruik jij wijn vooral spontaan, of ben jij bereid strategisch te plannen voor betere momenten?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Dynamic advice kijkt naar:
-
-A. Nu ✅  
-B. Over 6 maanden  
-C. Alleen voorraad  
-D. Alleen prijs
-
-### Vraag 2
-
-Strategic advice kijkt naar:
-
-A. Toekomst ✅  
-B. Alleen vandaag  
-C. Alleen temperatuur  
-D. Alleen druivenras
-
-### Vraag 3
-
-Weerdata gaan meestal vooruit:
-
-A. 14 dagen ✅  
-B. 30 dagen  
-C. 90 dagen  
-D. 365 dagen
-
-### Vraag 4
-
-Na 14 dagen gebruik je:
-
-A. Biodynamische kalender ✅  
-B. Alleen temperatuur  
-C. Alleen voorraad  
-D. Alleen etiketten
-
-### Vraag 5
-
-Wat helpt topflessen plannen?
-
-A. Strategic advice ✅  
-B. Willekeur  
-C. Alleen prijs  
-D. Alleen leeftijd
-
----
-
-## Quiz-feedback
-
-Perfect. Je begrijpt nu de volledige logica achter Dynamic en Strategic Advice en hoe deze direct aansluiten op jouw app-ecosysteem.
-
----
-
-## Kernbegrippen (DB field)
-
-- dynamic advice
-- strategic advice
-- weather
-- planning
-- timing
-
-# BIO_MODULE_05.md
-
-# Way of Tasting Academy
-## Biodynamic Track
-### Module 5 — Wijnstijlen & dagtypes
-
-**Level:** Specialist  
-**Framework pillar:** Stijlen / Praktische toepassing  
-**Module goal:** In deze module leer je hoe verschillende wijnstijlen reageren op biodynamische dagtypes en hoe je dat strategisch kunt inzetten.
-
----
-
-## Module kernbegrippen (DB field)
-
-- red wine
-- white wine
-- rosé
-- sparkling
-- port
-- fruit day
-- flower day
-- root day
-- leaf day
-- optimal opening
-
----
-
-
-
-
-
 
 
 # LES 21 — Rode wijn per dagtype
-## Metadata
-
-**Slug:** rode-wijn-per-dagtype  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -2824,87 +1151,9 @@ Vergelijk:
 
 Welke dag gaf jou meer inzicht: de charmante of de analytische?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Beste dag voor open fruit?
-
-A. Vruchtdag ✅  
-B. Worteldag  
-C. Bladdag  
-D. Willekeurig
-
-### Vraag 2
-
-Welke dag toont structuur?
-
-A. Worteldag ✅  
-B. Vruchtdag  
-C. Bloemdag  
-D. Bladdag
-
-### Vraag 3
-
-Bloemdagen versterken:
-
-A. Geur ✅  
-B. Alcohol  
-C. Zoet  
-D. Bitter
-
-### Vraag 4
-
-Bladdagen kunnen rood:
-
-A. Groener maken ✅  
-B. Zoeter maken  
-C. Ouder maken  
-D. Lichter maken
-
-### Vraag 5
-
-Toprood wordt vaak gepland op:
-
-A. Vruchtdag ✅  
-B. Bladdag  
-C. Worteldag  
-D. Nacht
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu hoe rood strategisch te plannen is.
-
----
-
-## Kernbegrippen (DB field)
-
-- red wine
-- tannin
-- fruit
-- structure
-- harmony
-
----
-
-
-
-
-
 
 
 # LES 22 — Witte wijn per dagtype
-## Metadata
-
-**Slug:** witte-wijn-per-dagtype  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -2952,87 +1201,9 @@ Open een Riesling, Chablis of Sauvignon Blanc en analyseer:
 
 Wat zegt mineraliteit jou over kwaliteit?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Beste dag voor finesse?
-
-A. Bloemdag ✅  
-B. Worteldag  
-C. Bladdag  
-D. Vruchtdag
-
-### Vraag 2
-
-Vruchtdag versterkt:
-
-A. Fruit ✅  
-B. Bitter  
-C. Hout  
-D. Zout
-
-### Vraag 3
-
-Bladdag geeft vaak:
-
-A. Groenheid ✅  
-B. Zoet  
-C. Rook  
-D. Rijping
-
-### Vraag 4
-
-Worteldag kan geven:
-
-A. Mineraliteit ✅  
-B. Suiker  
-C. Alcohol  
-D. Schuim
-
-### Vraag 5
-
-Aromatische witte wijn past vaak op:
-
-A. Bloemdag ✅  
-B. Worteldag  
-C. Bladdag  
-D. Willekeurig
-
----
-
-## Quiz-feedback
-
-Goed. Je begrijpt nu hoe witte wijn slim te plannen is.
-
----
-
-## Kernbegrippen (DB field)
-
-- white wine
-- aromatics
-- minerality
-- freshness
-- elegance
-
----
-
-
-
-
-
 
 
 # LES 23 — Rosé per dagtype
-## Metadata
-
-**Slug:** rose-per-dagtype  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -3086,87 +1257,9 @@ Vergelijk:
 
 Zoek jij in rosé meer energie of meer verfijning?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Beste dag voor rosé?
-
-A. Vruchtdag ✅  
-B. Worteldag  
-C. Willekeurig  
-D. Nacht
-
-### Vraag 2
-
-Bloemdag geeft vaak:
-
-A. Finesse ✅  
-B. Meer tannine  
-C. Meer alcohol  
-D. Meer hout
-
-### Vraag 3
-
-Worteldag maakt rosé soms:
-
-A. Strakker ✅  
-B. Zoeter  
-C. Ouder  
-D. Zwaarder
-
-### Vraag 4
-
-Rosé draait vooral om:
-
-A. Fruit en frisheid ✅  
-B. Tannine  
-C. Hout  
-D. Bitter
-
-### Vraag 5
-
-Bladdag kan rosé:
-
-A. Groener maken ✅  
-B. Rijper maken  
-C. Zoeter maken  
-D. Zwaarder maken
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu de biodynamische logica van rosé.
-
----
-
-## Kernbegrippen (DB field)
-
-- rosé
-- freshness
-- fruit
-- lightness
-- openness
-
----
-
-
-
-
-
 
 
 # LES 24 — Mousserende wijn per dagtype
-## Metadata
-
-**Slug:** mousserend-per-dagtype  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -3216,87 +1309,9 @@ Vergelijk dit op een ander dagtype.
 
 Wat vind jij belangrijker in mousserend: spanning of finesse?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Beste dag voor finesse?
-
-A. Bloemdag ✅  
-B. Worteldag  
-C. Bladdag  
-D. Willekeurig
-
-### Vraag 2
-
-Vruchtdag geeft:
-
-A. Openheid ✅  
-B. Bitterheid  
-C. Zout  
-D. Hout
-
-### Vraag 3
-
-Worteldag toont meer:
-
-A. Structuur ✅  
-B. Zoet  
-C. Fruit  
-D. Schuim
-
-### Vraag 4
-
-Bladdag kan mousse:
-
-A. Minder levendig maken ✅  
-B. Meer bruisend maken  
-C. Zoeter maken  
-D. Ouder maken
-
-### Vraag 5
-
-Champagnehuizen kiezen vaak:
-
-A. Bloemdag ✅  
-B. Bladdag  
-C. Worteldag  
-D. Nacht
-
----
-
-## Quiz-feedback
-
-Perfect. Je begrijpt nu hoe mousserend zeer gevoelig reageert.
-
----
-
-## Kernbegrippen (DB field)
-
-- sparkling
-- mousse
-- finesse
-- aroma
-- tension
-
----
-
-
-
-
-
 
 
 # LES 25 — Port per dagtype
-## Metadata
-
-**Slug:** port-per-dagtype  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -3344,112 +1359,9 @@ Open een Vintage Port of Tawny en analyseer:
 
 Welke Portstijl lijkt jou het meest gevoelig voor timing, en waarom?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Vruchtdag geeft vaak:
-
-A. Harmonie ✅  
-B. Scherpte  
-C. Bitter  
-D. Vegetaal
-
-### Vraag 2
-
-Worteldag toont vaak:
-
-A. Structuur ✅  
-B. Fruit  
-C. Zoet  
-D. Mousse
-
-### Vraag 3
-
-Vintage Port profiteert vaak van:
-
-A. Vruchtdag ✅  
-B. Bladdag  
-C. Worteldag  
-D. Willekeurig
-
-### Vraag 4
-
-Port heeft vaak meer:
-
-A. Alcohol en suiker ✅  
-B. Koolzuur  
-C. Zuur  
-D. Mousse
-
-### Vraag 5
-
-Kan Port gesloten zijn?
-
-A. Ja ✅  
-B. Nee  
-C. Alleen Tawny  
-D. Alleen Ruby
-
----
-
-## Quiz-feedback
-
-Perfect. Je begrijpt nu hoe Port biodynamisch kan worden ingezet.
-
----
-
-## Kernbegrippen (DB field)
-
-- port
-- vintage port
-- tawny
-- alcohol
-- harmony
-
-# BIO_MODULE_06.md
-
-# Way of Tasting Academy
-## Biodynamic Track
-### Module 6 — Bier, cocktails & 0.0
-
-**Level:** Specialist  
-**Framework pillar:** Cross-category application  
-**Module goal:** In deze module leer je hoe biodynamische ritmes ook invloed kunnen hebben op bier, cocktails, barrel-aged dranken en alcoholvrije alternatieven.
-
----
-
-## Module kernbegrippen (DB field)
-
-- beer
-- alcohol-free
-- cocktails
-- barrel-aged
-- carbonation
-- bitterness
-- freshness
-- fruit expression
-- structure
-- timing
-
----
-
-
-
-
-
 
 
 # LES 26 — Bier en biodynamische dagen
-## Metadata
-
-**Slug:** bier-en-biodynamische-dagen  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -3497,87 +1409,9 @@ Herhaal op een ander dagtype.
 
 Wanneer wordt bitterheid een kracht en wanneer een verstoring?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Welke dag geeft vaak opener hopfruit?
-
-A. Vruchtdag ✅  
-B. Worteldag  
-C. Bladdag  
-D. Nacht
-
-### Vraag 2
-
-Worteldagen versterken vaak:
-
-A. Bitterheid ✅  
-B. Zoetheid  
-C. Alcohol  
-D. Schuim
-
-### Vraag 3
-
-Bloemdagen geven vaak:
-
-A. Elegantie ✅  
-B. Meer body  
-C. Meer bitter  
-D. Meer zuur
-
-### Vraag 4
-
-Bladdagen kunnen hop:
-
-A. Groener maken ✅  
-B. Zoeter maken  
-C. Ronder maken  
-D. Ouder maken
-
-### Vraag 5
-
-Welke bierstijl reageert sterk?
-
-A. IPA ✅  
-B. Pilsener  
-C. Radler  
-D. Maltbier
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu hoe bier biodynamisch anders kan aanvoelen.
-
----
-
-## Kernbegrippen (DB field)
-
-- beer
-- hops
-- bitterness
-- malt
-- timing
-
----
-
-
-
-
-
 
 
 # LES 27 — Bier 0.0 en timing
-## Metadata
-
-**Slug:** bier-0-0-en-timing  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -3627,87 +1461,9 @@ Herhaal op een Vruchtdag.
 
 Voelt alcoholvrij voor jou stabieler of juist gevoeliger dan regulier bier?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Waarom is 0.0 gevoeliger?
-
-A. Minder alcoholstructuur ✅  
-B. Meer suiker  
-C. Meer zuur  
-D. Meer koolzuur
-
-### Vraag 2
-
-Vruchtdag helpt vaak:
-
-A. Balans verbeteren ✅  
-B. Bitterheid verhogen  
-C. Schuim verlagen  
-D. Alcohol verhogen
-
-### Vraag 3
-
-Worteldag kan geven:
-
-A. Hardere bitterheid ✅  
-B. Meer fruit  
-C. Meer mousse  
-D. Meer zuur
-
-### Vraag 4
-
-Wat wordt sneller zichtbaar?
-
-A. Zoetheid ✅  
-B. Leeftijd  
-C. Herkomst  
-D. Vatrijping
-
-### Vraag 5
-
-Timing bij 0.0 is:
-
-A. Belangrijker dan gedacht ✅  
-B. Onbelangrijk  
-C. Alleen voor wijn  
-D. Random
-
----
-
-## Quiz-feedback
-
-Goed. Je begrijpt nu waarom alcoholvrije dranken extra gevoelig zijn.
-
----
-
-## Kernbegrippen (DB field)
-
-- alcohol-free
-- bitterness
-- sweetness
-- balance
-- structure
-
----
-
-
-
-
-
 
 
 # LES 28 — Cocktails en dagtypes
-## Metadata
-
-**Slug:** cocktails-en-dagtypes  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -3760,87 +1516,9 @@ Vergelijk:
 
 Welke cocktailstijl lijkt jou het meest gevoelig voor timing?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wat reageert vooral?
-
-A. Ingrediënten ✅  
-B. Glaswerk  
-C. IJs  
-D. Leeftijd
-
-### Vraag 2
-
-Vruchtdag versterkt vaak:
-
-A. Fruit ✅  
-B. Bitter  
-C. Zout  
-D. Water
-
-### Vraag 3
-
-Bloemdagen versterken vaak:
-
-A. Botanicals ✅  
-B. Tannine  
-C. Schuim  
-D. Hout
-
-### Vraag 4
-
-Worteldagen maken vaak sterker:
-
-A. Bitters ✅  
-B. Fruit  
-C. Suiker  
-D. Koolzuur
-
-### Vraag 5
-
-Gin-cocktails werken vaak goed op:
-
-A. Bloemdagen ✅  
-B. Worteldagen  
-C. Bladdagen  
-D. Nacht
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu hoe cocktails biodynamisch beïnvloed kunnen worden.
-
----
-
-## Kernbegrippen (DB field)
-
-- cocktail
-- botanicals
-- bitters
-- citrus
-- balance
-
----
-
-
-
-
-
 
 
 # LES 29 — Barrel-aged dranken
-## Metadata
-
-**Slug:** barrel-aged-dranken  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -3886,87 +1564,9 @@ Open een vatgerijpte drank en analyseer:
 
 Wat zegt houtinvloed jou over rijping en timing?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Vatrijping geeft:
-
-A. Complexiteit ✅  
-B. Koolzuur  
-C. Minder alcohol  
-D. Schuim
-
-### Vraag 2
-
-Vruchtdagen geven vaak:
-
-A. Openheid ✅  
-B. Bitter  
-C. Vegetaal  
-D. Droogte
-
-### Vraag 3
-
-Worteldagen tonen vaak:
-
-A. Structuur ✅  
-B. Fruit  
-C. Zoet  
-D. Mousse
-
-### Vraag 4
-
-Bloemdagen tonen vaak:
-
-A. Subtiele aroma’s ✅  
-B. Meer alcohol  
-C. Minder geur  
-D. Meer bitter
-
-### Vraag 5
-
-Welke drank past hierbij?
-
-A. Whisky ✅  
-B. Pils  
-C. Cider  
-D. Soda
-
----
-
-## Quiz-feedback
-
-Perfect. Je begrijpt nu hoe barrel-aged dranken reageren.
-
----
-
-## Kernbegrippen (DB field)
-
-- barrel-aged
-- wood
-- oxidation
-- complexity
-- maturity
-
----
-
-
-
-
-
 
 
 # LES 30 — Alcoholvrij en proefmomenten
-## Metadata
-
-**Slug:** alcoholvrij-en-proefmomenten  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -4015,112 +1615,9 @@ Herhaal dit op een ander dagtype.
 
 Welke rol speelt timing bij alcoholvrije dranken in vergelijking met reguliere dranken?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Waarom is alcoholvrij gevoeliger?
-
-A. Minder structuur ✅  
-B. Meer suiker  
-C. Meer zuur  
-D. Meer koolzuur
-
-### Vraag 2
-
-Vruchtdag helpt vaak:
-
-A. Fruit openen ✅  
-B. Bitterheid verhogen  
-C. Alcohol verhogen  
-D. Zout verhogen
-
-### Vraag 3
-
-Bloemdagen helpen bij:
-
-A. Aroma ✅  
-B. Tannine  
-C. Koolzuur  
-D. Rijping
-
-### Vraag 4
-
-Welke categorie profiteert?
-
-A. Alcoholvrije wijn ✅  
-B. Water  
-C. Koffie  
-D. Thee
-
-### Vraag 5
-
-Timing is bij alcoholvrij:
-
-A. Belangrijk ✅  
-B. Onbelangrijk  
-C. Alleen voor experts  
-D. Random
-
----
-
-## Quiz-feedback
-
-Perfect. Je beheerst nu de cross-category toepassing van biodynamische timing.
-
----
-
-## Kernbegrippen (DB field)
-
-- alcohol-free
-- sensitivity
-- fruit day
-- flower day
-- timing
-
-# BIO_MODULE_07.md
-
-# Way of Tasting Academy
-## Biodynamic Track
-### Module 7 — Voorraad & drinkstrategie
-
-**Level:** Master  
-**Framework pillar:** Cellar strategy / Opening intelligence  
-**Module goal:** In deze module leer je hoe je jouw voorraad strategisch beheert en optimaal plant op basis van biodynamische ritmes, drinkvensters en flesontwikkeling.
-
----
-
-## Module kernbegrippen (DB field)
-
-- cellar strategy
-- opening window
-- maturity
-- peak drinking
-- fruit day
-- root day
-- opening logic
-- aging curve
-- planning
-- reserve strategy
-
----
-
-
-
-
-
 
 
 # LES 31 — De juiste fles op het juiste moment
-## Metadata
-
-**Slug:** juiste-fles-juiste-moment  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -4172,87 +1669,9 @@ Bepaal voor elke fles:
 
 Welke fles uit jouw voorraad vraagt de meeste precisie?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Welke factor is belangrijk?
-
-A. Leeftijd ✅  
-B. Alleen prijs  
-C. Alleen label  
-D. Alleen kleur
-
-### Vraag 2
-
-Welke wijnen vragen meer precisie?
-
-A. Oude wijnen ✅  
-B. Jonge wijnen  
-C. Rosé  
-D. 0.0 bier
-
-### Vraag 3
-
-Wat verhoogt kwaliteit?
-
-A. Timing ✅  
-B. Koelkast  
-C. Etiket  
-D. Glasdikte
-
-### Vraag 4
-
-Topflessen verdienen:
-
-A. Optimale omstandigheden ✅  
-B. Willekeur  
-C. Snelle opening  
-D. Alleen kou
-
-### Vraag 5
-
-Wat helpt kiezen?
-
-A. Dagtype ✅  
-B. Muziek  
-C. Tijdstip alleen  
-D. Kleur van het etiket
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu hoe fleskeuze strategisch werkt.
-
----
-
-## Kernbegrippen (DB field)
-
-- bottle selection
-- timing
-- maturity
-- strategy
-- precision
-
----
-
-
-
-
-
 
 
 # LES 32 — Wanneer openen en wanneer wachten?
-## Metadata
-
-**Slug:** openen-of-wachten  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -4302,87 +1721,9 @@ Gebruik kalender en weerdata.
 
 Ben jij iemand die makkelijk wacht op kwaliteit, of kies je sneller voor spontaniteit?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Waarom wachten?
-
-A. Betere omstandigheden ✅  
-B. Minder alcohol  
-C. Meer suiker  
-D. Sneller rijpen
-
-### Vraag 2
-
-Wat kan slecht zijn?
-
-A. Weersomslag ✅  
-B. Zon  
-C. Ochtend  
-D. Glaswerk
-
-### Vraag 3
-
-Geduld is onderdeel van:
-
-A. Strategie ✅  
-B. Marketing  
-C. Productie  
-D. Etiket
-
-### Vraag 4
-
-Wat kan wachten geven?
-
-A. Meer balans ✅  
-B. Meer alcohol  
-C. Minder smaak  
-D. Meer zuur
-
-### Vraag 5
-
-Timing kan soms belangrijker zijn dan:
-
-A. Direct openen ✅  
-B. Prijs  
-C. Leeftijd  
-D. Druif
-
----
-
-## Quiz-feedback
-
-Goed. Je begrijpt nu wanneer wachten slimmer is.
-
----
-
-## Kernbegrippen (DB field)
-
-- patience
-- waiting
-- stability
-- better timing
-- strategy
-
----
-
-
-
-
-
 
 
 # LES 33 — Drinkvensters en dagtypes
-## Metadata
-
-**Slug:** drinkvensters-en-dagtypes  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -4428,87 +1769,9 @@ Bekijk vijf flessen uit je voorraad en noteer:
 
 Welke fles uit jouw collectie zit nu op zijn piek?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wat is een drinkvenster?
-
-A. Optimale drinkfase ✅  
-B. Openingstijd  
-C. Glaskeuze  
-D. Koelkasttijd
-
-### Vraag 2
-
-Wat voeg je toe met biodynamiek?
-
-A. Timing ✅  
-B. Alcohol  
-C. Suiker  
-D. Leeftijd
-
-### Vraag 3
-
-Peak drinking betekent:
-
-A. Optimale combinatie ✅  
-B. Jong drinken  
-C. Te laat drinken  
-D. Sneller drinken
-
-### Vraag 4
-
-Welke dag past vaak bij top-Barolo?
-
-A. Vruchtdag ✅  
-B. Bladdag  
-C. Willekeurig  
-D. Worteldag
-
-### Vraag 5
-
-Champagne past vaak goed op:
-
-A. Bloemdag ✅  
-B. Worteldag  
-C. Bladdag  
-D. Nacht
-
----
-
-## Quiz-feedback
-
-Perfect. Je begrijpt nu hoe drinkvensters en dagtypes samenwerken.
-
----
-
-## Kernbegrippen (DB field)
-
-- drinking window
-- peak drinking
-- maturity
-- planning
-- timing
-
----
-
-
-
-
-
 
 
 # LES 34 — Voorraadstrategie voor topflessen
-## Metadata
-
-**Slug:** voorraadstrategie-topflessen  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -4561,87 +1824,9 @@ Kies jouw drie meest waardevolle flessen en plan:
 
 Wat maakt voor jou een fles écht het wachten waard?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Slim voorraadbeheer is:
-
-A. Proactief ✅  
-B. Reactief  
-C. Willekeurig  
-D. Chaotisch
-
-### Vraag 2
-
-Wat helpt plannen?
-
-A. Kalender ✅  
-B. Etiket  
-C. Kleur  
-D. Kurk
-
-### Vraag 3
-
-Wat kun je vermijden?
-
-A. Verkeerde opening ✅  
-B. Goede pairing  
-C. Goed glas  
-D. Goed weer
-
-### Vraag 4
-
-Wat verhoogt dit?
-
-A. Controle ✅  
-B. Alcohol  
-C. Leeftijd  
-D. Koolzuur
-
-### Vraag 5
-
-Ready now betekent:
-
-A. Klaar om te openen ✅  
-B. Nog te jong  
-C. Over zijn piek  
-D. Onbekend
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu hoe voorraadbeheer strategisch wordt.
-
----
-
-## Kernbegrippen (DB field)
-
-- cellar management
-- planning
-- ready now
-- rotation
-- calendar logic
-
----
-
-
-
-
-
 
 
 # LES 35 — Reserves en lange termijn denken
-## Metadata
-
-**Slug:** reserves-lange-termijn  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -4685,112 +1870,9 @@ Selecteer drie reserveflessen en noteer:
 
 Welke fles in jouw collectie zie jij als jouw ultieme toekomstige topmoment?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Strategic planning combineert:
-
-A. Alles ✅  
-B. Alleen weer  
-C. Alleen dagtype  
-D. Alleen leeftijd
-
-### Vraag 2
-
-Weerdata gaan meestal vooruit:
-
-A. 14 dagen ✅  
-B. 30 dagen  
-C. 90 dagen  
-D. 365 dagen
-
-### Vraag 3
-
-Daarna gebruik je:
-
-A. Kalenderlogica ✅  
-B. Alleen temperatuur  
-C. Alleen prijs  
-D. Alleen kleur
-
-### Vraag 4
-
-Wat verhoogt planning?
-
-A. Beleving ✅  
-B. Alcohol  
-C. Leeftijd  
-D. Schuim
-
-### Vraag 5
-
-Dit is de hoogste vorm van:
-
-A. Drinkintelligentie ✅  
-B. Marketing  
-C. Productie  
-D. Opslag
-
----
-
-## Quiz-feedback
-
-Perfect. Je beheerst nu de strategische kern van biodynamisch drinken.
-
----
-
-## Kernbegrippen (DB field)
-
-- strategic planning
-- weather forecast
-- calendar logic
-- inventory
-- drinking intelligence
-
-# BIO_MODULE_08.md
-
-# Way of Tasting Academy
-## Biodynamic Track
-### Module 8 — Persoonlijke tasting intelligence
-
-**Level:** Master  
-**Framework pillar:** Personal intelligence / Pattern recognition  
-**Module goal:** In deze module leer je hoe je jouw eigen proefdata verzamelt, analyseert en omzet in persoonlijke drinkintelligentie.
-
----
-
-## Module kernbegrippen (DB field)
-
-- tasting journal
-- pattern recognition
-- personal profile
-- sensory memory
-- preference mapping
-- biodynamic correlation
-- tasting data
-- decision making
-- emotional context
-- intelligence layer
-
----
-
-
-
-
-
 
 
 # LES 36 — Vertical tasting en biodynamiek
-## Metadata
-
-**Slug:** vertical-tasting-biodynamiek  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -4837,87 +1919,9 @@ Kies twee of drie jaargangen van dezelfde wijn en noteer:
 
 Welke rol speelt rijping in jouw beoordeling vergeleken met timing?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Waarom noteren?
-
-A. Patronen herkennen ✅  
-B. Alleen bewaren  
-C. Alleen delen  
-D. Alleen scoren
-
-### Vraag 2
-
-Wat noteer je?
-
-A. Dagtype ✅  
-B. Alleen kleur  
-C. Alleen prijs  
-D. Alleen glas
-
-### Vraag 3
-
-Wat bouwt data?
-
-A. Inzicht ✅  
-B. Alcohol  
-C. Leeftijd  
-D. Zuur
-
-### Vraag 4
-
-Wat helpt een journal?
-
-A. Vergelijken ✅  
-B. Vergeten  
-C. Sneller drinken  
-D. Minder proeven
-
-### Vraag 5
-
-Wat groeit?
-
-A. Geheugen ✅  
-B. Alcoholpercentage  
-C. Druivenras  
-D. Voorraad
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu waarom een tasting journal de basis is van tasting intelligence.
-
----
-
-## Kernbegrippen (DB field)
-
-- tasting journal
-- notes
-- data
-- memory
-- tracking
-
----
-
-
-
-
-
 
 
 # LES 37 — Blindproeven en timing
-## Metadata
-
-**Slug:** blindproeven-timing  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -4967,87 +1971,9 @@ Vergelijk:
 
 Hoe objectief kun je proeven als timing invloed heeft op expressie?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wanneer ontstaan patronen?
-
-A. Na herhaling ✅  
-B. Na één fles  
-C. Nooit  
-D. Alleen bij topwijn
-
-### Vraag 2
-
-Zijn patronen universeel?
-
-A. Nee ✅  
-B. Ja  
-C. Altijd  
-D. Alleen bij experts
-
-### Vraag 3
-
-Wat geven patronen?
-
-A. Voorspelbaarheid ✅  
-B. Meer alcohol  
-C. Meer suiker  
-D. Minder geur
-
-### Vraag 4
-
-Wat helpt analyseren?
-
-A. Vergelijken ✅  
-B. Willekeur  
-C. Snelheid  
-D. Prijs
-
-### Vraag 5
-
-Patronen zijn:
-
-A. Persoonlijk ✅  
-B. Vast  
-C. Altijd hetzelfde  
-D. Wetenschappelijk bewezen
-
----
-
-## Quiz-feedback
-
-Goed. Je begrijpt nu hoe patroonherkenning werkt.
-
----
-
-## Kernbegrippen (DB field)
-
-- patterns
-- repetition
-- comparison
-- recognition
-- personal logic
-
----
-
-
-
-
-
 
 
 # LES 38 — Grote flessen en biodynamiek
-## Metadata
-
-**Slug:** grote-flessen-biodynamiek  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -5095,87 +2021,9 @@ Kies een Magnum of grotere fles en bepaal:
 
 Zou jij bij een Magnum meer voorbereiding doen dan bij een standaardfles?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Is smaak persoonlijk?
-
-A. Ja ✅  
-B. Nee  
-C. Altijd gelijk  
-D. Alleen bij experts
-
-### Vraag 2
-
-Wat bouw je?
-
-A. Profiel ✅  
-B. Voorraad  
-C. Alcohol  
-D. Leeftijd
-
-### Vraag 3
-
-Wat helpt hierbij?
-
-A. Data ✅  
-B. Willekeur  
-C. Snel drinken  
-D. Alleen ervaring
-
-### Vraag 4
-
-Wat kan onderdeel zijn?
-
-A. Ideaal dagtype ✅  
-B. Alleen prijs  
-C. Alleen glas  
-D. Alleen kleur
-
-### Vraag 5
-
-Wat wordt hierdoor sterker?
-
-A. Besluitvorming ✅  
-B. Alcohol  
-C. Zuur  
-D. Bitter
-
----
-
-## Quiz-feedback
-
-Sterk. Je begrijpt nu hoe jouw smaakprofiel ontstaat.
-
----
-
-## Kernbegrippen (DB field)
-
-- taste profile
-- preferences
-- conditions
-- identity
-- style
-
----
-
-
-
-
-
 
 
 # LES 39 — Pairing en dagtypes
-## Metadata
-
-**Slug:** pairing-dagtypes  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -5226,87 +2074,9 @@ Analyseer:
 
 Hoeveel invloed denk jij dat timing heeft op pairing?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wat versterkt data?
-
-A. Intuïtie ✅  
-B. Alcohol  
-C. Leeftijd  
-D. Zoetheid
-
-### Vraag 2
-
-Wat maakt data?
-
-A. Meetbaar ✅  
-B. Onzichtbaar  
-C. Willekeurig  
-D. Emotioneel
-
-### Vraag 3
-
-Wat bouwt dit?
-
-A. Slimmere keuzes ✅  
-B. Meer voorraad  
-C. Meer suiker  
-D. Meer alcohol
-
-### Vraag 4
-
-Wat kun je analyseren?
-
-A. Scores ✅  
-B. Alleen etiketten  
-C. Alleen glazen  
-D. Alleen prijzen
-
-### Vraag 5
-
-Data helpt:
-
-A. Beslissen ✅  
-B. Fermenteren  
-C. Carboneren  
-D. Filteren
-
----
-
-## Quiz-feedback
-
-Goed. Je begrijpt nu hoe data jouw drinkkeuzes slimmer maakt.
-
----
-
-## Kernbegrippen (DB field)
-
-- data
-- scoring
-- preferences
-- patterns
-- analytics
-
----
-
-
-
-
-
 
 
 # LES 40 — Je eigen biodynamische systeem bouwen
-## Metadata
-
-**Slug:** eigen-biodynamisch-systeem  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -5359,112 +2129,9 @@ Maak jouw eigen biodynamische profiel:
 
 Welke patronen heb jij tot nu toe al bij jezelf ontdekt?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Drinkintelligentie is:
-
-A. Alles samen ✅  
-B. Alleen kennis  
-C. Alleen data  
-D. Alleen smaak
-
-### Vraag 2
-
-Wat maakt timing sterker?
-
-A. Observatie ✅  
-B. Snelheid  
-C. Leeftijd  
-D. Prijs
-
-### Vraag 3
-
-Wat bouw jij?
-
-A. Eigen systeem ✅  
-B. Nieuwe wijn  
-C. Nieuwe kalender  
-D. Nieuwe druif
-
-### Vraag 4
-
-Wat helpt samen?
-
-A. Gevoel en data ✅  
-B. Alleen gevoel  
-C. Alleen weer  
-D. Alleen kalender
-
-### Vraag 5
-
-Wat is de kern?
-
-A. Waarom nu? ✅  
-B. Hoe duur?  
-C. Hoe oud?  
-D. Hoeveel alcohol?
-
----
-
-## Quiz-feedback
-
-Perfect. Je beheerst nu jouw persoonlijke tasting intelligence en bent klaar voor het eindassessment.
-
----
-
-## Kernbegrippen (DB field)
-
-- drink intelligence
-- personal system
-- observation
-- timing
-- data
-
-# BIO_MODULE_09.md
-
-# Way of Tasting Academy
-## Biodynamic Track
-### Module 9 — Praktijkexamen
-
-**Level:** Master  
-**Framework pillar:** Assessment / Integration  
-**Module goal:** In deze module toets de student alle opgedane kennis via theorie, praktijk, vergelijking en persoonlijke analyse.
-
----
-
-## Module kernbegrippen (DB field)
-
-- final assessment
-- theory exam
-- practical tasting
-- comparative tasting
-- root day
-- fruit day
-- observation
-- analysis
-- timing intelligence
-- personal conclusion
-
----
-
-
-
-
-
 
 
 # LES 41 — Het perfecte drinkmoment herkennen
-## Metadata
-
-**Slug:** perfect-drinkmoment-herkennen  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
@@ -5481,7 +2148,6 @@ Daar ligt de essentie van biodynamisch drinken: maximale kwaliteit uit één mom
 
 ---
 
-
 ## Wist-je-dat
 
 De beste sommeliers leren niet alleen wát goed is, maar vooral wannéér iets op zijn best is.
@@ -5495,7 +2161,6 @@ De beste sommeliers leren niet alleen wát goed is, maar vooral wannéér iets o
 - Timing kan expressie versterken of afzwakken
 
 ---
-
 
 ## Praktijkopdracht
 
@@ -5515,94 +2180,15 @@ Kies één fles uit je voorraad en bepaal:
 
 Welke factor onderschat jij momenteel het meest?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wat kenmerkt een perfect drinkmoment?
-
-A. Meerdere factoren vallen samen ✅  
-B. Alleen een hoge prijs  
-C. Willekeurige timing  
-D. Alleen het juiste glas
-
-### Vraag 2
-
-Welke factor hoort niet bij een topmoment?
-
-A. Alleen etiketkleur ✅  
-B. Drinkvenster  
-C. Dagtype  
-D. Weersstabiliteit
-
-### Vraag 3
-
-Waarom is context belangrijk?
-
-A. Expressie hangt ook van moment af ✅  
-B. Wijn verandert nooit  
-C. Alleen pairing telt  
-D. Kalender is optioneel
-
-### Vraag 4
-
-Wat doen ervaren sommeliers vooral goed?
-
-A. Herkennen wannér iets op zijn best is ✅  
-B. Alleen veel flessen kopen  
-C. Altijd direct openen  
-D. Dagtypes negeren
-
-### Vraag 5
-
-Wat is het doel van deze les?
-
-A. Topmomenten herkennen en plannen ✅  
-B. Alleen theorie-examen halen  
-C. Blindproeven vermijden  
-D. Voorraad minimaliseren
-
----
-
-## Quiz-feedback
-
-Uitstekend. Je beheerst nu de volledige theoriebasis en bent klaar voor het praktijkdeel.
-
----
-
-## Kernbegrippen (DB field)
-
-- theory exam
-- knowledge
-- biodynamics
-- timing
-- structure
-
----
-
-
-
-
-
 
 
 # LES 42 — Timing versus kwaliteit
-## Metadata
-
-**Slug:** timing-versus-kwaliteit  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
 Na deze les begrijp jij dat timing kwaliteit ontsluit — niet vervangt.
 
 ---
-
 
 ## Theorie
 
@@ -5613,13 +2199,11 @@ Voor serieuze wijnliefhebbers is dit een fundamenteel inzicht: potentieel en mom
 
 ---
 
-
 ## Wist-je-dat
 
 Professionals weten dat timing soms het verschil maakt tussen “goed” en “onvergetelijk”.
 
 ---
-
 
 ## Samenvatting
 
@@ -5648,88 +2232,15 @@ Analyseer:
 
 Wat betekent kwaliteit voor jou zonder de juiste timing?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Wat doet timing met kwaliteit?
-
-A. Ontsluit potentieel ✅  
-B. Vervangt kwaliteit  
-C. Maakt wijn zoeter  
-D. Verlaagt altijd tannine
-
-### Vraag 2
-
-Wat kan op een minder gunstig moment gebeuren?
-
-A. Topwijn presteert onder verwachting ✅  
-B. Wijn wordt permanent slecht  
-C. Alcohol verdwijnt  
-D. Kurk breekt altijd
-
-### Vraag 3
-
-Wat is de juiste houding?
-
-A. Kwaliteit en moment zijn verbonden ✅  
-B. Alleen prijs telt  
-C. Timing is onbelangrijk  
-D. Alleen blindproeven telt
-
-### Vraag 4
-
-Wat analyseer je in de praktijkopdracht?
-
-A. Balans, plezier en expressie ✅  
-B. Alleen alcoholpercentage  
-C. Alleen flesvorm  
-D. Alleen jaartal
-
-### Vraag 5
-
-Wat is memorabiliteit?
-
-A. Hoe onvergetelijk een ervaring voelt ✅  
-B. Het etiketontwerp  
-C. De kurklengte  
-D. De glasvorm
-
----
-
-## Kernbegrippen (DB field)
-
-- root day
-- structure
-- tannin
-- acidity
-- minerality
-
----
-
-
-
-
-
 
 
 # LES 43 — Jouw persoonlijke voorkeurspatronen
-## Metadata
-
-**Slug:** persoonlijke-voorkeurspatronen  
-**Duration:** 8 min  
-**Quiz questions:** 5
-
----
 
 ## Leerdoel
 
 Na deze les herken jij je persoonlijke voorkeurspatronen per dagtype en wijnstijl.
 
 ---
-
 
 ## Theorie
 
@@ -5740,13 +2251,11 @@ Dit is waar theorie verandert in individuele stijl.
 
 ---
 
-
 ## Wist-je-dat
 
 De beste proevers kennen niet alleen wijn, maar ook hun eigen voorkeurspatronen.
 
 ---
-
 
 ## Samenvatting
 
@@ -5770,81 +2279,9 @@ Maak een overzicht van:
 
 Wat zegt jouw voorkeur over hoe jij kwaliteit beleeft?
 
----
-
-## Quiz
-
-### Vraag 1
-
-Waarom verschillen voorkeuren per proever?
-
-A. Smaak en dagtype-respons zijn persoonlijk ✅  
-B. Iedereen proeft identiek  
-C. Alleen prijs verschilt  
-D. Kalender is voor iedereen gelijk
-
-### Vraag 2
-
-Wat helpt bij persoonlijke stijl?
-
-A. Eigen patronen herkennen ✅  
-B. Alleen scores van anderen volgen  
-C. Nooit vergelijken  
-D. Dagtypes vermijden
-
-### Vraag 3
-
-Wat noteer je in de praktijkopdracht?
-
-A. Favoriete en minst favoriete dagtype ✅  
-B. Alleen kurkleverancier  
-C. Alleen serveertemperatuur  
-D. Alleen winkelprijs
-
-### Vraag 4
-
-Wat betekent individuele stijl hier?
-
-A. Theorie toegepast op jouw smaak ✅  
-B. Blind kopiëren van experts  
-C. Geen observatie  
-D. Alleen wiskunde
-
-### Vraag 5
-
-Wat is het einddoel?
-
-A. Bewuster kiezen op basis van eigen patronen ✅  
-B. Minder proeven  
-C. Geen voorraad bijhouden  
-D. Kalender negeren
-
----
-
-## Kernbegrippen (DB field)
-
-- fruit day
-- harmony
-- expression
-- balance
-- openness
-
----
-
-
-
-
-
 
 
 # LES 44 — Open examen
-## Metadata
-
-**Slug:** open-examen-biodynamisch  
-**Duration:** 20 min  
-**Quiz questions:** 20
-
----
 
 ## Leerdoel
 
@@ -5868,13 +2305,11 @@ Dit is het moment waarop kennis verandert in intuïtie.
 
 ---
 
-
 ## Wist-je-dat
 
 Echte expertise begint wanneer je zonder hulpmiddelen dezelfde patronen blijft herkennen.
 
 ---
-
 
 ## Samenvatting
 
@@ -5899,255 +2334,9 @@ Kies één serieuze fles en maak een volledige analyse:
 
 Welke inzichten uit deze track gebruik je inmiddels automatisch?
 
----
-
-
-## Quiz
-
-### Vraag 1
-
-Wie ontwikkelde de biodynamische kalender?
-
-A. Maria Thun ✅  
-B. Rudolf Steiner  
-C. Louis Pasteur  
-D. Dom Pérignon
-
----
-
-### Vraag 2
-
-Welke dag hoort bij vuur?
-
-A. Vruchtdag ✅  
-B. Bladdag  
-C. Bloemdag  
-D. Worteldag
-
----
-
-### Vraag 3
-
-Welke dag hoort bij aarde?
-
-A. Worteldag ✅  
-B. Vruchtdag  
-C. Bloemdag  
-D. Bladdag
-
----
-
-### Vraag 4
-
-Welke dag versterkt aroma?
-
-A. Bloemdag ✅  
-B. Worteldag  
-C. Bladdag  
-D. Vruchtdag
-
----
-
-### Vraag 5
-
-Welke dag versterkt vegetale tonen?
-
-A. Bladdag ✅  
-B. Bloemdag  
-C. Worteldag  
-D. Vruchtdag
-
----
-
-### Vraag 6
-
-Wat doet hoge luchtdruk vaak?
-
-A. Meer focus geven ✅  
-B. Minder balans  
-C. Meer alcohol  
-D. Meer suiker
-
----
-
-### Vraag 7
-
-Wat doet lage luchtdruk soms?
-
-A. Geslotenheid geven ✅  
-B. Meer fruit geven  
-C. Meer mousse geven  
-D. Meer suiker geven
-
----
-
-### Vraag 8
-
-Wat beïnvloedt luchtvochtigheid?
-
-A. Aroma en mondgevoel ✅  
-B. Leeftijd  
-C. Alcoholpercentage  
-D. Druivenras
-
----
-
-### Vraag 9
-
-Welke dag is vaak ideaal voor Champagne?
-
-A. Bloemdag ✅  
-B. Bladdag  
-C. Worteldag  
-D. Willekeurig
-
----
-
-### Vraag 10
-
-Welke dag is vaak ideaal voor Vintage Port?
-
-A. Vruchtdag ✅  
-B. Bladdag  
-C. Worteldag  
-D. Bloemdag
-
----
-
-### Vraag 11
-
-Wat betekent Dynamic Advice?
-
-A. Drinkadvies voor nu ✅  
-B. Drinkadvies over 6 maanden  
-C. Alleen voorraadbeheer  
-D. Alleen weer
-
----
-
-### Vraag 12
-
-Wat betekent Strategic Advice?
-
-A. Lange termijn planning ✅  
-B. Alleen vandaag  
-C. Alleen pairing  
-D. Alleen weer
-
----
-
-### Vraag 13
-
-Hoe ver gaat weerdata meestal?
-
-A. 14 dagen ✅  
-B. 30 dagen  
-C. 90 dagen  
-D. 365 dagen
-
----
-
-### Vraag 14
-
-Wat gebruik je daarna?
-
-A. Biodynamische kalender ✅  
-B. Alleen temperatuur  
-C. Alleen voorraad  
-D. Alleen prijs
-
----
-
-### Vraag 15
-
-Wat bouw je met tasting notes?
-
-A. Patronen ✅  
-B. Alcohol  
-C. Leeftijd  
-D. Kleur
-
----
-
-### Vraag 16
-
-Wat helpt patronen herkennen?
-
-A. Herhaling ✅  
-B. Willekeur  
-C. Snelheid  
-D. Leeftijd
-
----
-
-### Vraag 17
-
-Wat bouw je met data?
-
-A. Persoonlijk smaakprofiel ✅  
-B. Nieuwe wijn  
-C. Nieuwe kalender  
-D. Nieuwe druif
-
----
-
-### Vraag 18
-
-Wat is peak drinking?
-
-A. Optimale combinatie van rijpheid en timing ✅  
-B. Jong drinken  
-C. Te laat drinken  
-D. Blind proeven
-
----
-
-### Vraag 19
-
-Wat is de kern van drinkintelligentie?
-
-A. Waarom nu? ✅  
-B. Hoe duur?  
-C. Hoe oud?  
-D. Hoeveel alcohol?
-
----
-
-### Vraag 20
-
-Wat is het hoogste doel van biodynamisch proeven?
-
-A. Optimale timing en expressie ✅  
-B. Meer alcohol  
-C. Meer suiker  
-D. Sneller drinken
-
----
-
-## Kernbegrippen (DB field)
-
-- comparison
-- analysis
-- pattern
-- tasting memory
-- difference
-
----
-
-
-
-
-
 
 
 # LES 45 — Biodynamisch meesterschap
-## Metadata
-
-**Slug:** biodynamisch-meesterschap  
-**Duration:** 15 min  
-**Quiz questions:** 0
-
----
 
 ## Leerdoel
 
@@ -6165,13 +2354,11 @@ Daarmee is biodynamiek geen theorie meer, maar een onderdeel van jouw manier van
 
 ---
 
-
 ## Wist-je-dat
 
 De grootste verzamelaars en sommeliers onderscheiden zich niet alleen door kennis, maar door timingdiscipline.
 
 ---
-
 
 ## Samenvatting
 
@@ -6181,7 +2368,6 @@ De grootste verzamelaars en sommeliers onderscheiden zich niet alleen door kenni
 - In de app: Je persoonlijke strategie gebruik je dagelijks via Advies, voorraad en Academy-voortgang.
 
 ---
-
 
 ## Praktijkopdracht
 
@@ -6200,46 +2386,3 @@ Maak jouw biodynamische masterprofiel:
 ### Reflectievraag
 
 Hoe heeft biodynamisch denken jouw manier van drinken veranderd?
-
----
-
-## Eindopdracht
-
-Schrijf jouw:
-
-**Personal Biodynamic Drinking Manifest**
-
-Minimaal:
-
-- 10 observaties
-- 5 conclusies
-- 3 concrete openingsstrategieën
-
----
-
-## Beoordeling
-
-Master-level vereist:
-
-- diepe zelfanalyse
-- praktische toepasbaarheid
-- strategisch inzicht
-- persoonlijke consistentie
-
----
-
-## Certificering
-
-Bij succesvolle afronding:
-
-**Way of Tasting Academy — Certified Biodynamic Taster**
-
----
-
-## Kernbegrippen (DB field)
-
-- mastery
-- personal intelligence
-- strategy
-- biodynamic profile
-- final certification

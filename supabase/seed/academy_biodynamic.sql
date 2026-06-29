@@ -45,33 +45,12 @@ cross join (values
   (
     'wat-is-biodynamisch-proeven',
     'Wat is biodynamisch proeven?',
-    'Na deze les kun jij uitleggen wat biodynamisch proeven is en waarom timing volgens biodynamische principes invloed kan hebben op smaakbeleving.
+    'Na deze les kun jij uitleggen wat biodynamisch proeven is, waarom timing relevant kan zijn en hoe je observatie centraal zet — zonder het als geloof te framen.
 ',
-    'Biodynamisch proeven is het idee dat de smaakbeleving van wijn en andere dranken niet altijd hetzelfde is.
-
-Volgens deze visie verandert expressie onder invloed van:
-
-- maanstanden
-- planetaire ritmes
-- dagtypes
-- atmosferische omstandigheden
-
-Een wijn kan op de ene dag gesloten zijn.
-
-En op een andere dag volledig open.
-
-Dit principe wordt al jaren gebruikt door:
-
-- wijnmakers
-- sommeliers
-- proevers
-- verzamelaars
-
-Biodynamisch proeven draait niet om magie.
-
-Het draait om observatie.
-
-En patroonherkenning.
+    'Biodynamisch proeven is de observatie dat dezelfde wijn zich niet altijd identiek presenteert. Binnen de biodynamische filosofie wordt aangenomen dat natuurlijke ritmes — zoals maanstanden, planetaire cycli en kosmische bewegingen — invloed kunnen hebben op de vitaliteit en expressie van planten, en daarmee indirect op wijn.
+In de praktijk betekent dit dat een wijn op de ene dag aromatisch gesloten kan aanvoelen, terwijl dezelfde fles enkele dagen later opener, fruitiger en harmonieuzer overkomt.
+Voor sommeliers, wijnmakers en verzamelaars is dit relevant omdat timing daarmee een strategische factor wordt. Niet alleen wat je opent is belangrijk, maar ook wanneer.
+Vooral complexe wijnen zoals Bourgogne, Barolo en Vintage Port lijken volgens veel proevers sterk op deze ritmes te reageren. Biodynamisch proeven draait daarom niet om geloof, maar om systematische observatie, vergelijking en patroonherkenning.
 ',
     '- biodynamic
 - timing
@@ -79,33 +58,34 @@ En patroonherkenning.
 - rhythm
 - tasting
 ',
-    'Veel toonaangevende wijndomeinen plannen hun proefmomenten op Vruchtdagen.
+    'Bij oudere Bourgogne of Vintage Port kiezen ervaren sommeliers vaak bewust een Vruchtdag, omdat aromatische openheid en balans dan doorgaans duidelijker naar voren komen.
 ',
-    '- Smaakbeleving is niet altijd constant
-- Biodynamische ritmes kunnen invloed hebben
-- Timing kan proefkwaliteit verbeteren
-- Observatie is de kern
+    '- Smaakbeleving is niet constant; timing kan expressie veranderen
+- Biodynamisch proeven = observatie en patroonherkenning, geen geloof
+- Complexe wijnen (Bourgogne, Barolo, Vintage Port) lijken gevoelig voor ritme
+- In de app: tab Advies helpt beoordelen of vandaag een slim openingsmoment is
 ',
     '### Opdracht
 
-Open een fles wijn en noteer hoe hij smaakt.
+Kies een fles uit je huidige voorraad die binnen twee jaar op dronk is en noteer:
 
-### Checklist
-
-- Ik heb de datum genoteerd
-- Ik heb de smaak genoteerd
-- Ik weet welk dagtype het is
+- fruitintensiteit
+- aromatische openheid
+- zuurgraad
+- structuur
+- lengte
+Herhaal dit op een ander dagtype.
 
 ### Reflectievraag
 
-Denk je dat dezelfde wijn morgen anders smaakt?
+Welke sensorische verschillen verwacht je tussen vandaag en een Vruchtdag, en hoe zou dat jouw beoordeling veranderen?
 
 
 ---
 
 ### Reflectievraag
 
-Denk je dat dezelfde wijn morgen anders smaakt?
+Welke sensorische verschillen verwacht je tussen vandaag en een Vruchtdag, en hoe zou dat jouw beoordeling veranderen?
 ',
     8,
     1
@@ -113,26 +93,12 @@ Denk je dat dezelfde wijn morgen anders smaakt?
   (
     'maria-thun-oorsprong',
     'Maria Thun en de oorsprong',
-    'Na deze les begrijp jij wie Maria Thun was en waarom haar werk zo belangrijk is.
+    'Na deze les begrijp jij Maria Thuns bijdrage en waarom haar kalender vandaag nog wordt gebruikt om drinkmomenten strategisch te kiezen.
 ',
-    'Maria Thun was een Duitse onderzoekster.
-
-Zij onderzocht jarenlang de invloed van kosmische ritmes op landbouw.
-
-Haar bekendste werk:
-
-de biodynamische kalender.
-
-Zij koppelde maanstanden aan:
-
-- wortel
-- blad
-- bloem
-- vrucht
-
-Haar observaties worden wereldwijd gebruikt.
-
-Vooral in biodynamische wijnbouw.
+    'Maria Thun was een Duitse onderzoekster die tientallen jaren experimenteerde met biodynamische landbouw. Haar werk bouwde voort op de ideeën van Rudolf Steiner en richtte zich op de invloed van kosmische ritmes op plantontwikkeling.
+Door jarenlang observaties te vergelijken ontdekte zij patronen waarbij bepaalde dagen gunstiger leken voor specifieke plantdelen: wortel, blad, bloem en vrucht.
+Deze observaties vormden de basis van de biodynamische kalender, die vandaag wereldwijd wordt gebruikt door wijnmakers, sommeliers en verzamelaars.
+Voor wijnliefhebbers is haar werk relevant omdat het een praktisch hulpmiddel biedt om drinkmomenten bewuster en strategischer te kiezen.
 ',
     '- maria thun
 - calendar
@@ -140,32 +106,32 @@ Vooral in biodynamische wijnbouw.
 - biodynamics
 - agriculture
 ',
-    'De Maria Thun kalender verschijnt nog steeds jaarlijks.
+    'Veel biodynamische domeinen plannen blends en bottelingen op Vruchtdagen, omdat wijnen dan vaak het meest open en expressief geanalyseerd kunnen worden.
 ',
-    '- Maria Thun legde de basis
-- Haar kalender wordt wereldwijd gebruikt
-- Zij koppelde ritmes aan plantdelen
+    '- Maria Thun was een Duitse onderzoekster die tientallen jaren experimenteerde met biodynamische landbouw
+- Observatie en vergelijking zijn belangrijker dan vaste regels
+- Timing kan expressie versterken of afzwakken
+- In de app: In **Advies → vooruitblik** zie je komende Vrucht- en Worteldagen om flessen vooraf te koppelen.
 ',
     '### Opdracht
 
-Bekijk een biodynamische kalender.
+Bekijk de actuele biodynamische kalender en markeer:
 
-### Checklist
-
-- Ik heb de vier dagtypes gezien
-- Ik begrijp de structuur
-- Ik herken de symboliek
+Koppel drie flessen uit je voorraad aan deze momenten.
+- de huidige dag
+- de volgende Vruchtdag
+- de volgende Worteldag
 
 ### Reflectievraag
 
-Waarom zou landbouw hiermee werken?
+Welke fles uit jouw collectie zou het meest profiteren van een strategisch gekozen openingsmoment?
 
 
 ---
 
 ### Reflectievraag
 
-Waarom zou landbouw hiermee werken?
+Welke fles uit jouw collectie zou het meest profiteren van een strategisch gekozen openingsmoment?
 ',
     8,
     2
@@ -173,25 +139,13 @@ Waarom zou landbouw hiermee werken?
   (
     'vier-dagtypen',
     'De vier dagtypen',
-    'Na deze les kun jij de vier biodynamische dagtypen benoemen en herkennen.
+    'Na deze les kun jij de vier dagtypen benoemen, herkennen en hun effect op wijnstructuur en fruit inschatten.
 ',
-    'De biodynamische kalender kent vier hoofdtypen:
-
-**Worteldag**  
-Focus op structuur en aarde.
-
-**Bladdag**  
-Focus op frisheid en vegetale tonen.
-
-**Bloemdag**  
-Focus op aroma en finesse.
-
-**Vruchtdag**  
-Focus op fruitexpressie en openheid.
-
-Veel proevers ervaren op Vruchtdagen meer expressie.
-
-Worteldagen worden vaak als strakker ervaren.
+    'De biodynamische kalender werkt met vier dagtypen: Wortel, Blad, Bloem en Vrucht. Elk type correspondeert met een element en benadrukt andere eigenschappen in wijn.
+Worteldagen leggen doorgaans meer nadruk op structuur, spanning en mineraliteit. Bladdagen versterken vaak vegetale en frisse componenten.
+Bloemdagen brengen aroma, finesse en elegantie duidelijker naar voren. Vruchtdagen zorgen meestal voor maximale openheid, fruitexpressie en balans.
+Bij een wijn als Barolo kunnen tannines op een Worteldag harder aanvoelen, terwijl dezelfde wijn op een Vruchtdag zachter en toegankelijker overkomt.
+Dit maakt dagtypes een krachtig instrument voor vergelijking en beoordeling.
 ',
     '- root day
 - leaf day
@@ -199,32 +153,40 @@ Worteldagen worden vaak als strakker ervaren.
 - fruit day
 - energy
 ',
-    'Vruchtdagen zijn vaak favoriet voor belangrijke proefmomenten.
+    'Bij blindproeverijen kan het dagtype soms verklaren waarom dezelfde wijn op verschillende momenten anders scoort.
 ',
-    '- Er zijn vier dagtypen
-- Elk dagtype heeft een eigen energie
-- Ze beïnvloeden proefervaring anders
+    '- De biodynamische kalender werkt met vier dagtypen: Wortel, Blad, Bloem en Vrucht
+- Elk type correspondeert met een element en benadrukt andere eigenschappen in wijn
+- Worteldagen leggen doorgaans meer nadruk op structuur, spanning en mineraliteit
 ',
     '### Opdracht
 
-Zoek het huidige dagtype op.
+Proef dezelfde wijn op:
+
+Vergelijk:
+- een Worteldag
+- een Vruchtdag
+
+*Plan dit experiment over 2–4 weken zodat je elk dagtype onder vergelijkbare omstandigheden proeft.*
 
 ### Checklist
 
-- Ik weet welk type vandaag actief is
-- Ik begrijp wat dat betekent
-- Ik noteer mijn ervaring
+- fruit
+- tannine
+- lengte
+- balans
+- drinkbaarheid
 
 ### Reflectievraag
 
-Welk type lijkt jou het meest interessant?
+Welk dagtype geeft jou de meeste informatie over bewaarpotentieel?
 
 
 ---
 
 ### Reflectievraag
 
-Welk type lijkt jou het meest interessant?
+Welk dagtype geeft jou de meeste informatie over bewaarpotentieel?
 ',
     8,
     3
@@ -232,26 +194,17 @@ Welk type lijkt jou het meest interessant?
   (
     'elementen-biodynamiek',
     'Aarde, water, lucht en vuur',
-    'Na deze les begrijp jij hoe de vier elementen gekoppeld zijn aan de dagtypen.
+    'Na deze les begrijp jij hoe aarde, water, lucht en vuur de vier dagtypen verklaren en hoe je dat toepast per drankcategorie.
 ',
-    'Elk dagtype is gekoppeld aan een element:
-
-- Aarde = Wortel
-- Water = Blad
-- Lucht = Bloem
-- Vuur = Vrucht
-
-Deze elementen geven karakter aan de energie van de dag.
-
-Vuur wordt vaak gezien als expressief.
-
-Aarde als stabiel.
-
-Water als gevoelig.
-
-Lucht als verfijnd.
-
-Deze logica helpt bij interpretatie.
+    'De vier dagtypen zijn gekoppeld aan vier klassieke elementen:
+- Aarde → Wortel
+- Water → Blad
+- Lucht → Bloem
+- Vuur → Vrucht
+Deze elementen helpen om smaakbeleving verder te interpreteren.
+Aarde staat voor structuur, stabiliteit en mineraliteit. Water vergroot frisheid en vegetale tonen. Lucht versterkt aromatische finesse en elegantie. Vuur verhoogt expressie, energie en fruitintensiteit.
+Bij mousserende wijn is Bloem vaak interessant vanwege finesse en mousse, terwijl Vrucht juist meer openheid en spanning geeft.
+Deze koppeling helpt proevers strategischer te denken over timing.
 ',
     '- earth
 - water
@@ -259,32 +212,33 @@ Deze logica helpt bij interpretatie.
 - fire
 - elements
 ',
-    'Veel biodynamische wijnmakers werken actief met deze elementen.
+    'Veel Champagnehuizen kiezen Bloemdagen om blends op finesse en precisie te beoordelen.
 ',
-    '- Elk dagtype heeft een element
-- Elementen geven extra betekenis
-- Ze helpen interpretatie verdiepen
+    '- Aarde staat voor structuur, stabiliteit en mineraliteit
+- Vuur verhoogt expressie, energie en fruitintensiteit
+- Deze koppeling helpt proevers strategischer te denken over timing
+- In de app: Dagtype in Advies bepaalt mede welke stijlen worden aanbevolen bij warm of koel weer.
 ',
     '### Opdracht
 
-Koppel elk dagtype aan het juiste element.
+Kies vier dranken:
 
-### Checklist
-
-- Alle vier gekoppeld
-- Betekenis begrepen
-- Praktisch toepasbaar
+Bepaal welk element daar volgens jou het sterkst bij past en onderbouw waarom.
+- rode wijn
+- witte wijn
+- mousserend
+- bier
 
 ### Reflectievraag
 
-Welk element past bij jouw smaak?
+Welke drankcategorie lijkt volgens jou het meest gevoelig voor elementwisselingen?
 
 
 ---
 
 ### Reflectievraag
 
-Welk element past bij jouw smaak?
+Welke drankcategorie lijkt volgens jou het meest gevoelig voor elementwisselingen?
 ',
     8,
     4
@@ -292,66 +246,49 @@ Welk element past bij jouw smaak?
   (
     'waarom-gebruiken-professionals-dit',
     'Waarom gebruiken sommeliers en wijnmakers dit?',
-    'Na deze les begrijp jij waarom professionals biodynamische timing serieus nemen.
+    'Na deze les begrijp jij waarom sommeliers en wijnmakers biodynamische timing inzetten voor topflessen, blends en belangrijke diners.
 ',
-    'Sommeliers willen het beste moment kiezen.
-
-Voor:
-
-- openen
-- decanteren
-- proeven
-- serveren
-
-Wijnmakers gebruiken het voor:
-
-- bottelen
-- proeven
-- blends beoordelen
-
-Het doel is simpel:
-
-maximale expressie.
-
-Niet elke dag is ideaal.
-
-Timing kan kwaliteit verhogen.
-
-Voor verzamelaars betekent dit:
-
-betere drinkmomenten.
+    'Voor professionals draait biodynamische timing om precisie.
+Sommeliers gebruiken het om topflessen op hun beste moment te openen, pairings scherper af te stemmen en belangrijke diners strategisch te plannen.
+Wijnmakers gebruiken het om blends te beoordelen, bottelmomenten te kiezen en kwaliteitscontroles uit te voeren.
+Een jonge Bordeaux op een Vruchtdag laat doorgaans zijn volledige fruitpotentieel en balans zien, terwijl diezelfde wijn op een Worteldag strenger en hoekiger kan overkomen.
+Voor verzamelaars betekent dit dat timing direct invloed kan hebben op de kwaliteit van de ervaring, zeker bij zeldzame of oudere flessen.
 ',
     '- sommelier
 - winemaker
 - timing
 - expression
 - strategy',
-    'Sommige grote proefpanels plannen uitsluitend op Vruchtdagen.
+    'Bij topflessen kan de juiste dag soms meer impact hebben dan de perfecte serveertemperatuur.
 ',
-    '- Professionals gebruiken timing strategisch
-- Het doel is optimale expressie
-- Timing kan kwaliteit verhogen
+    '- Voor professionals draait biodynamische timing om precisie
+- Wijnmakers gebruiken het om blends te beoordelen, bottelmomenten te kiezen en kwaliteitscontroles uit te voeren
+- Observatie en vergelijking zijn belangrijker dan vaste regels
+- In de app: Voorraad, pairing en educatie komen samen in kelder **Drank** + **Advies**.
 ',
     '### Opdracht
 
-Plan jouw volgende fles bewust op een Vruchtdag.
+Kies één topfles uit je voorraad en plan:
+
+Gebruik hiervoor de biodynamische kalender.
+- openingsdag
 
 ### Checklist
 
-- Dag gekozen
-- Fles gekozen
-- Verwachting genoteerd
+- serveertemperatuur
+- pairing
+- decanteertijd
 
 ### Reflectievraag
 
-Denk je dat je verschil zult merken?
+Welke factoren wegen voor jou zwaarder: dagtype, gezelschap, gerecht of ontwikkelingsfase van de wijn?
 
 
 ---
 
 ### Reflectievraag
 
-Denk je dat je verschil zult merken?
+Welke factoren wegen voor jou zwaarder: dagtype, gezelschap, gerecht of ontwikkelingsfase van de wijn?
 ',
     8,
     5
@@ -375,32 +312,12 @@ cross join (values
   (
     'worteldagen-uitgelegd',
     'Worteldagen uitgelegd',
-    'Na deze les begrijp jij wat een Worteldag is en hoe dit invloed kan hebben op proefervaring.
+    'Na deze les herken jij wanneer een Worteldag analytisch waardevoller is dan charmant, en wat dat betekent voor structuur en bewaarpotentieel.
 ',
-    'Worteldagen zijn gekoppeld aan het element aarde.
-
-Ze worden vaak geassocieerd met:
-
-- structuur
-- mineraliteit
-- strengheid
-- aardse tonen
-
-Veel proevers ervaren wijn op Worteldagen als:
-
-- gesloten
-- strakker
-- minder fruitig
-
-Niet slechter.
-
-Maar anders.
-
-Worteldagen kunnen juist heel interessant zijn voor:
-
-- terroiranalyse
-- structuurstudie
-- blindproeven
+    'Worteldagen zijn gekoppeld aan het element aarde en leggen in de praktijk meer nadruk op structuur, mineraliteit en spanning. Veel proevers ervaren op deze dagen minder open fruit en meer focus op tannine, zuren en terroir.
+Voor krachtige wijnen zoals Barolo, Bordeaux en jonge Vintage Port kan dit zeer waardevol zijn, omdat de architectuur van de wijn duidelijker zichtbaar wordt.
+Een Worteldag is daardoor niet altijd de meest charmante dag om te drinken, maar vaak wel de meest analytische dag om te leren.
+Juist wanneer je bewaarpotentieel wilt inschatten, geven Worteldagen vaak veel informatie.
 ',
     '- root day
 - structure
@@ -408,32 +325,32 @@ Worteldagen kunnen juist heel interessant zijn voor:
 - minerality
 - tension
 ',
-    'Sommige Bourgognes tonen juist extra mineraliteit op Worteldagen.
+    'Veel professionals proeven jonge Nebbiolo bewust op Worteldagen om tanninestructuur en levensduur beter te analyseren.
 ',
-    '- Worteldagen zijn aardegericht
-- Structuur staat centraal
-- Fruit is vaak minder dominant
+    '- Veel proevers ervaren op deze dagen minder open fruit en meer focus op tannine, zuren en terroir
+- Juist wanneer je bewaarpotentieel wilt inschatten, geven Worteldagen vaak veel informatie
+- Observatie en vergelijking zijn belangrijker dan vaste regels
+- In de app: Gebruik **vooruitblik** om het juiste dagtype voor deze fles te kiezen.
 ',
     '### Opdracht
 
-Proef een wijn op een Worteldag.
-
-### Checklist
-
-- Ik noteer structuur
-- Ik noteer fruitintensiteit
-- Ik noteer spanning
+Open een jonge Nebbiolo of Cabernet Sauvignon en noteer:
+- tanninestructuur
+- spanning
+- mineraliteit
+- fruitintensiteit
+- bewaarpotentieel
 
 ### Reflectievraag
 
-Voelt de wijn strakker dan normaal?
+Geeft een strengere wijn jou meer inzicht of minder drinkplezier?
 
 
 ---
 
 ### Reflectievraag
 
-Voelt de wijn strakker dan normaal?
+Geeft een strengere wijn jou meer inzicht of minder drinkplezier?
 ',
     8,
     1
@@ -441,28 +358,12 @@ Voelt de wijn strakker dan normaal?
   (
     'bladdagen-uitgelegd',
     'Bladdagen uitgelegd',
-    'Na deze les begrijp jij wat Bladdagen zijn en waarom deze vaak minder ideaal zijn voor topwijnen.
+    'Na deze les begrijp jij hoe Bladdagen frisheid en vegetale tonen versterken en wanneer dat minder ideaal is voor topwijnen.
 ',
-    'Bladdagen zijn gekoppeld aan water.
-
-Ze benadrukken vaak:
-
-- vegetale tonen
-- frisheid
-- groene aroma’s
-- zachtere zuren
-
-Veel proevers ervaren minder focus.
-
-Soms zelfs vlakheid.
-
-Bij sommige wijnen kunnen Bladdagen juist werken.
-
-Vooral:
-
-- frisse witte wijnen
-- jonge Sauvignon Blanc
-- lichte 0.0 alternatieven
+    'Bladdagen zijn gekoppeld aan het element water en versterken doorgaans vegetale, frisse en groene tonen. Vooral wijnen met natuurlijke kruidigheid of uitgesproken frisheid kunnen op deze dagen scherper of hoekiger aanvoelen.
+Sauvignon Blanc, jonge Grüner Veltliner en sommige alcoholvrije alternatieven tonen dit vaak duidelijk.
+Voor topwijnen worden Bladdagen minder vaak gekozen, omdat fruitexpressie doorgaans minder dominant is.
+Toch kunnen Bladdagen nuttig zijn om precisie in frisheid en groene componenten te analyseren.
 ',
     '- leaf day
 - freshness
@@ -470,32 +371,32 @@ Vooral:
 - water
 - softness
 ',
-    'Bladdagen worden vaak minder gekozen voor belangrijke proeverijen.
+    'Een ervaren sommelier gebruikt Bladdagen soms bewust om te testen of een wijn balans houdt zonder fruitdominantie.
 ',
-    '- Waterdag
-- Vegetale expressie
-- Minder focus op fruit
+    '- Bladdagen zijn gekoppeld aan het element water en versterken doorgaans vegetale, frisse en groene tonen
+- Vooral wijnen met natuurlijke kruidigheid of uitgesproken frisheid kunnen op deze dagen scherper of hoekiger aanvoelen
+- Voor topwijnen worden Bladdagen minder vaak gekozen, omdat fruitexpressie doorgaans minder dominant is
+- In de app: Het dagdetail (via Bekijk dagadvies) toont weer en wijnadvies per tijdvak.
 ',
     '### Opdracht
 
-Proef een frisse witte wijn op Bladdag.
-
-### Checklist
-
-- Ik noteer frisheid
-- Ik noteer vegetale tonen
-- Ik noteer balans
+Open een Sauvignon Blanc of frisse 0.0 wijn en analyseer:
+- groenheid
+- frisheid
+- zuren
+- balans
+- aromatische spanning
 
 ### Reflectievraag
 
-Voelt de wijn lichter?
+Wanneer wordt frisheid een kwaliteit en wanneer wordt het een verstoring?
 
 
 ---
 
 ### Reflectievraag
 
-Voelt de wijn lichter?
+Wanneer wordt frisheid een kwaliteit en wanneer wordt het een verstoring?
 ',
     8,
     2
@@ -503,28 +404,12 @@ Voelt de wijn lichter?
   (
     'bloemdagen-uitgelegd',
     'Bloemdagen uitgelegd',
-    'Na deze les begrijp jij waarom Bloemdagen interessant zijn voor aromatische wijnen.
+    'Na deze les begrijp jij waarom Bloemdagen finesse en aromatische elegantie naar voren brengen.
 ',
-    'Bloemdagen zijn gekoppeld aan lucht.
-
-Ze benadrukken:
-
-- aroma
-- finesse
-- elegantie
-- florale tonen
-
-Veel aromatische druiven profiteren hiervan.
-
-Bijvoorbeeld:
-
-- Riesling
-- Muscat
-- Gewürztraminer
-
-Bloemdagen zijn subtieler dan Vruchtdagen.
-
-Maar vaak verfijnder.
+    'Bloemdagen zijn gekoppeld aan lucht en versterken doorgaans aroma, finesse en elegantie. Vooral aromatische druivenrassen zoals Riesling, Muscat en Gewürztraminer reageren hier vaak sterk op.
+Bij mousserende wijn en Champagne kunnen Bloemdagen extra precisie geven in mousse, geurontwikkeling en verfijning.
+In tegenstelling tot Vruchtdagen draait Bloem minder om volume en meer om subtiliteit.
+Dat maakt deze dagen bijzonder waardevol voor aromatische analyse.
 ',
     '- flower day
 - aroma
@@ -532,32 +417,32 @@ Maar vaak verfijnder.
 - elegance
 - air
 ',
-    'Champagneproevers kiezen vaak Bloemdagen voor finesse-analyse.
+    'Champagneproevers gebruiken Bloemdagen vaak om blends en dosage nauwkeuriger te beoordelen.
 ',
-    '- Lucht = Bloem
-- Aroma en finesse centraal
-- Subtiele expressie
+    '- Bloemdagen zijn gekoppeld aan lucht en versterken doorgaans aroma, finesse en elegantie
+- Bij mousserende wijn en Champagne kunnen Bloemdagen extra precisie geven in mousse, geurontwikkeling en verfijning
+- In tegenstelling tot Vruchtdagen draait Bloem minder om volume en meer om subtiliteit
+- Tab **Advies**: dagscore en weer helpen deze les in de praktijk te toetsen.
 ',
     '### Opdracht
 
-Proef een aromatische wijn.
-
-### Checklist
-
-- Ik noteer geur
-- Ik noteer elegantie
-- Ik noteer florale tonen
+Open een Riesling of mousserende wijn en analyseer:
+- geurintensiteit
+- finesse
+- elegantie
+- mousse
+- lengte
 
 ### Reflectievraag
 
-Is de geur expressiever?
+Welke rol speelt finesse in jouw persoonlijke wijnwaardering?
 
 
 ---
 
 ### Reflectievraag
 
-Is de geur expressiever?
+Welke rol speelt finesse in jouw persoonlijke wijnwaardering?
 ',
     8,
     3
@@ -565,23 +450,12 @@ Is de geur expressiever?
   (
     'vruchtdagen-uitgelegd',
     'Vruchtdagen uitgelegd',
-    'Na deze les begrijp jij waarom Vruchtdagen als beste proefdagen worden gezien.
+    'Na deze les begrijp jij waarom Vruchtdagen vaak de meest open en harmonieuze proefmomenten geven.
 ',
-    'Vruchtdagen zijn gekoppeld aan vuur.
-
-Dit zijn vaak de meest expressieve dagen.
-
-Kenmerken:
-
-- open fruit
-- energie
-- lengte
-- balans
-- intensiteit
-
-Veel professionals plannen belangrijke proefmomenten op Vruchtdagen.
-
-Ook openen veel verzamelaars topflessen op deze dagen.
+    'Vruchtdagen zijn gekoppeld aan vuur en worden door veel professionals gezien als de meest ideale proefdagen. Op deze dagen tonen wijnen doorgaans maximale openheid, fruitexpressie, balans en harmonie.
+Voor jonge én rijpere wijnen betekent dit vaak dat hun volledige potentieel beter zichtbaar wordt.
+Bij topflessen zoals Bourgogne, Bordeaux of Vintage Port is een Vruchtdag vaak de voorkeurskeuze.
+Dat maakt deze dagen strategisch belangrijk voor zowel drinkplezier als beoordeling.
 ',
     '- fruit day
 - fire
@@ -589,32 +463,34 @@ Ook openen veel verzamelaars topflessen op deze dagen.
 - energy
 - balance
 ',
-    'Veel Grand Cru proeverijen worden bewust op Vruchtdagen gepland.
+    'Veel verzamelaars openen grote flessen uitsluitend op Vruchtdagen om het risico op geslotenheid te minimaliseren.
 ',
-    '- Vruchtdagen zijn vaak het meest expressief
-- Fruit en energie staan centraal
-- Populair bij professionals
+    '- Vruchtdagen zijn gekoppeld aan vuur en worden door veel professionals gezien als de meest ideale proefdagen
+- Op deze dagen tonen wijnen doorgaans maximale openheid, fruitexpressie, balans en harmonie
+- Voor jonge én rijpere wijnen betekent dit vaak dat hun volledige potentieel beter zichtbaar wordt
+- In de app: Koppel je voorraad in **Drank** aan het huidige dagtype via Advies.
 ',
     '### Opdracht
 
-Plan een fles op Vruchtdag.
+Kies een wijn uit je voorraad die je hoog waardeert en open deze bewust op een Vruchtdag.
 
-### Checklist
-
-- Dag gekozen
-- Fles gekozen
-- Verwachting genoteerd
+Noteer:
+- fruit
+- balans
+- openheid
+- lengte
+- complexiteit
 
 ### Reflectievraag
 
-Waarom voelt dit logisch?
+Zou jij een topfles liever op een Vruchtdag bewaren dan direct openen?
 
 
 ---
 
 ### Reflectievraag
 
-Waarom voelt dit logisch?
+Zou jij een topfles liever op een Vruchtdag bewaren dan direct openen?
 ',
     8,
     4
@@ -622,63 +498,45 @@ Waarom voelt dit logisch?
   (
     'hoe-lees-je-de-kalender',
     'Hoe lees je de biodynamische kalender?',
-    'Na deze les kun jij zelfstandig een biodynamische kalender lezen.
+    'Na deze les kun jij zelfstandig de biodynamische kalender lezen en dagtypes vooruit plannen.
 ',
-    'Een biodynamische kalender toont:
-
-- dagtype
-- begin- en eindtijd
-- maanknoopdagen
-- perigee
-- apogee
-
-Belangrijk:
-
-Niet elke dag is volledig één type.
-
-Soms wisselt dit midden op de dag.
-
-Ook zijn er “kritische momenten”:
-
-- nodes
-- eclipsinvloeden
-- overgangen
-
-Voor optimaal proeven:
-
-kies stabiele blokken.
+    'Een biodynamische kalender toont veel meer dan alleen het dagtype. Belangrijk zijn ook begin- en eindtijden, overgangsmomenten, maanknopen, perigee en apogee.
+Een dag is zelden volledig één type. Het kan bijvoorbeeld zijn dat een Worteldag om 14:00 overgaat in een Vruchtdag. Voor een wijnliefhebber betekent dit dat timing binnen de dag net zo belangrijk kan zijn als de dag zelf.
+Maanknopen worden vaak gezien als instabiele momenten, waarbij wijnen minder consistent kunnen presteren. Perigee en apogee worden gebruikt om extra nuance toe te voegen aan interpretatie.
+Voor optimale drinkmomenten zoeken ervaren proevers doorgaans stabiele blokken zonder overgang of node.
 ',
     '- calendar
 - node
 - perigee
 - apogee
 - timing',
-    'Veel apps combineren dit nu met weerdata en luchtdruk.
+    'Bij grote proeverijen kijken sommeliers niet alleen naar het dagtype, maar ook naar het exacte tijdsblok waarin de wijn geopend wordt.
 ',
-    '- Kalenders zijn dynamisch
-- Tijdsblokken zijn belangrijk
-- Niet elke dag is volledig gelijk
+    '- Een biodynamische kalender toont veel meer dan alleen het dagtype
+- Het kan bijvoorbeeld zijn dat een Worteldag om 14:00 overgaat in een Vruchtdag
+- Voor een wijnliefhebber betekent dit dat timing binnen de dag net zo belangrijk kan zijn als de dag zelf
+- In de app: Open de maandkalender via Advies voor het volledige dagdetail per datum.
 ',
     '### Opdracht
 
-Lees de kalender van vandaag.
+Bekijk de kalender van vandaag en noteer:
 
-### Checklist
-
-- Ik herken het dagtype
-- Ik herken het tijdsblok
-- Ik herken eventuele nodes
+Koppel hier één fles uit je voorraad aan.
+- actief dagtype
+- wisselmomenten
+- eventuele nodes
+- stabielste tijdsblok
 
 ### Reflectievraag
 
-Wanneer zou jij vandaag openen?
+Wat zou jij belangrijker vinden: een Vruchtdag met onstabiel weer of een Bloemdag met volledige atmosferische stabiliteit?
 
 
 ---
 
 ### Reflectievraag
 
-Wanneer zou jij vandaag openen?
+Wat zou jij belangrijker vinden: een Vruchtdag met onstabiel weer of een Bloemdag met volledige atmosferische stabiliteit?
 ',
     8,
     5
@@ -702,32 +560,12 @@ cross join (values
   (
     'wijn-op-worteldag',
     'Wijn op een Worteldag',
-    'Na deze les kun jij herkennen hoe wijn zich op een Worteldag vaak gedraagt.
+    'Na deze les herken jij hoe wijn zich op een Worteldag gedraagt: meer structuur, minder open fruit.
 ',
-    'Op Worteldagen verschuift de focus vaak naar:
-
-- structuur
-- tannine
-- zuren
-- mineraliteit
-
-Fruit lijkt vaak minder open.
-
-Sommige wijnen voelen:
-
-- strakker
-- harder
-- minder charmant
-
-Maar dit kan juist waardevol zijn.
-
-Vooral om:
-
-- bewaarpotentieel
-- terroir
-- structuur
-
-beter te beoordelen.
+    'Op Worteldagen verschuift de focus van wijn vaak duidelijk naar structuur. Tannines, zuren en mineraliteit komen sterker naar voren, terwijl fruitexpressie doorgaans meer gesloten blijft.
+Voor krachtige rode wijnen zoals Bordeaux, Barolo en jonge Rioja maakt dit de wijn analytischer en soms strenger.
+Dat betekent niet dat de wijn slechter is, maar dat zijn bouwstenen beter zichtbaar worden.
+Voor wie bewaarpotentieel wil inschatten, zijn Worteldagen vaak waardevoller dan Vruchtdagen, omdat de wijn minder charme gebruikt om indruk te maken.
 ',
     '- structure
 - tannin
@@ -735,32 +573,34 @@ beter te beoordelen.
 - minerality
 - root day
 ',
-    'Veel Bordeaux-wijnen tonen op Worteldagen hun ruggengraat duidelijker.
+    'Veel sommeliers gebruiken Worteldagen om te beoordelen of een jonge wijn voldoende ruggengraat heeft om verder te rijpen.
 ',
-    '- Worteldagen versterken structuur
-- Fruit kan gesloten zijn
-- Interessant voor analyse
+    '- Op Worteldagen verschuift de focus van wijn vaak duidelijk naar structuur
+- Tannines, zuren en mineraliteit komen sterker naar voren, terwijl fruitexpressie doorgaans meer gesloten blijft
+- Voor krachtige rode wijnen zoals Bordeaux, Barolo en jonge Rioja maakt dit de wijn analytischer en soms strenger
+- In de app: Het dagdetail (via Bekijk dagadvies) toont weer en wijnadvies per tijdvak.
 ',
     '### Opdracht
 
-Proef een rode wijn op Worteldag.
+Open een jonge Bordeaux of Nebbiolo en noteer:
+- tanninestructuur
+- zuren
+- mineraliteit
+- fruitexpressie
+- lengte
 
-### Checklist
-
-- Ik noteer tannine
-- Ik noteer zuur
-- Ik noteer mineraliteit
+*Plan dit experiment over 2–4 weken zodat je elk dagtype onder vergelijkbare omstandigheden proeft.*
 
 ### Reflectievraag
 
-Voelt de wijn strenger?
+Hoe verandert jouw oordeel over een wijn als structuur belangrijker wordt dan charme?
 
 
 ---
 
 ### Reflectievraag
 
-Voelt de wijn strenger?
+Hoe verandert jouw oordeel over een wijn als structuur belangrijker wordt dan charme?
 ',
     8,
     1
@@ -768,25 +608,12 @@ Voelt de wijn strenger?
   (
     'wijn-op-bladdag',
     'Wijn op een Bladdag',
-    'Na deze les begrijp jij hoe Bladdagen invloed kunnen hebben op frisheid en vegetale tonen.
+    'Na deze les herken jij hoe Bladdagen wijn frisser en soms groener laten overkomen.
 ',
-    'Bladdagen leggen vaak nadruk op:
-
-- groenheid
-- vegetale tonen
-- frisheid
-- sapgevoel
-
-Bij sommige wijnen kan dit prettig zijn.
-
-Bij andere minder.
-
-Vooral wijnen met al veel kruidigheid kunnen:
-
-- hoekiger
-- minder gebalanceerd
-
-aanvoelen.
+    'Bladdagen versterken vaak vegetale en frisse componenten. Bij witte wijnen zoals Sauvignon Blanc of Grüner Veltliner kan dit extra spanning en groenheid geven.
+Bij rode wijnen met veel kruidigheid kan het de wijn juist scherper en minder gebalanceerd maken.
+Bladdagen zijn daarom zelden de voorkeursdagen voor topflessen, maar kunnen leerzaam zijn omdat ze laten zien hoe een wijn presteert wanneer fruit minder dominant aanwezig is.
+Voor alcoholvrije alternatieven is dit effect vaak nog duidelijker.
 ',
     '- leaf day
 - green notes
@@ -794,32 +621,34 @@ aanvoelen.
 - vegetal
 - balance
 ',
-    'Sauvignon Blanc kan op Bladdagen soms extra groen overkomen.
+    'Een wijn die op een Bladdag in balans blijft, heeft vaak een sterke intrinsieke kwaliteit.
 ',
-    '- Bladdagen versterken vegetale tonen
-- Niet altijd ideaal
-- Kan stijlgevoel veranderen
+    '- Bladdagen versterken vaak vegetale en frisse componenten
+- Bij witte wijnen zoals Sauvignon Blanc of Grüner Veltliner kan dit extra spanning en groenheid geven
+- Bij rode wijnen met veel kruidigheid kan het de wijn juist scherper en minder gebalanceerd maken
+- Tab **Advies**: dagscore en weer helpen deze les in de praktijk te toetsen.
 ',
     '### Opdracht
 
-Proef een frisse witte wijn.
+Open een Sauvignon Blanc of alcoholvrije witte wijn en noteer:
+- vegetale tonen
+- frisheid
+- spanning
+- balans
+- lengte
 
-### Checklist
-
-- Ik noteer groenheid
-- Ik noteer zuren
-- Ik noteer balans
+*Plan dit experiment over 2–4 weken zodat je elk dagtype onder vergelijkbare omstandigheden proeft.*
 
 ### Reflectievraag
 
-Voelt de wijn groener?
+Kun jij frisheid los beoordelen van fruitexpressie?
 
 
 ---
 
 ### Reflectievraag
 
-Voelt de wijn groener?
+Kun jij frisheid los beoordelen van fruitexpressie?
 ',
     8,
     2
@@ -827,26 +656,12 @@ Voelt de wijn groener?
   (
     'wijn-op-bloemdag',
     'Wijn op een Bloemdag',
-    'Na deze les herken jij hoe aromatische finesse op Bloemdagen kan toenemen.
+    'Na deze les herken jij aromatische finesse en elegantie op Bloemdagen.
 ',
-    'Bloemdagen geven vaak:
-
-- meer geur
-- meer verfijning
-- zachtere elegantie
-
-Dit werkt goed bij:
-
-- Riesling
-- Champagne
-- Pinot Noir
-- Muscat
-
-De wijn voelt soms luchtiger.
-
-Minder kracht.
-
-Meer finesse.
+    'Bloemdagen brengen doorgaans meer aromatische verfijning en elegantie naar voren. Vooral bij druivenrassen met een uitgesproken geurprofiel, zoals Riesling, Muscat en Pinot Noir, wordt dit vaak duidelijk zichtbaar.
+De wijn voelt op deze dagen vaak subtieler en preciezer aan, met minder nadruk op volume en meer op finesse.
+Voor mousserende wijn en Champagne zijn Bloemdagen bijzonder waardevol, omdat mousse, geur en spanning scherper waarneembaar worden.
+Bloemdagen zijn daarom ideaal voor aromatische analyse.
 ',
     '- flower day
 - aroma
@@ -854,32 +669,34 @@ Meer finesse.
 - finesse
 - perfume
 ',
-    'Veel Champagnehuizen proeven blends graag op Bloemdagen.
+    'Bij het beoordelen van finesse en geurontwikkeling kiezen professionals vaak liever een Bloemdag dan een Vruchtdag.
 ',
-    '- Bloemdagen versterken geur
-- Elegantie komt naar voren
-- Goede dag voor finesse-analyse
+    '- Bloemdagen brengen doorgaans meer aromatische verfijning en elegantie naar voren
+- De wijn voelt op deze dagen vaak subtieler en preciezer aan, met minder nadruk op volume en meer op finesse
+- Bloemdagen zijn daarom ideaal voor aromatische analyse
+- In de app: Koppel je voorraad in **Drank** aan het huidige dagtype via Advies.
 ',
     '### Opdracht
 
-Proef een aromatische wijn.
+Open een Riesling, Champagne of Pinot Noir en analyseer:
+- geurintensiteit
+- finesse
+- elegantie
+- spanning
+- lengte
 
-### Checklist
-
-- Ik noteer geurintensiteit
-- Ik noteer finesse
-- Ik noteer elegantie
+*Plan dit experiment over 2–4 weken zodat je elk dagtype onder vergelijkbare omstandigheden proeft.*
 
 ### Reflectievraag
 
-Is de geur opener?
+Wat weegt voor jou zwaarder: kracht of finesse?
 
 
 ---
 
 ### Reflectievraag
 
-Is de geur opener?
+Wat weegt voor jou zwaarder: kracht of finesse?
 ',
     8,
     3
@@ -887,29 +704,12 @@ Is de geur opener?
   (
     'wijn-op-vruchtdag',
     'Wijn op een Vruchtdag',
-    'Na deze les herken jij maximale expressie op Vruchtdagen.
+    'Na deze les herken jij maximale fruitexpressie en balans op Vruchtdagen.
 ',
-    'Vruchtdagen worden vaak gezien als de ideale proefdagen.
-
-Typische kenmerken:
-
-- open fruit
-- lengte
-- energie
-- balans
-- complexiteit
-
-Wijnen voelen vaak:
-
-- toegankelijker
-- expressiever
-- harmonieuzer
-
-Dit is vaak het beste moment voor:
-
-- topflessen
-- belangrijke diners
-- beoordelingen
+    'Vruchtdagen worden vaak beschouwd als de ideale proefdagen omdat wijnen doorgaans hun maximale openheid en harmonie tonen.
+Fruitexpressie komt sterker naar voren, tannines voelen ronder en zuren beter geïntegreerd.
+Bij grote wijnen zoals Bourgogne, Bordeaux en Vintage Port betekent dit vaak dat de wijn toegankelijker en expressiever overkomt.
+Voor drinkplezier zijn Vruchtdagen vaak de beste keuze, maar voor pure analyse kunnen andere dagtypes soms meer informatie geven.
 ',
     '- fruit day
 - expression
@@ -917,32 +717,34 @@ Dit is vaak het beste moment voor:
 - energy
 - openness
 ',
-    'Veel verzamelaars plannen grote Bordeaux of Bourgogne uitsluitend op Vruchtdagen.
+    'Veel topverzamelaars plannen grote openingen bewust op Vruchtdagen om de kans op geslotenheid zo klein mogelijk te maken.
 ',
-    '- Vruchtdagen geven maximale expressie
-- Fruit en balans komen samen
-- Ideaal voor topmomenten
+    '- Fruitexpressie komt sterker naar voren, tannines voelen ronder en zuren beter geïntegreerd
+- Observatie en vergelijking zijn belangrijker dan vaste regels
+- Timing kan expressie versterken of afzwakken
+- In de app: Gebruik **vooruitblik** om het juiste dagtype voor deze fles te kiezen.
 ',
     '### Opdracht
 
-Open een topfles op Vruchtdag.
+Open een topfles of favoriete wijn op een Vruchtdag en noteer:
+- fruit
+- openheid
+- balans
+- lengte
+- complexiteit
 
-### Checklist
-
-- Ik noteer fruit
-- Ik noteer balans
-- Ik noteer lengte
+*Plan dit experiment over 2–4 weken zodat je elk dagtype onder vergelijkbare omstandigheden proeft.*
 
 ### Reflectievraag
 
-Is de wijn opener dan verwacht?
+Wanneer kies jij voor maximaal drinkplezier en wanneer voor maximale analyse?
 
 
 ---
 
 ### Reflectievraag
 
-Is de wijn opener dan verwacht?
+Wanneer kies jij voor maximaal drinkplezier en wanneer voor maximale analyse?
 ',
     8,
     4
@@ -950,61 +752,60 @@ Is de wijn opener dan verwacht?
   (
     'eerste-proefexperiment',
     'Eerste proefexperiment',
-    'Na deze les kun jij jouw eerste biodynamische vergelijkproef zelfstandig uitvoeren.
+    'Na deze les kun jij een eerste vergelijkproef op verschillende dagtypes zelfstandig opzetten en documenteren.
 ',
-    'Nu combineer je alles.
+    'Het eerste echte biodynamische experiment draait om vergelijking. Door exact dezelfde wijn op verschillende dagtypes te proeven, leer je patronen herkennen.
+Belangrijk is dat je alle externe factoren gelijk houdt:
+- zelfde fles
+- zelfde glas
+- zelfde temperatuur
+- zelfde context
 
-Kies één wijn.
-
-Proef deze op meerdere dagtypes.
-
-Observeer:
-
-- geur
-- smaak
-- structuur
-- lengte
-- balans
-
-Belangrijk:
-
-Niet zoeken naar "goed" of "fout".
-
-Maar naar verschillen.
-
-Dat is de basis van biodynamisch leren.
+Alleen zo kun je beoordelen welke verschillen werkelijk samenhangen met timing.
+Dit experiment vormt de kern van biodynamisch leren: niet theorie geloven, maar zelf observeren.
+Voor serieuze wijnliefhebbers is dit vaak het moment waarop biodynamische logica echt tastbaar wordt.
 ',
     '- comparative tasting
 - observation
 - pattern recognition
 - tasting memory
 - experiment',
-    '',
-    '- Vergelijken is de sleutel
-- Patronen ontstaan door herhaling
-- Biodynamiek draait om observatie
+    'Professionals vertrouwen nooit op één proefmoment, maar zoeken herhaling om patronen te bevestigen.
+',
+    '- Het eerste echte biodynamische experiment draait om vergelijking
+- Door exact dezelfde wijn op verschillende dagtypes te proeven, leer je patronen herkennen
+- Dit experiment vormt de kern van biodynamisch leren: niet theorie geloven, maar zelf observeren
+- In de app: Noteer proefmomenten in je eigen journal; koppel later aan Advies-scores.
 ',
     '### Opdracht
 
-Plan één fles over 4 verschillende dagtypes.
+Voer één gecontroleerd vergelijkexperiment uit met dezelfde fles op vier dagtypes.
 
-### Checklist
+Kies één fles en proef deze op:
+- Worteldag
+- Bladdag
+- Bloemdag
+- Vruchtdag
 
-- Zelfde fles
-- Zelfde glas
-- Zelfde temperatuur
-- Verschillen genoteerd
+Noteer telkens:
+- fruit
+- structuur
+- openheid
+- balans
+- drinkbaarheid
+
+*Plan dit over minimaal twee weken; houd glas, temperatuur en context gelijk.*
 
 ### Reflectievraag
 
-Welk dagtype gaf de mooiste ervaring?
+Welk dagtype gaf de meest complete ervaring, en waarom?
 
 
 ---
 
 ### Reflectievraag
 
-Welk dagtype gaf de mooiste ervaring?
+Welk dagtype gaf de meest complete ervaring, en waarom?
 ',
     10,
     5
@@ -1028,29 +829,12 @@ cross join (values
   (
     'temperatuur-en-smaak',
     'Temperatuur en smaakbeleving',
-    'Na deze les begrijp jij hoe omgevingstemperatuur invloed heeft op smaakwaarneming.
+    'Na deze les begrijp jij hoe buitentemperatuur smaakwaarneming beïnvloedt, los van serveertemperatuur.
 ',
-    'Temperatuur beïnvloedt hoe wij proeven.
-
-Niet alleen de wijn.
-
-Maar ook ons lichaam.
-
-Warme dagen versterken vaak:
-
-- alcoholgevoel
-- rijp fruit
-- zoetheid
-
-Koude dagen versterken vaak:
-
-- zuren
-- spanning
-- structuur
-
-Daardoor kan dezelfde wijn heel anders overkomen.
-
-Zowel in glas als perceptie.
+    'Temperatuur beïnvloedt niet alleen de wijn, maar ook jouw eigen sensorische waarneming. Op warme dagen komen alcohol, rijp fruit en zoetindruk doorgaans sterker naar voren, terwijl op koelere dagen zuren, spanning en structuur juist scherper zichtbaar worden.
+Daardoor kan dezelfde wijn compleet anders overkomen, zelfs als de serveertemperatuur identiek blijft.
+Bij volle rode wijnen zoals Amarone of Zinfandel kan warmte de wijn zwaarder en logischer maken, terwijl koelere omstandigheden juist meer balans geven.
+Temperatuur is daarom een onderschatte factor in timing.
 ',
     '- temperature
 - perception
@@ -1058,32 +842,39 @@ Zowel in glas als perceptie.
 - acidity
 - balance
 ',
-    'Een rode wijn op een warme zomerdag kan sneller log aanvoelen.
+    'Veel sommeliers vermijden zware rode wijnen op extreem warme dagen, omdat alcohol dan sneller dominant wordt.
 ',
-    '- Temperatuur beïnvloedt smaakperceptie
-- Warm = meer rijpheid
-- Koud = meer spanning
+    '- Temperatuur beïnvloedt niet alleen de wijn, maar ook jouw eigen sensorische waarneming
+- Daardoor kan dezelfde wijn compleet anders overkomen, zelfs als de serveertemperatuur identiek blijft
+- Temperatuur is daarom een onderschatte factor in timing
+- Tab **Advies**: dagscore en weer helpen deze les in de praktijk te toetsen.
 ',
     '### Opdracht
 
-Proef dezelfde wijn op een warme en koelere dag.
+Open dezelfde wijn op:
+
+Vergelijk:
+- een warme dag
+- een koelere dag
 
 ### Checklist
 
-- Ik noteer fruit
-- Ik noteer alcoholgevoel
-- Ik noteer balans
+- alcoholgevoel
+- fruit
+- balans
+- lengte
+- drinkbaarheid
 
 ### Reflectievraag
 
-Welke temperatuur gaf betere balans?
+Wanneer voelde de wijn het meest in balans, en waarom?
 
 
 ---
 
 ### Reflectievraag
 
-Welke temperatuur gaf betere balans?
+Wanneer voelde de wijn het meest in balans, en waarom?
 ',
     8,
     1
@@ -1091,29 +882,12 @@ Welke temperatuur gaf betere balans?
   (
     'luchtdruk-en-expressie',
     'Luchtdruk en expressie',
-    'Na deze les begrijp jij hoe luchtdruk mogelijk invloed heeft op aromatische expressie.
+    'Na deze les begrijp jij hoe luchtdruk aromatische helderheid kan beïnvloeden en waarom proevers daar rekening mee houden.
 ',
-    'Luchtdruk is één van de meest besproken factoren.
-
-Veel proevers ervaren:
-
-Hoge luchtdruk:
-
-- meer stabiliteit
-- meer helderheid
-- meer focus
-
-Lage luchtdruk:
-
-- diffusie
-- geslotenheid
-- minder precisie
-
-Vooral rond weerswisselingen wordt dit vaak opgemerkt.
-
-Dit is geen absolute wetenschap.
-
-Maar wel veel geobserveerd.
+    'Luchtdruk is één van de meest besproken factoren onder ervaren proevers. Hoge luchtdruk wordt vaak geassocieerd met meer focus, aromatische helderheid en precisie.
+Lage luchtdruk kan daarentegen zorgen voor diffusie, minder openheid en een wat vlakker profiel.
+Vooral bij complexe wijnen zoals Bourgogne en Champagne wordt dit verschil regelmatig opgemerkt.
+Hoewel dit niet als absolute wetenschap geldt, zijn de observaties onder professionals opvallend consistent.
 ',
     '- air pressure
 - stability
@@ -1121,32 +895,36 @@ Maar wel veel geobserveerd.
 - expression
 - weather systems
 ',
-    'Veel sommeliers vermijden grote proeverijen bij zware lage druksystemen.
+    'Veel proevers vermijden belangrijke beoordelingsmomenten tijdens zware lage druksystemen of vlak voor stormfronten.
 ',
-    '- Hoge druk geeft vaak helderheid
-- Lage druk kan geslotenheid geven
-- Weersystemen spelen mee
+    '- Vooral bij complexe wijnen zoals Bourgogne en Champagne wordt dit verschil regelmatig opgemerkt
+- Observatie en vergelijking zijn belangrijker dan vaste regels
+- Timing kan expressie versterken of afzwakken
+- In de app: Koppel je voorraad in **Drank** aan het huidige dagtype via Advies.
 ',
     '### Opdracht
 
-Vergelijk een proefmoment bij hoge en lage druk.
+Vergelijk een proefmoment op:
 
-### Checklist
-
-- Ik noteer luchtdruk
-- Ik noteer geur
-- Ik noteer openheid
+Analyseer:
+- geurintensiteit
+- openheid
+- focus
+- precisie
+- lengte
+- hoge luchtdruk
+- lage luchtdruk
 
 ### Reflectievraag
 
-Voelde één moment opener?
+Merk jij verschil tussen helderheid en diffusie in wijnexpressie?
 
 
 ---
 
 ### Reflectievraag
 
-Voelde één moment opener?
+Merk jij verschil tussen helderheid en diffusie in wijnexpressie?
 ',
     8,
     2
@@ -1154,23 +932,12 @@ Voelde één moment opener?
   (
     'luchtvochtigheid-en-perceptie',
     'Luchtvochtigheid en perceptie',
-    'Na deze les begrijp jij hoe luchtvochtigheid invloed kan hebben op geur en mondgevoel.
+    'Na deze les begrijp jij hoe luchtvochtigheid geur en mondgevoel kan veranderen.
 ',
-    'Vochtigheid beïnvloedt hoe aroma’s bewegen.
-
-Hoge luchtvochtigheid kan:
-
-- aroma dempen
-- frisheid verzachten
-- mondgevoel ronder maken
-
-Lage luchtvochtigheid kan:
-
-- spanning verhogen
-- aroma scherper maken
-- droger laten voelen
-
-Vooral subtiele wijnen reageren hierop.
+    'Luchtvochtigheid beïnvloedt hoe aroma’s zich gedragen en hoe mondgevoel wordt waargenomen. Hoge luchtvochtigheid kan aroma’s verzachten en de wijn ronder doen aanvoelen.
+Lage luchtvochtigheid maakt aroma’s vaak scherper en verhoogt de waargenomen spanning.
+Voor subtiele wijnen zoals Champagne, Riesling en elegante Bourgogne is dit effect vaak het duidelijkst merkbaar.
+Voor krachtige rode wijnen speelt het meestal een kleinere rol, maar nog steeds relevant.
 ',
     '- humidity
 - aroma
@@ -1178,32 +945,34 @@ Vooral subtiele wijnen reageren hierop.
 - dryness
 - texture
 ',
-    'Champagne kan op droge lucht vaak strakker aanvoelen.
+    'Champagne voelt op droge dagen vaak strakker en preciezer, terwijl hoge luchtvochtigheid de mousse zachter kan maken.
 ',
-    '- Vochtigheid beïnvloedt aroma
-- Hoog = zachter
-- Laag = strakker
+    '- Hoge luchtvochtigheid kan aroma’s verzachten en de wijn ronder doen aanvoelen
+- Voor subtiele wijnen zoals Champagne, Riesling en elegante Bourgogne is dit effect vaak het duidelijkst merkbaar
+- Voor krachtige rode wijnen speelt het meestal een kleinere rol, maar nog steeds relevant
+- In de app: Gebruik **vooruitblik** om het juiste dagtype voor deze fles te kiezen.
 ',
     '### Opdracht
 
-Noteer luchtvochtigheid tijdens je volgende proefmoment.
+Open een mousserende wijn of Riesling en noteer:
 
-### Checklist
-
-- Waarde genoteerd
-- Aroma geanalyseerd
-- Mondgevoel geanalyseerd
+- geurontwikkeling
+- mondgevoel
+- spanning
+- mousse
+- frisheid
+Controleer tegelijk de luchtvochtigheid.
 
 ### Reflectievraag
 
-Voelde de wijn ronder of strakker?
+Voelde de wijn scherper of ronder dan je had verwacht?
 
 
 ---
 
 ### Reflectievraag
 
-Voelde de wijn ronder of strakker?
+Voelde de wijn scherper of ronder dan je had verwacht?
 ',
     8,
     3
@@ -1211,26 +980,12 @@ Voelde de wijn ronder of strakker?
   (
     'weersomslag-en-proeven',
     'Weersomslag en proefmomenten',
-    'Na deze les begrijp jij waarom weersomslagen vaak instabiele proefmomenten geven.
+    'Na deze les begrijp jij waarom weersomslagen instabiele proefmomenten geven en wanneer wachten slimmer is.
 ',
-    'Weersomslag betekent verandering.
-
-Bijvoorbeeld:
-
-- frontwissel
-- stormopbouw
-- drukval
-- plotselinge temperatuurwissel
-
-Veel proevers ervaren dan:
-
-- onrust
-- minder focus
-- wisselende expressie
-
-Dit zijn vaak minder ideale momenten voor topflessen.
-
-Stabiliteit geeft meestal betrouwbaardere indrukken.
+    'Weersomslagen zorgen vaak voor instabiliteit. Denk aan plotselinge drukdalingen, temperatuurwisselingen, stormopbouw of naderend onweer.
+Veel proevers ervaren op zulke momenten minder focus, onrustige aroma’s en wisselende expressie.
+Bij topflessen is dit ongewenst, omdat je een zo zuiver mogelijke indruk wilt krijgen.
+Stabiele omstandigheden geven doorgaans betrouwbaardere en consistenter leesbare proefmomenten.
 ',
     '- weather front
 - instability
@@ -1238,32 +993,36 @@ Stabiliteit geeft meestal betrouwbaardere indrukken.
 - storm
 - timing
 ',
-    'Veel verzamelaars vermijden openingsmomenten vlak voor onweer.
+    'Veel verzamelaars vermijden het openen van zeldzame flessen vlak voor een stormfront of zware weersomslag.
 ',
-    '- Weersomslag geeft instabiliteit
-- Minder voorspelbare proefervaring
-- Stabiliteit is vaak beter
+    '- Weersomslagen zorgen vaak voor instabiliteit
+- Denk aan plotselinge drukdalingen, temperatuurwisselingen, stormopbouw of naderend onweer
+- Stabiele omstandigheden geven doorgaans betrouwbaardere en consistenter leesbare proefmomenten
+- In de app: Het dagdetail (via Bekijk dagadvies) toont weer en wijnadvies per tijdvak.
 ',
     '### Opdracht
 
-Controleer het weer voor je volgende fles.
+Controleer voor je volgende fles:
+
+Bepaal daarna of je opent of wacht.
+- luchtdruktrend
 
 ### Checklist
 
-- Weersituatie bekeken
-- Stabiliteit beoordeeld
-- Moment gekozen
+- temperatuurtrend
+- kans op neerslag
+- weersstabiliteit
 
 ### Reflectievraag
 
-Was de atmosfeer stabiel?
+Ben jij bereid een fles uit te stellen voor betere omstandigheden?
 
 
 ---
 
 ### Reflectievraag
 
-Was de atmosfeer stabiel?
+Ben jij bereid een fles uit te stellen voor betere omstandigheden?
 ',
     8,
     4
@@ -1271,75 +1030,64 @@ Was de atmosfeer stabiel?
   (
     'dynamic-vs-strategic-advice',
     'Dynamic vs Strategic Advice',
-    'Na deze les begrijp jij het verschil tussen direct drinkadvies en langetermijn drinkstrategie.
+    'Na deze les begrijp jij het verschil tussen vandaag-advies (Dynamic Advice) en vooruitplanning (Strategic Advice) in de kelder-app.
 ',
-    'Binnen Way of Tasting werken twee systemen:
-
-**Dynamic Advice**
-
-Gebaseerd op:
-
-- huidige dagtype
-- weer
+    'Binnen Way of Tasting bestaan twee vormen van advies: Dynamic Advice (vandaag-advies in de app) en Strategic Advice (vooruitblik / langetermijnplanning).
+Dynamic Advice (vandaag-advies in de app) kijkt naar het huidige moment en combineert:
+- dagtype
 - luchtdruk
 - luchtvochtigheid
+- weersstabiliteit
 
-Dit geeft:
+Dit helpt bij de vraag: wat drink ik vandaag?
 
-"Wat drink ik vandaag?"
-
-**Strategic Advice**
-
-Gebaseerd op:
-
-- biodynamische kalender vooruit
+Strategic Advice (vooruitblik / langetermijnplanning) kijkt vooruit en gebruikt:
+- biodynamische kalender
 - drinkvensters
-- voorraadplanning
+- voorraadstatus
+- toekomstige Vrucht- en Bloemdagen
 
-Dit geeft:
+Dit helpt bij de vraag: wanneer drink ik deze fles?
 
-"Wanneer drink ik deze fles?"
-
-Belangrijk:
-
-Weerdata gaan meestal maximaal 14 dagen vooruit.
-
-Daarna werkt alleen de biodynamische kalender.
-
-Dit is exact hoe jouw systeem slim plant.
+Samen vormen ze een systeem waarbij spontane keuzes en lange termijn planning elkaar versterken.
 ',
     '- dynamic advice
 - strategic advice
 - weather
 - planning
 - timing',
-    'Strategisch plannen verhoogt vaak de kwaliteit van topfles-momenten.
+    'Professionals werken bijna altijd strategisch bij topflessen, maar blijven dynamisch bij dagelijkse keuzes.
 ',
-    '- Dynamic = nu
-- Strategic = later
-- Weer = max 14 dagen
-- Kalender = lange termijn
+    '- Vandaag-advies (Dynamic): dagtype + weer → wat drink ik nu?
+- Vooruitblik (Strategic): kalender + drinkvenster → wanneer open ik deze fles?
+- Spontane keuzes en lange-termijnplanning versterken elkaar
+- In de app: Advies-dashboard combineert beide lagen
 ',
     '### Opdracht
 
-Kies één fles voor vandaag en één voor later.
+Kies:
+
+Plan voor beide:
+- één fles voor vandaag (Dynamic)
+- één topfles voor later (Strategic)
 
 ### Checklist
 
-- Dynamic gekozen
-- Strategic gekozen
-- Verschil begrepen
+- moment
+- temperatuur
+- pairing
+- openingsstrategie
 
 ### Reflectievraag
 
-Welke methode gebruik jij het meest?
+Gebruik jij wijn vooral spontaan, of ben jij bereid strategisch te plannen voor betere momenten?
 
 
 ---
 
 ### Reflectievraag
 
-Welke methode gebruik jij het meest?
+Gebruik jij wijn vooral spontaan, of ben jij bereid strategisch te plannen voor betere momenten?
 ',
     10,
     5
@@ -1363,31 +1111,13 @@ cross join (values
   (
     'rode-wijn-per-dagtype',
     'Rode wijn per dagtype',
-    'Na deze les begrijp jij hoe rode wijn verschillend reageert op biodynamische dagtypes.
+    'Na deze les begrijp jij hoe rode wijn per dagtype verschilt in tannine, fruit en drinkbaarheid.
 ',
-    'Rode wijn reageert vaak sterk op dagtypes.
-
-Op:
-
-**Vruchtdag**
-- meer open fruit
-- rondere tannine
-- meer balans
-
-**Worteldag**
-- meer structuur
-- strakkere tannine
-- minder charme
-
-**Bloemdag**
-- meer geur
-- meer elegantie
-
-**Bladdag**
-- soms groener
-- minder focus
-
-Voor grote rode wijnen is Vruchtdag vaak ideaal.
+    'Rode wijn reageert doorgaans sterk op biodynamische dagtypes, omdat tannine, structuur en rijp fruit gevoelig zijn voor timing.
+Op Vruchtdagen tonen rode wijnen vaak meer open fruit, rondere tannines en meer harmonie. Op Worteldagen verschuift de focus juist naar structuur, spanning en mineraliteit.
+Bloemdagen brengen vaak meer aromatische finesse naar voren, vooral bij Pinot Noir en elegante Bourgogne.
+Bladdagen kunnen kruidigheid en vegetale tonen versterken, waardoor de wijn soms strenger of groener overkomt.
+Voor grote rode wijnen is timing daarom een belangrijke kwaliteitsfactor.
 ',
     '- red wine
 - tannin
@@ -1395,32 +1125,41 @@ Voor grote rode wijnen is Vruchtdag vaak ideaal.
 - structure
 - harmony
 ',
-    'Veel Barolo- en Bordeauxproevers plannen hun topmomenten op Vruchtdagen.
+    'Veel Barolo- en Bordeauxproevers kiezen Vruchtdagen voor drinkplezier, maar Worteldagen voor analyse.
 ',
-    '- Rood reageert sterk
-- Vruchtdagen zijn vaak optimaal
-- Worteldagen tonen structuur
+    '- Op Vruchtdagen tonen rode wijnen vaak meer open fruit, rondere tannines en meer harmonie
+- Op Worteldagen verschuift de focus juist naar structuur, spanning en mineraliteit
+- Bloemdagen brengen vaak meer aromatische finesse naar voren, vooral bij Pinot Noir en elegante Bourgogne
+- In de app: Koppel je voorraad in **Drank** aan het huidige dagtype via Advies.
 ',
     '### Opdracht
 
-Proef dezelfde rode wijn op twee verschillende dagtypes.
+Open dezelfde rode wijn op:
+
+Vergelijk:
+- een Worteldag
+- een Vruchtdag
+
+*Plan dit experiment over 2–4 weken zodat je elk dagtype onder vergelijkbare omstandigheden proeft.*
 
 ### Checklist
 
-- Structuur vergeleken
-- Fruit vergeleken
-- Balans vergeleken
+- fruit
+- tannine
+- balans
+- lengte
+- drinkbaarheid
 
 ### Reflectievraag
 
-Welk moment gaf meer harmonie?
+Welke dag gaf jou meer inzicht: de charmante of de analytische?
 
 
 ---
 
 ### Reflectievraag
 
-Welk moment gaf meer harmonie?
+Welke dag gaf jou meer inzicht: de charmante of de analytische?
 ',
     8,
     1
@@ -1428,30 +1167,13 @@ Welk moment gaf meer harmonie?
   (
     'witte-wijn-per-dagtype',
     'Witte wijn per dagtype',
-    'Na deze les begrijp jij hoe witte wijn reageert op biodynamische ritmes.
+    'Na deze les begrijp jij hoe witte wijn per dagtype verschilt in mineraliteit, finesse en frisheid.
 ',
-    'Witte wijn reageert vaak subtieler.
-
-Op:
-
-**Bloemdag**
-- meer finesse
-- meer geur
-
-**Vruchtdag**
-- meer fruit
-- opener
-
-**Bladdag**
-- meer frisheid
-- meer groenheid
-
-**Worteldag**
-- meer mineraliteit
-
-Voor aromatische witte wijnen is Bloemdag vaak sterk.
-
-Voor volle witte wijnen vaak Vruchtdag.
+    'Witte wijn reageert vaak subtieler dan rood, maar de verschillen kunnen juist daardoor zeer leerzaam zijn.
+Bloemdagen versterken doorgaans geur, finesse en elegantie. Vruchtdagen geven vaak meer open fruit en toegankelijkheid.
+Bladdagen benadrukken frisheid en groene tonen, wat bij Sauvignon Blanc of jonge Riesling extra duidelijk kan zijn.
+Worteldagen laten vaak meer mineraliteit en spanning zien, vooral bij Chablis of droge Riesling.
+Voor witte wijn draait timing minder om kracht en meer om precisie.
 ',
     '- white wine
 - aromatics
@@ -1459,32 +1181,32 @@ Voor volle witte wijnen vaak Vruchtdag.
 - freshness
 - elegance
 ',
-    'Riesling laat vaak grote verschillen zien tussen Bloem- en Vruchtdagen.
+    'Veel sommeliers kiezen Bloemdagen voor aromatische witte wijnen, omdat finesse dan het zuiverst leesbaar is.
 ',
-    '- Witte wijn reageert subtiel
-- Bloem = aroma
-- Vrucht = expressie
+    '- Witte wijn reageert vaak subtieler dan rood, maar de verschillen kunnen juist daardoor zeer leerzaam zijn
+- Bloemdagen versterken doorgaans geur, finesse en elegantie
+- Vruchtdagen geven vaak meer open fruit en toegankelijkheid
+- In de app: Gebruik **vooruitblik** om het juiste dagtype voor deze fles te kiezen.
 ',
     '### Opdracht
 
-Proef een witte wijn op Bloemdag.
-
-### Checklist
-
-- Geur genoteerd
-- Frisheid genoteerd
-- Structuur genoteerd
+Open een Riesling, Chablis of Sauvignon Blanc en analyseer:
+- geur
+- mineraliteit
+- frisheid
+- fruit
+- lengte
 
 ### Reflectievraag
 
-Kwam aroma sterker naar voren?
+Wat zegt mineraliteit jou over kwaliteit?
 
 
 ---
 
 ### Reflectievraag
 
-Kwam aroma sterker naar voren?
+Wat zegt mineraliteit jou over kwaliteit?
 ',
     8,
     2
@@ -1492,29 +1214,12 @@ Kwam aroma sterker naar voren?
   (
     'rose-per-dagtype',
     'Rosé per dagtype',
-    'Na deze les begrijp jij hoe rosé het best tot zijn recht komt.
+    'Na deze les begrijp jij hoe rosé het sterkst reageert op Vrucht- en Bloemdagen.
 ',
-    'Rosé draait om:
-
-- frisheid
-- fruit
-- lichtheid
-
-Daarom zijn vooral:
-
-**Vruchtdagen**
-en
-**Bloemdagen**
-
-sterk.
-
-Bladdagen kunnen rosé groener maken.
-
-Worteldagen kunnen rosé soms te strak maken.
-
-Rosé vraagt openheid.
-
-Niet geslotenheid.
+    'Rosé draait om frisheid, lichtheid en directe fruitexpressie. Daardoor reageren rosés doorgaans het sterkst op Vruchtdagen en Bloemdagen.
+Vruchtdagen geven vaak meer open fruit en zachtere balans. Bloemdagen brengen meer finesse en aromatische elegantie.
+Bladdagen kunnen rosé groener en scherper maken, terwijl Worteldagen de wijn soms te strak en minder speels laten aanvoelen.
+Omdat rosé vaak draait om toegankelijkheid, is timing hier direct gekoppeld aan drinkplezier.
 ',
     '- rosé
 - freshness
@@ -1522,32 +1227,39 @@ Niet geslotenheid.
 - lightness
 - openness
 ',
-    'Provençaalse rosé wordt vaak als expressiever ervaren op Vruchtdagen.
+    'Provençaalse rosé presteert vaak opvallend sterk op warme Vruchtdagen met stabiel weer.
 ',
-    '- Rosé houdt van openheid
-- Vrucht en bloem zijn vaak ideaal
-- Wortel is vaak strakker
+    '- Rosé draait om frisheid, lichtheid en directe fruitexpressie
+- Daardoor reageren rosés doorgaans het sterkst op Vruchtdagen en Bloemdagen
+- Vruchtdagen geven vaak meer open fruit en zachtere balans
+- In de app: Het dagdetail (via Bekijk dagadvies) toont weer en wijnadvies per tijdvak.
 ',
     '### Opdracht
 
-Plan rosé op een warme Vruchtdag.
+Open een rosé op:
+
+Vergelijk:
+- een Vruchtdag
+- een Bloemdag
 
 ### Checklist
 
-- Temperatuur genoteerd
-- Dagtype genoteerd
-- Balans genoteerd
+- fruit
+- frisheid
+- finesse
+- spanning
+- drinkbaarheid
 
 ### Reflectievraag
 
-Kwam het fruit goed door?
+Zoek jij in rosé meer energie of meer verfijning?
 
 
 ---
 
 ### Reflectievraag
 
-Kwam het fruit goed door?
+Zoek jij in rosé meer energie of meer verfijning?
 ',
     8,
     3
@@ -1555,29 +1267,13 @@ Kwam het fruit goed door?
   (
     'mousserend-per-dagtype',
     'Mousserende wijn per dagtype',
-    'Na deze les begrijp jij hoe mousserende wijn reageert op dagtypes.
+    'Na deze les begrijp jij hoe mousserende wijn per dagtype verschilt in finesse, mousse en spanning.
 ',
-    'Mousserend is zeer gevoelig.
-
-Vooral op:
-
-**Bloemdagen**
-- finesse
-- mousse
-- aroma
-
-en
-
-**Vruchtdagen**
-- openheid
-- fruit
-- spanning
-
-Worteldagen tonen meer krijt en structuur.
-
-Bladdagen kunnen mousse minder levendig laten voelen.
-
-Champagne presteert vaak sterk op Bloemdag.
+    'Mousserende wijn is één van de meest gevoelige categorieën binnen biodynamisch proeven.
+Bloemdagen versterken vaak finesse, mousse en geurontwikkeling, terwijl Vruchtdagen meer open fruit en spanning geven.
+Worteldagen leggen meer nadruk op krijt, mineraliteit en structuur. Bladdagen kunnen de mousse vlakker laten aanvoelen en de wijn minder levendig maken.
+Voor Champagne, Cava en kwalitatieve mousserende wijn zijn Bloemdagen en Vruchtdagen daarom meestal de beste keuze.
+Timing speelt hier niet alleen in smaak, maar ook in textuur een grote rol.
 ',
     '- sparkling
 - mousse
@@ -1585,32 +1281,34 @@ Champagne presteert vaak sterk op Bloemdag.
 - aroma
 - tension
 ',
-    'Veel Champagnehuizen plannen blending-sessies bewust op Bloemdagen.
+    'Veel Champagnehuizen plannen blendsessies op Bloemdagen omdat finesse dan het zuiverst beoordeeld kan worden.
 ',
-    '- Mousserend is gevoelig
-- Bloem = finesse
-- Vrucht = openheid
+    '- Mousserende wijn is één van de meest gevoelige categorieën binnen biodynamisch proeven
+- Bloemdagen versterken vaak finesse, mousse en geurontwikkeling, terwijl Vruchtdagen meer open fruit en spanning geven
+- Worteldagen leggen meer nadruk op krijt, mineraliteit en structuur
+- Tab **Advies**: dagscore en weer helpen deze les in de praktijk te toetsen.
 ',
     '### Opdracht
 
-Open een mousserende wijn op Bloemdag.
+Open een Champagne of mousserende wijn en noteer:
 
-### Checklist
-
-- Mousse beoordeeld
-- Geur beoordeeld
-- Lengte beoordeeld
+- mousse
+- geur
+- spanning
+- finesse
+- lengte
+Vergelijk dit op een ander dagtype.
 
 ### Reflectievraag
 
-Was de wijn verfijnder?
+Wat vind jij belangrijker in mousserend: spanning of finesse?
 
 
 ---
 
 ### Reflectievraag
 
-Was de wijn verfijnder?
+Wat vind jij belangrijker in mousserend: spanning of finesse?
 ',
     8,
     4
@@ -1618,63 +1316,45 @@ Was de wijn verfijnder?
   (
     'port-per-dagtype',
     'Port per dagtype',
-    'Na deze les begrijp jij hoe Port reageert op biodynamische dagtypes.
+    'Na deze les begrijp jij hoe Port per dagtype verschilt in zoetheid, structuur en rijpingsexpressie.
 ',
-    'Port reageert anders dan stille wijn.
-
-Door:
-
-- hogere alcohol
-- restsuiker
-- oxidatieve invloeden
-
-Vruchtdagen geven vaak:
-
-- opener fruit
-- zachtere alcohol
-- meer harmonie
-
-Worteldagen tonen:
-
-- structuur
-- alcohol
-- scherpte
-
-Tawny en Vintage kunnen sterk verschillen.
-
-Voor Vintage Port is Vruchtdag vaak ideaal.
+    'Port reageert anders dan stille wijn door hogere alcohol, restsuiker en oxidatieve invloeden.
+Op Vruchtdagen tonen Vintage Port en Ruby Port vaak meer open fruit, zachtere alcohol en meer harmonie.
+Worteldagen laten doorgaans meer structuur, alcoholwarmte en strengheid zien, wat vooral nuttig is voor analyse.
+Bij Tawny Port kunnen Bloemdagen extra finesse geven, terwijl Vruchtdagen meer rondheid laten zien.
+Voor serieuze Portliefhebbers kan timing een groot verschil maken in hoe toegankelijk of complex een fles overkomt.
 ',
     '- port
 - vintage port
 - tawny
 - alcohol
 - harmony',
-    'Oude Vintage Ports kunnen op Worteldagen opvallend gesloten zijn.
+    'Oude Vintage Ports kunnen op Worteldagen verrassend gesloten blijven, zelfs wanneer ze technisch perfect zijn.
 ',
-    '- Port reageert duidelijk
-- Vrucht geeft harmonie
-- Wortel toont structuur
+    '- Port reageert anders dan stille wijn door hogere alcohol, restsuiker en oxidatieve invloeden
+- Op Vruchtdagen tonen Vintage Port en Ruby Port vaak meer open fruit, zachtere alcohol en meer harmonie
+- Worteldagen laten doorgaans meer structuur, alcoholwarmte en strengheid zien, wat vooral nuttig is voor analyse
+- In de app: Koppel je voorraad in **Drank** aan het huidige dagtype via Advies.
 ',
     '### Opdracht
 
-Open een Port op Vruchtdag.
-
-### Checklist
-
-- Fruit beoordeeld
-- Alcohol beoordeeld
-- Balans beoordeeld
+Open een Vintage Port of Tawny en analyseer:
+- openheid
+- alcoholintegratie
+- zoetbalans
+- lengte
+- complexiteit
 
 ### Reflectievraag
 
-Voelde de Port zachter?
+Welke Portstijl lijkt jou het meest gevoelig voor timing, en waarom?
 
 
 ---
 
 ### Reflectievraag
 
-Voelde de Port zachter?
+Welke Portstijl lijkt jou het meest gevoelig voor timing, en waarom?
 ',
     8,
     5
@@ -1698,33 +1378,12 @@ cross join (values
   (
     'bier-en-biodynamische-dagen',
     'Bier en biodynamische dagen',
-    'Na deze les begrijp jij hoe bier verschillend kan overkomen op biodynamische dagtypes.
+    'Na deze les begrijp jij hoe bier anders kan overkomen op biodynamische dagtypes.
 ',
-    'Bier reageert anders dan wijn.
-
-Maar ook bier bevat:
-
-- aroma
-- bitterheid
-- body
-- frisheid
-
-Op:
-
-**Vruchtdag**
-- fruitiger hop komt opener
-- mout voelt ronder
-
-**Bloemdag**
-- aroma’s komen vaak eleganter
-
-**Worteldag**
-- bitterheid en body kunnen domineren
-
-**Bladdag**
-- vegetale hoptonen kunnen sterker lijken
-
-Vooral craftbier reageert duidelijk.
+    'Bier reageert anders dan wijn, maar timing kan ook hier een duidelijke rol spelen. Vooral bij craftbier, waar hop, mout, bitterheid en aromatische lagen complexer zijn, kunnen dagtypes merkbare verschillen geven.
+Vruchtdagen versterken vaak fruitige hoptonen en geven een ronder mondgevoel. Bloemdagen laten aromatische finesse en subtiliteit beter naar voren komen.
+Worteldagen leggen vaak meer nadruk op bitterheid, body en moutstructuur. Bladdagen kunnen vegetale hopkarakters scherper laten aanvoelen.
+Bij IPA’s en Saisons zijn deze verschillen vaak het duidelijkst merkbaar.
 ',
     '- beer
 - hops
@@ -1732,32 +1391,33 @@ Vooral craftbier reageert duidelijk.
 - malt
 - timing
 ',
-    'IPA’s worden door veel proevers als expressiever ervaren op Vruchtdagen.
+    'Veel craftbierproevers kiezen Vruchtdagen voor IPA’s omdat tropische hoparoma’s dan doorgaans expressiever overkomen.
 ',
-    '- Bier reageert ook op timing
-- Hop en mout verschuiven in perceptie
-- Vruchtdagen zijn vaak opener
+    '- Bier reageert anders dan wijn, maar timing kan ook hier een duidelijke rol spelen
+- Vruchtdagen versterken vaak fruitige hoptonen en geven een ronder mondgevoel
+- Bloemdagen laten aromatische finesse en subtiliteit beter naar voren komen
 ',
     '### Opdracht
 
-Proef hetzelfde bier op twee verschillende dagtypes.
+Open een IPA of Saison en analyseer:
 
-### Checklist
-
-- Bitterheid genoteerd
-- Fruitigheid genoteerd
-- Body genoteerd
+- hoparoma
+- bitterheid
+- body
+- frisheid
+- balans
+Herhaal op een ander dagtype.
 
 ### Reflectievraag
 
-Welk moment gaf meer balans?
+Wanneer wordt bitterheid een kracht en wanneer een verstoring?
 
 
 ---
 
 ### Reflectievraag
 
-Welk moment gaf meer balans?
+Wanneer wordt bitterheid een kracht en wanneer een verstoring?
 ',
     8,
     1
@@ -1765,25 +1425,13 @@ Welk moment gaf meer balans?
   (
     'bier-0-0-en-timing',
     'Bier 0.0 en timing',
-    'Na deze les begrijp jij waarom alcoholvrije bieren soms nog gevoeliger reageren.
+    'Na deze les begrijp jij waarom alcoholvrije bieren soms extra gevoelig zijn voor timing.
 ',
-    '0.0 bier heeft minder alcoholstructuur.
-
-Daardoor worden andere componenten zichtbaarder:
-
-- zoetheid
-- bitterheid
-- mout
-- frisheid
-
-Vruchtdagen helpen vaak om:
-
-- balans te verbeteren
-- fruitigheid te openen
-
-Worteldagen kunnen soms harder aanvoelen.
-
-Voor lichte 0.0 blond of IPA is timing verrassend belangrijk.
+    'Alcoholvrije bieren zijn vaak nog gevoeliger voor timing, omdat alcohol als dragende structuurlaag ontbreekt.
+Daardoor worden zoetheid, bitterheid en moutkarakter sneller dominant.
+Vruchtdagen kunnen helpen om balans en fruitigheid beter naar voren te brengen, terwijl Worteldagen bitterheid vaak harder laten aanvoelen.
+Bij alcoholvrije IPA’s of blond bier zijn deze verschillen soms opvallend groot.
+Voor 0.0 drinkers is timing daarom relevanter dan vaak wordt gedacht.
 ',
     '- alcohol-free
 - bitterness
@@ -1791,32 +1439,34 @@ Voor lichte 0.0 blond of IPA is timing verrassend belangrijk.
 - balance
 - structure
 ',
-    'Alcoholvrije IPA’s kunnen op Worteldagen opvallend bitterder lijken.
+    'Een alcoholvrij bier dat op een Worteldag nog steeds in balans blijft, heeft meestal een sterkere receptuur.
 ',
-    '- 0.0 is gevoeliger
-- Minder alcohol = meer focus op andere lagen
-- Timing maakt verschil
+    '- Alcoholvrije bieren zijn vaak nog gevoeliger voor timing, omdat alcohol als dragende structuurlaag ontbreekt
+- Voor 0.0 drinkers is timing daarom relevanter dan vaak wordt gedacht
+- Observatie en vergelijking zijn belangrijker dan vaste regels
+- In de app: Het dagdetail (via Bekijk dagadvies) toont weer en wijnadvies per tijdvak.
 ',
     '### Opdracht
 
-Vergelijk jouw favoriete 0.0 bier op twee dagen.
+Open jouw favoriete 0.0 bier en noteer:
 
-### Checklist
-
-- Bitterheid genoteerd
-- Zoetheid genoteerd
-- Frisheid genoteerd
+- zoetheid
+- bitterheid
+- frisheid
+- body
+- balans
+Herhaal op een Vruchtdag.
 
 ### Reflectievraag
 
-Voelde het bier anders dan verwacht?
+Voelt alcoholvrij voor jou stabieler of juist gevoeliger dan regulier bier?
 
 
 ---
 
 ### Reflectievraag
 
-Voelde het bier anders dan verwacht?
+Voelt alcoholvrij voor jou stabieler of juist gevoeliger dan regulier bier?
 ',
     8,
     2
@@ -1824,32 +1474,12 @@ Voelde het bier anders dan verwacht?
   (
     'cocktails-en-dagtypes',
     'Cocktails en dagtypes',
-    'Na deze les begrijp jij hoe cocktails biodynamisch kunnen verschillen.
+    'Na deze les begrijp jij hoe cocktails en dagtypes samenhangen in balans en frisheid.
 ',
-    'Cocktails reageren vooral via hun componenten.
-
-Bijvoorbeeld:
-
-- citrus
-- bitters
-- kruiden
-- base spirit
-
-Vruchtdagen versterken vaak:
-
-- fruit
-- openheid
-- drinkbaarheid
-
-Bloemdagen versterken vaak:
-
-- aroma
-- botanicals
-- finesse
-
-Worteldagen kunnen bitters en alcohol dominanter maken.
-
-Voor gin-cocktails zijn Bloemdagen vaak sterk.
+    'Cocktails reageren biodynamisch via hun ingrediënten. Citrus, bitters, kruiden en base spirits kunnen per dagtype anders naar voren komen.
+Vruchtdagen versterken doorgaans fruit, openheid en drinkbaarheid. Bloemdagen geven vaak meer finesse en aromatische precisie, vooral bij gin-cocktails en aperitiefstijlen.
+Worteldagen kunnen bitters en alcoholstructuur dominanter maken, wat bij Negroni of Old Fashioned extra zichtbaar wordt.
+Daardoor kunnen cocktails verrassend gevoelig zijn voor timing.
 ',
     '- cocktail
 - botanicals
@@ -1857,32 +1487,38 @@ Voor gin-cocktails zijn Bloemdagen vaak sterk.
 - citrus
 - balance
 ',
-    'Een Martini kan op Bloemdagen aromatisch opvallend verfijnder zijn.
+    'Een Martini op een Bloemdag kan aromatisch veel verfijnder overkomen dan op een Worteldag.
 ',
-    '- Cocktails reageren via ingrediënten
-- Bloem en vrucht zijn vaak sterk
-- Wortel versterkt bitter en structuur
+    '- Cocktails reageren biodynamisch via hun ingrediënten
+- Citrus, bitters, kruiden en base spirits kunnen per dagtype anders naar voren komen
+- Vruchtdagen versterken doorgaans fruit, openheid en drinkbaarheid
 ',
     '### Opdracht
 
-Drink dezelfde cocktail op twee verschillende dagtypes.
+Maak dezelfde cocktail op:
+
+Vergelijk:
+- een Bloemdag
+- een Worteldag
+- aroma
 
 ### Checklist
 
-- Aroma genoteerd
-- Bitterheid genoteerd
-- Balans genoteerd
+- bitterheid
+- balans
+- openheid
+- lengte
 
 ### Reflectievraag
 
-Welk moment werkte beter?
+Welke cocktailstijl lijkt jou het meest gevoelig voor timing?
 
 
 ---
 
 ### Reflectievraag
 
-Welk moment werkte beter?
+Welke cocktailstijl lijkt jou het meest gevoelig voor timing?
 ',
     8,
     3
@@ -1890,38 +1526,12 @@ Welk moment werkte beter?
   (
     'barrel-aged-dranken',
     'Barrel-aged dranken',
-    'Na deze les begrijp jij hoe vatgerijpte dranken reageren op dagtypes.
+    'Na deze les begrijp jij hoe barrel-aged dranken reageren op structuur- versus fruitdagen.
 ',
-    'Vatrijping brengt:
-
-- hout
-- oxidatie
-- complexiteit
-- diepte
-
-Voorbeelden:
-
-- whisky
-- bourbon
-- rum
-- barrel-aged cocktails
-
-Vruchtdagen geven vaak:
-
-- rondheid
-- openheid
-
-Worteldagen:
-
-- hout
-- droogte
-- structuur
-
-Bloemdagen:
-
-- subtiele aroma’s
-
-Oudere vatdranken reageren vaak duidelijk.
+    'Vatgerijpte dranken zoals whisky, bourbon en rum reageren vaak sterk op timing, omdat hout, oxidatie en complexiteit gevoelige lagen zijn.
+Vruchtdagen geven doorgaans meer openheid en rondheid. Worteldagen benadrukken structuur, droogte en houtinvloed.
+Bloemdagen kunnen subtiele aroma’s zoals vanille, kruiden en florale tonen beter laten spreken.
+Bij oudere whisky’s of complexe barrel-aged cocktails kan dit verschil groot genoeg zijn om de totale beleving te veranderen.
 ',
     '- barrel-aged
 - wood
@@ -1929,32 +1539,31 @@ Oudere vatdranken reageren vaak duidelijk.
 - complexity
 - maturity
 ',
-    'Oude whisky’s worden door sommige verzamelaars bewust op Vruchtdagen geopend.
+    'Veel verzamelaars openen oude whisky’s bewust op Vruchtdagen om maximale aromatische openheid te krijgen.
 ',
-    '- Vatrijping versterkt complexiteit
-- Vrucht opent
-- Wortel structureert
+    '- Vruchtdagen geven doorgaans meer openheid en rondheid
+- Worteldagen benadrukken structuur, droogte en houtinvloed
+- Bloemdagen kunnen subtiele aroma’s zoals vanille, kruiden en florale tonen beter laten spreken
 ',
     '### Opdracht
 
-Proef een vatgerijpte drank bewust.
-
-### Checklist
-
-- Hout genoteerd
-- Alcohol genoteerd
-- Lengte genoteerd
+Open een vatgerijpte drank en analyseer:
+- houtinvloed
+- alcoholintegratie
+- rondheid
+- complexiteit
+- lengte
 
 ### Reflectievraag
 
-Voelde de drank rond of strak?
+Wat zegt houtinvloed jou over rijping en timing?
 
 
 ---
 
 ### Reflectievraag
 
-Voelde de drank rond of strak?
+Wat zegt houtinvloed jou over rijping en timing?
 ',
     8,
     4
@@ -1962,65 +1571,46 @@ Voelde de drank rond of strak?
   (
     'alcoholvrij-en-proefmomenten',
     'Alcoholvrij en proefmomenten',
-    'Na deze les begrijp jij hoe alcoholvrije dranken strategisch gekozen kunnen worden.
+    'Na deze les begrijp jij hoe je alcoholvrije momenten strategisch kiest op basis van dagtype en context.
 ',
-    'Alcoholvrij is vaak gevoeliger.
-
-Waarom?
-
-Omdat alcohol normaal:
-
-- body geeft
-- warmte geeft
-- structuur geeft
-
-Zonder alcohol vallen nuances sterker op.
-
-Dat maakt timing belangrijk.
-
-Vruchtdagen helpen vaak:
-
-- fruit openen
-- balans verbeteren
-
-Bloemdagen helpen bij:
-
-- aroma
-- finesse
-
-Vooral alcoholvrije wijn en bier profiteren hiervan.
+    'Alcoholvrije dranken zijn vaak gevoeliger voor timing omdat de dragende structuur van alcohol ontbreekt. Daardoor komen fruit, zuur, bitterheid en aromatische lagen sneller uit balans.
+Vruchtdagen helpen vaak om fruit en harmonie beter zichtbaar te maken. Bloemdagen versterken finesse en geur, vooral bij alcoholvrije mousserende wijn of witte wijn.
+Bij Worteldagen kunnen harde of droge elementen juist sneller domineren.
+Voor alcoholvrij geldt daarom dat timing een grotere rol speelt dan veel mensen verwachten.
 ',
     '- alcohol-free
 - sensitivity
 - fruit day
 - flower day
 - timing',
-    'Alcoholvrije mousserende dranken reageren vaak opvallend sterk op Bloemdagen.
+    'Bij alcoholvrije mousserende dranken kan een Bloemdag het verschil maken tussen vlak en verfijnd.
 ',
-    '- Alcoholvrij is gevoeliger
-- Timing wordt belangrijker
-- Vrucht en bloem werken vaak het best
+    '- Alcoholvrije dranken zijn vaak gevoeliger voor timing omdat de dragende structuur van alcohol ontbreekt
+- Daardoor komen fruit, zuur, bitterheid en aromatische lagen sneller uit balans
+- Vruchtdagen helpen vaak om fruit en harmonie beter zichtbaar te maken
+- In de app: Gebruik **vooruitblik** om het juiste dagtype voor deze fles te kiezen.
 ',
     '### Opdracht
 
-Plan een alcoholvrij proefmoment op Vruchtdag.
+Kies een alcoholvrije wijn of bier en analyseer:
 
-### Checklist
-
-- Drank gekozen
-- Dagtype gekozen
-- Resultaat genoteerd
+- fruit
+- balans
+- aroma
+- frisheid
+- structuur
+Herhaal dit op een ander dagtype.
 
 ### Reflectievraag
 
-Was de balans beter?
+Welke rol speelt timing bij alcoholvrije dranken in vergelijking met reguliere dranken?
 
 
 ---
 
 ### Reflectievraag
 
-Was de balans beter?
+Welke rol speelt timing bij alcoholvrije dranken in vergelijking met reguliere dranken?
 ',
     8,
     5
@@ -2044,35 +1634,12 @@ cross join (values
   (
     'juiste-fles-juiste-moment',
     'De juiste fles op het juiste moment',
-    'Na deze les kun jij bepalen welke fles het best past bij welk moment.
+    'Na deze les kun jij bepalen welke fles het best past bij welk moment in je voorraad.
 ',
-    'Niet elke fles past bij elk moment.
-
-Factoren:
-
-- leeftijd
-- stijl
-- complexiteit
-- drinkvenster
-- dagtype
-
-Jonge wijnen:
-
-vaak flexibeler.
-
-Oude wijnen:
-
-vragen precisie.
-
-Topflessen verdienen optimale omstandigheden.
-
-Dat betekent:
-
-- juiste dag
-- stabiel weer
-- goede voorbereiding
-
-Timing verhoogt waarde.
+    'Niet elke fles past bij elk moment. Binnen biodynamisch denken draait het niet alleen om de kwaliteit van de wijn, maar ook om de combinatie van rijpingsfase, dagtype en context.
+Jonge wijnen zijn doorgaans flexibeler, terwijl oudere wijnen veel gevoeliger zijn voor timing. Een mature Bourgogne of Vintage Port kan op een verkeerde dag gesloten of onevenwichtig aanvoelen.
+Daarom is fleskeuze niet alleen een kwestie van verlangen, maar ook van strategie.
+Door het juiste moment te kiezen verhoog je niet alleen drinkplezier, maar ook de kans om de wijn op zijn hoogste niveau te ervaren.
 ',
     '- bottle selection
 - timing
@@ -2080,32 +1647,37 @@ Timing verhoogt waarde.
 - strategy
 - precision
 ',
-    'Veel verzamelaars wachten bewust weken op een ideale Vruchtdag.
+    'Veel verzamelaars wachten bewust weken op een ideale Vruchtdag voordat zij een topfles openen.
 ',
-    '- Elke fles heeft een ideaal moment
-- Oudere wijnen vragen meer precisie
-- Timing verhoogt kwaliteit
+    '- Jonge wijnen zijn doorgaans flexibeler, terwijl oudere wijnen veel gevoeliger zijn voor timing
+- Observatie en vergelijking zijn belangrijker dan vaste regels
+- Timing kan expressie versterken of afzwakken
 ',
     '### Opdracht
 
-Kies drie flessen en bepaal hun ideale moment.
+Kies drie flessen uit je voorraad:
+
+Bepaal voor elke fles:
+- jong
+- op dronk
+- rijp
+- beste dagtype
+- ideale context
 
 ### Checklist
 
-- Leeftijd beoordeeld
-- Stijl beoordeeld
-- Dagtype gekozen
+- serveermoment
 
 ### Reflectievraag
 
-Welke fles vraagt de meeste precisie?
+Welke fles uit jouw voorraad vraagt de meeste precisie?
 
 
 ---
 
 ### Reflectievraag
 
-Welke fles vraagt de meeste precisie?
+Welke fles uit jouw voorraad vraagt de meeste precisie?
 ',
     8,
     1
@@ -2115,24 +1687,11 @@ Welke fles vraagt de meeste precisie?
     'Wanneer openen en wanneer wachten?',
     'Na deze les kun jij inschatten wanneer wachten beter is dan openen.
 ',
-    'Niet elke fles moet direct open.
-
-Soms is wachten beter.
-
-Bijvoorbeeld:
-
-- slecht dagtype
-- weersomslag
-- onstabiele luchtdruk
-- verkeerde gelegenheid
-
-Wachten kan betekenen:
-
-- meer openheid
-- betere balans
-- betere ervaring
-
-Geduld is onderdeel van intelligent drinken.
+    'Niet elke fles hoeft direct open. Soms is wachten de beste keuze, zelfs als de verleiding groot is.
+Een slecht dagtype, instabiel weer of ongunstige luchtdruk kunnen een wijn minder goed laten presteren.
+Vooral bij topflessen of oudere wijnen kan een paar dagen verschil een merkbare impact hebben op balans en openheid.
+Geduld is daarom geen passiviteit, maar een strategische keuze.
+Binnen biodynamisch drinken is wachten vaak onderdeel van kwaliteit.
 ',
     '- patience
 - waiting
@@ -2140,32 +1699,34 @@ Geduld is onderdeel van intelligent drinken.
 - better timing
 - strategy
 ',
-    'Een verschil van drie dagen kan soms een enorme impact geven.
+    'Veel ervaren proevers stellen een topopening zonder twijfel uit als omstandigheden niet optimaal zijn.
 ',
-    '- Wachten kan kwaliteit verhogen
-- Timing is soms belangrijker dan verlangen
-- Geduld is strategie
+    '- Een slecht dagtype, instabiel weer of ongunstige luchtdruk kunnen een wijn minder goed laten presteren
+- Vooral bij topflessen of oudere wijnen kan een paar dagen verschil een merkbare impact hebben op balans en openheid
+- Binnen biodynamisch drinken is wachten vaak onderdeel van kwaliteit
 ',
     '### Opdracht
 
-Kies een fles die je wilde openen en plan bewust later.
+Kies een fles die je binnenkort wilt openen en bepaal:
+
+Gebruik kalender en weerdata.
 
 ### Checklist
 
-- Nieuwe datum gekozen
-- Dagtype gekozen
-- Verwachting genoteerd
+- waarom nu?
+- waarom later?
+- wat is de betere keuze?
 
 ### Reflectievraag
 
-Hoe voelt bewust wachten?
+Ben jij iemand die makkelijk wacht op kwaliteit, of kies je sneller voor spontaniteit?
 
 
 ---
 
 ### Reflectievraag
 
-Hoe voelt bewust wachten?
+Ben jij iemand die makkelijk wacht op kwaliteit, of kies je sneller voor spontaniteit?
 ',
     8,
     2
@@ -2173,29 +1734,13 @@ Hoe voelt bewust wachten?
   (
     'drinkvensters-en-dagtypes',
     'Drinkvensters en dagtypes',
-    'Na deze les kun jij drinkvensters koppelen aan biodynamische planning.
+    'Na deze les kun jij drinkvensters koppelen aan biodynamische dagtypes voor optimale timing.
 ',
-    'Elke fles heeft een drinkvenster:
-
-- te jong
-- optimaal
-- over de top
-
-Binnen dat optimale venster kun je nóg slimmer plannen.
-
-Bijvoorbeeld:
-
-een top-Barolo in piekfase op Vruchtdag.
-
-Of een Champagne op Bloemdag.
-
-Zo combineer je:
-
-- maturiteit
-- dagtype
-- atmosfeer
-
-Dat is peak drinking.
+    'Elke wijn heeft een drinkvenster: een periode waarin de wijn zijn optimale balans tussen fruit, structuur en complexiteit bereikt.
+Binnen dat venster kun je nog verder verfijnen met biodynamische timing.
+Een Barolo in piekrijpheid op een Vruchtdag kan veel completer aanvoelen dan dezelfde wijn op een Bladdag.
+Drinkvensters bepalen dus de fase, terwijl dagtypes het exacte moment bepalen.
+Samen geven ze maximale kans op topkwaliteit.
 ',
     '- drinking window
 - peak drinking
@@ -2203,62 +1748,47 @@ Dat is peak drinking.
 - planning
 - timing
 ',
-    'Veel verzamelaars noteren niet alleen drinkvensters maar ook voorkeursdagtypes.
+    'Veel verzamelaars noteren niet alleen drinkvensters, maar ook hun favoriete dagtypes per wijnstijl.
 ',
-    '- Drinkvenster bepaalt fase
-- Dagtype bepaalt moment
-- Samen geven ze maximale kans op topkwaliteit
+    '- Binnen dat venster kun je nog verder verfijnen met biodynamische timing
+- Een Barolo in piekrijpheid op een Vruchtdag kan veel completer aanvoelen dan dezelfde wijn op een Bladdag
+- Drinkvensters bepalen dus de fase, terwijl dagtypes het exacte moment bepalen
+- In de app: Koppel je voorraad in **Drank** aan het huidige dagtype via Advies.
 ',
     '### Opdracht
 
-Bekijk jouw voorraad en markeer 5 flessen in hun drinkvenster.
-
-### Checklist
-
-- Venster bepaald
-- Dagtype gekoppeld
-- Prioriteit gezet
+Bekijk vijf flessen uit je voorraad en noteer:
+- huidige fase
+- resterend drinkvenster
+- ideaal dagtype
 
 ### Reflectievraag
 
-Welke fles is nu op zijn piek?
+Welke fles uit jouw collectie zit nu op zijn piek?
 
 
 ---
 
 ### Reflectievraag
 
-Welke fles is nu op zijn piek?
+Welke fles uit jouw collectie zit nu op zijn piek?
 ',
     8,
     3
   ),
   (
-    'slim-voorraadbeheer',
-    'Slim voorraadbeheer met kalender',
-    'Na deze les kun jij jouw voorraad vooruit plannen met biodynamische logica.
+    'voorraadstrategie-topflessen',
+    'Voorraadstrategie voor topflessen',
+    'Na deze les kun jij topflessen in je voorraad strategisch markeren en vooruit plannen.
 ',
-    'Slim voorraadbeheer betekent:
-
-niet reactief.
-
-Maar proactief.
-
-Je plant:
-
-- topflessen
-- dagelijkse flessen
-- pairings
-- diners
-- proefmomenten
-
-Door vooruit te kijken kun je:
-
-- piekmomenten benutten
-- verkeerde openingen vermijden
-- voorraad slimmer roteren
-
-Dit maakt drinken strategischer.
+    'Topflessen vragen een andere strategie dan dagelijkse drinkwijnen. Niet alleen vanwege hun waarde, maar vooral vanwege hun gevoeligheid voor timing en context.
+Een grote Bordeaux, Bourgogne of Vintage Port verdient voorbereiding:
+- juiste dagtype
+- stabiel weer
+- juiste pairing
+- voldoende tijd
+Door deze factoren vooraf te plannen, verhoog je de kans op een memorabel moment.
+Strategie maakt het verschil tussen “goed” en “uitzonderlijk”.
 ',
     '- cellar management
 - planning
@@ -2266,96 +1796,78 @@ Dit maakt drinken strategischer.
 - rotation
 - calendar logic
 ',
-    'Veel verzamelaars bouwen een “ready now” lijst voor komende Vruchtdagen.
+    'Bij iconische flessen wordt voorbereiding vaak als onderdeel van de totale ervaring gezien.
 ',
-    '- Vooruit plannen geeft controle
-- Kalender helpt voorraadbeheer
-- Slim roteren verhoogt kwaliteit
+    '- Topflessen vragen een andere strategie dan dagelijkse drinkwijnen
+- Niet alleen vanwege hun waarde, maar vooral vanwege hun gevoeligheid voor timing en context
+- Observatie en vergelijking zijn belangrijker dan vaste regels
+- In de app: Markeer topflessen in Drank en plan openingsdagen via de kalender in Advies.
 ',
     '### Opdracht
 
-Maak een lijst van 10 flessen voor de komende 30 dagen.
+Kies jouw drie meest waardevolle flessen en plan:
+- ideale openingsperiode
+- voorkeursdagtype
 
 ### Checklist
 
-- Flessen geselecteerd
-- Dagtypes gekoppeld
-- Prioriteit gegeven
+- ideale pairing
+- decanteertijd
 
 ### Reflectievraag
 
-Voelt dit slimmer dan spontaan kiezen?
+Wat maakt voor jou een fles écht het wachten waard?
 
 
 ---
 
 ### Reflectievraag
 
-Voelt dit slimmer dan spontaan kiezen?
+Wat maakt voor jou een fles écht het wachten waard?
 ',
     8,
     4
   ),
   (
-    'strategic-opening-planning',
-    'Strategic opening planning',
-    'Na deze les kun jij volledige openingstrategieën bouwen voor jouw collectie.
+    'reserves-lange-termijn',
+    'Reserves en lange termijn denken',
+    'Na deze les kun jij reserveflessen en lange-termijn openingsmomenten bewust plannen.
 ',
-    'Strategic opening planning combineert alles:
-
-- biodynamische kalender
-- weersvoorspelling (max 14 dagen)
-- drinkvenster
-- gelegenheid
-- pairing
-- persoonlijke voorkeur
-
-Dit is de hoogste vorm van drinkintelligentie.
-
-Niet:
-
-"Wat heb ik zin in?"
-
-Maar:
-
-"Wat is nu het beste moment?"
-
-Dat is precies waar jouw app naartoe werkt.
+    'Niet elke fles hoeft een directe bestemming te hebben. Sommige wijnen zijn bedoeld als reserve: flessen die je bewust bewaart voor een toekomstig topmoment.
+Deze reserve-strategie vraagt discipline, omdat het doel niet dagelijkse consumptie is, maar het creëren van uitzonderlijke ervaringen op de lange termijn.
+Bij reservewijnen wordt timing nog belangrijker, omdat rijping, dagtype en gelegenheid samen moeten vallen.
+Voor serieuze verzamelaars is dit vaak het hoogste niveau van wijnplanning.
 ',
     '- strategic planning
 - weather forecast
 - calendar logic
 - inventory
 - drinking intelligence',
-    'De beste verzamelaars plannen soms maanden vooruit.
+    'De beste collecties zijn niet alleen opgebouwd op kwaliteit, maar op geduld en timing.
 ',
-    '- Alles komt hier samen
-- Strategie verhoogt beleving
-- Planning is drinkintelligentie
+    '- Sommige wijnen zijn bedoeld als reserve: flessen die je bewust bewaart voor een toekomstig topmoment
+- Bij reservewijnen wordt timing nog belangrijker, omdat rijping, dagtype en gelegenheid samen moeten vallen
+- Voor serieuze verzamelaars is dit vaak het hoogste niveau van wijnplanning
 ',
     '### Opdracht
 
-Plan één topfles voor de komende maand.
-
-### Checklist
-
-- Dagtype gekozen
-- Weer bekeken
-- Gelegenheid bepaald
-- Pairing gekozen
+Selecteer drie reserveflessen en noteer:
+- verwachte piekperiode
+- ideale dagtypes
+- ideale gelegenheid
 
 ### Reflectievraag
 
-Voelt dit als hoger niveau drinken?
+Welke fles in jouw collectie zie jij als jouw ultieme toekomstige topmoment?
 
 
 ---
 
 ### Reflectievraag
 
-Voelt dit als hoger niveau drinken?
+Welke fles in jouw collectie zie jij als jouw ultieme toekomstige topmoment?
 ',
-    10,
+    8,
     5
   )
 ) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
@@ -2375,32 +1887,14 @@ select m.id, v.slug, v.title, v.objective, v.theory, v.key_concepts, v.did_you_k
 from m
 cross join (values
   (
-    'tasting-journal-gebruiken',
-    'Tasting journal gebruiken',
-    'Na deze les begrijp jij waarom een tasting journal essentieel is.
+    'vertical-tasting-biodynamiek',
+    'Vertical tasting en biodynamiek',
+    'Na deze les begrijp jij hoe vertical tastings en dagtypes samenwerken bij jaargangsvergelijking.
 ',
-    'Zonder notities vervliegt ervaring.
-
-Een tasting journal helpt je:
-
-- smaak onthouden
-- verschillen herkennen
-- dagtypes vergelijken
-- voorkeuren vastleggen
-
-Belangrijk om te noteren:
-
-- datum
-- dagtype
-- weer
-- luchtdruk
-- wijn
-- pairing
-- score
-
-Data bouwen geheugen.
-
-Geheugen bouwt inzicht.
+    'Een vertical tasting is het proeven van meerdere jaargangen van dezelfde wijn. Dit geeft inzicht in rijping, vintage-verschillen en ontwikkelingspotentieel.
+Binnen biodynamisch proeven wordt dit nog interessanter, omdat timing invloed kan hebben op hoe iedere jaargang zich presenteert.
+Een jonge jaargang kan op een Worteldag harder en strakker overkomen, terwijl een oudere jaargang op een Vruchtdag juist volledig openbloeit.
+Bij verticals is consistentie cruciaal. Daarom kiezen veel professionals bewust één stabiel dagtype om alle flessen onder gelijke omstandigheden te beoordelen.
 ',
     '- tasting journal
 - notes
@@ -2408,59 +1902,46 @@ Geheugen bouwt inzicht.
 - memory
 - tracking
 ',
-    'Topproevers bouwen hun expertise vaak op duizenden tasting notes.
+    'Bij grote Bordeaux verticals kiezen professionals vaak Vruchtdagen om maximale vergelijkbaarheid in openheid en fruitexpressie te krijgen.
 ',
-    '- Noteren maakt leren sneller
-- Data maakt patronen zichtbaar
-- Journal = basis van groei
+    '- Een vertical tasting is het proeven van meerdere jaargangen van dezelfde wijn
+- Daarom kiezen veel professionals bewust één stabiel dagtype om alle flessen onder gelijke omstandigheden te beoordelen
+- Observatie en vergelijking zijn belangrijker dan vaste regels
+- Tab **Advies**: dagscore en weer helpen deze les in de praktijk te toetsen.
 ',
     '### Opdracht
 
-Maak jouw eerste biodynamische tasting note.
-
-### Checklist
-
-- Datum genoteerd
-- Dagtype genoteerd
-- Smaak genoteerd
-- Score gegeven
+Kies twee of drie jaargangen van dezelfde wijn en noteer:
+- openheid
+- structuur
+- fruitontwikkeling
+- lengte
+- complexiteit
 
 ### Reflectievraag
 
-Wat viel je het meest op?
+Welke rol speelt rijping in jouw beoordeling vergeleken met timing?
 
 
 ---
 
 ### Reflectievraag
 
-Wat viel je het meest op?
+Welke rol speelt rijping in jouw beoordeling vergeleken met timing?
 ',
     8,
     1
   ),
   (
-    'patronen-herkennen',
-    'Patronen herkennen',
-    'Na deze les kun jij terugkerende patronen herkennen in jouw proefdata.
+    'blindproeven-timing',
+    'Blindproeven en timing',
+    'Na deze les begrijp jij hoe timing blindproefresultaten kan beïnvloeden en waarom je dagtype noteert.
 ',
-    'Na meerdere tastings ontstaan patronen.
-
-Bijvoorbeeld:
-
-- betere scores op Vruchtdagen
-- meer finesse op Bloemdagen
-- minder balans bij lage druk
-
-Dit zijn persoonlijke patronen.
-
-Niet universeel.
-
-Maar waardevol.
-
-Patronen geven voorspelbaarheid.
-
-En voorspelbaarheid geeft betere keuzes.
+    'Blindproeven draait om objectiviteit, maar timing kan ook hier een verborgen factor zijn.
+Een wijn die op een Vruchtdag volledig open is, kan gemakkelijker herkenbaar zijn dan dezelfde wijn op een Worteldag.
+Dit betekent dat timing soms invloed heeft op je interpretatie van druivenras, regio of kwaliteit.
+Voor serieuze proevers is het daarom waardevol om timing mee te nemen als variabele.
+Niet als excuus, maar als extra analysetool.
 ',
     '- patterns
 - repetition
@@ -2468,57 +1949,47 @@ En voorspelbaarheid geeft betere keuzes.
 - recognition
 - personal logic
 ',
-    'Veel ervaren proevers ontwikkelen onbewust sterke persoonlijke timingpatronen.
+    'Veel professionele proefpanels noteren het dagtype, zelfs wanneer het niet direct besproken wordt.
 ',
-    '- Patronen ontstaan uit herhaling
-- Niet alles is universeel
-- Persoonlijke logica is waardevol
+    '- Blindproeven draait om objectiviteit, maar timing kan ook hier een verborgen factor zijn
+- Een wijn die op een Vruchtdag volledig open is, kan gemakkelijker herkenbaar zijn dan dezelfde wijn op een Worteldag
+- Dit betekent dat timing soms invloed heeft op je interpretatie van druivenras, regio of kwaliteit
 ',
     '### Opdracht
 
-Bekijk je laatste 5 tasting notes.
+Blindproef twee wijnen op een Vruchtdag en herhaal dit op een Worteldag.
 
-### Checklist
+Vergelijk:
+- herkenbaarheid
+- openheid
+- complexiteit
+- balans
 
-- Scores vergeleken
-- Dagtypes vergeleken
-- Omstandigheden vergeleken
+*Plan dit experiment over 2–4 weken zodat je elk dagtype onder vergelijkbare omstandigheden proeft.*
 
 ### Reflectievraag
 
-Zie je al een patroon?
+Hoe objectief kun je proeven als timing invloed heeft op expressie?
 
 
 ---
 
 ### Reflectievraag
 
-Zie je al een patroon?
+Hoe objectief kun je proeven als timing invloed heeft op expressie?
 ',
     8,
     2
   ),
   (
-    'eigen-smaakprofiel',
-    'Je eigen smaakprofiel bouwen',
-    'Na deze les kun jij jouw persoonlijke smaakprofiel opbouwen.
+    'grote-flessen-biodynamiek',
+    'Grote flessen en biodynamiek',
+    'Na deze les begrijp jij hoe grote formaten anders rijpen en waarom timing bij Magnums extra belangrijk is.
 ',
-    'Iedereen proeft anders.
-
-Jouw profiel bestaat uit:
-
-- voorkeurstypes
-- favoriete stijlen
-- ideale dagtypes
-- ideale omstandigheden
-
-Misschien ontdek je:
-
-- rood op Vruchtdagen
-- Champagne op Bloemdagen
-- Port alleen bij hoge luchtdruk
-
-Dit wordt jouw persoonlijke drinklogica.
+    'Magnums en grotere formaten rijpen anders dan standaardflessen. Door hun tragere ontwikkeling en grotere massa reageren ze vaak subtieler, maar soms ook gevoeliger op timing.
+Een Magnum Bourgogne op een Vruchtdag kan indrukwekkend veel openheid tonen, terwijl dezelfde fles op een Worteldag nog gesloten blijft.
+Bij grote formaten wordt timing extra belangrijk omdat de inzet vaak hoger is: grotere gelegenheden, meer gasten en grotere verwachtingen.
+Strategie en timing worden hier één geheel.
 ',
     '- taste profile
 - preferences
@@ -2526,56 +1997,47 @@ Dit wordt jouw persoonlijke drinklogica.
 - identity
 - style
 ',
-    'Veel topverzamelaars kennen hun ideale openingscondities zeer precies.
+    'Veel verzamelaars plannen Magnums weken vooruit, juist omdat de impact van een verkeerd moment groter voelt.
 ',
-    '- Jouw profiel is uniek
-- Data bouwt voorkeuren
-- Timing wordt persoonlijk
+    '- Door hun tragere ontwikkeling en grotere massa reageren ze vaak subtieler, maar soms ook gevoeliger op timing
+- Strategie en timing worden hier één geheel
+- Observatie en vergelijking zijn belangrijker dan vaste regels
 ',
     '### Opdracht
 
-Maak jouw top 5 favoriete proefomstandigheden.
+Kies een Magnum of grotere fles en bepaal:
+- ideale openingsperiode
+- dagtype
 
 ### Checklist
 
-- Dagtypes gekozen
-- Dranktypes gekozen
-- Omstandigheden gekozen
+- decanteertijd
+- pairing
 
 ### Reflectievraag
 
-Wat past het best bij jou?
+Zou jij bij een Magnum meer voorbereiding doen dan bij een standaardfles?
 
 
 ---
 
 ### Reflectievraag
 
-Wat past het best bij jou?
+Zou jij bij een Magnum meer voorbereiding doen dan bij een standaardfles?
 ',
     8,
     3
   ),
   (
-    'data-en-voorkeuren',
-    'Data en persoonlijke voorkeuren',
-    'Na deze les begrijp jij hoe data jouw keuzes slimmer maakt.
+    'pairing-dagtypes',
+    'Pairing en dagtypes',
+    'Na deze les begrijp jij hoe food pairing verandert door dagtype en expressie van de wijn.
 ',
-    'Data maakt intuïtie sterker.
-
-Voorbeelden:
-
-- gemiddeld hogere scores op Vruchtdagen
-- lagere scores bij stormfronten
-- betere pairings op koelere dagen
-
-Dit verandert jouw keuzes.
-
-Van gevoel.
-
-Naar onderbouwde intuïtie.
-
-Dit is waar technologie en proeven samenkomen.
+    'Food pairing wordt meestal bekeken vanuit smaakbalans, maar timing voegt een extra laag toe.
+Een wijn op een Vruchtdag kan meer fruit en openheid geven, waardoor pairing met rijke gerechten beter werkt.
+Op een Worteldag komt structuur sterker naar voren, waardoor dezelfde wijn misschien beter past bij aardse of krachtige gerechten.
+Timing beïnvloedt dus niet alleen de wijn, maar ook de interactie met eten.
+Voor sommeliers is dit een belangrijk strategisch hulpmiddel.
 ',
     '- data
 - scoring
@@ -2583,100 +2045,88 @@ Dit is waar technologie en proeven samenkomen.
 - patterns
 - analytics
 ',
-    'Veel professionele wijnapps bouwen nu persoonlijke recommendation engines.
+    'Een pairing die op een Vruchtdag perfect voelt, kan op een Bladdag minder harmonieus aanvoelen.
 ',
-    '- Data versterkt intuïtie
-- Patronen maken keuzes slimmer
-- Persoonlijke voorkeuren worden meetbaar
+    '- Food pairing wordt meestal bekeken vanuit smaakbalans, maar timing voegt een extra laag toe
+- Een wijn op een Vruchtdag kan meer fruit en openheid geven, waardoor pairing met rijke gerechten beter werkt
+- Timing beïnvloedt dus niet alleen de wijn, maar ook de interactie met eten
+- In de app: Het dagdetail (via Bekijk dagadvies) toont weer en wijnadvies per tijdvak.
 ',
     '### Opdracht
 
-Bekijk jouw hoogste en laagste scores.
+Kies één wijn en combineer deze op twee verschillende dagtypes met hetzelfde gerecht.
 
-### Checklist
+Analyseer:
+- harmonie
+- spanning
+- contrast
+- lengte
 
-- Scores bekeken
-- Omstandigheden vergeleken
-- Conclusie getrokken
+*Plan dit experiment over 2–4 weken zodat je elk dagtype onder vergelijkbare omstandigheden proeft.*
 
 ### Reflectievraag
 
-Wat valt op?
+Hoeveel invloed denk jij dat timing heeft op pairing?
 
 
 ---
 
 ### Reflectievraag
 
-Wat valt op?
+Hoeveel invloed denk jij dat timing heeft op pairing?
 ',
     8,
     4
   ),
   (
-    'persoonlijke-drinkintelligentie',
-    'Jouw persoonlijke drinkintelligentie',
-    'Na deze les kun jij al jouw kennis samenbrengen in één persoonlijke drinkstrategie.
+    'eigen-biodynamisch-systeem',
+    'Je eigen biodynamische systeem bouwen',
+    'Na deze les kun jij een persoonlijk biodynamisch observatiesysteem opbouwen op basis van eigen data.
 ',
-    'Drinkintelligentie is de optelsom van:
+    'Het hoogste niveau van biodynamisch proeven is niet blind vertrouwen op theorie, maar het bouwen van je eigen observatiesysteem.
+Door herhaaldelijk te noteren hoe jouw wijnen reageren op verschillende dagtypes, weersomstandigheden en contexten, ontstaat persoonlijke data.
+Na verloop van tijd herken je patronen:
+- welke stijlen voor jou beter werken op Vruchtdagen
+- welke wijnen op Worteldagen analytisch sterker zijn
+- welke omstandigheden jouw ideale drinkmoment vormen
 
-- kennis
-- ervaring
-- timing
-- observatie
-- data
-- gevoel
-
-Dit is jouw persoonlijke systeem.
-
-Niet alleen:
-
-"Wat drink ik?"
-
-Maar:
-
-"Waarom nu?"
-
-Dat is het hoogste niveau van bewust drinken.
-
-Hier komt alles samen.
-
-Dit is de kern van Way of Tasting.
+Dit maakt biodynamiek persoonlijk en praktisch.
 ',
     '- drink intelligence
 - personal system
 - observation
 - timing
 - data',
-    'De beste proevers vertrouwen op gevoel én data tegelijk.
+    'De beste proevers bouwen hun eigen geheugenbank van ervaringen en vertrouwen niet uitsluitend op algemene regels.
 ',
-    '- Alles komt samen
-- Timing wordt intuïtief
-- Data maakt gevoel slimmer
-- Jij bouwt je eigen systeem
+    '- Observatie en vergelijking zijn belangrijker dan vaste regels
+- Timing kan expressie versterken of afzwakken
+- Noteer dagtype en weer bij elke serieuze proef
+- In de app: Bouw je profiel op via herhaalde observaties — Advies wordt persoonlijker naarmate je meer proeft.
 ',
     '### Opdracht
 
-Schrijf jouw persoonlijke drinkfilosofie in 5 regels.
+Maak jouw eigen biodynamische profiel:
+- favoriete dagtype
+- gevoeligste wijnstijl
+- ideale weerscondities
 
 ### Checklist
 
-- Voorkeuren benoemd
-- Timing benoemd
-- Strategie benoemd
+- beste pairingmomenten
 
 ### Reflectievraag
 
-Wat is voor jou het perfecte drinkmoment?
+Welke patronen heb jij tot nu toe al bij jezelf ontdekt?
 
 
 ---
 
 ### Reflectievraag
 
-Wat is voor jou het perfecte drinkmoment?
+Welke patronen heb jij tot nu toe al bij jezelf ontdekt?
 ',
-    10,
+    8,
     5
   )
 ) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
@@ -2696,24 +2146,14 @@ select m.id, v.slug, v.title, v.objective, v.theory, v.key_concepts, v.did_you_k
 from m
 cross join (values
   (
-    'theorie-examen-biodynamisch',
-    'Theorie-examen Biodynamisch Proeven',
-    'Na dit examen kan jij aantonen dat je de theorie volledig beheerst.
+    'perfect-drinkmoment-herkennen',
+    'Het perfecte drinkmoment herkennen',
+    'Na deze les herken jij wanneer dagtype, weer, drinkvenster en context samenkomen in een topmoment.
 ',
-    'Dit examen test:
-
-- dagtypes
-- elementen
-- Maria Thun
-- luchtdruk
-- luchtvochtigheid
-- weersinvloeden
-- wijnstijlen
-- bier
-- cocktails
-- voorraadplanning
-
-Dit is jouw theoretische eindtoets.
+    'Het perfecte drinkmoment is zelden toeval. Het ontstaat wanneer meerdere factoren samenvallen: de wijn zit in zijn optimale drinkvenster, het dagtype ondersteunt de stijl, de atmosfeer is stabiel en de context klopt.
+Een grote Bourgogne op een Vruchtdag met stabiele luchtdruk en de juiste pairing zal vaak veel completer overkomen dan dezelfde fles op een willekeurig moment.
+Voor ervaren proevers draait dit om het herkennen van die zeldzame overlap.
+Daar ligt de essentie van biodynamisch drinken: maximale kwaliteit uit één moment halen.
 ',
     '- theory exam
 - knowledge
@@ -2721,154 +2161,147 @@ Dit is jouw theoretische eindtoets.
 - timing
 - structure
 ',
-    '',
-    '- Volledige theorietoets
-- Alle modules komen terug
-- Basis voor praktijkdeel
+    'De beste sommeliers leren niet alleen wát goed is, maar vooral wannéér iets op zijn best is.
 ',
-    '- 20 multiple choice vragen
-- minimaal 80% goed
-- herkansing mogelijk
+    '- Daar ligt de essentie van biodynamisch drinken: maximale kwaliteit uit één moment halen
+- Observatie en vergelijking zijn belangrijker dan vaste regels
+- Timing kan expressie versterken of afzwakken
 ',
-    20,
+    '### Opdracht
+
+Kies één fles uit je voorraad en bepaal:
+- drinkvenster
+- ideale dagtype
+- weersomstandigheden
+
+### Checklist
+
+- pairing
+- context
+
+### Reflectievraag
+
+Welke factor onderschat jij momenteel het meest?
+
+
+---
+
+### Reflectievraag
+
+Welke factor onderschat jij momenteel het meest?
+',
+    8,
     1
   ),
   (
-    'praktijkproef-worteldag',
-    'Praktijkproef op Worteldag',
-    'Na deze praktijkproef kun jij structurele kenmerken analyseren op een Worteldag.
+    'timing-versus-kwaliteit',
+    'Timing versus kwaliteit',
+    'Na deze les begrijp jij dat timing kwaliteit ontsluit — niet vervangt.
 ',
-    '',
+    'Niet elke geweldige wijn geeft automatisch een geweldige ervaring. Kwaliteit is de basis, maar timing bepaalt vaak hoe zichtbaar die kwaliteit wordt.
+Een top-Barolo op een slechte dag kan minder indrukwekkend zijn dan een goede Chianti op een ideale Vruchtdag.
+Dit betekent niet dat timing kwaliteit vervangt, maar dat het kwaliteit ontsluit.
+Voor serieuze wijnliefhebbers is dit een fundamenteel inzicht: potentieel en moment zijn onlosmakelijk verbonden.
+',
     '- root day
 - structure
 - tannin
 - acidity
 - minerality
 ',
-    '',
-    '',
-    'Open één wijn op een Worteldag.
+    'Professionals weten dat timing soms het verschil maakt tussen “goed” en “onvergetelijk”.
+',
+    '- Niet elke geweldige wijn geeft automatisch een geweldige ervaring
+- Kwaliteit is de basis, maar timing bepaalt vaak hoe zichtbaar die kwaliteit wordt
+- Een top-Barolo op een slechte dag kan minder indrukwekkend zijn dan een goede Chianti op een ideale Vruchtdag
+- In de app: Gebruik **vooruitblik** om het juiste dagtype voor deze fles te kiezen.
+',
+    '### Opdracht
+
+Vergelijk:
+- een topwijn op een minder gunstig moment
+- een goede wijn op een sterk moment
 
 Analyseer:
+- balans
+- plezier
+- expressie
+- memorabiliteit
 
-- structuur
-- tannine
-- zuren
-- mineraliteit
-- openheid
+### Reflectievraag
 
-
----
-
-### Checklist
-
-- Dagtype bevestigd
-- Weer genoteerd
-- Luchtdruk genoteerd
-- Proefnotities gemaakt
-- Score gegeven
+Wat betekent kwaliteit voor jou zonder de juiste timing?
 
 
 ---
 
 ### Reflectievraag
 
-Welke structurele elementen vielen het meest op?
-
-
----
-
-### Beoordeling
-
-De student moet aantonen:
-
-- correcte observatie
-- juiste terminologie
-- duidelijke analyse
+Wat betekent kwaliteit voor jou zonder de juiste timing?
 ',
-    20,
+    8,
     2
   ),
   (
-    'praktijkproef-vruchtdag',
-    'Praktijkproef op Vruchtdag',
-    'Na deze praktijkproef kun jij maximale expressie analyseren op een Vruchtdag.
+    'persoonlijke-voorkeurspatronen',
+    'Jouw persoonlijke voorkeurspatronen',
+    'Na deze les herken jij je persoonlijke voorkeurspatronen per dagtype en wijnstijl.
 ',
-    '',
+    'Niet iedere proever reageert hetzelfde op biodynamische timing. Sommige mensen geven de voorkeur aan de analytische strengheid van Worteldagen, anderen zoeken juist de openheid van Vruchtdagen.
+Ook persoonlijke smaak speelt mee: wie houdt van spanning, zal vaak andere ideale momenten kiezen dan iemand die vooral op zoek is naar charme en fruit.
+Door je eigen voorkeuren te herkennen, maak je biodynamisch drinken persoonlijker en effectiever.
+Dit is waar theorie verandert in individuele stijl.
+',
     '- fruit day
 - harmony
 - expression
 - balance
 - openness
 ',
-    '',
-    '',
-    'Open dezelfde wijn (of vergelijkbare fles) op een Vruchtdag.
+    'De beste proevers kennen niet alleen wijn, maar ook hun eigen voorkeurspatronen.
+',
+    '- Niet iedere proever reageert hetzelfde op biodynamische timing
+- Door je eigen voorkeuren te herkennen, maak je biodynamisch drinken persoonlijker en effectiever
+- Observatie en vergelijking zijn belangrijker dan vaste regels
+',
+    '### Opdracht
 
-Analyseer:
+Maak een overzicht van:
+- jouw favoriete dagtype
+- jouw minst favoriete dagtype
+- jouw meest gevoelige wijnstijl
+- jouw ideale drinkcontext
 
-- fruit
-- openheid
-- balans
-- lengte
-- harmonie
+### Reflectievraag
 
-
----
-
-### Checklist
-
-- Dagtype bevestigd
-- Weer genoteerd
-- Proefnotities gemaakt
-- Vergelijking voorbereid
+Wat zegt jouw voorkeur over hoe jij kwaliteit beleeft?
 
 
 ---
 
 ### Reflectievraag
 
-Welke verschillen merk je met de Worteldag?
-
-
----
-
-### Beoordeling
-
-De student moet aantonen:
-
-- fruitanalyse
-- balansherkenning
-- expressiebeoordeling
+Wat zegt jouw voorkeur over hoe jij kwaliteit beleeft?
 ',
-    20,
+    8,
     3
   ),
   (
-    'vergelijking-en-analyse',
-    'Vergelijking en analyse',
-    'Na deze les kun jij verschillen objectief vergelijken en onderbouwen.
+    'open-examen-biodynamisch',
+    'Open examen',
+    'Na deze les voer je een open integratie-analyse uit over alle geleerde lagen van biodynamisch proeven.
 ',
-    'Vergelijk:
+    'Deze les is geen traditionele les, maar een open evaluatie van alles wat je hebt geleerd.
+Het doel is om zelfstandig een fles te analyseren zonder vaste begeleiding.
+Je gebruikt daarbij alle lagen van biodynamisch proeven:
+- dagtype
+- weersomstandigheden
+- luchtdruk
+- drinkvenster
+- pairing
+- context
 
-Worteldag vs Vruchtdag.
-
-Analyseer:
-
-- geur
-- smaak
-- structuur
-- lengte
-- balans
-- voorkeur
-
-Belangrijk:
-
-Niet "beter".
-
-Maar "anders".
-
-Analyse is belangrijker dan oordeel.
+Dit is het moment waarop kennis verandert in intuïtie.
 ',
     '- comparison
 - analysis
@@ -2876,72 +2309,78 @@ Analyse is belangrijker dan oordeel.
 - tasting memory
 - difference
 ',
-    '',
-    '',
-    '### Vergelijkingsmatrix
+    'Echte expertise begint wanneer je zonder hulpmiddelen dezelfde patronen blijft herkennen.
+',
+    '- Observatie en vergelijking zijn belangrijker dan vaste regels
+- Timing kan expressie versterken of afzwakken
+- Noteer dagtype en weer bij elke serieuze proef
+',
+    '### Opdracht
 
-| Onderdeel | Worteldag | Vruchtdag |
-|---|---|---|
-| Fruit |   |   |
-| Structuur |   |   |
-| Openheid |   |   |
-| Balans |   |   |
-| Lengte |   |   |
+Kies één serieuze fles en maak een volledige analyse:
+- waarom vandaag?
+- welk dagtype?
+- welke atmosfeer?
+- hoe presteerde de wijn?
+- wat zou je anders doen?
+
+### Reflectievraag
+
+Welke inzichten uit deze track gebruik je inmiddels automatisch?
 
 
 ---
 
 ### Reflectievraag
 
-Welke dag gaf jouw beste ervaring?
-
-
----
-
-### Beoordeling
-
-De student toont:
-
-- objectieve vergelijking
-- patroonherkenning
-- persoonlijke analyse
+Welke inzichten uit deze track gebruik je inmiddels automatisch?
 ',
     20,
     4
   ),
   (
-    'eindassessment-biodynamic-intelligence',
-    'Eindassessment Biodynamic Intelligence',
-    'Na dit eindassessment kun jij jouw persoonlijke biodynamische drinkintelligentie formuleren.
+    'biodynamisch-meesterschap',
+    'Biodynamisch meesterschap',
+    'Na deze les formuleer jij je persoonlijke biodynamische drinkstrategie als actieve proever.
 ',
-    'Dit is jouw eindreflectie.
-
-Je combineert:
-
-- theorie
-- praktijk
-- observatie
-- data
-- voorkeuren
-
-Beantwoord:
-
-1. Welke dagtypes passen het best bij jou?
-2. Welke drankcategorie reageert het sterkst?
-3. Welke weersfactor beïnvloedt jou het meest?
-4. Hoe ga jij dit toepassen in je eigen voorraad?
-5. Wat is jouw persoonlijke openingsstrategie?
-
-Dit is jouw persoonlijke biodynamische profiel.
+    'Meesterschap in biodynamisch proeven betekent niet dat je altijd gelijk hebt, maar dat je patronen steeds beter leert herkennen.
+Je begrijpt nu hoe timing, atmosfeer, rijping en context elkaar beïnvloeden.
+Dat maakt je geen passieve drinker meer, maar een actieve strateeg in je eigen wijnervaring.
+Of het nu gaat om een eenvoudige fles Sauvignon Blanc of een oude Vintage Port: je weet nu dat timing het verschil kan maken.
+Daarmee is biodynamiek geen theorie meer, maar een onderdeel van jouw manier van proeven.
 ',
     '- mastery
 - personal intelligence
 - strategy
 - biodynamic profile
 - final certification',
-    '',
-    '',
-    'Schrijf jouw:
+    'De grootste verzamelaars en sommeliers onderscheiden zich niet alleen door kennis, maar door timingdiscipline.
+',
+    '- Je begrijpt nu hoe timing, atmosfeer, rijping en context elkaar beïnvloeden
+- Dat maakt je geen passieve drinker meer, maar een actieve strateeg in je eigen wijnervaring
+- Daarmee is biodynamiek geen theorie meer, maar een onderdeel van jouw manier van proeven
+- In de app: Je persoonlijke strategie gebruik je dagelijks via Advies, voorraad en Academy-voortgang.
+',
+    '### Opdracht
+
+Maak jouw biodynamische masterprofiel:
+- favoriete dagtypes
+- ideale weersomstandigheden
+- gevoeligste wijnstijlen
+
+### Checklist
+
+- beste pairingmomenten
+- reserveflessenstrategie
+
+### Reflectievraag
+
+Hoe heeft biodynamisch denken jouw manier van drinken veranderd?
+
+
+---
+
+Schrijf jouw:
 
 **Personal Biodynamic Drinking Manifest**
 
@@ -2950,6 +2389,13 @@ Minimaal:
 - 10 observaties
 - 5 conclusies
 - 3 concrete openingsstrategieën
+
+
+---
+
+### Reflectievraag
+
+Hoe heeft biodynamisch denken jouw manier van drinken veranderd?
 
 
 ---
@@ -3145,60 +2591,75 @@ join (values
   ('voorraad-biodynamic', 'drinkvensters-en-dagtypes', 3, 'Peak drinking betekent:', '["Optimale combinatie", "Jong drinken", "Te laat drinken", "Sneller drinken"]', 0, 'Correct: Optimale combinatie'),
   ('voorraad-biodynamic', 'drinkvensters-en-dagtypes', 4, 'Welke dag past vaak bij top-Barolo?', '["Vruchtdag", "Bladdag", "Willekeurig", "Worteldag"]', 0, 'Correct: Vruchtdag'),
   ('voorraad-biodynamic', 'drinkvensters-en-dagtypes', 5, 'Champagne past vaak goed op:', '["Bloemdag", "Worteldag", "Bladdag", "Nacht"]', 0, 'Correct: Bloemdag'),
-  ('voorraad-biodynamic', 'slim-voorraadbeheer', 1, 'Slim voorraadbeheer is:', '["Proactief", "Reactief", "Willekeurig", "Chaotisch"]', 0, 'Correct: Proactief'),
-  ('voorraad-biodynamic', 'slim-voorraadbeheer', 2, 'Wat helpt plannen?', '["Kalender", "Etiket", "Kleur", "Kurk"]', 0, 'Correct: Kalender'),
-  ('voorraad-biodynamic', 'slim-voorraadbeheer', 3, 'Wat kun je vermijden?', '["Verkeerde opening", "Goede pairing", "Goed glas", "Goed weer"]', 0, 'Correct: Verkeerde opening'),
-  ('voorraad-biodynamic', 'slim-voorraadbeheer', 4, 'Wat verhoogt dit?', '["Controle", "Alcohol", "Leeftijd", "Koolzuur"]', 0, 'Correct: Controle'),
-  ('voorraad-biodynamic', 'slim-voorraadbeheer', 5, 'Ready now betekent:', '["Klaar om te openen", "Nog te jong", "Over zijn piek", "Onbekend"]', 0, 'Correct: Klaar om te openen'),
-  ('voorraad-biodynamic', 'strategic-opening-planning', 1, 'Strategic planning combineert:', '["Alles", "Alleen weer", "Alleen dagtype", "Alleen leeftijd"]', 0, 'Correct: Alles'),
-  ('voorraad-biodynamic', 'strategic-opening-planning', 2, 'Weerdata gaan meestal vooruit:', '["14 dagen", "30 dagen", "90 dagen", "365 dagen"]', 0, 'Correct: 14 dagen'),
-  ('voorraad-biodynamic', 'strategic-opening-planning', 3, 'Daarna gebruik je:', '["Kalenderlogica", "Alleen temperatuur", "Alleen prijs", "Alleen kleur"]', 0, 'Correct: Kalenderlogica'),
-  ('voorraad-biodynamic', 'strategic-opening-planning', 4, 'Wat verhoogt planning?', '["Beleving", "Alcohol", "Leeftijd", "Schuim"]', 0, 'Correct: Beleving'),
-  ('voorraad-biodynamic', 'strategic-opening-planning', 5, 'Dit is de hoogste vorm van:', '["Drinkintelligentie", "Marketing", "Productie", "Opslag"]', 0, 'Correct: Drinkintelligentie'),
-  ('intelligence-biodynamic', 'tasting-journal-gebruiken', 1, 'Waarom noteren?', '["Patronen herkennen", "Alleen bewaren", "Alleen delen", "Alleen scoren"]', 0, 'Correct: Patronen herkennen'),
-  ('intelligence-biodynamic', 'tasting-journal-gebruiken', 2, 'Wat noteer je?', '["Dagtype", "Alleen kleur", "Alleen prijs", "Alleen glas"]', 0, 'Correct: Dagtype'),
-  ('intelligence-biodynamic', 'tasting-journal-gebruiken', 3, 'Wat bouwt data?', '["Inzicht", "Alcohol", "Leeftijd", "Zuur"]', 0, 'Correct: Inzicht'),
-  ('intelligence-biodynamic', 'tasting-journal-gebruiken', 4, 'Wat helpt een journal?', '["Vergelijken", "Vergeten", "Sneller drinken", "Minder proeven"]', 0, 'Correct: Vergelijken'),
-  ('intelligence-biodynamic', 'tasting-journal-gebruiken', 5, 'Wat groeit?', '["Geheugen", "Alcoholpercentage", "Druivenras", "Voorraad"]', 0, 'Correct: Geheugen'),
-  ('intelligence-biodynamic', 'patronen-herkennen', 1, 'Wanneer ontstaan patronen?', '["Na herhaling", "Na één fles", "Nooit", "Alleen bij topwijn"]', 0, 'Correct: Na herhaling'),
-  ('intelligence-biodynamic', 'patronen-herkennen', 2, 'Zijn patronen universeel?', '["Nee", "Ja", "Altijd", "Alleen bij experts"]', 0, 'Correct: Nee'),
-  ('intelligence-biodynamic', 'patronen-herkennen', 3, 'Wat geven patronen?', '["Voorspelbaarheid", "Meer alcohol", "Meer suiker", "Minder geur"]', 0, 'Correct: Voorspelbaarheid'),
-  ('intelligence-biodynamic', 'patronen-herkennen', 4, 'Wat helpt analyseren?', '["Vergelijken", "Willekeur", "Snelheid", "Prijs"]', 0, 'Correct: Vergelijken'),
-  ('intelligence-biodynamic', 'patronen-herkennen', 5, 'Patronen zijn:', '["Persoonlijk", "Vast", "Altijd hetzelfde", "Wetenschappelijk bewezen"]', 0, 'Correct: Persoonlijk'),
-  ('intelligence-biodynamic', 'eigen-smaakprofiel', 1, 'Is smaak persoonlijk?', '["Ja", "Nee", "Altijd gelijk", "Alleen bij experts"]', 0, 'Correct: Ja'),
-  ('intelligence-biodynamic', 'eigen-smaakprofiel', 2, 'Wat bouw je?', '["Profiel", "Voorraad", "Alcohol", "Leeftijd"]', 0, 'Correct: Profiel'),
-  ('intelligence-biodynamic', 'eigen-smaakprofiel', 3, 'Wat helpt hierbij?', '["Data", "Willekeur", "Snel drinken", "Alleen ervaring"]', 0, 'Correct: Data'),
-  ('intelligence-biodynamic', 'eigen-smaakprofiel', 4, 'Wat kan onderdeel zijn?', '["Ideaal dagtype", "Alleen prijs", "Alleen glas", "Alleen kleur"]', 0, 'Correct: Ideaal dagtype'),
-  ('intelligence-biodynamic', 'eigen-smaakprofiel', 5, 'Wat wordt hierdoor sterker?', '["Besluitvorming", "Alcohol", "Zuur", "Bitter"]', 0, 'Correct: Besluitvorming'),
-  ('intelligence-biodynamic', 'data-en-voorkeuren', 1, 'Wat versterkt data?', '["Intuïtie", "Alcohol", "Leeftijd", "Zoetheid"]', 0, 'Correct: Intuïtie'),
-  ('intelligence-biodynamic', 'data-en-voorkeuren', 2, 'Wat maakt data?', '["Meetbaar", "Onzichtbaar", "Willekeurig", "Emotioneel"]', 0, 'Correct: Meetbaar'),
-  ('intelligence-biodynamic', 'data-en-voorkeuren', 3, 'Wat bouwt dit?', '["Slimmere keuzes", "Meer voorraad", "Meer suiker", "Meer alcohol"]', 0, 'Correct: Slimmere keuzes'),
-  ('intelligence-biodynamic', 'data-en-voorkeuren', 4, 'Wat kun je analyseren?', '["Scores", "Alleen etiketten", "Alleen glazen", "Alleen prijzen"]', 0, 'Correct: Scores'),
-  ('intelligence-biodynamic', 'data-en-voorkeuren', 5, 'Data helpt:', '["Beslissen", "Fermenteren", "Carboneren", "Filteren"]', 0, 'Correct: Beslissen'),
-  ('intelligence-biodynamic', 'persoonlijke-drinkintelligentie', 1, 'Drinkintelligentie is:', '["Alles samen", "Alleen kennis", "Alleen data", "Alleen smaak"]', 0, 'Correct: Alles samen'),
-  ('intelligence-biodynamic', 'persoonlijke-drinkintelligentie', 2, 'Wat maakt timing sterker?', '["Observatie", "Snelheid", "Leeftijd", "Prijs"]', 0, 'Correct: Observatie'),
-  ('intelligence-biodynamic', 'persoonlijke-drinkintelligentie', 3, 'Wat bouw jij?', '["Eigen systeem", "Nieuwe wijn", "Nieuwe kalender", "Nieuwe druif"]', 0, 'Correct: Eigen systeem'),
-  ('intelligence-biodynamic', 'persoonlijke-drinkintelligentie', 4, 'Wat helpt samen?', '["Gevoel en data", "Alleen gevoel", "Alleen weer", "Alleen kalender"]', 0, 'Correct: Gevoel en data'),
-  ('intelligence-biodynamic', 'persoonlijke-drinkintelligentie', 5, 'Wat is de kern?', '["Waarom nu?", "Hoe duur?", "Hoe oud?", "Hoeveel alcohol?"]', 0, 'Correct: Waarom nu?'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 1, 'Wie ontwikkelde de biodynamische kalender?', '["Maria Thun", "Rudolf Steiner", "Louis Pasteur", "Dom Pérignon"]', 0, 'Correct: Maria Thun'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 2, 'Welke dag hoort bij vuur?', '["Vruchtdag", "Bladdag", "Bloemdag", "Worteldag"]', 0, 'Correct: Vruchtdag'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 3, 'Welke dag hoort bij aarde?', '["Worteldag", "Vruchtdag", "Bloemdag", "Bladdag"]', 0, 'Correct: Worteldag'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 4, 'Welke dag versterkt aroma?', '["Bloemdag", "Worteldag", "Bladdag", "Vruchtdag"]', 0, 'Correct: Bloemdag'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 5, 'Welke dag versterkt vegetale tonen?', '["Bladdag", "Bloemdag", "Worteldag", "Vruchtdag"]', 0, 'Correct: Bladdag'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 6, 'Wat doet hoge luchtdruk vaak?', '["Meer focus geven", "Minder balans", "Meer alcohol", "Meer suiker"]', 0, 'Correct: Meer focus geven'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 7, 'Wat doet lage luchtdruk soms?', '["Geslotenheid geven", "Meer fruit geven", "Meer mousse geven", "Meer suiker geven"]', 0, 'Correct: Geslotenheid geven'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 8, 'Wat beïnvloedt luchtvochtigheid?', '["Aroma en mondgevoel", "Leeftijd", "Alcoholpercentage", "Druivenras"]', 0, 'Correct: Aroma en mondgevoel'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 9, 'Welke dag is vaak ideaal voor Champagne?', '["Bloemdag", "Bladdag", "Worteldag", "Willekeurig"]', 0, 'Correct: Bloemdag'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 10, 'Welke dag is vaak ideaal voor Vintage Port?', '["Vruchtdag", "Bladdag", "Worteldag", "Bloemdag"]', 0, 'Correct: Vruchtdag'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 11, 'Wat betekent Dynamic Advice?', '["Drinkadvies voor nu", "Drinkadvies over 6 maanden", "Alleen voorraadbeheer", "Alleen weer"]', 0, 'Correct: Drinkadvies voor nu'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 12, 'Wat betekent Strategic Advice?', '["Lange termijn planning", "Alleen vandaag", "Alleen pairing", "Alleen weer"]', 0, 'Correct: Lange termijn planning'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 13, 'Hoe ver gaat weerdata meestal?', '["14 dagen", "30 dagen", "90 dagen", "365 dagen"]', 0, 'Correct: 14 dagen'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 14, 'Wat gebruik je daarna?', '["Biodynamische kalender", "Alleen temperatuur", "Alleen voorraad", "Alleen prijs"]', 0, 'Correct: Biodynamische kalender'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 15, 'Wat bouw je met tasting notes?', '["Patronen", "Alcohol", "Leeftijd", "Kleur"]', 0, 'Correct: Patronen'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 16, 'Wat helpt patronen herkennen?', '["Herhaling", "Willekeur", "Snelheid", "Leeftijd"]', 0, 'Correct: Herhaling'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 17, 'Wat bouw je met data?', '["Persoonlijk smaakprofiel", "Nieuwe wijn", "Nieuwe kalender", "Nieuwe druif"]', 0, 'Correct: Persoonlijk smaakprofiel'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 18, 'Wat is peak drinking?', '["Optimale combinatie van rijpheid en timing", "Jong drinken", "Te laat drinken", "Blind proeven"]', 0, 'Correct: Optimale combinatie van rijpheid en timing'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 19, 'Wat is de kern van drinkintelligentie?', '["Waarom nu?", "Hoe duur?", "Hoe oud?", "Hoeveel alcohol?"]', 0, 'Correct: Waarom nu?'),
-  ('examen-biodynamic', 'theorie-examen-biodynamisch', 20, 'Wat is het hoogste doel van biodynamisch proeven?', '["Optimale timing en expressie", "Meer alcohol", "Meer suiker", "Sneller drinken"]', 0, 'Correct: Optimale timing en expressie')
+  ('voorraad-biodynamic', 'voorraadstrategie-topflessen', 1, 'Slim voorraadbeheer is:', '["Proactief", "Reactief", "Willekeurig", "Chaotisch"]', 0, 'Correct: Proactief'),
+  ('voorraad-biodynamic', 'voorraadstrategie-topflessen', 2, 'Wat helpt plannen?', '["Kalender", "Etiket", "Kleur", "Kurk"]', 0, 'Correct: Kalender'),
+  ('voorraad-biodynamic', 'voorraadstrategie-topflessen', 3, 'Wat kun je vermijden?', '["Verkeerde opening", "Goede pairing", "Goed glas", "Goed weer"]', 0, 'Correct: Verkeerde opening'),
+  ('voorraad-biodynamic', 'voorraadstrategie-topflessen', 4, 'Wat verhoogt dit?', '["Controle", "Alcohol", "Leeftijd", "Koolzuur"]', 0, 'Correct: Controle'),
+  ('voorraad-biodynamic', 'voorraadstrategie-topflessen', 5, 'Ready now betekent:', '["Klaar om te openen", "Nog te jong", "Over zijn piek", "Onbekend"]', 0, 'Correct: Klaar om te openen'),
+  ('voorraad-biodynamic', 'reserves-lange-termijn', 1, 'Strategic planning combineert:', '["Alles", "Alleen weer", "Alleen dagtype", "Alleen leeftijd"]', 0, 'Correct: Alles'),
+  ('voorraad-biodynamic', 'reserves-lange-termijn', 2, 'Weerdata gaan meestal vooruit:', '["14 dagen", "30 dagen", "90 dagen", "365 dagen"]', 0, 'Correct: 14 dagen'),
+  ('voorraad-biodynamic', 'reserves-lange-termijn', 3, 'Daarna gebruik je:', '["Kalenderlogica", "Alleen temperatuur", "Alleen prijs", "Alleen kleur"]', 0, 'Correct: Kalenderlogica'),
+  ('voorraad-biodynamic', 'reserves-lange-termijn', 4, 'Wat verhoogt planning?', '["Beleving", "Alcohol", "Leeftijd", "Schuim"]', 0, 'Correct: Beleving'),
+  ('voorraad-biodynamic', 'reserves-lange-termijn', 5, 'Dit is de hoogste vorm van:', '["Drinkintelligentie", "Marketing", "Productie", "Opslag"]', 0, 'Correct: Drinkintelligentie'),
+  ('intelligence-biodynamic', 'vertical-tasting-biodynamiek', 1, 'Waarom noteren?', '["Patronen herkennen", "Alleen bewaren", "Alleen delen", "Alleen scoren"]', 0, 'Correct: Patronen herkennen'),
+  ('intelligence-biodynamic', 'vertical-tasting-biodynamiek', 2, 'Wat noteer je?', '["Dagtype", "Alleen kleur", "Alleen prijs", "Alleen glas"]', 0, 'Correct: Dagtype'),
+  ('intelligence-biodynamic', 'vertical-tasting-biodynamiek', 3, 'Wat bouwt data?', '["Inzicht", "Alcohol", "Leeftijd", "Zuur"]', 0, 'Correct: Inzicht'),
+  ('intelligence-biodynamic', 'vertical-tasting-biodynamiek', 4, 'Wat helpt een journal?', '["Vergelijken", "Vergeten", "Sneller drinken", "Minder proeven"]', 0, 'Correct: Vergelijken'),
+  ('intelligence-biodynamic', 'vertical-tasting-biodynamiek', 5, 'Wat groeit?', '["Geheugen", "Alcoholpercentage", "Druivenras", "Voorraad"]', 0, 'Correct: Geheugen'),
+  ('intelligence-biodynamic', 'blindproeven-timing', 1, 'Wanneer ontstaan patronen?', '["Na herhaling", "Na één fles", "Nooit", "Alleen bij topwijn"]', 0, 'Correct: Na herhaling'),
+  ('intelligence-biodynamic', 'blindproeven-timing', 2, 'Zijn patronen universeel?', '["Nee", "Ja", "Altijd", "Alleen bij experts"]', 0, 'Correct: Nee'),
+  ('intelligence-biodynamic', 'blindproeven-timing', 3, 'Wat geven patronen?', '["Voorspelbaarheid", "Meer alcohol", "Meer suiker", "Minder geur"]', 0, 'Correct: Voorspelbaarheid'),
+  ('intelligence-biodynamic', 'blindproeven-timing', 4, 'Wat helpt analyseren?', '["Vergelijken", "Willekeur", "Snelheid", "Prijs"]', 0, 'Correct: Vergelijken'),
+  ('intelligence-biodynamic', 'blindproeven-timing', 5, 'Patronen zijn:', '["Persoonlijk", "Vast", "Altijd hetzelfde", "Wetenschappelijk bewezen"]', 0, 'Correct: Persoonlijk'),
+  ('intelligence-biodynamic', 'grote-flessen-biodynamiek', 1, 'Is smaak persoonlijk?', '["Ja", "Nee", "Altijd gelijk", "Alleen bij experts"]', 0, 'Correct: Ja'),
+  ('intelligence-biodynamic', 'grote-flessen-biodynamiek', 2, 'Wat bouw je?', '["Profiel", "Voorraad", "Alcohol", "Leeftijd"]', 0, 'Correct: Profiel'),
+  ('intelligence-biodynamic', 'grote-flessen-biodynamiek', 3, 'Wat helpt hierbij?', '["Data", "Willekeur", "Snel drinken", "Alleen ervaring"]', 0, 'Correct: Data'),
+  ('intelligence-biodynamic', 'grote-flessen-biodynamiek', 4, 'Wat kan onderdeel zijn?', '["Ideaal dagtype", "Alleen prijs", "Alleen glas", "Alleen kleur"]', 0, 'Correct: Ideaal dagtype'),
+  ('intelligence-biodynamic', 'grote-flessen-biodynamiek', 5, 'Wat wordt hierdoor sterker?', '["Besluitvorming", "Alcohol", "Zuur", "Bitter"]', 0, 'Correct: Besluitvorming'),
+  ('intelligence-biodynamic', 'pairing-dagtypes', 1, 'Wat versterkt data?', '["Intuïtie", "Alcohol", "Leeftijd", "Zoetheid"]', 0, 'Correct: Intuïtie'),
+  ('intelligence-biodynamic', 'pairing-dagtypes', 2, 'Wat maakt data?', '["Meetbaar", "Onzichtbaar", "Willekeurig", "Emotioneel"]', 0, 'Correct: Meetbaar'),
+  ('intelligence-biodynamic', 'pairing-dagtypes', 3, 'Wat bouwt dit?', '["Slimmere keuzes", "Meer voorraad", "Meer suiker", "Meer alcohol"]', 0, 'Correct: Slimmere keuzes'),
+  ('intelligence-biodynamic', 'pairing-dagtypes', 4, 'Wat kun je analyseren?', '["Scores", "Alleen etiketten", "Alleen glazen", "Alleen prijzen"]', 0, 'Correct: Scores'),
+  ('intelligence-biodynamic', 'pairing-dagtypes', 5, 'Data helpt:', '["Beslissen", "Fermenteren", "Carboneren", "Filteren"]', 0, 'Correct: Beslissen'),
+  ('intelligence-biodynamic', 'eigen-biodynamisch-systeem', 1, 'Drinkintelligentie is:', '["Alles samen", "Alleen kennis", "Alleen data", "Alleen smaak"]', 0, 'Correct: Alles samen'),
+  ('intelligence-biodynamic', 'eigen-biodynamisch-systeem', 2, 'Wat maakt timing sterker?', '["Observatie", "Snelheid", "Leeftijd", "Prijs"]', 0, 'Correct: Observatie'),
+  ('intelligence-biodynamic', 'eigen-biodynamisch-systeem', 3, 'Wat bouw jij?', '["Eigen systeem", "Nieuwe wijn", "Nieuwe kalender", "Nieuwe druif"]', 0, 'Correct: Eigen systeem'),
+  ('intelligence-biodynamic', 'eigen-biodynamisch-systeem', 4, 'Wat helpt samen?', '["Gevoel en data", "Alleen gevoel", "Alleen weer", "Alleen kalender"]', 0, 'Correct: Gevoel en data'),
+  ('intelligence-biodynamic', 'eigen-biodynamisch-systeem', 5, 'Wat is de kern?', '["Waarom nu?", "Hoe duur?", "Hoe oud?", "Hoeveel alcohol?"]', 0, 'Correct: Waarom nu?'),
+  ('examen-biodynamic', 'perfect-drinkmoment-herkennen', 1, 'Wat kenmerkt een perfect drinkmoment?', '["Meerdere factoren vallen samen", "Alleen een hoge prijs", "Willekeurige timing", "Alleen het juiste glas"]', 0, 'Correct: Meerdere factoren vallen samen'),
+  ('examen-biodynamic', 'perfect-drinkmoment-herkennen', 2, 'Welke factor hoort niet bij een topmoment?', '["Alleen etiketkleur", "Drinkvenster", "Dagtype", "Weersstabiliteit"]', 0, 'Correct: Alleen etiketkleur'),
+  ('examen-biodynamic', 'perfect-drinkmoment-herkennen', 3, 'Waarom is context belangrijk?', '["Expressie hangt ook van moment af", "Wijn verandert nooit", "Alleen pairing telt", "Kalender is optioneel"]', 0, 'Correct: Expressie hangt ook van moment af'),
+  ('examen-biodynamic', 'perfect-drinkmoment-herkennen', 4, 'Wat doen ervaren sommeliers vooral goed?', '["Herkennen wannér iets op zijn best is", "Alleen veel flessen kopen", "Altijd direct openen", "Dagtypes negeren"]', 0, 'Correct: Herkennen wannér iets op zijn best is'),
+  ('examen-biodynamic', 'perfect-drinkmoment-herkennen', 5, 'Wat is het doel van deze les?', '["Topmomenten herkennen en plannen", "Alleen theorie-examen halen", "Blindproeven vermijden", "Voorraad minimaliseren"]', 0, 'Correct: Topmomenten herkennen en plannen'),
+  ('examen-biodynamic', 'timing-versus-kwaliteit', 1, 'Wat doet timing met kwaliteit?', '["Ontsluit potentieel", "Vervangt kwaliteit", "Maakt wijn zoeter", "Verlaagt altijd tannine"]', 0, 'Correct: Ontsluit potentieel'),
+  ('examen-biodynamic', 'timing-versus-kwaliteit', 2, 'Wat kan op een minder gunstig moment gebeuren?', '["Topwijn presteert onder verwachting", "Wijn wordt permanent slecht", "Alcohol verdwijnt", "Kurk breekt altijd"]', 0, 'Correct: Topwijn presteert onder verwachting'),
+  ('examen-biodynamic', 'timing-versus-kwaliteit', 3, 'Wat is de juiste houding?', '["Kwaliteit en moment zijn verbonden", "Alleen prijs telt", "Timing is onbelangrijk", "Alleen blindproeven telt"]', 0, 'Correct: Kwaliteit en moment zijn verbonden'),
+  ('examen-biodynamic', 'timing-versus-kwaliteit', 4, 'Wat analyseer je in de praktijkopdracht?', '["Balans, plezier en expressie", "Alleen alcoholpercentage", "Alleen flesvorm", "Alleen jaartal"]', 0, 'Correct: Balans, plezier en expressie'),
+  ('examen-biodynamic', 'timing-versus-kwaliteit', 5, 'Wat is memorabiliteit?', '["Hoe onvergetelijk een ervaring voelt", "Het etiketontwerp", "De kurklengte", "De glasvorm"]', 0, 'Correct: Hoe onvergetelijk een ervaring voelt'),
+  ('examen-biodynamic', 'persoonlijke-voorkeurspatronen', 1, 'Waarom verschillen voorkeuren per proever?', '["Smaak en dagtype-respons zijn persoonlijk", "Iedereen proeft identiek", "Alleen prijs verschilt", "Kalender is voor iedereen gelijk"]', 0, 'Correct: Smaak en dagtype-respons zijn persoonlijk'),
+  ('examen-biodynamic', 'persoonlijke-voorkeurspatronen', 2, 'Wat helpt bij persoonlijke stijl?', '["Eigen patronen herkennen", "Alleen scores van anderen volgen", "Nooit vergelijken", "Dagtypes vermijden"]', 0, 'Correct: Eigen patronen herkennen'),
+  ('examen-biodynamic', 'persoonlijke-voorkeurspatronen', 3, 'Wat noteer je in de praktijkopdracht?', '["Favoriete en minst favoriete dagtype", "Alleen kurkleverancier", "Alleen serveertemperatuur", "Alleen winkelprijs"]', 0, 'Correct: Favoriete en minst favoriete dagtype'),
+  ('examen-biodynamic', 'persoonlijke-voorkeurspatronen', 4, 'Wat betekent individuele stijl hier?', '["Theorie toegepast op jouw smaak", "Blind kopiëren van experts", "Geen observatie", "Alleen wiskunde"]', 0, 'Correct: Theorie toegepast op jouw smaak'),
+  ('examen-biodynamic', 'persoonlijke-voorkeurspatronen', 5, 'Wat is het einddoel?', '["Bewuster kiezen op basis van eigen patronen", "Minder proeven", "Geen voorraad bijhouden", "Kalender negeren"]', 0, 'Correct: Bewuster kiezen op basis van eigen patronen'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 1, 'Wie ontwikkelde de biodynamische kalender?', '["Maria Thun", "Rudolf Steiner", "Louis Pasteur", "Dom Pérignon"]', 0, 'Correct: Maria Thun'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 2, 'Welke dag hoort bij vuur?', '["Vruchtdag", "Bladdag", "Bloemdag", "Worteldag"]', 0, 'Correct: Vruchtdag'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 3, 'Welke dag hoort bij aarde?', '["Worteldag", "Vruchtdag", "Bloemdag", "Bladdag"]', 0, 'Correct: Worteldag'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 4, 'Welke dag versterkt aroma?', '["Bloemdag", "Worteldag", "Bladdag", "Vruchtdag"]', 0, 'Correct: Bloemdag'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 5, 'Welke dag versterkt vegetale tonen?', '["Bladdag", "Bloemdag", "Worteldag", "Vruchtdag"]', 0, 'Correct: Bladdag'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 6, 'Wat doet hoge luchtdruk vaak?', '["Meer focus geven", "Minder balans", "Meer alcohol", "Meer suiker"]', 0, 'Correct: Meer focus geven'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 7, 'Wat doet lage luchtdruk soms?', '["Geslotenheid geven", "Meer fruit geven", "Meer mousse geven", "Meer suiker geven"]', 0, 'Correct: Geslotenheid geven'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 8, 'Wat beïnvloedt luchtvochtigheid?', '["Aroma en mondgevoel", "Leeftijd", "Alcoholpercentage", "Druivenras"]', 0, 'Correct: Aroma en mondgevoel'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 9, 'Welke dag is vaak ideaal voor Champagne?', '["Bloemdag", "Bladdag", "Worteldag", "Willekeurig"]', 0, 'Correct: Bloemdag'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 10, 'Welke dag is vaak ideaal voor Vintage Port?', '["Vruchtdag", "Bladdag", "Worteldag", "Bloemdag"]', 0, 'Correct: Vruchtdag'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 11, 'Wat betekent Dynamic Advice?', '["Drinkadvies voor nu", "Drinkadvies over 6 maanden", "Alleen voorraadbeheer", "Alleen weer"]', 0, 'Correct: Drinkadvies voor nu'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 12, 'Wat betekent Strategic Advice?', '["Lange termijn planning", "Alleen vandaag", "Alleen pairing", "Alleen weer"]', 0, 'Correct: Lange termijn planning'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 13, 'Hoe ver gaat weerdata meestal?', '["14 dagen", "30 dagen", "90 dagen", "365 dagen"]', 0, 'Correct: 14 dagen'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 14, 'Wat gebruik je daarna?', '["Biodynamische kalender", "Alleen temperatuur", "Alleen voorraad", "Alleen prijs"]', 0, 'Correct: Biodynamische kalender'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 15, 'Wat bouw je met tasting notes?', '["Patronen", "Alcohol", "Leeftijd", "Kleur"]', 0, 'Correct: Patronen'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 16, 'Wat helpt patronen herkennen?', '["Herhaling", "Willekeur", "Snelheid", "Leeftijd"]', 0, 'Correct: Herhaling'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 17, 'Wat bouw je met data?', '["Persoonlijk smaakprofiel", "Nieuwe wijn", "Nieuwe kalender", "Nieuwe druif"]', 0, 'Correct: Persoonlijk smaakprofiel'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 18, 'Wat is peak drinking?', '["Optimale combinatie van rijpheid en timing", "Jong drinken", "Te laat drinken", "Blind proeven"]', 0, 'Correct: Optimale combinatie van rijpheid en timing'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 19, 'Wat is de kern van drinkintelligentie?', '["Waarom nu?", "Hoe duur?", "Hoe oud?", "Hoeveel alcohol?"]', 0, 'Correct: Waarom nu?'),
+  ('examen-biodynamic', 'open-examen-biodynamisch', 20, 'Wat is het hoogste doel van biodynamisch proeven?', '["Optimale timing en expressie", "Meer alcohol", "Meer suiker", "Sneller drinken"]', 0, 'Correct: Optimale timing en expressie')
 ) as v(module_slug, lesson_slug, sort_order, prompt, options, correct_index, explanation)
   on l.module_slug = v.module_slug and l.lesson_slug = v.lesson_slug;

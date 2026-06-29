@@ -8,6 +8,17 @@ _(Bij upload: patch bump in `version.json` + bullet hier — zie [`docs/VERSIE.m
 
 ---
 
+## v0.1.4 — BIO track premium repair
+
+*Juni 2026.*
+
+- Alle 45 BIO-lessen herschreven en samengevoegd in `BIO_MODULES.md` (premium theorie, Wist-je-dat, samenvatting, praktijk)
+- LES 34–45: nieuw curriculum (titels, slugs); theorie-examen verplaatst naar LES 44 (open examen)
+- Scripts: `prepare_bio_repair_content.py`, `merge_bio_repair_content.py`
+- Seed `academy_biodynamic.sql` herbouwd; quiz-feedback bijgewerkt
+
+---
+
 ## v0.1.3 — Canonieke MODULES + Aperol Spritz
 
 *Juni 2026.*

@@ -5,7 +5,7 @@
 **`version.json`** in de repo-root:
 
 ```json
-{ "appVersion": "0.1.3" }
+{ "appVersion": "0.1.4" }
 ```
 
 - UI: `APP_VERSION` uit `packages/academy-shared`
