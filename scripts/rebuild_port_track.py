@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild supabase/seed/academy_port.sql from content/PORT_MODULES.md."""
+"""Rebuild supabase/seed/academy_port.sql from content/archive/intermediate/PORT_TRACK_V2_PERFECT.md."""
 
 from __future__ import annotations
 
@@ -8,17 +8,25 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+SOURCE = ROOT / "content/PORT_FINAL_CONTENT.md"
+SOURCE_FALLBACKS = (
+    ROOT / "content/PORT_FINAL_CONTENT.md",
+    ROOT / "content/archive/intermediate/PORT_TRACK_V2_PERFECT.md",
+    ROOT / "content/archive/intermediate/PORT_TRACK_V2_CANONICAL.md",
+    ROOT / "content/archive/intermediate/PORT_TRACK_V2_FINAL.md",
+    ROOT / "content/archive/legacy/PORT_MODULES.md",
+)
 
 MODULE_REGISTRY: dict[int, dict[str, str]] = {
     1: {"slug": "intro-port", "title": "Fundament", "level": "explorer"},
-    2: {"slug": "productie-port", "title": "Productie", "level": "explorer"},
-    3: {"slug": "proeven-port", "title": "Proeven", "level": "explorer"},
-    4: {"slug": "oorsprong-port", "title": "Regio's van Port", "level": "explorer"},
-    5: {"slug": "portstijlen", "title": "Portstijlen", "level": "explorer"},
-    6: {"slug": "portstijlen-verdiept", "title": "Portstijlen verdiept", "level": "specialist"},
-    7: {"slug": "port-premium", "title": "Colheita & Garrafeira", "level": "specialist"},
-    8: {"slug": "praktijk-port", "title": "Service, Pairing & Praktijk", "level": "master"},
-    9: {"slug": "examen-port", "title": "Blindproeven & Examen", "level": "master"},
+    2: {"slug": "productie-port", "title": "Productie & Terroir", "level": "explorer"},
+    3: {"slug": "proeven-port", "title": "Proeven & Analyse", "level": "explorer"},
+    4: {"slug": "oorsprong-port", "title": "Oorsprong & Identiteit", "level": "specialist"},
+    5: {"slug": "portstijlen", "title": "Specialist Styles I", "level": "specialist"},
+    6: {"slug": "portstijlen-verdiept", "title": "Specialist Styles II", "level": "specialist"},
+    7: {"slug": "service-port", "title": "Service & Bewaren", "level": "master"},
+    8: {"slug": "pairing-port", "title": "Food Pairing & Gastronomie", "level": "master"},
+    9: {"slug": "examen-port", "title": "Integratie & Mastery", "level": "master"},
 }
 
 
@@ -67,7 +75,7 @@ def merge_quiz_feedback(new_lines: list[str]) -> None:
 
 def rebuild() -> None:
     imp = load_importer()
-    source = ROOT / "content/PORT_MODULES.md"
+    source = next((p for p in SOURCE_FALLBACKS if p.exists()), SOURCE_FALLBACKS[-1])
     grouped = imp.split_port_track(source.read_text(encoding="utf-8"))
     all_modules: list[tuple[str, list]] = []
     lesson_count = 0
@@ -99,8 +107,9 @@ def rebuild() -> None:
         for num, cfg in sorted(MODULE_REGISTRY.items())
     )
 
-    header = f"""-- Port track seed (na 20260625140000_academy_v1_tracks.sql)
+    header = f"""-- Port track seed V2 (na 20260625140000_academy_v1_tracks.sql)
 -- 1 track · {len(MODULE_REGISTRY)} modules · {lesson_count} lessons · quizvragen per les
+-- Bron: content/PORT_FINAL_CONTENT.md
 
 delete from academy.tracks where slug = 'port';
 
@@ -108,7 +117,7 @@ insert into academy.tracks (slug, title, description, sort_order, published_at)
 values (
   'port',
   'Port',
-  'Leer Port van Fundament tot Master: productie, proeven, regio''s, stijlen, service en examen.',
+  'Leer Port van Fundament tot Master: productie, proeven, stijlen, service, pairing en integratie.',
   1,
   now()
 );

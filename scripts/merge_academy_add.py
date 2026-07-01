@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT = ROOT / "content"
+CONTENT = ROOT / "content/archive/legacy"
 
 SECTION_NAMES = ("Praktijkopdracht", "Quiz", "Quiz-feedback", "Examen-feedback", "Kernbegrippen (DB field)")
 

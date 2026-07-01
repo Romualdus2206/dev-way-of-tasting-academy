@@ -218,14 +218,16 @@ export function PracticeAssignmentCard({
       {practiceDone ? (
         <p className="practice-done muted">✓ Praktijkopdracht afgerond</p>
       ) : (
-        <button
-          type="button"
-          className="practice-complete-btn"
-          disabled={completing}
-          onClick={() => void handleComplete()}
-        >
-          {completing ? 'Opslaan…' : 'Praktijkopdracht afronden'}
-        </button>
+        <div className="practice-submit">
+          <button
+            type="button"
+            className="btn-lesson btn-lesson-primary"
+            disabled={completing}
+            onClick={() => void handleComplete()}
+          >
+            {completing ? 'Opslaan…' : 'Praktijkopdracht afronden'}
+          </button>
+        </div>
       )}
     </section>
   );

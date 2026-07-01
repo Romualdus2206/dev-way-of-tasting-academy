@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepare content/BIO_REPAIR_CONTENT.md for merge into BIO_MODULES.md."""
+"""Prepare content/archive/repair/BIO_REPAIR_CONTENT.md for merge into BIO_MODULES.md."""
 
 from __future__ import annotations
 
@@ -8,8 +8,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_PATH = ROOT / "content/BIO_REPAIR_SOURCE.md"
-REPAIR_PATH = ROOT / "content/BIO_REPAIR_CONTENT.md"
-MODULES_PATH = ROOT / "content/BIO_MODULES.md"
+REPAIR_PATH = ROOT / "content/archive/repair/BIO_REPAIR_CONTENT.md"
+MODULES_PATH = ROOT / "content/archive/legacy/BIO_MODULES.md"
 
 # Lessons that compare the same wine on multiple day types / need calendar weeks
 MULTI_DAY_LESSONS = {3, 11, 12, 13, 14, 15, 21, 37, 39}

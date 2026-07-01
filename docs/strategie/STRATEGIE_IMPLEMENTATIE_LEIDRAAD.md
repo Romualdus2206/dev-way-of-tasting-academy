@@ -43,7 +43,7 @@ De opleiding vervangt de kalender niet; ze versterken elkaar.
 
 | Onderwerp | Document A | Document B | Actie |
 |-----------|------------|------------|--------|
-| Valuta | Cert v2: **Academy Points** | Gamification v1 + Engagement: **XP** | **Eén canonical tabel** — kies AP = XP of twee laag (AP account, XP events) |
+| Valuta | Cert v2: **Academy Points** | Gamification v1 + Engagement: **XP** | **Eén leidende tabel** — kies AP = XP of twee laag (AP account, XP events) |
 | Quiz-beloning | Cert: **15 AP** | Gamification: **20 XP** | Eén bedrag vastleggen |
 | Module-examen | Cert: **50 AP** | Gamification: **100 XP** exam | Idem |
 | Slagingsdrempel quiz | Content (o.a. BIO): **80%** | Code: **70%** (`packages/academy-shared/src/lessonProgress.ts`) | Eén default + override per `lesson_type` |
@@ -244,7 +244,7 @@ flowchart TD
 
 | # | Deliverable | Eigenaar |
 |---|-------------|----------|
-| 1 | Canonical rewards-tabel (AP = XP?) | Strategie / Romuald |
+| 1 | Leidende rewards-tabel (AP = XP?) | Strategie / Romuald |
 | 2 | `lesson_type` per les of slug-pattern | Academy + shared package |
 | 3 | Certificaatregels per track (welke modules = welk certificaat) | Content + strategie |
 | 4 | Integratiebesluit host: npm package vs copy vs monorepo | Kelder-repo |

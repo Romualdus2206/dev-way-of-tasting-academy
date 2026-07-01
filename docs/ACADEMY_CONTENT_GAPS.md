@@ -1,6 +1,6 @@
 # Academy — openstaande content
 
-**Laatste audit:** 2026-06-29 (`python3 scripts/audit_academy_gaps.py`)
+**Laatste audit:** 2026-06-30 (`python3 scripts/audit_academy_gaps.py`)
 
 Gecombineerd overzicht. **Per dranksoort:** [`docs/gaps/README.md`](gaps/README.md).
 
@@ -22,7 +22,7 @@ Gecombineerd overzicht. **Per dranksoort:** [`docs/gaps/README.md`](gaps/README.
 ## Wijn (Wine Foundation) (`wine-foundation`)
 
 **Track slug:** `wine-foundation` · **App-chip:** `wine`
-**Bron:** `content/WIJN_MODULES.md` · **Lessen:** 40
+**Bron:** `content/archive/legacy/WIJN_MODULES.md` · **Lessen:** 40
 **Seed:** `supabase/seed/academy_wine_foundation.sql` · **Rebuild:** `scripts/rebuild_wine_track.py`
 
 ## Samenvatting
@@ -51,7 +51,7 @@ Gecombineerd overzicht. **Per dranksoort:** [`docs/gaps/README.md`](gaps/README.
 ## Rode wijn (`red-wine`)
 
 **Track slug:** `red-wine` · **App-chip:** `red-wine`
-**Bron:** `content/ROOD_MODULES.md` · **Lessen:** 40
+**Bron:** `content/archive/legacy/ROOD_MODULES.md` · **Lessen:** 40
 **Seed:** `supabase/seed/academy_red_wine.sql` · **Rebuild:** `scripts/rebuild_red_wine_track.py`
 
 ## Samenvatting
@@ -97,7 +97,7 @@ Mini-toets — vaak praktijk/blind; MC-quiz optioneel.
 ## Witte wijn (`white-wine`)
 
 **Track slug:** `white-wine` · **App-chip:** `white-wine`
-**Bron:** `content/WIT_MODULES.md` · **Lessen:** 40
+**Bron:** `content/archive/legacy/WIT_MODULES.md` · **Lessen:** 40
 **Seed:** `supabase/seed/academy_white_wine.sql` · **Rebuild:** `scripts/rebuild_white_wine_track.py`
 
 ## Samenvatting
@@ -143,7 +143,7 @@ Mini-toets — vaak praktijk/blind; MC-quiz optioneel.
 ## Rosé (`rose-wine`)
 
 **Track slug:** `rose-wine` · **App-chip:** `rose-wine`
-**Bron:** `content/ROSE_MODULES.md` · **Lessen:** 43
+**Bron:** `content/archive/legacy/ROSE_MODULES.md` · **Lessen:** 43
 **Seed:** `supabase/seed/academy_rose_wine.sql` · **Rebuild:** `scripts/rebuild_rose_wine_track.py`
 
 ## Samenvatting
@@ -184,7 +184,7 @@ Open examen — geen meerkeuze-quiz in MD; feedback kan wel aanwezig zijn.
 ## Cocktails (`cocktails`)
 
 **Track slug:** `cocktails` · **App-chip:** `cocktails`
-**Bron:** `content/COCK_MODULES.md` · **Lessen:** 41
+**Bron:** `content/pipeline/COCK_PIPELINE_CONTENT.md` · **Lessen:** 41
 **Seed:** `supabase/seed/academy_cocktails.sql` · **Rebuild:** `scripts/rebuild_cocktails_track.py`
 
 ## Samenvatting
@@ -230,15 +230,15 @@ Mini-toets — vaak praktijk/blind; MC-quiz optioneel.
 ## Port (`port`)
 
 **Track slug:** `port` · **App-chip:** `port`
-**Bron:** `content/PORT_MODULES.md` · **Lessen:** 40
+**Bron:** `content/archive/legacy/PORT_MODULES.md` · **Lessen:** 40
 **Seed:** `supabase/seed/academy_port.sql` · **Rebuild:** `scripts/rebuild_port_track.py`
 
 ## Samenvatting
 
 | Onderdeel | Aanwezig | Ontbreekt | % |
 |-----------|----------|-----------|---|
-| Quiz (`## Quiz`) | 39/40 | 1 | 98% |
-| Quiz-feedback | 40/40 (39 bij quiz-lessen) | 0 | 100% |
+| Quiz (`## Quiz`) | 38/40 | 2 | 95% |
+| Quiz-feedback | 40/40 (38 bij quiz-lessen) | 0 | 100% |
 | Kernbegrippen | 40/40 | 0 | 100% |
 | Praktijkopdracht | 40/40 | 0 | 100% |
 
@@ -248,7 +248,7 @@ Mini-toets — vaak praktijk/blind; MC-quiz optioneel.
 |-----|--------|--------|------|----------|------|----------|
 | 1 | Fundament | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
 | 2 | Productie | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
-| 3 | Proeven | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
+| 3 | Proeven | 5 | 4/5 | 5/5 | 5/5 | 5/5 |
 | 4 | Regio's van Port | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
 | 5 | Portstijlen | 6 | 6/6 | 6/6 | 6/6 | 6/6 |
 | 6 | Portstijlen verdiept | 4 | 4/4 | 4/4 | 4/4 | 4/4 |
@@ -260,6 +260,7 @@ Mini-toets — vaak praktijk/blind; MC-quiz optioneel.
 
 | Mod | Les-key | Titel |
 |-----|---------|-------|
+| 3 | `proeven-port:mini-toets-port-proeven` | Mini-toets Port Proeven |
 | 9 | `examen-port:theorie-examen-port` | Theorie-examen Port Academy |
 
 ## Examen & mini-toets (geen MC-quiz)
@@ -268,10 +269,14 @@ Open examen — geen meerkeuze-quiz in MD; feedback kan wel aanwezig zijn.
 
 - `examen-port:theorie-examen-port` — feedback: ja
 
+Mini-toets — vaak praktijk/blind; MC-quiz optioneel.
+
+- `proeven-port:mini-toets-port-proeven` — feedback: ja
+
 ## Mousserend (`sparkling`)
 
 **Track slug:** `sparkling` · **App-chip:** `champagne`
-**Bron:** `content/MOUS_MODULES.md` · **Lessen:** 40
+**Bron:** `content/archive/legacy/MOUS_MODULES.md` · **Lessen:** 40
 **Seed:** `supabase/seed/academy_sparkling.sql` · **Rebuild:** `scripts/rebuild_mous_track.py`
 
 ## Samenvatting
@@ -317,7 +322,7 @@ Mini-toets — vaak praktijk/blind; MC-quiz optioneel.
 ## Bier (`beer`)
 
 **Track slug:** `beer` · **App-chip:** `beer`
-**Bron:** `content/BIER_MODULES.md` · **Lessen:** 40
+**Bron:** `content/archive/legacy/BIER_MODULES.md` · **Lessen:** 40
 **Seed:** `supabase/seed/academy_beer.sql` · **Rebuild:** `scripts/rebuild_beer_track.py`
 
 ## Samenvatting
@@ -363,7 +368,7 @@ Mini-toets — vaak praktijk/blind; MC-quiz optioneel.
 ## Bier 0.0 (`beer-zero`)
 
 **Track slug:** `beer-zero` · **App-chip:** `beer-zero`
-**Bron:** `content/BIER_0_0_MODULES.md` · **Lessen:** 45
+**Bron:** `content/BIER_0_0_FINAL_CONTENT.md` · **Lessen:** 45
 **Seed:** `supabase/seed/academy_beer_zero.sql` · **Rebuild:** `scripts/rebuild_beer_zero_track.py`
 
 ## Samenvatting
@@ -404,15 +409,15 @@ Open examen — geen meerkeuze-quiz in MD; feedback kan wel aanwezig zijn.
 ## Biodynamisch Proeven (`biodynamic`)
 
 **Track slug:** `biodynamic` · **App-chip:** `biodynamic`
-**Bron:** `content/BIO_MODULES.md` · **Lessen:** 45
+**Bron:** `content/BIO_FINAL_CONTENT.md` · **Lessen:** 45
 **Seed:** `supabase/seed/academy_biodynamic.sql` · **Rebuild:** `scripts/rebuild_bio_track.py`
 
 ## Samenvatting
 
 | Onderdeel | Aanwezig | Ontbreekt | % |
 |-----------|----------|-----------|---|
-| Quiz (`## Quiz`) | 41/45 | 4 | 91% |
-| Quiz-feedback | 41/45 (41 bij quiz-lessen) | 0 | 91% |
+| Quiz (`## Quiz`) | 44/45 | 1 | 98% |
+| Quiz-feedback | 41/45 (41 bij quiz-lessen) | 3 | 91% |
 | Kernbegrippen | 45/45 | 0 | 100% |
 | Praktijkopdracht | 45/45 | 0 | 100% |
 
@@ -428,16 +433,21 @@ Open examen — geen meerkeuze-quiz in MD; feedback kan wel aanwezig zijn.
 | 6 | Bier, cocktails & 0.0 | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
 | 7 | Voorraad & drinkstrategie | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
 | 8 | Persoonlijke tasting intelligence | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
-| 9 | Praktijkexamen | 5 | 1/5 | 1/5 | 5/5 | 5/5 |
+| 9 | Praktijkexamen | 5 | 4/5 | 1/5 | 5/5 | 5/5 |
 
 ## Geen quiz-sectie
 
 | Mod | Les-key | Titel |
 |-----|---------|-------|
-| 9 | `examen-biodynamic:praktijkproef-worteldag` | Praktijkproef op Worteldag |
-| 9 | `examen-biodynamic:praktijkproef-vruchtdag` | Praktijkproef op Vruchtdag |
-| 9 | `examen-biodynamic:vergelijking-en-analyse` | Vergelijking en analyse |
-| 9 | `examen-biodynamic:eindassessment-biodynamic-intelligence` | Eindassessment Biodynamic Intelligence |
+| 9 | `examen-biodynamic:biodynamisch-meesterschap` | Biodynamisch meesterschap |
+
+## Quiz wel, feedback ontbreekt
+
+| Mod | Les-key | Titel |
+|-----|---------|-------|
+| 9 | `examen-biodynamic:timing-versus-kwaliteit` | Timing versus kwaliteit |
+| 9 | `examen-biodynamic:persoonlijke-voorkeurspatronen` | Jouw persoonlijke voorkeurspatronen |
+| 9 | `examen-biodynamic:open-examen-biodynamisch` | Open examen |
 
 ---
 

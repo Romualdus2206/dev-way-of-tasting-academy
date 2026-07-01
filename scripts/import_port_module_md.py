@@ -46,18 +46,18 @@ PORT_MODULE_RANGES: dict[int, tuple[int, int]] = {
     2: (6, 10),
     3: (11, 15),
     4: (16, 20),
-    5: (21, 26),
-    6: (27, 30),
-    7: (31, 32),
-    8: (33, 36),
-    9: (37, 40),
+    5: (21, 25),
+    6: (26, 30),
+    7: (31, 35),
+    8: (36, 40),
+    9: (41, 45),
 }
 
 
 def split_port_track(text: str) -> dict[int, list[Dict]]:
     lessons = parse_module_text(text)["lessons"]
-    if len(lessons) != 40:
-        raise ValueError(f"Expected 40 port lessons, got {len(lessons)}")
+    if len(lessons) != 45:
+        raise ValueError(f"Expected 45 port lessons, got {len(lessons)}")
     return {
         mod_num: lessons[start - 1 : end]
         for mod_num, (start, end) in PORT_MODULE_RANGES.items()
@@ -91,16 +91,35 @@ def parse_module_text(text: str, default_module_slug: str = "intro-port") -> Dic
         if feedback_m:
             feedback = re.sub(r"\n---\s*$", "", feedback_m.group(1).strip())
 
+        theory = section("Theorie")
+        for extra in ("Food pairing", "Pro insight"):
+            block = section(extra)
+            if block:
+                theory = (
+                    f"{theory}\n\n## {extra}\n\n{block}".strip()
+                    if theory
+                    else f"## {extra}\n\n{block}"
+                )
+
+        practice = section("Praktijkopdracht")
+        reflectie = section("Reflectievraag")
+        if reflectie:
+            practice = (
+                f"{practice}\n\n### Reflectievraag\n\n{reflectie}".strip()
+                if practice
+                else f"### Reflectievraag\n\n{reflectie}"
+            )
+
         lessons.append(
             {
                 "title": title,
                 "slug": slug_m.group(1) if slug_m else "",
                 "duration": int(dur_m.group(1)) if dur_m else 8,
                 "objective": section("Leerdoel"),
-                "theory": section("Theorie"),
+                "theory": theory,
                 "did_you_know": section("Wist-je-dat"),
                 "summary": section("Samenvatting"),
-                "practice": section("Praktijkopdracht"),
+                "practice": practice,
                 "key_concepts": section("Kernbegrippen (DB field)"),
                 "quiz": parse_quiz_block(section("Quiz")),
                 "quiz_feedback": feedback,

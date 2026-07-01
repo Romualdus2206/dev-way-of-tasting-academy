@@ -1,6 +1,6 @@
 # Academy — gaps per dranksoort
 
-**Laatste audit:** 2026-06-29 (`python3 scripts/audit_academy_gaps.py`)
+**Laatste audit:** 2026-06-30 (`python3 scripts/audit_academy_gaps.py`)
 
 Per track een apart gap-document. Gecombineerd overzicht: [`ACADEMY_CONTENT_GAPS.md`](../ACADEMY_CONTENT_GAPS.md).
 
@@ -11,8 +11,8 @@ Per track een apart gap-document. Gecombineerd overzicht: [`ACADEMY_CONTENT_GAPS
 | Witte wijn | `white-wine` | 40 | 38/40 | 40/40 | 40/40 | [WIT_GAPS.md](WIT_GAPS.md) |
 | Rosé | `rose-wine` | 43 | 42/43 | 43/43 | 43/43 | [ROSE_GAPS.md](ROSE_GAPS.md) |
 | Cocktails | `cocktails` | 41 | 39/41 | 41/41 | 41/41 | [COCK_GAPS.md](COCK_GAPS.md) |
-| Port | `port` | 40 | 39/40 | 40/40 | 40/40 | [PORT_GAPS.md](PORT_GAPS.md) |
+| Port | `port` | 40 | 38/40 | 40/40 | 40/40 | [PORT_GAPS.md](PORT_GAPS.md) |
 | Mousserend | `sparkling` | 40 | 38/40 | 40/40 | 40/40 | [MOUS_GAPS.md](MOUS_GAPS.md) |
 | Bier | `beer` | 40 | 38/40 | 40/40 | 40/40 | [BIER_GAPS.md](BIER_GAPS.md) |
 | Bier 0.0 | `beer-zero` | 45 | 44/45 | 45/45 | 45/45 | [BIER_0_0_GAPS.md](BIER_0_0_GAPS.md) |
-| Biodynamisch Proeven | `biodynamic` | 45 | 41/45 | 41/45 | 45/45 | [BIO_GAPS.md](BIO_GAPS.md) |
+| Biodynamisch Proeven | `biodynamic` | 45 | 44/45 | 41/45 | 45/45 | [BIO_GAPS.md](BIO_GAPS.md) |

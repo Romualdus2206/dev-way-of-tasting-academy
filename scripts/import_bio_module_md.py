@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Parse content/BIO_MODULES.md and emit lesson/quiz SQL fragments.
+Parse content/archive/legacy/BIO_MODULES.md and emit lesson/quiz SQL fragments.
 Handles Praktijkopdracht, Eindopdracht, Checklist, Reflectievraag and Beoordeling.
 """
 
@@ -42,7 +42,7 @@ def parse_quiz_block(block: str) -> List[Dict]:
 
 
 def section(body: str, name: str) -> str:
-    sm = re.search(rf"## {re.escape(name)}\s*\n(.*?)(?=\n## |\Z)", body, re.S)
+    sm = re.search(rf"## {re.escape(name)}\s*\n(.*?)(?=\n## |\n# |\Z)", body, re.S)
     if not sm:
         return ""
     return re.sub(r"\n---\s*$", "", sm.group(1).strip())
@@ -50,28 +50,31 @@ def section(body: str, name: str) -> str:
 
 def build_practice(body: str) -> str:
     parts: List[str] = []
-    for name in ("Praktijkopdracht", "Eindopdracht"):
-        content = section(body, name)
-        if content:
-            parts.append(content)
+    praktijk = section(body, "Praktijkopdracht")
+    if praktijk:
+        parts.append(praktijk)
 
     checklist = section(body, "Checklist")
-    if checklist and not any("Checklist" in p for p in parts):
+    if checklist and "### Checklist" not in praktijk:
         parts.append(f"### Checklist\n\n{checklist}")
 
     reflect = section(body, "Reflectievraag")
-    if reflect:
+    if reflect and "### Reflectievraag" not in praktijk:
         parts.append(f"### Reflectievraag\n\n{reflect}")
 
     beoord = section(body, "Beoordeling")
-    if beoord:
+    if beoord and "### Beoordeling" not in praktijk:
         parts.append(f"### Beoordeling\n\n{beoord}")
+
+    eindopdracht = section(body, "Eindopdracht")
+    if eindopdracht and not praktijk:
+        parts.append(eindopdracht)
 
     examen = section(body, "Examenstructuur")
     if examen and not parts:
         parts.append(examen)
 
-    return "\n\n---\n\n".join(parts)
+    return "\n\n".join(parts)
 
 
 def parse_module_text(text: str, default_module_slug: str = "intro-biodynamic") -> Dict:
@@ -95,18 +98,30 @@ def parse_module_text(text: str, default_module_slug: str = "intro-biodynamic") 
         if feedback_m:
             feedback = re.sub(r"\n---\s*$", "", feedback_m.group(1).strip())
 
+        theory = section(body, "Theorie")
+        for extra in ("Drinkmoment & advies", "Pro insight"):
+            block = section(body, extra)
+            if block:
+                theory = (
+                    f"{theory}\n\n## {extra}\n\n{block}".strip()
+                    if theory
+                    else f"## {extra}\n\n{block}"
+                )
+
         lessons.append(
             {
                 "title": title,
                 "slug": slug_m.group(1) if slug_m else "",
                 "duration": int(dur_m.group(1)) if dur_m else 8,
                 "objective": section(body, "Leerdoel"),
-                "theory": section(body, "Theorie"),
+                "theory": theory,
                 "did_you_know": section(body, "Wist-je-dat"),
                 "summary": section(body, "Samenvatting"),
                 "practice": build_practice(body),
                 "key_concepts": section(body, "Kernbegrippen (DB field)"),
-                "quiz": parse_quiz_block(section(body, "Quiz")),
+                "quiz": parse_quiz_block(
+                    section(body, "Quiz") or section(body, "Voorbeeldvragen")
+                ),
                 "quiz_feedback": feedback,
             }
         )
@@ -203,6 +218,6 @@ join (values
 
 
 if __name__ == "__main__":
-    path = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "content/BIO_MODULES.md"
+    path = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "content/archive/legacy/BIO_MODULES.md"
     data = parse_module_md(path)
     print(emit_lessons_sql(data["lessons"], "intro-biodynamic", "biodynamic"))

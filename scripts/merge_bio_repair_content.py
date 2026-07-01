@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Merge content/BIO_REPAIR_CONTENT.md into content/BIO_MODULES.md."""
+"""Merge content/archive/repair/BIO_REPAIR_CONTENT.md into content/archive/legacy/BIO_MODULES.md."""
 
 from __future__ import annotations
 
@@ -10,8 +10,8 @@ import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-REPAIR_PATH = ROOT / "content/BIO_REPAIR_CONTENT.md"
-MODULES_PATH = ROOT / "content/BIO_MODULES.md"
+REPAIR_PATH = ROOT / "content/archive/repair/BIO_REPAIR_CONTENT.md"
+MODULES_PATH = ROOT / "content/archive/legacy/BIO_MODULES.md"
 
 CONTENT_SECTIONS = (
     "Leerdoel",
@@ -199,7 +199,7 @@ def load_merge_helpers():
 def load_theory_exam_quiz_from_git() -> str:
     try:
         text = subprocess.check_output(
-            ["git", "show", "HEAD:content/BIO_MODULES.md"],
+            ["git", "show", "HEAD:content/archive/legacy/BIO_MODULES.md"],
             cwd=ROOT,
             text=True,
             stderr=subprocess.DEVNULL,

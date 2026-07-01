@@ -1,6 +1,6 @@
 # Wijn (Wine Foundation) — content gaps
 
-**Laatste audit:** 2026-06-29
+**Laatste audit:** 2026-06-30
 
 Wat nog ontbreekt in de bron-markdown voordat deze track op 10/10 staat.
 Bijwerken: `python3 scripts/audit_academy_gaps.py`
@@ -8,7 +8,7 @@ Bijwerken: `python3 scripts/audit_academy_gaps.py`
 ---
 
 **Track slug:** `wine-foundation` · **App-chip:** `wine`
-**Bron:** `content/WIJN_MODULES.md` · **Lessen:** 40
+**Bron:** `content/archive/legacy/WIJN_MODULES.md` · **Lessen:** 40
 **Seed:** `supabase/seed/academy_wine_foundation.sql` · **Rebuild:** `scripts/rebuild_wine_track.py`
 
 ## Samenvatting

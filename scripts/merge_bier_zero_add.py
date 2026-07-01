@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Merge content/ADD_BIER_0_0_MODULES.md repairs into content/BIER_0_0_MODULES.md."""
+"""Merge content/archive/legacy/ADD_BIER_0_0_MODULES.md repairs into content/archive/legacy/BIER_0_0_MODULES.md."""
 
 from __future__ import annotations
 
@@ -7,8 +7,8 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MAIN = ROOT / "content/BIER_0_0_MODULES.md"
-ADD = ROOT / "content/ADD_BIER_0_0_MODULES.md"
+MAIN = ROOT / "content/archive/legacy/BIER_0_0_MODULES.md"
+ADD = ROOT / "content/archive/legacy/ADD_BIER_0_0_MODULES.md"
 
 SECTION_NAMES = ("Praktijkopdracht", "Quiz", "Quiz-feedback")
 

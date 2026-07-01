@@ -323,7 +323,16 @@ export async function submitQuizAttempt(
 }
 
 /** Volgende gepubliceerde les in dezelfde track (module + sort_order). */
-export async function fetchNextLessonId(currentLessonId: string): Promise<string | null> {
+export type LessonTrackNav = {
+  trackOrder: number | null;
+  trackTotal: number;
+  prevLessonId: string | null;
+  nextLessonId: string | null;
+};
+
+async function fetchOrderedTrackLessons(
+  currentLessonId: string
+): Promise<{ ordered: { id: string }[]; index: number } | null> {
   const supabase = getSupabase();
   const trackSlug = await fetchTrackSlugForLesson(currentLessonId);
   if (!trackSlug) return null;
@@ -366,55 +375,37 @@ export async function fetchNextLessonId(currentLessonId: string): Promise<string
     return a.sort_order - b.sort_order;
   });
 
-  const idx = ordered.findIndex((l) => l.id === currentLessonId);
-  if (idx < 0 || idx >= ordered.length - 1) return null;
-  return ordered[idx + 1].id;
+  const index = ordered.findIndex((l) => l.id === currentLessonId);
+  return { ordered, index };
+}
+
+export async function fetchLessonTrackNav(lessonId: string): Promise<LessonTrackNav> {
+  const result = await fetchOrderedTrackLessons(lessonId);
+  if (!result || result.index < 0) {
+    return {
+      trackOrder: result && result.index >= 0 ? result.index + 1 : null,
+      trackTotal: result?.ordered.length ?? 0,
+      prevLessonId: null,
+      nextLessonId: null,
+    };
+  }
+
+  const { ordered, index } = result;
+  return {
+    trackOrder: index + 1,
+    trackTotal: ordered.length,
+    prevLessonId: index > 0 ? ordered[index - 1].id : null,
+    nextLessonId: index < ordered.length - 1 ? ordered[index + 1].id : null,
+  };
+}
+
+export async function fetchNextLessonId(currentLessonId: string): Promise<string | null> {
+  const nav = await fetchLessonTrackNav(currentLessonId);
+  return nav.nextLessonId;
 }
 
 /** Volgnummer van de les binnen de track (1-based). */
 export async function fetchLessonTrackOrder(lessonId: string): Promise<number | null> {
-  const supabase = getSupabase();
-  const trackSlug = await fetchTrackSlugForLesson(lessonId);
-  if (!trackSlug) return null;
-
-  const { data: track, error: trackErr } = await supabase
-    .from('tracks')
-    .select('id')
-    .eq('slug', trackSlug)
-    .maybeSingle();
-
-  if (trackErr) throw trackErr;
-  if (!track) return null;
-
-  const { data: modules, error: modErr } = await supabase
-    .from('modules')
-    .select('id, sort_order')
-    .eq('track_id', track.id)
-    .order('sort_order');
-
-  if (modErr) throw modErr;
-  if (!modules?.length) return null;
-
-  const moduleIds = modules.map((m) => m.id);
-  const moduleOrder = new Map(modules.map((m) => [m.id, m.sort_order]));
-
-  const { data: lessons, error: lesErr } = await supabase
-    .from('lessons')
-    .select('id, module_id, sort_order')
-    .in('module_id', moduleIds)
-    .eq('is_published', true)
-    .order('sort_order');
-
-  if (lesErr) throw lesErr;
-  if (!lessons?.length) return null;
-
-  const ordered = lessons.slice().sort((a, b) => {
-    const modDiff =
-      (moduleOrder.get(a.module_id) ?? 0) - (moduleOrder.get(b.module_id) ?? 0);
-    if (modDiff !== 0) return modDiff;
-    return a.sort_order - b.sort_order;
-  });
-
-  const idx = ordered.findIndex((l) => l.id === lessonId);
-  return idx >= 0 ? idx + 1 : null;
+  const nav = await fetchLessonTrackNav(lessonId);
+  return nav.trackOrder;
 }

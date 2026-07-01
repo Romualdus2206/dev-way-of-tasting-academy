@@ -1,6 +1,6 @@
 # Witte wijn — content gaps
 
-**Laatste audit:** 2026-06-29
+**Laatste audit:** 2026-06-30
 
 Wat nog ontbreekt in de bron-markdown voordat deze track op 10/10 staat.
 Bijwerken: `python3 scripts/audit_academy_gaps.py`
@@ -8,7 +8,7 @@ Bijwerken: `python3 scripts/audit_academy_gaps.py`
 ---
 
 **Track slug:** `white-wine` · **App-chip:** `white-wine`
-**Bron:** `content/WIT_MODULES.md` · **Lessen:** 40
+**Bron:** `content/archive/legacy/WIT_MODULES.md` · **Lessen:** 40
 **Seed:** `supabase/seed/academy_white_wine.sql` · **Rebuild:** `scripts/rebuild_white_wine_track.py`
 
 ## Samenvatting

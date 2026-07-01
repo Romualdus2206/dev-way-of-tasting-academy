@@ -1,6 +1,6 @@
 # Rode wijn — content gaps
 
-**Laatste audit:** 2026-06-29
+**Laatste audit:** 2026-06-30
 
 Wat nog ontbreekt in de bron-markdown voordat deze track op 10/10 staat.
 Bijwerken: `python3 scripts/audit_academy_gaps.py`
@@ -8,7 +8,7 @@ Bijwerken: `python3 scripts/audit_academy_gaps.py`
 ---
 
 **Track slug:** `red-wine` · **App-chip:** `red-wine`
-**Bron:** `content/ROOD_MODULES.md` · **Lessen:** 40
+**Bron:** `content/archive/legacy/ROOD_MODULES.md` · **Lessen:** 40
 **Seed:** `supabase/seed/academy_red_wine.sql` · **Rebuild:** `scripts/rebuild_red_wine_track.py`
 
 ## Samenvatting

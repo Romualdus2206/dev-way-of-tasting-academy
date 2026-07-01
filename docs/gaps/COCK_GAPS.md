@@ -1,6 +1,6 @@
 # Cocktails — content gaps
 
-**Laatste audit:** 2026-06-29
+**Laatste audit:** 2026-06-30
 
 Wat nog ontbreekt in de bron-markdown voordat deze track op 10/10 staat.
 Bijwerken: `python3 scripts/audit_academy_gaps.py`
@@ -8,7 +8,7 @@ Bijwerken: `python3 scripts/audit_academy_gaps.py`
 ---
 
 **Track slug:** `cocktails` · **App-chip:** `cocktails`
-**Bron:** `content/COCK_MODULES.md` · **Lessen:** 41
+**Bron:** `content/pipeline/COCK_PIPELINE_CONTENT.md` · **Lessen:** 41
 **Seed:** `supabase/seed/academy_cocktails.sql` · **Rebuild:** `scripts/rebuild_cocktails_track.py`
 
 ## Samenvatting

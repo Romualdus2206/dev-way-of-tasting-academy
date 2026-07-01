@@ -1,6 +1,6 @@
 # Bier 0.0 — content gaps
 
-**Laatste audit:** 2026-06-29
+**Laatste audit:** 2026-06-30
 
 Wat nog ontbreekt in de bron-markdown voordat deze track op 10/10 staat.
 Bijwerken: `python3 scripts/audit_academy_gaps.py`
@@ -8,7 +8,7 @@ Bijwerken: `python3 scripts/audit_academy_gaps.py`
 ---
 
 **Track slug:** `beer-zero` · **App-chip:** `beer-zero`
-**Bron:** `content/BIER_0_0_MODULES.md` · **Lessen:** 45
+**Bron:** `content/BIER_0_0_FINAL_CONTENT.md` · **Lessen:** 45
 **Seed:** `supabase/seed/academy_beer_zero.sql` · **Rebuild:** `scripts/rebuild_beer_zero_track.py`
 
 ## Samenvatting

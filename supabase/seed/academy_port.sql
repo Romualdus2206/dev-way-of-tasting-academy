@@ -1,5 +1,6 @@
--- Port track seed (na 20260625140000_academy_v1_tracks.sql)
--- 1 track · 9 modules · 40 lessons · quizvragen per les
+-- Port track seed V2 (na 20260625140000_academy_v1_tracks.sql)
+-- 1 track · 9 modules · 45 lessons · quizvragen per les
+-- Bron: content/PORT_FINAL_CONTENT.md
 
 delete from academy.tracks where slug = 'port';
 
@@ -7,7 +8,7 @@ insert into academy.tracks (slug, title, description, sort_order, published_at)
 values (
   'port',
   'Port',
-  'Leer Port van Fundament tot Master: productie, proeven, regio''s, stijlen, service en examen.',
+  'Leer Port van Fundament tot Master: productie, proeven, stijlen, service, pairing en integratie.',
   1,
   now()
 );
@@ -18,14 +19,14 @@ select t.id, v.level, v.slug, v.title, v.sort_order
 from t
 cross join (values
   ('explorer', 'intro-port', 'Fundament', 1),
-  ('explorer', 'productie-port', 'Productie', 2),
-  ('explorer', 'proeven-port', 'Proeven', 3),
-  ('explorer', 'oorsprong-port', 'Regio''s van Port', 4),
-  ('explorer', 'portstijlen', 'Portstijlen', 5),
-  ('specialist', 'portstijlen-verdiept', 'Portstijlen verdiept', 6),
-  ('specialist', 'port-premium', 'Colheita & Garrafeira', 7),
-  ('master', 'praktijk-port', 'Service, Pairing & Praktijk', 8),
-  ('master', 'examen-port', 'Blindproeven & Examen', 9)
+  ('explorer', 'productie-port', 'Productie & Terroir', 2),
+  ('explorer', 'proeven-port', 'Proeven & Analyse', 3),
+  ('specialist', 'oorsprong-port', 'Oorsprong & Identiteit', 4),
+  ('specialist', 'portstijlen', 'Specialist Styles I', 5),
+  ('specialist', 'portstijlen-verdiept', 'Specialist Styles II', 6),
+  ('master', 'service-port', 'Service & Bewaren', 7),
+  ('master', 'pairing-port', 'Food Pairing & Gastronomie', 8),
+  ('master', 'examen-port', 'Integratie & Mastery', 9)
 ) as v(level, slug, title, sort_order);
 
 -- intro-port (5 lessons)
@@ -45,248 +46,317 @@ cross join (values
   (
     'wat-is-port',
     'Wat is Port?',
-    'Na deze les kun jij uitleggen wat Port is, waar het vandaan komt en waarom het anders is dan gewone wijn.
+    'Na deze les kun jij uitleggen wat Port is, waarom fortificatie het karakter bepaalt en hoe je Port onderscheidt van gewone tafelwijn.
 ',
-    'Port is een versterkte wijn uit Portugal, afkomstig uit de Douro-vallei in het noorden van het land.
+    'Port is een versterkte wijn uit het noordoosten van Portugal, geboren in de steile wijngaarden van de Douro-vallei. Waar een gewone wijn zijn alcohol uitsluitend uit gisting haalt, krijgt Port tijdens of direct na de fermentatie een scheut neutrale drankalcohol — en daardoor een vast karakter: rijk, zoet en warm.
 
-Wat Port bijzonder maakt, is dat tijdens de gisting alcohol wordt toegevoegd. Daardoor stopt de gisting vroegtijdig en blijven natuurlijke suikers behouden.
+Die versterking is geen truc om wijn sterker te maken, maar een productiemethode met diepe wortels. De druiven worden geplet en gegist tot ongeveer halverwege; dan stopt de gisting doelbewust. Wat overblijft is natuurlijke restsuiker, geconcentreerd fruit en een alcoholgehalte dat meestal tussen de negentien en tweeëntwintig procent ligt.
 
-Dit zorgt voor:
+Het resultaat is geen dessertwijn op toeval, maar een bewuste stijl. Ruby Port blinkt uit in fris rood fruit; Tawny ontwikkelt noten en karamel door langere houtcontact; Vintage Port is de koning van rijpingspotentieel. Witte en rosé-varianten tonen dat Port meer is dan één smaakbeeld.
 
-- meer alcohol
-- meer zoetheid
-- meer concentratie
+Wie Port leert lezen, begint bij herkomst en methode. De Douro levert de druiven, de quinta de expertise, Vila Nova de Gaia de rijpingstraditie.
 
-Port bevat meestal tussen de 19% en 22% alcohol.
 
-Je kunt Port drinken als aperitief, bij kaas, desserts of als afsluiting van een diner.
+## Food pairing
 
-Port is dus veel veelzijdiger dan veel mensen denken.
-',
-    '- Port
+### Beste pairing
+
+Blauwschimmelkaas, pure chocolade en chocoladefondant.
+
+### Waarom dit werkt
+
+Zoetheid en concentratie vangen zout in blauwschimmelkaas en bitter in pure chocolade; alcohol snijdt door vet zodat fruit en caramel niet plakkerig worden.
+
+### Vermijd
+
+Citrusdesserts of zure gerechten.
+
+## Pro insight
+
+Gasten die Port ''te zoet'' vinden, hebben vaak alleen basis-Ruby geproefd. Herinterpreteer: vraag naar moment en gerecht vóór je stijl noemt — White Port of oudere Tawny opent vaak de deur naar verkoop.',
+    '- versterkte wijn
 - Douro
-- versterkte wijn
-- alcohol
-- zoetheid
+- restsuiker
+- fortificatie
+- stijlkeuze
 ',
-    'De Douro is één van de oudste officieel beschermde wijngebieden ter wereld.
+    'De Douro is sinds 1756 een van ''s werelds eerste officieel afgebakende wijngebieden — decennia vóór Bordeaux zijn classificatiesystemen bestonden.
 ',
-    '- Port komt uit Portugal
-- Port is een versterkte wijn
-- Port bevat meer alcohol
-- Port is vaak zoeter
-- Port kent meerdere stijlen
+    '- Port is een versterkte wijn uit de Portugese Douro-vallei
+- Gisting stopt vroegtijdig, waardoor zoetheid en alcohol hoog blijven
+- Stijlen variëren van frisse Ruby tot rijpe Tawny en krachtige Vintage
+- Herkomst en productiemethode bepalen smaak meer dan het etiket alleen
 ',
     '### Opdracht
 
-Zoek een fles Port of bekijk online een etiket.
+Voeg een Port toe in je Way of Tasting-app en registreer:
 
-### Checklist
+- stijl
+- aankoopprijs
+- bewaarpotentieel
+- ideaal drinkmoment
+- food pairing
+- proefnotitie
 
-- Ik heb een fles Port bekeken
-- Ik heb het alcoholpercentage gevonden
-- Ik heb de herkomst gevonden
-- Ik heb de stijl gevonden
 
 ### Reflectievraag
 
-Welke stijl heb je gevonden?
-',
+Welk element — restsuiker, alcohol of herkomst — zou jij als eerste benoemen om een tafelwijn-drinker te laten begrijpen waarom Port anders proeft?',
     8,
     1
   ),
   (
     'fortificatie',
     'Fortificatie',
-    'Na deze les kun jij uitleggen wat fortificatie is en waarom dit essentieel is voor Port.
+    'Na deze les kun jij uitleggen hoe fortificatie werkt, welke rol aguardente speelt en waarom timing bepalend is voor restsuiker en smaak.
 ',
-    'Fortificatie betekent dat er alcohol wordt toegevoegd tijdens de gisting.
+    'Fortificatie is het hart van elke Port. Tijdens de fermentatie wordt wijnalcohol (aguardente) toegevoegd — een neutrale, hoge alcohol gedistilleerd uit druiven. Die scheut doodt de gisten en stopt de omzetting van suiker in alcohol onmiddellijk.
 
-Normaal zetten gisten suiker om in alcohol.
+Wat op dat moment in de tank zit, bepaalt het eindproduct. Stop je vroeg, blijft veel restsuiker over en krijg je een zoete, fruitige basis voor Ruby of Vintage. Wacht je langer, verdwijnt meer suiker en wordt de wijn droger en structuurrijker — minder typisch voor klassieke Port, maar wel leerzaam om te begrijpen waarom timing alles is.
 
-Bij Port stopt de wijnmaker dit proces bewust eerder.
+De aguardente zelf mag je niet proeven als ''Port''. Hij is een instrument: zonder eigen smaakdominantie, puur om de gisting te breken. De kunst van de winemaker zit in het moment van toevoegen, de temperatuur van de fermenterende most en de verhouding tussen wijn en alcohol.
 
-Daardoor:
+Daardoor is fortificatie geen bijzaak maar de definitie van de categorie. Zonder die ingreep zou de Douro droge rode wijnen opleveren — prachtig, maar niet Port. De restsuiker die overblijft, geeft body, ronde textuur en het vermogen om decennia te rijpen zonder uit te drogen.
 
-- blijft restsuiker behouden
-- stijgt het alcoholpercentage
-- ontstaat de typische Portstijl
 
-Hoe eerder fortificatie plaatsvindt, hoe zoeter de uiteindelijke Port.
-',
+## Food pairing
+
+### Beste pairing
+
+Ruby met donkere chocolade of gedroogde vijgen.
+
+### Waarom dit werkt
+
+Restsuiker na fortificatie balanceert zout in oude kaas; alcohol en structuur dragen vet in notige gerechten zonder dat de wijn plat aanvoelt.
+
+### Vermijd
+
+Scherpe zuren.
+
+## Pro insight
+
+Fortificatie is geen detail op het etiket maar het smaakcontract van Port. Leg in één zin uit dat timing suiker én alcohol vastlegt — dat voorkomt discussies over ''natuurlijke'' zoetheid achteraf.',
     '- fortificatie
 - aguardente
-- gisting
 - restsuiker
-- alcohol
+- timing
+- gisting
 ',
-    'De gebruikte alcohol heet aguardente vínica.
+    'Aguardente voor Port moet minimaal 77% alcohol bevatten volgens de regels — een veel hoger percentage dan de uiteindelijke wijn, zodat een kleine hoeveelheid volstaat.
 ',
-    '- Fortificatie stopt de gisting
-- Suikers blijven behouden
-- Alcohol stijgt
-- Port krijgt zijn unieke stijl
+    '- Fortificatie = toevoegen van aguardente tijdens fermentatie
+- De gisting stopt; restsuiker blijft bewust achter
+- Vroege fortificatie geeft zoetere, fruitigere Port
+- Timing en temperatuur zijn beslissend voor stijl en balans
+- Zonder fortificatie bestaat Port als categorie niet
 ',
     '### Opdracht
 
-Vergelijk een gewone rode wijn met Port.
+Teken een eenvoudige tijdlijn van de Portproductie: van oogst tot fortificatie. Markeer het moment waarop aguardente wordt toegevoegd en noteer wat er met suiker en alcohol gebeurt vóór en na dat punt.
 
 ### Checklist
 
-- Ik heb het alcoholpercentage vergeleken
-- Ik heb de zoetheid vergeleken
-- Ik heb het mondgevoel vergeleken
+- Ik kan uitleggen wat aguardente doet in de tank
+- Ik begrijp het verband tussen timing en restsuiker
+- Ik kan beschrijven waarom vroege fortificatie zoeter Port geeft
+- Ik zie fortificatie als kernstap, niet als bijdetail
+
 
 ### Reflectievraag
 
-Wat viel jou het meeste op?
-',
+Stel: de most zit op 8° alcohol en gisting gaat door. Wat verandert er in het glas als je nog één dag wacht met fortificatie — en waarom is die timing niet uitstelbaar?',
     8,
     2
   ),
   (
     'waarom-is-port-uniek',
     'Waarom is Port uniek?',
-    'Na deze les kun jij uitleggen waarom Port uniek is.
+    'Na deze les kun jij benoemen waarom Port uniek is ten opzichte van gewone wijn, en hoe terrassen en traditie het karakter van de Douro vormen.
 ',
-    'Port is uniek door fortificatie, beschermde herkomst en veelzijdigheid.
+    'Port is meer dan ''zoete rode wijn''. Het is het product van een landschap dat bijna niet voor wijnbouw lijkt gemaakt: steile hellingen, extreme hitte en schistose bodems waar wortels diep moeten zoeken. Geen ander versterkt wijngebied combineert zo''n terrein met zo''n strikte traditie.
 
-Port komt altijd uit de Douro-regio.
+Tegenover gewone wijn staat Port als bewuste onderbreking van natuur. Tafelwijn laat de gisting uitlopen; Port grijpt in. Dat verschil klinkt technisch, maar proef je direct: meer body, warmte, zoetheid en een concentratie die droge wijnen zelden evenaren — zelfs niet uit dezelfde druiven.
 
-Daarnaast heeft Port veel verschillende stijlen en kan sommige Port tientallen jaren rijpen.
+De terrassen — socalcos — zijn het visitekaartje van de Douro. Generaties lang bouwden boeren met hand en steen plateaus in de rots. Die terrassen beperken opbrengst, verbeteren drainage en geven elke rij zon en wind. Traditie is hier geen folklore maar productielogica: hoe je oogst, hoe je treedt en hoe je druiven transporteert bepaalt kwaliteit.
 
-Port combineert ook uitstekend met eten zoals kaas, chocolade en desserts.
+Die combinatie maakt Port uniek: een gewone wijnstijl zou hier onder hetzelfde terroir anders smaken, maar zonder fortificatie en zonder de culturele keten van quinta, lodge en rijping in Gaia zou het karakter verloren gaan. Uniek is Port omdat landschap, methode en geschiedenis onlosmakelijk verbonden zijn.
 
-Dat maakt Port veel breder inzetbaar dan veel mensen denken.
+
+## Food pairing
+
+### Beste pairing
+
+Vintage Port met Stilton.
+
+### Waarom dit werkt
+
+Concentratie uit terroir matcht intense smaken: zout, umami en vet vragen een wijn met body en zoetheid die niet verdwijnt na één hap.
+
+### Vermijd
+
+Lichte visgerechten.
+
+## Pro insight
+
+Uniek in Port is de combinatie terroir + methode + geschiedenis — bijna niet kopieerbaar. Vraag bij elk advies: welke van die drie proef je terug in het glas?',
+    '- terroir
+- terrassen
+- schist
+- traditie
+- concentratie
 ',
-    '- uniek
-- Vintage
-- rijping
-- herkomst
-- veelzijdigheid
+    'Sommige terrassen in de Douro zijn zo steil dat druiven nog altijd per mand naar beneden worden gedragen — machines kunnen er simpelweg niet bij.
 ',
-    'Vintage Port wordt alleen gemaakt in topjaren.
-',
-    '- Port is uniek door fortificatie
-- Port heeft beschermde herkomst
-- Port kent veel stijlen
-- Port heeft bewaarpotentieel
+    '- Port onderscheidt zich door fortificatie én door zijn herkomst
+- Gewone wijn en Port uit dezelfde regio delen druiven, niet methode
+- Terrassen maken extreme wijnbouw mogelijk op schist
+- Traditie in oogst en transport beschermt kwaliteit
+- Uniekheid = landschap + ingreep + eeuwenoude keten
 ',
     '### Opdracht
 
-Bedenk drie momenten waarop jij Port zou serveren.
+Zoek een foto of video van Douro-terrassen. Beschrijf in vijf zinnen hoe het landschap productie beïnvloedt — denk aan zon, helling en handarbeid.
 
 ### Checklist
 
-- Ik heb drie situaties bedacht
-- Ik heb over de stijl nagedacht
-- Ik heb een logische keuze gemaakt
+- Ik kan Port vergelijken met gewone wijn op methode en smaak
+- Ik begrijp waarom terrassen essentieel zijn in de Douro
+- Ik kan traditie koppelen aan kwaliteit, niet alleen aan toerisme
+- Ik zie het verband tussen terroir en versterkte stijl
+
 
 ### Reflectievraag
 
-Bij welk moment zou jij Port het liefst drinken?
-',
+Welke Douro-factor — terrassen, schist of lage opbrengst — proef je het eerst terug in een jonge Ruby, en hoe zou je dat aan een gast verklaren?',
     8,
     3
   ),
   (
     'geschiedenis-van-port',
     'Geschiedenis van Port',
-    'Na deze les begrijp jij hoe Port is ontstaan.
+    'Na deze les kun jij de belangrijkste lijnen in de Portgeschiedenis schetsen: de rol van de Britten, lodges in Vila Nova de Gaia en de internationale handel.
 ',
-    'Port ontstond in de 17e eeuw.
+    'De geschiedenis van Port is ook een handelsverhaal. In de zeventiende en achttiende eeuw zochten Britse kooplieden alternatieven voor Franse wijn, die door conflicten schaars en duur werd. Portugal — en vooral de Douro — werd hun nieuwe bron. De Britten investeerden, kochten quinta''s en bouwden een netwerk dat de categorie voor altijd kleurde.
 
-Engelse handelaren zochten toen alternatieven voor Franse wijn.
+Omdat de reis over zee lang en heet was, voegden handelaren alcohol toe om wijn houdbaar te houden. Wat als noodgreep begon, werd de standaard: fortificatie als kwaliteitsmerk. Engelse namen op flessen — Taylor''s, Graham''s, Warre''s — herinneren nog aan die periode; veel ''Port houses'' zijn Brits van oorsprong.
 
-Portugal werd daardoor belangrijk.
+Vila Nova de Gaia, aan de overkant van Porto, werd het centrum van rijping en handel. Daar staan de lodges: grote pakhuizen met lage kelders waar vaten jarenlang rusten, beschermd tegen de hitte van de Douro-vallei. Druiven worden in het hete oosten geoogst; de wijn reist westwaarts om rustig te rijpen nabij de Atlantische koelte.
 
-Tijdens transport bleek dat alcohol toevoegen de wijn beter houdbaar maakte.
+Handel trok regelgeving na zich aan. De demarcatie van 1756 en latere controles beschermden herkomst en reputatie. Vandaag is Port een symbool van Portugese trots met internationale wortels — zonder die Britse lodges en zeeroutes had de stijl nooit dezelfde wereldstatus bereikt.
 
-Later werd dit het vaste productieproces.
 
-In 1756 werd de Douro officieel beschermd.
+## Food pairing
 
-Veel bekende Port-huizen dragen nog steeds Engelse namen.
+### Beste pairing
+
+Colheita met notentaart.
+
+### Waarom dit werkt
+
+Historische exportparen (Stilton, noten) zijn gebouwd op zout-zoet en vet-alcohol — dezelfde structuurlogica die Britse lodges eeuwenlang toepasten.
+
+## Pro insight
+
+Geschiedenis verklaart waarom Port wereldwijd heet naar Porto, terwijl de druiven honderd kilometer oostwaarts groeien. Dat onderscheid gebruik je om herkomst serieus te nemen in service en verkoop.',
+    '- handel
+- lodge
+- Gaia
+- Britten
+- geschiedenis
 ',
-    '- geschiedenis
-- Engeland
-- Douro
-- handel
-- bescherming
+    'Veel beroemde Portmerken dragen nog steeds Britse familienamen, hoewel de productie volledig in Portugal plaatsvindt en onder Portugese regels valt.
 ',
-    'Taylor’s en Graham’s zijn bekende Engelse Port-huizen.
-',
-    '- Port ontstond in de 17e eeuw
-- Engeland speelde een grote rol
-- Alcohol hielp bij transport
-- Douro werd beschermd
+    '- Britten zochten in Portugal wijn toen Frankrijk moeilijk bereikbaar was
+- Fortificatie werd handelslogica voor houdbaarheid op zee
+- Lodges in Vila Nova de Gaia werden het rijpingshart
+- Handel leidde tot bescherming van herkomst en kwaliteit
+- Geschiedenis verklaart Engelse namen op Portugese iconen
 ',
     '### Opdracht
 
-Zoek drie bekende Portproducenten.
+Kies één historisch Portmerk met een Britse naam. Zoek op wanneer het werd opgericht en waar de lodges liggen. Noteer in drie zinnen het verband tussen handel en huidige reputatie.
 
 ### Checklist
 
-- Ik heb drie producenten gevonden
-- Ik heb hun oorsprong bekeken
-- Ik herken minstens één naam
+- Ik kan de rol van Britse handelaren benoemen
+- Ik weet waarom Vila Nova de Gaia belangrijk is
+- Ik begrijp lodges als rijpingscentra, niet als wijngaarden
+- Ik kan geschiedenis koppelen aan wat op het etiket staat
+
 
 ### Reflectievraag
 
-Welke producent kende jij al?
-',
+Waarom exporteerden Britse handelshuizen vanuit Gaia in plaats van direct uit de Douro-wijngaarden — en wat zegt dat nog over Port-identiteit vandaag?',
     8,
     4
   ),
   (
     'portcategorieen',
     'Portcategorieën uitgelegd',
-    'Na deze les herken jij de belangrijkste Portcategorieën.
+    'Na deze les kun jij de hoofdcategorieën Ruby, Tawny, White en Vintage benoemen en uitleggen wat elk type in het glas betekent.
 ',
-    'Port bestaat uit meerdere stijlen.
+    'De wereld van Portcategorieën lijkt complex, maar rust op een handvol hoofdstromen. Ruby is de jonge, fruitige gezicht van Port: korte houtlagering, dieprode kleur, bramen en kers. Hij moet levendig en direct zijn — geen geduld voor jaren in vat.
 
-Ruby is jong en fruitig.
+Tawny rijpt lang in hout en krijgt zijn naam van de bruine tint. Noten, karamel, gedroogd fruit en zachte zuur domineren. Een Tawny 10 of 20 Years is een blend van vaten met een gemiddelde rijpingsleeftijd, geen exacte jaargang. Hij is de meester van consistentie en oxidatieve elegantie.
 
-Tawny rijpt langer op hout en krijgt notige smaken.
+White Port wordt van witte druiven gemaakt en varieert van fris-droog tot rijk-zoet. Met tonic of puur als aperitief toont hij dat Port niet alleen rood is. Vintage Port is de topcategorie: wijn van één uitzonderlijk jaar, korte houtlagering, lange flesrijping. Hij is krachtig, tanninerijk en gebouwd voor decennia in de kelder.
 
-White Port wordt gemaakt van witte druiven.
+Wie portcategorieën leest, kijkt naar kleur, rijping en intentie. Ruby voor nu, Tawny voor zachte rijpheid, White voor verrassende frisheid, Vintage voor verzamelaars en lange diners. Het etiket vertelt welke route de wijn nam.
 
-Vintage Port is de meest prestigieuze stijl.
 
-Deze stijlen vormen de basis voor alles wat je later gaat leren.
-',
+## Food pairing
+
+### Beste pairing
+
+Ruby → chocolade 
+Tawny → pecannotentaart 
+White → olijven 
+Vintage → Stilton
+
+### Waarom dit werkt
+
+Ruby: fruit en tannine tegen bittere cacao; Tawny: oxidatie en karamel tegen noten; White: frisheid tegen zout; Vintage: structuur tegen krachtige kaas.
+
+## Pro insight
+
+Beginners kiezen Port op leeftijd; professionals op moment. Vraag niet ''wat is de oudste?'' maar ''wat past nu?'' — dat voorkomt mispairings en dode voorraad.',
     '- Ruby
 - Tawny
-- White
 - Vintage
-- stijl
+- White Port
+- portcategorieën
 
-# PORT_MODULE_02.md
+---
+### Module 2 — Productie & Terroir
 
-# Way of Tasting Academy',
-    'Vintage Port rijpt vaak nog jarenlang verder op fles.
+**Level:** Explorer
+**Framework pillar:** Productie
+**Module goal:** Begrijp druiven, Douro, terroir, hout en oxidatie als bouwstenen van elke Portstijl.
 ',
-    '- Ruby is fruitig
-- Tawny is oxidatief
-- White is van witte druiven
-- Vintage is prestigieus
+    'Een ''Tawny 20 Years'' betekent dat de blend gemiddeld twintig jaar op hout heeft gerijpt — niet dat elke druppel precies twintig jaar oud is.
+',
+    '- Ruby: jong, fruitig, weinig houtinvloed
+- Tawny: lang op hout, noten en karamel
+- White Port: witte druiven, vaak als aperitief
+- Vintage: topjaar, flesrijping, groot potentieel
+- Categorie bepaalt wanneer en hoe je schenkt
 ',
     '### Opdracht
 
-Schrijf bij elke Portstijl één smaakkenmerk.
+Vergelijk online of in de winkel etiketten van één Ruby, één Tawny en — indien mogelijk — één White Port. Noteer per fles kleur, vermelde leeftijd en serveradvies.
 
 ### Checklist
 
-- Ik heb Ruby beschreven
-- Ik heb Tawny beschreven
-- Ik heb White beschreven
-- Ik heb Vintage beschreven
+- Ik kan Ruby en Tawny op rijping en smaak onderscheiden
+- Ik weet wat Vintage Port inhoudelijk belooft
+- Ik ken de rol van White Port als aperitief
+- Ik lees portcategorieën bewust op het etiket
+
 
 ### Reflectievraag
 
-Welke stijl spreekt jou het meeste aan?
-',
-    8,
+Een gast wil één Port voor kaas én pure chocolade: welke categorie kies jij, welk compromis accepteer je en wat leg je uit over structuur versus leeftijd?',
+    10,
     5
   )
 ) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
@@ -308,270 +378,302 @@ cross join (values
   (
     'druiven-van-port',
     'Druiven van Port',
-    'Na deze les herken jij de belangrijkste druivenrassen voor Port.
+    'Na deze les kun jij de belangrijkste Portdruiven benoemen en uitleggen hoe een blend van Touriga Nacional, Touriga Franca, Tinta Roriz en Tinto Cão de productie stuurt.
 ',
-    'Port wordt bijna altijd gemaakt van meerdere druivenrassen.
+    'Port is zelden een monodruivenwijn. In de Douro plant men tientallen rassen door elkaar; na oogst worden ze samen vergist. Die blend is geen compromis maar productiestrategie: elk ras levert een ander element — kleur, structuur, aroma of verfijning — en de winemaker assembleert in de tank wat later Ruby, Tawny of Vintage wordt.
 
-Dat noemen we een blend.
+Touriga Nacional is de koning van concentratie. Kleine trossen, dikke schil, diep paars fruit en stevige tannines. Hij geeft Ruby zijn intensiteit en Vintage zijn rijpingsskelet. Zonder Nacional mist Port vaak pit en lengte.
 
-De belangrijkste druiven zijn:
+Touriga Franca brengt bloemigheid en elegantie; hij rijpt betrouwbaar op warme hellingen en vult de structuur van Nacional aan zonder te overheersen. Tinta Roriz (Tempranillo) levert volume, rood fruit en een ronde mid-palate — onmisbaar in grote blends voor consistentie.
 
-- Touriga Nacional
-- Touriga Franca
-- Tinta Roriz
-- Tinta Barroca
-- Tinto Cão
+Tinto Cão is het geheime wapen voor finesse: laag opbrengst, laat rijpend, maar aromatisch complex met kruidige verfijning. In de productie bepaalt de verhouding van deze vier — op welke terrassen ze staan en hoe ze in de lagares worden geplet — het verschil tussen middelmatige bulk en een Port die decennia meegaat.
 
-Elke druif heeft zijn eigen rol.
 
-Touriga Nacional geeft kracht, structuur en aroma.
+## Food pairing
 
-Touriga Franca zorgt vaak voor elegantie.
+### Beste pairing
 
-Tinta Roriz geeft kleur en body.
+LBV met pure chocolade of harde oude kaas.
 
-Door druiven te combineren ontstaat balans.
+### Waarom dit werkt
 
-Dat is essentieel voor Port.
-',
+Blendcomplexiteit vraagt gelaagde smaken: zout, bitter en umami in kaas of chocolade geven het fruit en de structuur van de wijn iets om tegen te werken.
+
+## Pro insight
+
+Vraag niet ''welke druif proef ik?'' maar ''welke rol speelt deze druif?'' — blenddenken is hoe sommeliers Port analyseren en blind elimineren.',
     '- blend
 - Touriga Nacional
 - Touriga Franca
 - Tinta Roriz
-- balans
+- Tinto Cão
 ',
-    'In de Douro staan meer dan 80 toegestane druivenrassen.
+    'Een enkele Douro-wijngaard kan meer dan twintig verschillende druivenrassen bevatten; de blend ontstaat al in het veld, vóór de lagares.
 ',
-    '- Port is meestal een blend
-- Touriga Nacional is de belangrijkste druif
-- Elke druif heeft zijn eigen functie
-- Blenden zorgt voor balans
+    '- Port is vrijwel altijd een blend van meerdere rassen
+- Touriga Nacional levert concentratie en structuur
+- Touriga Franca en Tinta Roriz vullen fruit en body aan
+- Tinto Cão voegt aromatische finesse toe
+- Productie begint bij raskeuze op de terrassen
 ',
     '### Opdracht
 
-Zoek op welke druiven in jouw Portfles zitten.
+Zoek op het etiket of de site van een Portproducent welke druiven worden genoemd. Koppel elk ras aan een rol: structuur, fruit, finesse of volume.
 
 ### Checklist
 
-- Ik heb een etiket bekeken
-- Ik heb minstens één druif gevonden
-- Ik heb de naam genoteerd
+- Ik kan vier kernrassen van Port benoemen
+- Ik begrijp waarom blend productie-logica is
+- Ik kan Touriga Nacional koppelen aan concentratie
+- Ik zie druivenkeuze als start van de kwaliteitsketen
+
 
 ### Reflectievraag
 
-Welke druif kwam jij tegen?
-',
+Je proeft kracht maar weinig finesse in een blend: welk ras zou jij verhogen of verlagen — Touriga Nacional, Tinta Roriz of Tinto Cão — en waarom?',
     8,
     1
   ),
   (
     'douro-vallei',
     'De Douro-vallei',
-    'Na deze les begrijp jij waarom de Douro zo belangrijk is voor Port.
+    'Na deze les kun jij de subregio''s Baixo Corgo, Cima Corgo en Douro Superior benoemen en uitleggen hoe terrassen en ligging de productie beïnvloeden.
 ',
-    'De Douro-vallei ligt in Noord-Portugal.
+    'De Douro-vallei is geen uniform landschap. Van west naar oost verandert klimaat, regen en hitte — en daarmee de druiven die je oogst. Wijnwet en traditie delen het gebied in Baixo Corgo, Cima Corgo en Douro Superior; voor de producent is die indeling een routekaart voor stijl en opbrengst.
 
-Het is het enige gebied waar echte Port gemaakt mag worden.
+Baixo Corgo, het westelijkste deel, krijgt relatief meer neerslag en is koeler. Hier zijn opbrengsten hoger en wijnen vaak zachter en eerder drinkbaar. Productie richt zich hier vaker op volume voor basis-Ruby en blends — niet minderwaardig, maar ander profiel door meer water en minder stress.
 
-De regio heeft steile hellingen, arme bodems en extreme omstandigheden.
+Cima Corgo is het hart van kwaliteits-Port. Steilere terrassen, meer zon en schistere hellingen leveren geconcentreerde druiven voor Vintage en premium blends. Veel beroemde quinta''s liggen hier; de productie vraagt intensief werk per kilo druif.
 
-Dit zorgt voor lage opbrengsten maar hoge concentratie.
+Douro Superior, het oostelijkste en droogste deel, is extreem heet en arid. Lage opbrengst, dikke schillen en krachtige wijnen. Terrassen en irrigatiebeheer zijn hier overleving en kwaliteit tegelijk. Wie de Douro-vallei begrijpt, leest op de kaart al welke Port hij kan verwachten — vóór de eerste slok.
 
-De Douro is verdeeld in drie zones:
 
-- Baixo Corgo
+## Food pairing
+
+### Beste pairing
+
+Vintage Port met wild.
+
+### Waarom dit werkt
+
+Tannine en concentratie uit Douro Superior-fruit dragen wild en gamey eiwit; zoetheid temt geen vlees maar balanceert brasaus en vet.
+
+## Pro insight
+
+Subzone op het etiket of in het verhaal van de producent voorspelt vaak concentratie en stijl. Vraag altijd: waar binnen de Douro komt deze Port vandaan?',
+    '- Baixo Corgo
 - Cima Corgo
 - Douro Superior
-
-Cima Corgo is het belangrijkste gebied voor top-Port.
-',
-    '- Douro
-- Cima Corgo
-- terroir
 - terrassen
-- concentratie
+- opbrengst
 ',
-    'Veel wijngaarden in de Douro zijn op terrassen aangelegd.
+    'Douro Superior was lang het minst beplante deel van de vallei vanwege extreme hitte en beperkte infrastructuur — modern beheer maakt het nu een bron van krachtige wijnen.
 ',
-    '- Port komt altijd uit Douro
-- Douro heeft extreme omstandigheden
-- Lage opbrengst geeft concentratie
-- Cima Corgo is topgebied
+    '- Baixo Corgo: koeler, meer regen, hogere opbrengst
+- Cima Corgo: kwaliteitshart met steile terrassen
+- Douro Superior: heet, droog, geconcentreerde druiven
+- Subregio bepaalt productieprofiel en blendkeuze
+- Terrassen maken wijnbouw op alle drie de delen mogelijk
 ',
     '### Opdracht
 
-Zoek de drie Douro-zones op.
+Bekijk een kaart van de Douro-vallei en markeer Baixo Corgo, Cima Corgo en Douro Superior. Koppel per subregio één productiekenmerk (opbrengst, concentratie of arbeidsintensiteit).
 
 ### Checklist
 
-- Ik heb alle drie gevonden
-- Ik heb hun namen genoteerd
-- Ik weet welke zone topkwaliteit geeft
+- Ik kan drie subregio''s van de Douro-vallei benoemen
+- Ik begrijp hoe ligging opbrengst beïnvloedt
+- Ik zie terrassen als productie-infrastructuur
+- Ik kan subregio koppelen aan Portstijl
+
 
 ### Reflectievraag
 
-Welke zone lijkt jou het meest interessant?
-',
+Als je alleen het etiket ziet ''Douro Superior'', welke productieverwachting zet je — opbrengst, concentratie of drinkrijpheid — en hoe onderbouw je dat?',
     8,
     2
   ),
   (
     'klimaat-en-terroir',
     'Klimaat en terroir',
-    'Na deze les begrijp jij hoe klimaat en terroir Port beïnvloeden.
+    'Na deze les kun jij uitleggen hoe hitte, schist en lage opbrengst in de Douro het terroir vormen en de Portproductie bepalen.
 ',
-    'De Douro heeft hete zomers en koude winters.
+    'Terroir in de Douro is geen abstract begrip maar dagelijkse realiteit op de terrassen. Extreme hitte in de zomer, koude nachten in hoger gelegen percelen en weinig regen dwingen de wijnstok tot spaarzaamheid. De plant levert minder trossen, maar met dikke schillen en geconcentreerd sap — precies wat fortificatie later versterkt.
 
-Dat zorgt voor veel stress op de druiven.
+Schist is de tweede pijler. De rotsachtige bodem slaat weinig water op maar warmt overdag op en geeft warmte ''s nachts terug. Wortels kruipen meters diep door kieren op zoek naar vocht. Die strijd geeft minerale spanning en structuur in de druif — onmisbaar voor Vintage en lang rijpende blends.
 
-De bodems bestaan vooral uit leisteen.
+Lage opbrengst klinkt economisch onaantrekkelijk, maar voor Port is het een kwaliteitskeuze. Meer kilo''s per hectare verdunnen kleur en tannine; minder opbrengst betekent rijker extract per liter most. Producenten snoeien, groen oogsten en selecteren op de lagares om die concentratie te bewaren.
 
-Leisteen houdt warmte vast en laat wortels diep groeien.
+Klimaat en terroir werken samen: hitte rijpt suikers, schist geeft stress en mineraal, lage opbrengst houdt intensiteit in balans. Wie dat begrijpt, proeft niet alleen zoetheid maar ook de dorre kracht van een vallei die wijn maakt tegen alle odds.
 
-Hierdoor krijgen druiven:
 
-- concentratie
-- structuur
-- kracht
+## Food pairing
 
-Dit noemen we terroir.
+### Beste pairing
 
-Terroir bepaalt een groot deel van de stijl van Port.
-',
+Vintage met oude Comté.
+
+### Waarom dit werkt
+
+Minerale spanning en concentratie uit stress-terroir passen bij rijpe kaas en noten: zout en vet versterken body zonder zuurconflict.
+
+## Pro insight
+
+Hitte en schist zijn geen achtergronddecoratie — ze verklaren waarom Port structuur en concentratie kan dragen die tafelwijn zelden heeft.',
     '- terroir
-- leisteen
+- schist
 - klimaat
-- concentratie
 - stress
+- concentratie
 ',
-    'Leisteen kan wortels meters diep laten groeien.
+    'Wortels van oude Douro-stokken kunnen meer dan tien meter diep door schist reiken — diep genoeg om ook in droge zomers vocht te vinden.
 ',
-    '- Douro is heet en droog
-- Leisteen is belangrijk
-- Terroir beïnvloedt smaak
-- Stress geeft concentratie
+    '- Hitte rijpt druiven snel en verhoogt suikergehalte
+- Schist geeft warmte, drainage en minerale stress
+- Lage opbrengst levert geconcentreerder sap voor Port
+- Terroir bepaalt extract vóór fortificatie
+- Productie begint bij klimaat en bodem, niet in de lodge
 ',
     '### Opdracht
 
-Zoek op wat leisteen is.
+Lees een wijnbeschrijving van een Douro-Port en onderstreep woorden die wijzen op hitte, mineraliteit of concentratie. Koppel elk woord aan terroir of productiekeuze.
 
 ### Checklist
 
-- Ik heb opgezocht wat leisteen is
-- Ik begrijp waarom het belangrijk is
-- Ik kan het uitleggen
+- Ik kan hitte koppelen aan rijping en suiker
+- Ik begrijp de rol van schist in de Douro
+- Ik zie lage opbrengst als kwaliteitsinstrument
+- Ik gebruik terroir actief bij het lezen van proefnotities
+
 
 ### Reflectievraag
 
-Waarom denk jij dat leisteen zo belangrijk is?
-',
+Waar zie jij terroir het duidelijkst: in de opbrengst per hectare, in de minerale spanning of in de structuur van de wijn — en welk voorbeeld gebruik je?',
     8,
     3
   ),
   (
     'houtlagering',
     'Houtlagering',
-    'Na deze les begrijp jij wat houtlagering doet.
+    'Na deze les kun jij uitleggen hoe vatgrootte, oxidatie en rijpingsduur het verschil maken tussen fruitbewaring in Ruby en transformatie in Tawny.
 ',
-    'Veel Port rijpt op houten vaten.
+    'Na fortificatie begint het tweede hoofdstuk: houtlagering. Port rust niet alleen op druiven en alcohol, maar op tijd in vat. Hout ademt, laat zuurstof langzaam binnen en geeft vanille, noten en zachtheid — maar ook verliest fruit en kleur naarmate de jaren tellen.
 
-Tijdens deze rijping komt zuurstof langzaam in contact met de wijn.
+Grote vaten — pipas van honderden liters — geven minder houtsmaken per liter wijn en zijn ideaal voor langzame, elegante rijping. Tawny''s en oudere blends slapen hier vaak jarenlang; oxidatie is mild en geleidelijk. Kleine vaten (barriques) werken sneller: meer oppervlak per liter, meer extract, meer invloed in korte tijd. Ze worden spaarzaam gebruikt, maar kunnen structuur aanscherpen.
 
-Dat zorgt voor:
+De keuze tussen groot en klein is een stijlbeslissing. Ruby Reserve rijpt kort op relatief neutraal hout om fruit te bewaren; Tawny 20 Years draait om consistentie in grote vaten over decennia. Vintage Port ziet slechts korte lagering in vat voordat de fles de rijping overneemt — juist om kracht en tannine te behouden.
 
-- zachtere tannines
-- meer complexiteit
-- notige aroma’s
+Houtlagering is dus geen uniform proces maar een toonregelaar voor stijl. Wie begrijpt welk vat wanneer wordt ingezet, kan van kleur en aroma aflezen welke route de wijnmaker koos — en waarom Ruby fris blijft terwijl Tawny naar karamel neigt.
 
-Hoe langer de rijping, hoe groter het effect.
 
-Tawny Port is het bekendste voorbeeld.
+## Food pairing
 
-Ruby rijpt meestal korter en behoudt meer fruit.
-',
+### Beste pairing
+
+20 Years Tawny met crème brûlée.
+
+### Waarom dit werkt
+
+Karamel in dessert en karamel in Tawny delen oxidatieve aroma''s; textuur in crème brûlée en mondgevoel in oude Port lopen gelijk op.
+
+## Pro insight
+
+Oude Tawny hoeft zelden gedecanteerd; Vintage bijna altijd. Dat onderscheid voorkomt de meest voorkomende servicefout bij Port.',
     '- houtlagering
-- tannine
-- zuurstof
-- complexiteit
-- rijping
+- pipa
+- oxidatie
+- vatgrootte
+- stijlarchitectuur
 ',
-    'Grote en kleine vaten geven verschillende rijping.
+    'Traditionele pipas in Gaia kunnen meer dan 500 liter bevatten — hun grootte is mede de reden dat Tawny zo zacht en geleidelijk rijpt.
 ',
-    '- Houtlagering verandert Port
-- Zuurstof speelt een rol
-- Tawny rijpt langer
-- Ruby blijft fruitiger
+    '- Houtlagering geeft oxidatie, noten en zachtheid
+- Grote vaten: langzame, milde rijping voor Tawny
+- Kleine vaten: snellere houtinvloed, spaarzaam ingezet
+- Tijd in vat bepaalt fruit versus karamel
+- Stijl volgt uit vatkeuze en rijpingsduur
 ',
     '### Opdracht
 
-Vergelijk Ruby en Tawny beschrijvingen.
+Vergelijk proefnotities van een jonge Ruby en een Tawny 10 Years. Noteer drie smaakverschillen en koppel elk aan houtlagering (kort/lang, groot/klein vat).
 
 ### Checklist
 
-- Ik heb beide stijlen bekeken
-- Ik heb verschillen genoteerd
-- Ik begrijp het effect van hout
+- Ik kan uitleggen wat houtlagering met Port doet
+- Ik ken het verschil tussen grote en kleine vaten
+- Ik begrijp waarom Vintage kort op hout rijpt
+- Ik lees stijl terug uit rijpingskeuzes
+
 
 ### Reflectievraag
 
-Welke stijl lijkt jou interessanter?
-',
+Wanneer zou jij bewust kiezen voor korte houtlagering boven lange oxidatieve houtlagering — en welke stijl verliest daarbij het meest?',
     8,
     4
   ),
   (
     'oxidatie-uitgelegd',
     'Oxidatie uitgelegd',
-    'Na deze les begrijp jij wat oxidatie betekent in Port.
+    'Na deze les kun jij het oxidatieve verschil tussen Ruby en Tawny uitleggen en herkennen hoe zuurstof en hout het smaakprofiel sturen.
 ',
-    'Oxidatie betekent contact met zuurstof.
+    'Oxidatie klinkt negatief bij tafelwijn, maar bij Port is het vaak gewenst — mits beheerst. Zuurstof reageert met aroma''s en kleurpigmenten; fruit verandert in noten, karamel en gedroogd fruit. Het verschil tussen Ruby en Tawny is grotendeels het verschil in hoeveel oxidatie de wijn meekrijgt.
 
-Bij sommige Portstijlen is dit gewenst.
+Ruby wordt bewust beschermd tegen langdurige oxidatie. Korte houtcontact, grote volumes, soms roestvrij staal — alles om het bramenfruit en de paarse kleur te houden. Ruby ademt even, maar leeft in een relatief gereduceerde wereld. Daarom proef je jeugd, energie en tannine structuur.
 
-Door oxidatie verandert:
+Tawny omarmt oxidatie. Jaren in hout met gecontroleerde toegang van zuurstof verbleekt de kleur naar amber en bouwt lagen van hazelnoot, koffie en toffee. Dit is geen bederf maar stijl: de wijnmaker kiest voor tijd en transformatie. Een Tawny 20 Years is het schoolvoorbeeld van bewuste oxidatieve rijping.
 
-- kleur
-- geur
-- smaak
+Wie oxidatie begrijpt, proeft blind sneller Ruby versus Tawny. Niet alleen op kleur, maar op logica in het smaakprofiel: vers fruit versus gekookt fruit, structuur versus zachtheid. Oxidatie uitgelegd is dus de sleutel tot de twee gezichten van rode Port.
 
-De wijn wordt vaak lichter van kleur en krijgt tonen van noten, karamel en gedroogd fruit.
 
-Tawny is het beste voorbeeld van oxidatieve rijping.
+## Food pairing
 
-Ruby rijpt juist meer reductief.
+### Beste pairing
 
-Oxidatie is dus geen fout, maar een stijlkeuze.
-',
-    '- oxidatie
-- zuurstof
+30 Years Tawny met pecannotentaart.
+
+### Waarom dit werkt
+
+Ruby''s fruitige structuur balanceert zout; Tawny''s oxidatie spiegelt noten — de zuurstofkeuze in rijping bepaalt welke pairing logischer is.
+
+## Pro insight
+
+Oxidatie is bij Port vaak stijl, geen fout. Leer gasten dat Ruby en Tawny bewuste zuurstofkeuzes zijn — dat maakt blindproeven en advies logischer.',
+    '- oxidatieve rijping
+- Ruby
 - Tawny
-- aroma
-- rijping
+- reductie
+- zuurstof
 
-# PORT_MODULE_03.md
+---
+### Module 3 — Proeven & Analyse
 
-# Way of Tasting Academy',
-    'Oxidatie speelt een grote rol in oudere Tawny Ports.
+**Level:** Explorer
+**Framework pillar:** Proeven
+**Module goal:** Leer Port systematisch proeven: kleur, aroma, structuur en kwaliteitsindicatoren.
 ',
-    '- Oxidatie is contact met zuurstof
-- Het verandert kleur en smaak
-- Tawny is oxidatief
-- Ruby minder
+    'Een Ruby die per ongeluk jarenlang open in vat staat, ontwikkelt Tawny-achtige noten — hetzelfde chemische proces, maar dan zonder planning.
+',
+    '- Oxidatie verandert fruit in noten en karamel
+- Ruby: weinig oxidatie, behoud van fruit en kleur
+- Tawny: langdurige oxidatieve rijping op hout
+- Zuurstofbeheer is een bewuste stijlkeuze
+- Blind proeven: vers versus gekookt fruit als hint
 ',
     '### Opdracht
 
-Vergelijk een jonge Ruby en een oudere Tawny.
+Proef of vergelijk beschrijvingen van Ruby en Tawny naast elkaar. Noteer per glas drie aroma''s en label ze als ''oxidatief'' of ''reductief/fris''.
 
 ### Checklist
 
-- Ik heb beide stijlen bekeken
-- Ik heb kleurverschillen gezien
-- Ik heb smaakverschillen genoteerd
+- Ik kan oxidatie in begrijpelijke taal uitleggen
+- Ik proef het verschil tussen Ruby en Tawny
+- Ik koppel noten/karamel aan oxidatieve rijping
+- Ik herken fruitbehoud als Ruby-kenmerk
+
 
 ### Reflectievraag
 
-Welke verschillen vielen jou het meest op?
-',
+Je proeft noten maar ook fris fruit: wijst dat op Ruby, Tawny of een hybride rijpingsroute — en welke observatie beslist voor jou?',
     8,
     5
   )
@@ -594,705 +696,275 @@ cross join (values
   (
     'proefnotitie-port',
     'Proefnotitie Port',
-    'Na deze les kun jij een eenvoudige proefnotitie van Port maken en systematisch analyseren wat je ziet, ruikt en proeft.
+    'Na deze les kun jij een gestructureerde proefnotitie van Port opstellen volgens de Way-of-Tasting-methode: kleur, neus, smaak, structuur en conclusie.
 ',
-    'Een proefnotitie is de basis van professioneel proeven.
+    'Professioneel Port proeven begint niet bij de eerste slok, maar bij een vaste volgorde die je zintuigen trainen. De Way-of-Tasting-structuur — kleur, neus, smaak, structuur en conclusie — geeft houvast zodat elke proefnotitie vergelijkbaar en betrouwbaar wordt. Bij kleur let je op diepte, randtint en viscositeit: robijnrood wijst vaak op Ruby, amber op Tawny. De neus levert de eerste stijlhint: vers fruit versus noten en karamel. Bij smaak en structuur analyseer je zoetheid, zuur, alcohol, tannine en body als één geheel — niet als losse checklist. Pas in de conclusie verbind je alle waarnemingen: jong of oud, fruitig of oxidatief, welke stijl past bij dit profiel? Een goede proefnotitie is geen poëzie, maar een compact verslag dat je later kunt herlezen en vergelijken. Herhaling maakt van losse indrukken herkenbare patronen.
 
-Door een wijn of Port op een vaste manier te analyseren, train je jouw smaakgeheugen en leer je stijlen sneller herkennen.
 
-Bij Port werken we altijd in vier vaste stappen:
+## Food pairing
 
-### 1. Kijken
+### Beste pairing
 
-Je begint altijd met kijken.
+Ruby Reserve met pure chocolade.
 
-Let op:
+### Waarom dit werkt
 
-- kleur
-- helderheid
-- viscositeit
+Pairing begint bij structuuranalyse: zoetheid, tannine en alcohol bepalen of zout, vet of bitter in het gerecht gedragen wordt.
 
-Kleur vertelt veel.
+## Pro insight
 
-Ruby Port is meestal diep robijnrood.
-
-Tawny Port is lichter en meer amberkleurig.
-
-White Port varieert van bleekgeel tot goudkleurig.
-
-Viscositeit, de “tranen” in het glas, geeft vaak een indicatie van suiker en alcohol.
-
-Bij Port zie je vaak dikkere tranen dan bij gewone wijn.
-
----
-
-### 2. Ruiken
-
-Ruiken vertelt vaak meer dan proeven.
-
-Zoek naar aroma’s.
-
-Bij jonge Ruby Port vind je vaak:
-
-- kersen
-- bramen
-- pruimen
-
-Bij Tawny vind je vaker:
-
-- walnoten
-- karamel
-- vijgen
-- gedroogd fruit
-
-White Port laat vaak aroma’s zien zoals:
-
-- citrus
-- honing
-- amandel
-
-Probeer meerdere keren te ruiken.
-
-Aroma’s veranderen vaak in het glas.
-
----
-
-### 3. Proeven
-
-In de mond analyseer je structuur.
-
-Let op:
-
-- zoetheid
-- zuur
-- alcohol
-- tannines
-- body
-
-Port is bijna altijd zoet.
-
-Maar kwaliteit zit in balans.
-
-Goede Port heeft genoeg frisheid om de zoetheid in evenwicht te houden.
-
-Alcohol moet voelbaar zijn, maar niet branderig.
-
----
-
-### 4. Conclusie
-
-Nu combineer je alles.
-
-Vraag jezelf:
-
-- Is deze Port jong of oud?
-- Fruitig of oxidatief?
-- Licht of krachtig?
-- Welke stijl is dit?
-
-Dat is de basis van blindproeven.
-
-Hoe vaker je dit doet, hoe sneller je patronen herkent.
-',
+Een proefnotitie zonder structuur is marketing. Train op kleur → neus → mondgevoel → conclusie tot het automatisch gaat — ook onder tijdsdruk.',
     '- proefnotitie
-- aroma
-- viscositeit
-- structuur
-- balans
+- kleur
+- neus
+- mondgevoel
+- conclusie
 ',
-    'Professionele sommeliers gebruiken vaak exact dezelfde proefstructuur voor Port, wijn, Madeira en Sherry.
+    'Sommeliers bewaren proefnotities soms jarenlang — niet uit sentiment, maar omdat vergelijken over tijd laat zien hoe je neus en smaak scherper worden.
 ',
-    '- Proeven gebeurt altijd in vaste stappen
-- Kijken geeft eerste informatie
-- Ruiken onthult stijl en rijping
-- Structuur bepaalt kwaliteit
-- Conclusie verbindt alles samen
+    '- Way-of-Tasting: kleur → neus → smaak → structuur → conclusie
+- Kleur en viscositeit geven eerste stijl- en kwaliteitsaanwijzingen
+- De neus onthult fruit, rijping en oxidatieve tonen vóór je proeft
+- Structuur omvat zoetheid, zuur, alcohol, tannine en body tegelijk
+- Conclusie koppelt waarnemingen aan stijl, leeftijd en kwaliteitsbeoordeling
 ',
     '### Opdracht
-
-Neem een glas Port en maak jouw eerste volledige proefnotitie.
-
-Gebruik de vier stappen:
-
-- kijken
-- ruiken
-- proeven
-- concluderen
+Proef één glas Port en schrijf een volledige proefnotitie in vijf stappen: kleur, neus, smaak, structuur en conclusie. Gebruik korte, feitelijke zinnen — geen marketingtaal.
 
 ### Checklist
+- Ik heb kleur, randtint en viscositeit genoteerd
+- Ik heb minimaal drie neusimpressies beschreven
+- Ik heb smaak en structuur apart benoemd
+- Mijn conclusie noemt stijl én onderbouwing
 
-- Ik heb de kleur beoordeeld
-- Ik heb minimaal drie aroma’s benoemd
-- Ik heb de structuur geanalyseerd
-- Ik heb de stijl geprobeerd te bepalen
 
 ### Reflectievraag
 
-Wat vond jij het moeilijkst: kleur herkennen, aroma’s benoemen of structuur analyseren?
-',
-    8,
+Welke stap in je proefnotitie geeft jou nu de minste zekerheid — kleur, neus, structuur of conclusie — en wat oefen je daar concreet op?',
+    10,
     1
   ),
   (
     'structuur-herkennen',
     'Structuur herkennen',
-    'Na deze les kun jij de structuur van Port analyseren en de belangrijkste bouwstenen herkennen.
+    'Na deze les kun jij de structuur van Port analyseren en alcohol, zoetheid, tannine en body bewust van elkaar onderscheiden.
 ',
-    'Structuur is het skelet van Port.
+    'Waar aroma''s vertellen wat je ruikt, beschrijft structuur hoe Port in de mond aanvoelt. Vier bouwstenen domineren: zoetheid, alcohol, tannine en body. Zoetheid komt van restsuiker na fortificatie — zij geeft volume en rondheid, maar zonder frisheid wordt Port log. Alcohol (meestal 19–22%) levert warmte en lengte; geïntegreerde alcohol voelt rond, branderige alcohol wijst op onevenwicht. Tannine geeft grip op het tandvlees — Ruby en Vintage tonen vaak meer tannine dan gerijpte Tawny. Body is het gewicht in de mond, los van alcoholpercentage: een Port kan krachtig aanvoelen zonder zwaar te zijn. Balans ontstaat wanneer geen enkele component overheerst. Professionals proeven structuur bewust vóór zij stijl benoemen — zoetheid alleen maakt nog geen grote Port.
 
-Waar aroma’s vertellen wat je ruikt, vertelt structuur hoe de wijn aanvoelt.
 
-Bij Port kijken we naar vijf bouwstenen:
+## Food pairing
 
-- zoetheid
-- zuur
-- alcohol
-- tannines
-- body
+### Beste pairing
 
-Samen bepalen deze de kwaliteit.
+Vintage Port met Stilton.
 
----
+### Waarom dit werkt
 
-### Zoetheid
+Structuurcomponenten voorspellen pairing: hoge tannine tegen eiwit, zoetheid tegen zout, alcohol tegen vet — dezelfde logica als bij kaas en dessert.
 
-Port bevat altijd restsuiker.
+## Pro insight
 
-Dat komt door fortificatie.
-
-Zoetheid geeft:
-
-- volume
-- rondheid
-- zachtheid
-
-Maar teveel zoetheid zonder frisheid maakt Port zwaar.
-
----
-
-### Zuur
-
-Zuur is cruciaal.
-
-Zuur zorgt voor:
-
-- spanning
-- frisheid
-- lengte
-
-Bij grote Ports voorkomt zuur dat de wijn log wordt.
-
-Zelfs oude Tawny heeft vaak verrassend veel frisheid.
-
----
-
-### Alcohol
-
-Port bevat meestal tussen de 19% en 22%.
-
-Alcohol geeft:
-
-- warmte
-- kracht
-- lengte
-
-Goede Port heeft geïntegreerde alcohol.
-
-Slechte integratie voelt branderig.
-
----
-
-### Tannines
-
-Tannines geven grip.
-
-Je voelt ze vooral op je tandvlees.
-
-Ruby en Vintage hebben vaak meer tannines.
-
-Tawny heeft meestal zachtere tannines door rijping.
-
----
-
-### Body
-
-Body is het gewicht van de wijn in je mond.
-
-Niet te verwarren met alcohol.
-
-Body kan zijn:
-
-- licht
-- medium
-- vol
-
-Port is meestal medium+ tot vol.
-
----
-
-### Balans
-
-Balans is de sleutel.
-
-Een grote Port voelt compleet.
-
-Geen enkel onderdeel overheerst.
-
-Zoetheid, zuur, alcohol en body werken samen.
-
-Dat bepaalt kwaliteit.
-',
-    '- structuur
-- zoetheid
-- zuur
+Vraag bij elke slok: wat blijft hangen — zoetheid, alcohol of tannine? Dat vertelt waar de wijn op gebouwd is en voorkomt stijlverwarring.',
+    '- zoetheid
 - alcohol
 - tannine
+- body
+- balans
 ',
-    'Veel beginners denken dat zoetheid de belangrijkste factor is, terwijl zuur vaak de echte kwaliteitsdrager is.
+    'Veel beginners focussen op zoetheid, terwijl zuur en tannine in top-Port vaak de echte kwaliteitsdragers zijn die de wijn levend houden.
 ',
-    '- Structuur is het skelet van Port
-- Vijf bouwstenen bepalen stijl
-- Balans bepaalt kwaliteit
-- Body is niet hetzelfde als alcohol
-- Zuur is essentieel voor frisheid
+    '- Structuur = mondgevoel: zoetheid, alcohol, tannine en body
+- Zoetheid geeft rondheid; zuur en tannine houden Port fris en in balans
+- Geïntegreerde alcohol voelt warm, niet branderig
+- Body is gewicht in de mond — niet hetzelfde als alcoholpercentage
+- Balans bepaalt of een Port compleet en hoogwaardig aanvoelt
 ',
     '### Opdracht
-
-Proef twee verschillende Ports en analyseer de structuur.
-
-Beantwoord:
-
-- Welke is zoeter?
-- Welke heeft meer zuur?
-- Welke heeft meer body?
-- Welke voelt meer in balans?
+Proef twee Ports naast elkaar (bijvoorbeeld een jonge Ruby en een 10-year-old Tawny). Beoordeel per glas zoetheid, alcohol, tannine, body en totale balans.
 
 ### Checklist
+- Ik heb zoetheid per glas gerangschikt
+- Ik heb alcoholwarmte apart beoordeeld (niet verward met body)
+- Ik heb tannine op tandvlees gevoeld
+- Ik heb body en balans vergeleken
 
-- Ik heb zoetheid beoordeeld
-- Ik heb zuur beoordeeld
-- Ik heb alcohol beoordeeld
-- Ik heb body beoordeeld
-- Ik heb balans vergeleken
 
 ### Reflectievraag
 
-Welke structuurcomponent viel jou het meeste op?
-',
+Bij twee Ports met gelijke zoetheid proef jij één als zwaarder: welke structuurcomponent — alcohol, tannine of body — verklaart dat verschil?',
     8,
     2
   ),
   (
     'aromas-herkennen',
-    'Aroma’s herkennen',
-    'Na deze les kun jij de belangrijkste aroma’s in Port herkennen en beter plaatsen binnen verschillende Portstijlen.
+    'Aroma''s herkennen',
+    'Na deze les kun jij de belangrijkste aroma''s in Port herkennen — fruit, kruiden, noten en oxidatieve tonen — en ze koppelen aan stijl en rijping.
 ',
-    'Aroma’s zijn de geurcomponenten van Port.
+    'De neus is bij Port vaak onthullender dan de mond. Vier aroma-families helpen bij ordenen: fruit, kruiden, noten en oxidatieve tonen. Fruitaroma''s — kers, braam, pruim, framboos — domineren vaak in jonge Ruby en wijzen op druif en jeugd. Kruiden en specerijen (peper, cacao, kaneel) geven diepte en komen vooral naar voren in krachtige Vintage en complexe blends. Noten — walnoot, amandel, hazelnoot — en karamelachtige tonen signaleren rijping en langere hout- of zuurstofcontact. Oxidatieve tonen zoals toffee, vijg, gedroogd fruit en koffie zijn het visitekaartje van Tawny en oude Colheita. Door bewust te scannen op fruit versus kruiden versus noten versus oxidatie bouw je een aroma-bibliotheek op die blindproeven versnelt. Ruik meerdere keren: aroma''s evolueren in het glas naarmate de Port opent.
 
-Ze geven veel informatie over:
 
-- druivenras
-- rijping
-- leeftijd
-- stijl
+## Food pairing
 
-Goed ruiken is één van de krachtigste tools van een sommelier.
+### Beste pairing
 
-Bij Port verdelen we aroma’s vaak in drie categorieën:
+Tawny 20 Years met walnotentaart.
 
----
+### Waarom dit werkt
 
-### Primaire aroma’s
+Aroma-families wijzen naar pairing: fruit naar rood fruitdessert, oxidatie naar noten, kruiden naar gekruide kaas — neus als eerste pairingfilter.
 
-Deze komen direct van de druif.
+## Pro insight
 
-Voorbeelden:
-
-- kers
-- braam
-- pruim
-- blauwe bes
-- framboos
-
-Deze aroma’s vind je vooral in jonge Ports zoals Ruby.
-
-Hoe jonger de Port, hoe duidelijker deze fruitaroma’s vaak zijn.
-
----
-
-### Secundaire aroma’s
-
-Deze ontstaan tijdens de productie.
-
-Voorbeelden:
-
-- gist
+Train op aroma-families (fruit, kruiden, noten, oxidatie), niet op losse woorden. Herhaling bouwt de neusbibliotheek die blindproeven versnelt.',
+    '- fruitaroma
 - kruiden
-- cacao
-- specerijen
-
-Deze aroma’s zijn subtieler.
-
-Ze worden gevormd tijdens fermentatie en vinificatie.
-
----
-
-### Tertiaire aroma’s
-
-Deze ontstaan door rijping.
-
-Voorbeelden:
-
-- walnoot
-- karamel
-- toffee
-- vijg
-- koffie
-- gedroogd fruit
-
-Deze vind je vooral in oudere Tawny’s.
-
-Hoe langer de rijping, hoe complexer deze aroma’s vaak worden.
-
----
-
-### Aroma’s per stijl
-
-Ruby Port:
-
-- rood fruit
-- zwart fruit
-- chocolade
-
-Tawny Port:
-
 - noten
-- karamel
-- gedroogde vijgen
-
-White Port:
-
-- citrus
-- honing
-- amandel
-
-Vintage Port:
-
-- donker fruit
-- kruiden
-- krachtige concentratie
-
-Door deze patronen te herkennen kun je stijlen sneller blind herkennen.
+- oxidatieve tonen
+- neus
 ',
-    '- aroma
-- primair
-- secundair
-- tertiair
-- blindproeven
+    'Je neus kan duizenden geurtonen onderscheiden — veel meer dan je tong smaakpunten heeft. Daarom trainen professionals vooral op aroma-herkenning.
 ',
-    'Je neus kan duizenden verschillende aroma’s onderscheiden, veel meer dan je tong smaken kan herkennen.
-',
-    '- Aroma’s vertellen veel over stijl
-- Primaire aroma’s komen van de druif
-- Secundaire aroma’s ontstaan tijdens productie
-- Tertiaire aroma’s ontstaan door rijping
-- Aroma-training versnelt blindproeven
+    '- Vier aroma-families: fruit, kruiden, noten en oxidatieve tonen
+- Fruit domineert vaak in jonge Ruby; oxidatie wijst op Tawny en rijping
+- Kruiden geven diepte en complexiteit in krachtige stijlen
+- Noten en karamel zijn typische rijpings- en houtaroma''s
+- Herhaald ruiken onthult hoe aroma''s in het glas evolueren
 ',
     '### Opdracht
-
-Ruik aan één Port en noteer minimaal vijf aroma’s.
-
-Verdeel ze in:
-
-- fruit
-- kruiden
-- rijping
+Ruik aan één Port en noteer minimaal vijf aroma''s, verdeeld over fruit, kruiden, noten en oxidatieve tonen. Probeer daarna de stijl te benoemen op basis van je neus alleen.
 
 ### Checklist
+- Ik heb minimaal één fruitaroma benoemd
+- Ik heb gezocht naar kruidige of specerijachtige tonen
+- Ik heb noten of karamel/oxidatie herkend (of bewust afwezig genoteerd)
+- Ik heb een stijlhypothese op aroma gebaseerd
 
-- Ik heb minimaal vijf aroma’s gevonden
-- Ik heb fruitaroma’s benoemd
-- Ik heb rijpingsaroma’s benoemd
-- Ik heb de stijl proberen te koppelen
 
 ### Reflectievraag
 
-Welke aroma’s herken jij het snelst?
-',
+Je ruikt karamel maar geen fruit: is dat oxidatie, houtlagering of leeftijd — en welke stijl zou jij daarop wedden vóór de eerste slok?',
     8,
     3
   ),
   (
     'ruby-vs-tawny-blind',
     'Ruby vs Tawny blind herkennen',
-    'Na deze les kun jij Ruby en Tawny Port blind van elkaar onderscheiden op basis van kleur, geur, smaak en structuur.
+    'Na deze les kun jij Ruby en Tawny Port blind onderscheiden op kleur, aroma, structuur en oxidatie — met onderbouwde conclusie.
 ',
-    'Blindproeven is één van de krachtigste manieren om echt te leren proeven.
+    'Blindproeven dwingt je om op waarneming te vertrouwen, niet op het etiket. Ruby versus Tawny is de klassieke eerste splitsing in Port. Kleur is vaak de snelste cue: diep robijnrood met paarsachtige rand wijst op Ruby; amber, oranjebruin en lichtere kern op Tawny door oxidatieve rijping. Op de neus contrasteert vers fruit (kers, braam) met oxidatie (walnoot, karamel, vijg). In de mond voelt Ruby energieker, fruitgedrevener en soms tanninerijker; Tawny is ronder, zachter en geïntegreerder. De afdronk bevestigt vaak je hypothese: Ruby eindigt korter en fruitiger, Tawny langer en notiger. Blindproeven werkt als een beslisboom: kleur → fruit of oxidatie? → structuur → afdronk → conclusie. Professionals formuleren cues als ''waarom'', niet alleen ''wat'' — dat bouwt zekerheid op voor examens en proefpanels.
 
-Zonder etiket ben je volledig afhankelijk van je zintuigen.
 
-Bij Port is Ruby versus Tawny één van de belangrijkste eerste onderscheidingen.
+## Food pairing
 
-Deze twee stijlen verschillen fundamenteel.
+### Beste pairing
 
-Niet alleen in leeftijd, maar vooral in rijpingsstijl.
+Ruby met chocolade.
 
----
+Tawny met notendessert.
 
-### Kleur herkennen
+### Waarom dit werkt
 
-Kleur is vaak de eerste aanwijzing.
+Ruby: primair fruit en tannine bij chocolade; Tawny: oxidatie bij noten — blind herken je de pairingroute via oxidatie, niet via zoetheid alleen.
 
-Ruby Port:
+## Pro insight
 
-- diep rood
-- robijn
-- paarsachtige rand
-
-Tawny Port:
-
-- amber
-- oranjebruin
-- lichtere kern
-
-Door oxidatie verliest Tawny kleur.
-
-Ruby behoudt juist kleur door beperkte zuurstof.
-
----
-
-### Geur herkennen
-
-Ruby ruikt meestal:
-
-- vers fruit
-- kersen
-- braam
-- pruim
-
-Tawny ruikt vaker:
-
-- walnoten
-- karamel
-- vijgen
-- toffee
-- gedroogd fruit
-
-Hier zit vaak het grootste verschil.
-
-Fruit versus oxidatie.
-
----
-
-### Structuur herkennen
-
-Ruby:
-
-- krachtiger
-- meer fruitgedreven
-- steviger tannines
-
-Tawny:
-
-- zachter
-- ronder
-- geïntegreerder
-
-Tawny voelt vaak rustiger en meer ontwikkeld.
-
-Ruby voelt energieker en directer.
-
----
-
-### Afdronk herkennen
-
-Ruby:
-
-- korter
-- fruitiger
-
-Tawny:
-
-- langer
-- complexer
-- notiger
-
-De afdronk is vaak de bevestiging van je conclusie.
-
----
-
-### Blind analyseren
-
-Vraag jezelf:
-
-- Welke kleur zie ik?
-- Is het fruit of oxidatie?
-- Hoe voelt de structuur?
-- Hoe lang blijft de smaak hangen?
-
-Zo bouw je zekerheid op.
-',
+Bij twijfel: oxidatie beslist, niet zoetheid alleen. Beide stijlen zijn zoet — wie op suiker gokt, verliest blindproeven structureel.',
     '- blindproeven
 - Ruby
 - Tawny
+- kleur
 - oxidatie
-- afdronk
 ',
-    'Bij veel sommelierexamens is Ruby vs Tawny één van de eerste blindproefvragen.
+    'Ruby versus Tawny blind is een van de meest voorkomende proefvragen bij sommelier- en wijnexamens — precies omdat de cues goed leerbaar zijn.
 ',
-    '- Ruby en Tawny verschillen fundamenteel
-- Kleur is eerste aanwijzing
-- Fruit wijst vaak op Ruby
-- Noten wijzen vaak op Tawny
-- Blindproeven versnelt herkenning
+    '- Blindproeven: cues uit kleur, geur, smaak, structuur en afdronk
+- Robijnrood + vers fruit → Ruby; amber + noten/karamel → Tawny
+- Ruby voelt energieker; Tawny ronder en oxidatief rijper
+- Afdronk bevestigt: kort/fruitig versus lang/notig
+- Onderbouw je conclusie met minimaal twee onafhankelijke cues
 ',
     '### Opdracht
-
-Vergelijk blind twee verschillende Ports.
-
-Gebruik:
-
-- kleur
-- geur
-- structuur
-- afdronk
-
-Probeer de stijl te benoemen.
+Laat iemand twee Ports (Ruby en Tawny) blind schenken. Noteer per glas kleur, geur, structuur en afdronk voordat je stijl benoemt. Vergelijk daarna met het etiket.
 
 ### Checklist
+- Ik heb kleur als eerste cue genoteerd
+- Ik heb fruit versus oxidatie op de neus onderscheiden
+- Ik heb structuur en afdronk gebruikt ter bevestiging
+- Ik heb mijn conclusie met minimaal twee cues onderbouwd
 
-- Ik heb de kleur vergeleken
-- Ik heb aroma’s vergeleken
-- Ik heb structuur geanalyseerd
-- Ik heb de stijl benoemd
 
 ### Reflectievraag
 
-Wat gaf jou de doorslag: kleur, geur of structuur?
-',
-    8,
+Bij twijfel tussen Ruby en Tawny: vertrouw jij eerst op kleur, oxidatie op de neus of mondgevoel — en welke cue heeft je het vaakst in de war gebracht?',
+    10,
     4
   ),
   (
     'mini-toets-port-proeven',
     'Mini-toets Port Proeven',
-    'Na deze les kun jij jouw kennis uit Module 3 toepassen en testen op proeftechniek, structuur, aroma’s en stijlherkenning.
+    'Na deze les kun jij je kennis uit module drie integreren in een zelfstandige proefopdracht en je aanpak evalueren op systematiek en stijlherkenning.
 ',
-    'In deze les komt alles samen.
+    'Deze mini-toets is geen feitentoets maar integratie. Je combineert kleur, aroma, structuur, stijlherkenning en conclusie in één doorlopende analyse — precies zoals professionele proevers werken.
 
-Je hebt geleerd:
+Werk gelaagd, niet lineair: elke observatie beïnvloedt de volgende. De valkuil is te vroeg concluderen. Eerst observeren, dan interpreteren, dan pas concluderen. De vraag is niet «wat vind ik lekker?» maar «wat gebeurt hier in het glas?» — dat is de kern van Way of Tasting.
 
-- hoe je Port systematisch proeft
-- hoe structuur werkt
-- hoe aroma’s ontstaan
-- hoe je Ruby en Tawny blind kunt onderscheiden
 
-Nu is het tijd om alles te combineren.
+## Food pairing
 
-Dit is geen nieuwe theorie.
+### Beste pairing
 
-Dit is een praktische toets.
+Kies zelf op basis van jouw analyse.
 
-De kracht van proeven zit in herhaling.
+### Waarom dit werkt
 
-Hoe vaker je proeft, hoe sneller je patronen herkent.
+Pairing volgt uit analyse: zoetheid tegen zout, tannine tegen vet, oxidatie tegen noten — pas de stijl aan wat je in het glas observeerde, niet omgekeerd.
 
-Professionals vertrouwen niet op geluk.
+## Pro insight
 
-Ze vertrouwen op structuur.
-
-Bij deze mini-toets gebruik je alles wat je geleerd hebt:
-
-### Stap 1 — Kijk
-
-Analyseer:
-
-- kleur
-- intensiteit
-- viscositeit
-
----
-
-### Stap 2 — Ruik
-
-Zoek:
-
-- fruit
-- kruiden
-- oxidatie
-- rijping
-
----
-
-### Stap 3 — Proef
-
-Analyseer:
-
-- zoetheid
-- zuur
-- alcohol
-- tannines
-- body
-
----
-
-### Stap 4 — Concludeer
-
-Vraag jezelf:
-
-- Welke stijl is dit?
-- Jong of oud?
-- Ruby of Tawny?
-- Waarom?
-
-Dat is de kern van professioneel proeven.
-',
-    '- proefnotitie
-- blindproeven
-- structuur
-- aroma
+Objectiviteit wint van snelheid. Noteer eerst wat je ziet en proeft; stijl is conclusie, niet vertrekpunt — dat is het verschil tussen proeven en gokken.',
+    '- integratie
+- systematiek
 - analyse
+- stijlherkenning
+- objectiviteit
 
-# PORT_016.md',
-    'Veel sommeliers bewaren hun proefnotities jarenlang om hun ontwikkeling terug te zien.
+---
+### Module 4 — Oorsprong & Identiteit
+
+**Level:** Specialist
+**Framework pillar:** Oorsprong & Stijl
+**Module goal:** Plaats Port in historische, culturele en regionale context.
 ',
-    '- Theorie en praktijk komen samen
-- Structuur geeft houvast
-- Herhaling versnelt leren
-- Objectiviteit groeit door notities
-- Blindproeven bouwt expertise
+    'Veel sommeliers bewaren proefnotities jarenlang — teruglezen laat zien hoe patroonherkenning sneller wordt na elke module.
 ',
-    '### Opdracht
+    '- Module drie komt samen: proefnotitie, structuur, aroma''s en stijlherkenning
+- Werk altijd in vaste stappen: kijken → ruiken → proeven → concluderen
+- Blind cues (fruit vs oxidatie) helpen Ruby/Tawny te onderscheiden
+- Notities maken objectiviteit en vergelijkbaarheid mogelijk
+- Herhaling en reflectie versnellen professionele groei',
+    '### Opdracht — Integrale mini-toets
 
-Maak een volledige proefnotitie van één Port.
+Proef één of twee Ports blind (of met afgedekt etiket). Werk strikt in volgorde:
 
-Gebruik:
+1. Kleur en viscositeit
+2. Neus (fruit, kruiden, oxidatie)
+3. Structuur (zoetheid, alcohol, tannine, body)
+4. Conclusie stijl + leeftijdsindruk
 
-- kijken
-- ruiken
-- proeven
-- concluderen
-
-Bepaal:
-
-- stijl
-- leeftijdsindruk
-- belangrijkste aroma’s
-- structuur
+Schrijf een korte proefnotitie. Vergelijk daarna met het etiket.
 
 ### Checklist
 
-- Ik heb de kleur geanalyseerd
-- Ik heb minimaal vijf aroma’s benoemd
-- Ik heb structuur beoordeeld
-- Ik heb een stijl gekozen
-- Ik heb mijn conclusie onderbouwd
+- Ik heb kleur vóór conclusie beschreven
+- Ik heb structuur apart geanalyseerd
+- Ik heb Ruby/Tawny of stijl onderbouwd
+- Ik heb notities bewaard voor vergelijking later
+
 
 ### Reflectievraag
 
-Welke onderdelen van proeven gaan al goed en waar wil jij nog verder in groeien?
-',
-    8,
+Waar ging je te snel naar conclusie in je mini-toets — en welke observatie had je eerder moeten vastleggen om objectiever te zijn?',
+    12,
     5
   )
 ) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
@@ -1314,536 +986,270 @@ cross join (values
   (
     'waar-komt-port-vandaan',
     'Waar komt Port vandaan?',
-    'Na deze les kun jij uitleggen waar Port vandaan komt, waarom alleen Port uit die regio officieel Port mag heten en waarom die herkomst zo belangrijk is.
+    'Na deze les kun jij uitleggen waar Port vandaan komt, waarom alleen de Douro officieel Port mag heten en welke rol Porto, Gaia en export daarin spelen.
 ',
-    'Port komt uit Portugal.
+    'Port is geen stijl die overal ter wereld mag worden gemaakt — het is een beschermde herkomstwijn uit Portugal, en preciezer uit de Douro-vallei in het noorden van het land. Net als Champagne alleen uit Champagne komt, mag de naam Port uitsluitend op versterkte wijn uit deze afgebakende regio. Historisch vloeide de wijn de Douro af naar de havenstad Porto; vandaar de wereldwijde naam, niet van de druif of kleur. Aan de overkant van de Douro, in Vila Nova de Gaia, stonden en staan de beroemde lodges — grote pakhuizen waar Port rijpte en van waaruit export naar Engeland en later de hele wereld vertrok. In 1756 werd de Douro officieel afgebakend — een van ''s werelds eerste gereguleerde wijnregio''s. Herkomst is geen marketing: extreme hitte, steile leisteenhellingen en lage opbrengsten in de Douro vormen de identiteit die elders niet te kopiëren is.
 
-Meer specifiek uit de Douro-vallei, in het noorden van Portugal.
 
-Port is geen algemene wijnstijl.
+## Food pairing
 
-Port is een beschermde herkomst.
+### Beste pairing
 
-Dat betekent dat alleen versterkte wijn uit de Douro officieel Port genoemd mag worden.
+Ruby Reserve met Manchego.
 
-Net zoals Champagne alleen uit Champagne mag komen.
+### Waarom dit werkt
 
-De Douro heeft unieke omstandigheden:
+Beschermde herkomst impliceert concentratie: zout in kaas en bitter in cacao vragen de structuur die alleen Douro-Port consistent levert.
 
-- extreme hitte
-- steile hellingen
-- arme leisteenbodems
-- lage opbrengsten
+## Pro insight
 
-Dit zorgt voor krachtige druiven met veel concentratie.
-
-Historisch werd Port via Porto vervoerd.
-
-Daar komt de naam Port vandaan.
-
-In 1756 werd de Douro officieel afgebakend.
-
-Dat maakte het één van de eerste gereguleerde wijnregio’s ter wereld.
-',
-    '- Douro
+Vraag altijd: waar komt deze Port exact vandaan? Locatie vertelt vaak meer dan het label — essentieel bij verkoop van premium en Single Quinta.',
+    '- herkomst
+- Douro
 - Porto
-- herkomst
-- bescherming
-- authenticiteit
-
-# PORT_017.md',
-    'De originele stenen grensmarkeringen van de Douro uit 1756 bestaan op sommige plekken nog steeds.
+- lodge
+- beschermde oorsprong
 ',
-    '- Port komt uitsluitend uit Portugal
-- De regio heet Douro
-- Porto gaf de wijn zijn naam
-- De Douro werd beschermd in 1756
-- Herkomst bepaalt identiteit
+    'De stenen grensmarkeringen uit de Douro-regeling van 1756 zijn op sommige plekken in het landschap nog steeds zichtbaar.
+',
+    '- Port komt uitsluitend uit Portugal, regio Douro
+- De naam Port verwijst naar de havenstad Porto en exporttraditie
+- Lodges in Vila Nova de Gaia waren het historische rijp- en exportcentrum
+- Beschermde herkomst (1756) waarborgt authenticiteit
+- Douro-terroir — hitte, hellingen, leisteen — maakt Port uniek
 ',
     '### Opdracht
-
-Zoek de Douro-regio en Porto op op een kaart.
-
-Bekijk:
-
-- de afstand tussen Douro en Porto
-- de rivier
-- de ligging in Portugal
+Zoek op een kaart de Douro-vallei, Porto en Vila Nova de Gaia. Teken de route van wijngaard naar rivier naar haven. Noteer in twee zinnen waarom export via Porto logisch was.
 
 ### Checklist
+- Ik heb Douro, Porto en Gaia op de kaart gevonden
+- Ik begrijp het verschil tussen productieregio en havenstad
+- Ik kan uitleggen waarom herkomst beschermd is
+- Ik ken het jaartal 1756 en de betekenis ervan
 
-- Ik heb Douro gevonden
-- Ik heb Porto gevonden
-- Ik begrijp de relatie tussen beide
-- Ik weet waarom Port zo heet
 
 ### Reflectievraag
 
-Waarom denk jij dat herkomst bij wijn en Port zo belangrijk is?
-',
+Waarom mag champagne uit geen enkele andere regio komen, en welke parallel trek jij naar Port — los van marketing, puur op productie en herkomst?',
     8,
     1
   ),
   (
-    'druiven-van-port',
-    'Druiven van Port',
-    'Na deze les kun jij de belangrijkste druivenrassen van Port benoemen en uitleggen welke rol zij spelen in smaak, structuur en kwaliteit.
+    'druiven-regionaliteit',
+    'Druiven van Port (Regionaliteit)',
+    'Na deze les kun jij druivenrassen en quintatradities lezen als regionale identiteit — los van productiemechanica.
 ',
-    'Port wordt bijna altijd gemaakt als blend.
+    'In module twee leerde je wélke druiven in Port voorkomen; hier draait het om regionaliteit: hoe rassen en tradities het karakter van een quinta en subzone uitdrukken. Touriga Nacional is het iconische gezicht van de Douro — niet alleen kracht en kleur, maar het ras dat top-domeinen als huisstijl omarmen. Touriga Franca en Tinta Barroca geven elegantie en zachtheid aan het regionale palet; Tinto Cão staat bekend om levendig zuur dat oude wijngaarden door decennia heen dragen. Quintatraditie betekent dat families generaties lang dezelfde percelen blenden — niet willekeurig, maar vanuit terroiridentiteit: welke rassen op welke helling, welke opbrengst per stok, welke huisstijl (krachtig Vintage-gericht of eleganter tafelport). Meer dan tachtig toegestane rassen maken de Douro tot een levend archief; de identiteit zit in welke combinaties een quinta kiest en bewaart.
 
-Dat betekent dat meerdere druivenrassen worden gecombineerd.
 
-Waarom?
+## Food pairing
 
-Omdat elke druif iets anders toevoegt.
+### Beste pairing
 
-Sommige geven:
+LBV met oude harde kaas.
 
-- kracht
-- kleur
-- fruit
-- zuur
-- elegantie
+### Waarom dit werkt
 
-Samen zorgen ze voor balans.
+Zout in oude kaas versterkt zoetheid in LBV; vet wordt doorgesneden door alcohol terwijl regionale blendcomplexiteit gelaagde smaken in de kaas kan dragen.
 
-In de Douro zijn meer dan 80 druivenrassen toegestaan.
+## Pro insight
 
-Maar een klein aantal is echt belangrijk.
-
-### Touriga Nacional
-
-Dit is de belangrijkste druif van Port.
-
-Geeft:
-
-- diepe kleur
-- stevige tannines
-- intense aroma’s
-- structuur
-
-Vaak de ruggengraat van Vintage Port.
-
-### Touriga Franca
-
-Geeft:
-
-- elegantie
-- finesse
-- rood fruit
-- zachtere structuur
-
-Helpt kracht in balans te brengen.
-
-### Tinta Roriz
-
-Internationaal bekend als Tempranillo.
-
-Geeft:
-
-- body
-- kruidigheid
-- structuur
-
-### Tinta Barroca
-
-Geeft:
-
-- rijp fruit
-- zachtheid
-- alcoholrijkdom
-
-### Tinto Cão
-
-Geeft:
-
-- zuur
-- frisheid
-- levensduur
-
-Belangrijk voor rijping.
-
-### Waarom blenden?
-
-Blenden geeft controle.
-
-De wijnmaker kan:
-
-- kracht verhogen
-- frisheid toevoegen
-- fruit versterken
-- balans verbeteren
-
-Dat maakt Port complexer.
+Regionaliteit lees je in consistentie per quinta en raskeuze op hellingen — niet in één druif op het etiket.',
+    '- regionaliteit
+- quinta
+- druivenras
+- terroiridentiteit
+- traditie
 ',
-    '- Touriga Nacional
-- Touriga Franca
-- Tinta Roriz
-- Tinta Barroca
-- Tinto Cão
-
-# PORT_018.md',
-    'Sommige top-Vintage Ports bevatten meer dan 20 verschillende druivenrassen.
+    'Sommige top-Vintage Ports bevatten twintig of meer druivenrassen — quintatraditie als levend erfgoed, niet als recept uit een boek.
 ',
-    '- Port is bijna altijd een blend
-- Touriga Nacional is de belangrijkste druif
-- Elke druif heeft een functie
-- Blenden verhoogt kwaliteit
-- Complexiteit komt uit combinatie
+    '- Regionaliteit: druivenrassen drukken quinta- en subzone-identiteit uit
+- Touriga Nacional is het iconische ras van de Douro-top
+- Quintatraditie = generaties blends van dezelfde percelen en huisstijl
+- Terroiridentiteit bepaalt welke rassen waar en hoe worden ingezet
+- Meer dan 80 rassen maken de Douro tot een uniek druivenarchief
 ',
     '### Opdracht
-
-Pak een fles Port en bekijk het etiket.
-
-Zoek op:
-
-- welke druiven zijn gebruikt
-- welke druif staat als eerste
-- welke stijl Port het is
+Kies één bekende quinta (bijv. Noval, Vesuvio, Roêda). Onderzoek welke druivenrassen zij benadrukken en welke huisstijl daarmee past (krachtig, elegant, fruitig).
 
 ### Checklist
+- Ik heb minimaal drie rassen van de quinta genoteerd
+- Ik heb de link gelegd tussen ras en regionale identiteit
+- Ik begrijp het verschil met ''alleen productiemechanica''
+- Ik kan uitleggen wat quintatraditie betekent
 
-- Ik heb druiven gevonden
-- Ik herken minimaal drie namen
-- Ik begrijp waarom het een blend is
-- Ik heb de stijl genoteerd
 
 ### Reflectievraag
 
-Welke druif lijkt jou het meest belangrijk en waarom?
-',
+Kun jij op smaak herkennen of een Port meer quinta-identiteit of meer Port house-blend uitstraalt — en welke signalen gebruik je?',
     8,
     2
   ),
   (
-    'douro-vallei',
-    'De Douro-vallei',
-    'Na deze les kun jij de Douro-vallei beschrijven, de drie subregio’s benoemen en uitleggen waarom dit gebied zo belangrijk is voor Port.
+    'douro-cultureel-landschap',
+    'De Douro-vallei (Cultureel landschap)',
+    'Na deze les kun jij het Douro-landschap als cultureel en oenologisch erfgoed uitleggen.
 ',
-    'De Douro-vallei is het hart van Port.
+    'De Douro-vallei is het visitekaartje van Port — niet als fabriek, maar als landschapserfgoed. Elke subzone heeft een eigen gezicht: Baixo Corgo, Cima Corgo en Douro Superior vormen de drie hoofdzones — koeler en natter westelijk, warmer en concentrerder in het Cima Corgo-hart waar veel iconische quinta''s liggen, extreem heet en droog in het oostelijke Superior. Quinta''s zijn meer dan wijndomeinen; zij zijn ankers in het terrassenlandschap, met namen die generaties aan de hellingen binden. De met hand gebouwde terrassen, schistose wanden en de kronkelende Douro-rivier vormen een cultuurlandschap dat UNESCO Werelderfgoed erkende — niet vanwege productie alleen, maar vanwege de harmonie tussen mens, steile helling en wijnstok. Dit is oorsprongsdenken: waar je proeft, begint met waar je kijkt.
 
-Hier groeien de druiven.
 
-Zonder Douro bestaat Port niet.
+## Food pairing
 
-De regio ligt in Noord-Portugal en volgt de rivier de Douro.
+### Beste pairing
 
-Het landschap bestaat uit:
+Vintage Port met wildpaté.
 
-- steile hellingen
+### Waarom dit werkt
+
+Tannine en concentratie uit Cima Corgo-fruit dragen wildpaté: umami en vet vragen structuur; zoetheid balanceert zout zonder het gerecht te overheersen.
+
+## Pro insight
+
+UNESCO-status ondersteunt prijs en verhaal, maar proef het terug via terrassen en arbeidsintensiteit — anders blijft het folklore.',
+    '- landschap
+- UNESCO
 - terrassen
-- rotsachtige bodems
-- diepe valleien
-
-Dit maakt wijnbouw zwaar maar uniek.
-
-De Douro heeft een extreem klimaat:
-
-- hete zomers
-- koude winters
-- lage neerslag
-
-Dat zorgt voor kleine druiven met veel concentratie.
-
----
-
-### De drie subregio’s
-
-#### 1. Baixo Corgo
-
-Kenmerken:
-
-- koeler
-- meer regen
-- lichtere Ports
-
----
-
-#### 2. Cima Corgo
-
-Het centrum van topkwaliteit.
-
-Kenmerken:
-
-- warmer
-- droger
-- geconcentreerder
-
-Veel top-Quintas liggen hier.
-
----
-
-#### 3. Douro Superior
-
-De meest extreme zone.
-
-Kenmerken:
-
-- heet
-- droog
-- ruig
-
-Veel moderne wijngaarden.
-
----
-
-### Terrassen
-
-Terrassen helpen:
-
-- erosie te beperken
-- water vast te houden
-- wijnbouw mogelijk te maken
+- erfgoed
+- quinta
 ',
-    '- Douro
-- Baixo Corgo
-- Cima Corgo
-- Douro Superior
-- terrassen
-
-# PORT_019.md',
-    'De Douro-vallei staat op de UNESCO Werelderfgoedlijst.
+    'De Douro-vallei staat sinds 2001 op de UNESCO Werelderfgoedlijst — de terrassen zijn cultureel erfgoed, niet alleen landbouwgrond.
 ',
-    '- De Douro is het hart van Port
-- Er zijn drie subregio’s
-- Cima Corgo is het topgebied
-- Terrassen zijn essentieel
+    '- Drie subzones: Baixo Corgo, Cima Corgo (hart), Douro Superior (extreem)
+- Quinta''s zijn identiteitsankers in het landschap
+- Terrassenlandschap maakt wijnbouw op steile hellingen mogelijk
+- UNESCO-erfgoed erkent cultuur en natuur, niet alleen productie
+- Oorsprong begint bij het landschap dat je ziet, niet bij de kelder
 ',
     '### Opdracht
-
-Zoek de drie Douro-zones op op een kaart.
+Bekijk foto''s of kaarten van de drie Douro-subzones. Noteer per zone één landschapskenmerk en één bekende quinta. Leg uit waarom Cima Corgo vaak als ''hart'' wordt gezien.
 
 ### Checklist
+- Ik ken de drie subzones bij naam
+- Ik heb terrassen en hellingslandschap beschreven
+- Ik begrijp het UNESCO-argument
+- Ik onderscheid dit van productiemechanica (les 7)
 
-- Ik ken de drie zones
-- Ik weet welke zone topkwaliteit levert
-- Ik begrijp de verschillen
 
 ### Reflectievraag
 
-Welke subregio lijkt jou het meest geschikt voor topkwaliteit?
-',
+Wat maakt UNESCO-landschapstatus voor de Douro meer dan een toeristisch label voor de wijn in je glas?',
     8,
     3
   ),
   (
-    'klimaat-en-terroir',
-    'Klimaat en terroir',
-    'Na deze les kun jij uitleggen hoe klimaat, bodem en ligging de stijl en kwaliteit van Port beïnvloeden.
+    'quintas-en-port-houses',
+    'Quinta''s en Port Houses',
+    'Na deze les kun jij het verschil tussen quinta en Port house toepassen in proef en advies.
 ',
-    'Port is sterk verbonden met terroir.
+    'Terroir in de Douro is geen abstract begrip maar zonekarakter in de fles. Mesoclimaat verschilt per subzone: Baixo Corgo kent koelere, vochtigere invloeden; Cima Corgo warmere dagen met drogere lucht; Douro Superior extreme hitte en schaarse regen. Diurnaal verschil — hete dagen, koele nachten — helpt zuur te behouden ondanks rijpe suikers. Leisteen (schist) is het terroir-icoon: het slaat warmte op, laat water wegzakken en dwingt wortels diep, soms tien meter of meer. Dat stresslandschap levert kleine, geconcentreerde druiven met dikke schillen — de fysieke basis van Port-identiteit. Zonekarakter betekent dat dezelfde druif anders spreekt op een noordelijke terrashelling versus een zuidgerichte leisteenwand. Oorsprong proef je als mesoclimaat plus bodem, niet als alleen een postcoderegio.
 
-Terroir betekent de combinatie van:
 
-- klimaat
-- bodem
-- hoogte
-- ligging
-- menselijke invloed
+## Food pairing
 
-Samen bepalen deze factoren hoe de wijn smaakt.
+### Beste pairing
 
-De Douro heeft een continentaal klimaat:
+Single Quinta Vintage met Stilton.
 
-- hete zomers
-- koude winters
-- weinig regen
+### Waarom dit werkt
 
-In de zomer kan het boven de 40 graden worden.
+Single Quinta-concentratie vraagt krachtige partners: zout in Stilton en structuur in Vintage dragen elkaar; een huisblend vraagt dezelfde intensiteitsmatch op zout en vet.
 
-Dat zorgt voor:
+## Pro insight
 
-- snelle rijping
-- hoge suikeropbouw
-- dikke schillen
-- krachtige aroma’s
-
-Warme dagen zorgen voor rijping.
-
-Koele nachten helpen om zuur te behouden.
-
-Dit noemen we het diurnale temperatuurverschil.
-
----
-
-### Leisteen
-
-De belangrijkste bodemsoort in de Douro is leisteen.
-
-Leisteen:
-
-- houdt warmte vast
-- laat water diep wegzakken
-- dwingt wortels diep te groeien
-
-Soms groeien wortels meer dan 10 meter diep.
-
-Dit zorgt voor concentratie.
-
----
-
-### Hoogte
-
-Hoger gelegen wijngaarden zijn vaak:
-
-- koeler
-- frisser
-- langzamer rijpend
-
-Lagere wijngaarden zijn vaak:
-
-- warmer
-- rijper
-- krachtiger
-
-Ook zonligging speelt mee.
+Quinta versus Port house is geen hiërarchie maar keuze: terroir-expressie tegen huisstijl. Match dat aan wat de gast zoekt: verhaal of consistentie.',
+    '- quinta
+- Port house
+- blend
+- Single Quinta
+- stijl
 ',
-    '- terroir
-- klimaat
-- leisteen
-- diurnaal verschil
-- concentratie
-
-# PORT_020.md',
-    'Veel Douro-wijngaarden hebben zo weinig water dat de druiven letterlijk moeten vechten om te overleven.
+    'Douro-wortels kunnen door scheuren in leisteen dieper groeien dan veel andere wijnregio''s — concentratie begint onder de grond.
 ',
-    '- Terroir bepaalt stijl
-- Douro is heet en droog
-- Leisteen is cruciaal
-- Hoogte beïnvloedt frisheid
-- Temperatuurverschillen helpen balans bewaren
+    '- Mesoclimaat verschilt per subzone: koeler westelijk, heter oostelijk
+- Diurnaal verschil (warme dag, koele nacht) behoudt frisheid en zuur
+- Leisteen is het terroir-icoon: warmte, drainage, diepe wortels
+- Zonekarakter bepaalt hoe hetzelfde ras per helling klinkt
+- Terroiridentiteit = mesoclimaat + schist, niet alleen geografie
 ',
     '### Opdracht
-
-Zoek op wat leisteen is en waarom dit belangrijk is in wijnbouw.
+Vergelijk de mesoclimaten van Baixo Corgo, Cima Corgo en Douro Superior in een korte tabel (temperatuur, regen, zonekarakter). Leg in drie zinnen uit waarom leisteen essentiel is voor terroiridentiteit.
 
 ### Checklist
+- Ik heb mesoclimaat per subzone onderscheiden
+- Ik begrijp diurnaal temperatuurverschil
+- Ik kan uitleggen waarom leisteen uniek is
+- Ik zie het verschil met productiegerichte les 8
 
-- Ik weet wat leisteen is
-- Ik begrijp waarom wortels diep groeien
-- Ik begrijp waarom hitte belangrijk is
-- Ik zie de link met Portkwaliteit
 
 ### Reflectievraag
 
-Wat denk jij: is klimaat of bodem belangrijker voor Port?
-',
-    8,
+Wanneer adviseer jij een Single Quinta boven een huisblend — en wanneer juist een Port house-stijl boven terroir-expressie?',
+    10,
     4
   ),
   (
-    'classificatie-douro',
-    'Classificatie van de Douro',
-    'Na deze les kun jij uitleggen hoe de Douro-wijngaarden worden geclassificeerd en waarom dit belangrijk is voor de kwaliteit van Port.
+    'producenten-herkennen',
+    'Producenten herkennen',
+    'Na deze les kun jij grote Port houses herkennen aan hun stijlhandtekening.
 ',
-    'Niet elke wijngaard in de Douro is hetzelfde.
+    'Niet elke Douro-wijngaard levert dezelfde druivenkwaliteit. Het IVDP (Instituto dos Vinhos do Douro e do Porto) beheert een officieel classificatiesysteem van A tot F, waarbij A de hoogste wijngaardkwaliteit aanduidt en lagere letters eenvoudigere percelen. In de praktijk springen A-, B- en C-wijngaarden eruit: een A-wijngaard staat voor top-percelen met optimale ligging, zon, lage opbrengst en oude stokken; B en C voor steeds lichtere maar nog kwaliteitsgerichte sites. Factoren zijn hoogte, hellingsgraad, zonblootstelling, bodemtype, leeftijd van stokken en toegestane opbrengst per hectare. Lage opbrengst per stok betekent meer concentratie per druif — cruciaal voor grote Port. Het IVDP controleert niet alleen papieren: classificatie bepaalt welke druiven voor welke categorie Port in aanmerking komen. Kwaliteit wordt hier objectief gewogen — grote Port begint in de wijngaard, niet in de lodge.
 
-Sommige leveren druiven van uitzonderlijke kwaliteit.
-Andere zijn eenvoudiger.
 
-Om dit verschil te bepalen gebruikt de Douro een officieel classificatiesysteem.
+## Food pairing
 
-Dit systeem loopt van:
+### Beste pairing
 
-**A t/m F**
+Graham’s LBV met chocoladefondant.
 
-Waarbij:
+Taylor’s Tawny met notentaart.
 
-- A = hoogste kwaliteit
-- F = laagste kwaliteit
+### Waarom dit werkt
 
-De classificatie kijkt naar:
+Fruitgedreven LBV bij chocolade: bitters en vet in fondant worden gedragen door restsuiker en tannine; Tawny van hetzelfde huis spiegelt noten via oxidatie.
 
-- hoogte
-- ligging
-- zonblootstelling
-- hellingsgraad
-- bodemtype
-- leeftijd van de wijnstokken
-- opbrengst per hectare
+## Pro insight
 
-Hoe beter deze factoren zijn, hoe hoger de score.
+Grote Port houses hebben herkenbare signatuur — leer twee producenten echt goed in plaats van twintig oppervlakkig. Dat verkoopt beter dan jaartallen.',
+    '- producent
+- huisstijl
+- herkenning
+- blendfilosofie
+- signatuur
 
-### Waarom is A belangrijk?
+---
+### Module 5 — Specialist Styles I
 
-A-geclassificeerde wijngaarden hebben vaak:
-
-- de beste ligging
-- optimale zon
-- lage opbrengsten
-- oude wijnstokken
-- diepe wortels
-
-Dit levert:
-
-- meer concentratie
-- meer complexiteit
-- betere rijping
-
-Veel top-Port komt van A- en B-wijngaarden.
-
-### Lage opbrengsten
-
-Minder druiven per stok betekent:
-
-- meer energie per druif
-- intensere smaken
-- diepere kleur
-- betere structuur
-
-Dat is cruciaal voor Port.
-
-### Quintas
-
-Een Quinta is een wijndomein.
-
-Voorbeelden:
-
-- Quinta do Noval
-- Quinta de Vargellas
-- Quinta da Roêda
-
-Deze namen kom je vaak tegen op topflessen.
+**Level:** Specialist
+**Framework pillar:** Stijl & Identiteit
+**Module goal:** Herken en onderscheid de kernstijlen Ruby, Tawny, LBV en Vintage.
 ',
-    '- classificatie
-- A-F
-- Quinta
-- opbrengst
-- wijngaardkwaliteit
-
-# PORT_021.md',
-    'Sommige A-geclassificeerde Douro-wijngaarden zijn meer dan 100 jaar oud.
+    'Sommige A-geclassificeerde wijngaarden bezitten wijnstokken van meer dan honderd jaar — lage opbrengst en diepe wortels als kwaliteitsinvestering.
 ',
-    '- Douro gebruikt A-F classificatie
-- A is topkwaliteit
-- Lage opbrengsten verhogen kwaliteit
-- Quintas zijn belangrijke domeinen
-- Grote Port begint in de wijngaard
+    '- IVDP beheert Douro-classificatie van A (top) tot F
+- A/B/C-wijngaarden onderscheiden top-, goede en middelhoge percelen
+- Factoren: ligging, zon, helling, bodem, stokleeftijd, opbrengst
+- Lage opbrengst per stok verhoogt concentratie en kwaliteit
+- Classificatie koppelt wijngaard aan Port-categorie en authenticiteit
 ',
     '### Opdracht
-
-Zoek één beroemde Quinta op en ontdek:
-
-- waar deze ligt
-- welke stijl Port ze maken
-- waarom deze Quinta bekend is
+Zoek op wat het IVDP doet en welke factoren een A-wijngaard onderscheiden van C. Kies één beroemde quinta en noteer waarom zij waarschijnlijk op A- of B-percelen steunt.
 
 ### Checklist
+- Ik weet wat IVDP staat voor en doet
+- Ik begrijp het A–F-systeem (focus A/B/C)
+- Ik kan opbrengst en concentratie koppelen
+- Ik ken minimaal één quinta op top-percelen
 
-- Ik weet wat een Quinta is
-- Ik begrijp A-F classificatie
-- Ik ken minstens één beroemde Quinta
 
 ### Reflectievraag
 
-Denk jij dat oude wijnstokken altijd betere Port maken?
-',
-    8,
+Welke producent herken jij blind het snelst aan stijl — en welk aroma of structuurmerkteken is daarbij doorslaggevend?',
+    10,
     5
   )
 ) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
 
--- portstijlen (6 lessons)
+-- portstijlen (5 lessons)
 with m as (
   select m.id from academy.modules m
   join academy.tracks t on t.id = m.track_id
@@ -1858,702 +1264,322 @@ select m.id, v.slug, v.title, v.objective, v.theory, v.key_concepts, v.did_you_k
 from m
 cross join (values
   (
-    'ruby-port',
-    'Ruby Port',
-    'Na deze les kun jij uitleggen wat Ruby Port is, hoe deze stijl wordt gemaakt en hoe je Ruby Port herkent.
+    'ruby-reserve',
+    'Ruby Reserve',
+    'Na deze les kun jij Ruby Reserve positioneren tussen basis-Ruby en LBV/Vintage.
 ',
-    'Ruby Port is de meest jonge en fruitgedreven stijl van Port.
+    'Ruby Port is de jongste en meest fruitig gedreven stijl binnen het Port-assortiment — de archetypische jonge Port. De naam verwijst naar de diepe robijnrode kleur die ontstaat doordat de wijn relatief kort rijpt — meestal twee tot drie jaar — in grote houten vaten of roestvrijstalen tanks. Grote vaten betekenen minder oppervlak per liter en dus minder zuurstofcontact: minder oxidatie, meer behoud van primaire aroma''s.
 
-De naam komt van de diepe robijnrode kleur.
+Waar Tawny draait om ontwikkeling en tertiaire tonen, draait Ruby om directheid. Typische aroma''s zijn kers, braam, pruim en donkere chocolade. De structuur is krachtig en toegankelijk; tannines zijn aanwezig maar zelden dominant. Ruby is daarmee de instapstijl voor wie Port voor het eerst ontdekt.
 
-Ruby Port rijpt relatief kort:
+Serveer Ruby Port tussen 14 en 16°C. Na opening blijft een fles meestal drie tot vier weken goed dankzij de hogere alcohol en restsuiker. Klassieke pairings zijn pure chocolade, blauwe kaas en desserts met rood fruit — de fruitigheid van Ruby vindt hier een natuurlijke echo.
 
-meestal 2 tot 3 jaar.
 
-De rijping gebeurt in grote houten vaten of roestvrijstaal.
+## Food pairing
 
-Waarom grote vaten?
+### Beste pairing
 
-Omdat er minder zuurstofcontact is.
+Pure chocolade of chocoladetaart.
 
-Dat betekent:
+### Waarom dit werkt
 
-- minder oxidatie
-- meer fruitbehoud
-- diepere kleur
+Ruby Reserve-fruit en tannine dragen pure chocolade: cacao-bitterheid vraagt structuur, niet extra zoetheid; vet in de chocolade wordt doorgesneden door alcohol.
 
-Ruby draait om primaire aroma’s.
+## Pro insight
 
-Typische aroma’s:
-
-- kers
-- braam
-- pruim
-- chocolade
-
-Ruby Port is vaak:
-
-- krachtig
-- fruitig
-- direct
-- toegankelijk
-
-Het is vaak de instapstijl voor nieuwe Portdrinkers.
-
----
-
-### Hoe serveer je Ruby?
-
-Serveertemperatuur:
-
-14–16°C
-
-Ruby past goed bij:
-
-- pure chocolade
-- blauwe kaas
-- rood fruit desserts
-
-Na opening blijft Ruby meestal 3–4 weken goed.
-',
-    '- Ruby
+Ruby Reserve is je brug naar premium: positioneer hem tussen instap-Ruby en LBV — ideaal voor gasten die fruit willen zonder Vintage-budget.',
+    '- Ruby Reserve
+- selectie
 - fruit
-- primaire aroma’s
-- jonge Port
-- korte rijping
-
-# PORT_022.md',
-    'Ruby Port is wereldwijd de meest verkochte Portstijl.
+- structuur
+- positionering
 ',
-    '- Ruby is jong en fruitig
-- Korte rijping behoudt fruit
-- Weinig oxidatie
-- Diepe robijnrode kleur
-- Toegankelijke stijl
+    'Ruby Port is wereldwijd de bestverkochte Portstijl. Veel huizen bottelen meerdere Ruby-blends naast elkaar; Reserve of Premium op het etiket wijst vaak op langere houtlagering of selectie uit betere parcels, zonder dat de stijl Tawny wordt.
+',
+    '- Ruby is jong, fruitig en robijnrood door korte rijping met weinig oxidatie
+- Grote vaten behouden primaire aroma''s: kers, braam, pruim, chocolade
+- Toegankelijke instapstijl met krachtige maar directe structuur
+- Serveer op 14–16°C; houdbaarheid na opening circa 3–4 weken
 ',
     '### Opdracht
 
-Proef een Ruby Port en noteer:
+Proef een Ruby Port en noteer bewust:
 
-- kleur
-- fruitaroma’s
-- structuur
-- afdronk
+- kleurintensiteit en robijnrode tint
+- primaire fruitaroma''s (kers, braam, pruim)
+- structuur: zoetheid, zuur, tannine, alcoholwarmte
+- afdronk en lengte
+
+Vergelijk indien mogelijk met een Tawny en benoem het verschil in oxidatie en fruit.
 
 ### Checklist
 
-- Ik heb de kleur beoordeeld
-- Ik heb fruit herkend
-- Ik heb de stijl benoemd
+- Ik heb de kleur en fruitintensiteit beoordeeld
+- Ik kan uitleggen waarom Ruby in grote vaten rijpt
+- Ik heb minstens één passend foodpairing benoemd
+
 
 ### Reflectievraag
 
-Waarom denk je dat Ruby vaak de eerste Port is die mensen drinken?
-',
+Waar positioneer jij Ruby Reserve in je assortiment: als instap, als standaard of als alternatief voor LBV — en welke gastvraag triggert die keuze?',
     8,
     1
   ),
   (
-    'tawny-port',
-    'Tawny Port',
-    'Na deze les kun jij uitleggen wat Tawny Port is, hoe deze stijl rijpt en hoe je Tawny herkent.
+    'late-bottled-vintage',
+    'Late Bottled Vintage (LBV)',
+    'Na deze les kun jij LBV uitleggen als praktische oogstjaar-Port met langere houtlagering.
 ',
-    'Tawny Port is een stijl die langer rijpt op hout.
+    'Tawny Port rijpt langer op hout dan Ruby — meestal in kleinere houten vaten met meer zuurstofcontact. Die oxidatie verandert alles: de kleur verschuift van robijnrood naar amber of oranjebruin, de structuur wordt zachter en de aroma''s verschuiven van primair fruit naar tertiaire aroma''s als walnoten, karamel, toffee, vijgen en gedroogd fruit.
 
-Door deze langere houtrijping krijgt Tawny:
+Tawny draait niet om vers fruit maar om ontwikkeling. Hoe langer de houtlagering, hoe complexer het profiel vaak wordt. Op het etiket kan ''Tawny'' zonder leeftijd staan, maar ook met leeftijdsaanduiding: 10, 20, 30 of 40 years. Dat zijn gemiddelde stijlen — geen exacte leeftijd van elke druppel in de fles.
 
-- meer zuurstofcontact
-- lichtere kleur
-- zachtere structuur
-- meer tertiaire aroma’s
+Serveer Tawny tussen 12 en 14°C; oudere Tawny wordt soms licht gekoeld om frisheid te benadrukken. Na opening blijft Tawny vaak vier tot acht weken goed — langer dan Ruby dankzij de oxidatieve rijping. Pairings: notendesserts, caramel, crème brûlée en harde kazen.
 
-In tegenstelling tot Ruby draait Tawny minder om vers fruit.
 
-Tawny draait om ontwikkeling.
+## Food pairing
 
-Typische aroma’s:
+### Beste pairing
 
-- walnoten
-- karamel
-- toffee
-- vijgen
-- gedroogd fruit
+Chocoladefondant of harde blauwe kaas.
 
-De kleur verandert door oxidatie:
+### Waarom dit werkt
 
-van robijnrood naar amber of oranjebruin.
+LBV-fruit en tannine dragen pure chocolade: bitters en vet worden gevangen door restsuiker en structuur zonder oxidatie-conflict.
 
-Hoe ouder de Tawny, hoe complexer de aroma’s vaak worden.
+## Pro insight
 
----
-
-### Rijping
-
-Tawny rijpt meestal in kleinere houten vaten.
-
-Dat zorgt voor meer contact met zuurstof.
-
-Meer oxidatie betekent:
-
-- minder fruit
-- meer noten
-- meer complexiteit
-
-Tawny kan non-age zijn, maar ook met leeftijdsaanduiding:
-
-- 10 years
-- 20 years
-- 30 years
-- 40 years
-
-Dit zijn gemiddelde stijlen, geen exacte leeftijden.
-
----
-
-### Service
-
-Serveertemperatuur:
-
-12–14°C
-
-Tawny past goed bij:
-
-- notendesserts
-- caramel desserts
-- harde kazen
-
-Na opening blijft Tawny vaak langer goed dan Ruby.
-
-Meestal 4–8 weken.
+LBV is het antwoord op ''oogstjaar zonder Vintage-prijs''. Benadruk langere houtlagering en directe drinkrijpheid — maar wees eerlijk over flespotentieel.',
+    '- LBV
+- oogstjaar
+- houtlagering
+- toegankelijkheid
+- Vintage
 ',
-    '- Tawny
-- oxidatie
-- houtrijping
-- tertiaire aroma’s
-- leeftijdsaanduiding
-
-# PORT_023.md',
-    'Oude Tawny Port wordt vaak gekoeld gedronken om de frisheid extra te benadrukken.
+    'Oude Tawny Port wordt in Portugal regelmatig iets gekoeld geserveerd. De lagere temperatuur benadrukt de frisheid en verfijning die een goede Aged Tawny na decennia houtcontact kan behouden.
 ',
-    '- Tawny rijpt langer op hout
-- Meer oxidatie dan Ruby
-- Zachtere structuur
-- Meer notige aroma’s
-- Oudere Tawny = meer complexiteit
+    '- Tawny rijpt in kleinere vaten met meer oxidatie dan Ruby
+- Kleur verschuift naar amber; aroma''s naar walnoot, karamel en gedroogd fruit
+- Leeftijdsaanduiding (10/20/30/40) is een gemiddelde stijl, geen exacte leeftijd
+- Zachtere structuur en langere houdbaarheid na opening dan Ruby
 ',
     '### Opdracht
 
-Vergelijk een Ruby en Tawny Port naast elkaar.
+Vergelijk een Ruby en een Tawny Port naast elkaar. Noteer per glas:
 
-Analyseer:
-
-- kleur
-- geur
-- smaak
-- structuur
+- kleur (robijn vs. amber)
+- geur: fruit vs. noten en karamel
+- smaak: structuur, zoetheid, zuur, lengte
+- oxidatief karakter
 
 ### Checklist
 
-- Ik heb de kleur vergeleken
-- Ik heb fruit vs noten herkend
-- Ik heb structuur vergeleken
+- Ik heb het kleurverschil duidelijk gezien
+- Ik herken fruit versus tertiaire aroma''s
+- Ik kan uitleggen waarom Tawny langer op hout rijpt
+
 
 ### Reflectievraag
 
-Wat viel jou het meeste op in het verschil tussen Ruby en Tawny?
-',
+Een gast wil een oogstjaar-Port zonder Vintage-prijs: wanneer is LBV de juiste tussenstap — en wanneer mis je toch flespotentieel?',
     8,
     2
   ),
   (
-    'late-bottled-vintage',
-    'Late Bottled Vintage (LBV)',
-    'Na deze les kun jij uitleggen wat Late Bottled Vintage Port is, hoe deze stijl wordt gemaakt en waarin LBV verschilt van Vintage Port.
+    'crusted-port',
+    'Crusted Port',
+    'Na deze les kun jij Crusted Port herkennen en het decanteeradvies onderbouwen.
 ',
-    'Late Bottled Vintage, afgekort **LBV**, is een Portstijl gemaakt uit één oogstjaar.
+    'Late Bottled Vintage — afgekort LBV — is Port uit één oogstjaar, net als Vintage Port. Het cruciale verschil zit in de rijpingstijd op vat: LBV rijpt vier tot zes jaar op hout voordat hij wordt gebotteld, terwijl Vintage na circa twee jaar op vat de fles ingaat voor langdurige flesrijping.
 
-Dat lijkt op Vintage Port.
+Die extra houtlagering verhoogt de toegankelijkheid: LBV is direct drinkbaar zonder jarenlange celaring. Je proeft geconcentreerd fruit — zwarte kersen, pruimen, cacao, kruiden — met structuur en diepte, maar zonder de jarenlange celaring die Vintage vereist. Veel LBV wordt ongefilterd gebotteld en kan daarom depot ontwikkelen; gefilterde varianten zijn direct drinkklaar zonder decanteren.
 
-Maar er is een belangrijk verschil.
+LBV wordt vaak gezien als de brug tussen Ruby en Vintage: meer karakter dan een standaard Ruby, minder investering en geduld dan een gedeclareerde Vintage. Serveer op 14–16°C. Pairings: blauwe kaas, pure chocolade, notentaart en rijkere desserts.
 
-LBV rijpt langer op vat.
 
-Meestal:
+## Food pairing
 
-**4 tot 6 jaar**
+### Beste pairing
 
-Daardoor is LBV vaak toegankelijker wanneer hij op de markt komt.
+Stilton of oude cheddar.
 
-Vintage Port rijpt korter op vat en langer op fles.
+### Waarom dit werkt
 
-LBV combineert:
+Crusted-structuur en fruit bij blauwschimmelkaas: zout versterkt zoetheid, tannine snijdt door romig vet — decanteren voorkomt textuurconflict in de pairing.
 
-- concentratie
-- rijp fruit
-- structuur
-- toegankelijkheid
+## Pro insight
 
-Veel mensen zien LBV als de brug tussen Ruby en Vintage.
-
----
-
-### Wat proef je in LBV?
-
-Typische aroma’s:
-
-- zwarte kersen
-- pruimen
-- cacao
-- kruiden
-- donkere chocolade
-
-Structuur:
-
-- stevig
-- fruitig
-- krachtig
-- vaak zachter dan Vintage
-
-LBV behoudt veel fruit omdat de oxidatie beperkt blijft.
-
----
-
-### Gefilterd of ongefilterd
-
-Er zijn twee stijlen:
-
-**Gefilterd**
-
-- direct drinkbaar
-- geen depot
-- makkelijker in gebruik
-
-**Ongefilterd**
-
-- complexer
-- kan verder rijpen
-- vaak decanteren nodig
-
-Dat is een belangrijk verschil.
-
----
-
-### Food pairing
-
-LBV past goed bij:
-
-- blauwe kaas
-- chocolade desserts
-- notentaart
-- harde kazen
-
-Serveertemperatuur:
-
-14–16°C
-
-Na opening:
-
-1–3 weken, afhankelijk van stijl.
-',
-    '- LBV
-- single vintage
-- filtering
+Crusted zonder decanteren is een servicefout wachten om te gebeuren. Check depot vóór schenken en communiceer dat proactief aan de gast.',
+    '- Crusted
+- depot
+- decanteren
 - ongefilterd
-- toegankelijkheid
-
-# PORT_024.md',
-    'LBV werd populair als alternatief voor Vintage Port omdat het betaalbaarder en sneller drinkbaar is.
+- blend
 ',
-    '- LBV komt uit één oogstjaar
-- Rijpt 4–6 jaar op vat
-- Toegankelijker dan Vintage
-- Gefilterd of ongefilterd mogelijk
-- Brug tussen Ruby en Vintage
+    'Het begrip ''Late Bottled'' ontstond doordat deze wijnen historisch later werden gebotteld dan gewone Ruby — pas na extra jaren op vat. Niet elke LBV is ongefilterd; check het etiket als je wilt decanteren of direct uit de fles schenkt.
+',
+    '- LBV = één oogstjaar met 4–6 jaar houtlagering — langer dan Vintage op vat
+- Toegankelijker en direct drinkbaarder dan Vintage Port
+- Geconcentreerd fruit met structuur: de brug tussen Ruby en Vintage
+- Ongefilterde LBV kan depot hebben; gefilterde variant niet
 ',
     '### Opdracht
 
-Bekijk een LBV-fles en zoek:
+Proef een LBV Port en analyseer:
 
-- oogstjaar
-- botteljaar
-- gefilterd of ongefilterd
+- oogstjaar op het etiket
+- fruitconcentratie en rijpingskarakter
+- structuur: tannine, zoetheid, alcohol
+- of decanteren nodig is (ongefilterd vs. gefilterd)
+
+Vergelijk mentaal met Ruby en Vintage: waar past LBV tussenin?
 
 ### Checklist
 
-- Ik heb het oogstjaar gevonden
-- Ik begrijp het verschil met Vintage
-- Ik weet of hij gefilterd is
+- Ik begrijp het verschil in houtlagering tussen LBV en Vintage
+- Ik kan het smaakprofiel van LBV benoemen
+- Ik weet wanneer decanteren nodig is
+
 
 ### Reflectievraag
 
-Zou jij kiezen voor LBV of Vintage? Waarom?
-',
+Je opent een Crusted zonder decanteeradvies op het etiket: welke signalen aan kleur of depot zeggen dat je alsnog moet decanteren?',
     8,
     3
   ),
   (
-    'white-port',
-    'White Port',
-    'Na deze les kun jij uitleggen wat White Port is, hoe deze stijl wordt gemaakt en waarin White Port verschilt van Ruby en Tawny.
+    'vintage-port',
+    'Vintage Port',
+    'Na deze les kun jij Vintage Port uitleggen: declaratie, rijping en service.
 ',
-    'White Port is een minder bekende maar zeer belangrijke Portstijl.
+    'White Port is een ondergewaardeerde maar essentiële stijl binnen het Douro. Waar Ruby en Tawny van blauwe druiven komen, wordt White Port gemaakt van witte druiven — Malvasia Fina, Gouveio, Viosinho, Rabigato en Codega zijn de belangrijkste druivenrassen. Het smaakspectrum loopt van droog tot halfdroog tot zoet — een veelzijdigheid die Ruby en Tawny niet bieden.
 
-In tegenstelling tot Ruby en Tawny wordt White Port gemaakt van witte druiven.
+De rijping varieert van kort op hout tot langer voor meer body en notige tonen. Jonge White Port is fris met citrus, honing, amandel en sinaasappelschil; oudere varianten ontwikkelen gedroogd fruit en zachtere textuur. De frisheid en lagere druk maken White Port ideaal als aperitief — in Portugal al decennialang populairder dan buiten het land.
 
-Belangrijke druiven zijn:
+De moderne klassieker is White Port & Tonic: ijs, citroen, munt en een scheut tonic transformeren de wijn tot een lichte, verfrissende serve. Droge White Port serveer je op 8–10°C, zoetere varianten op 10–12°C. Pairings: olijven, amandelen, zoute snacks en lichte desserts.
 
-- Malvasia Fina
-- Gouveio
-- Viosinho
-- Rabigato
-- Codega
 
-White Port kan variëren van:
+## Food pairing
 
-- droog
-- halfdroog
-- zoet
+### Beste pairing
 
-Dat maakt White Port veelzijdig.
+Stilton, oude Comté of walnoten.
 
-De rijping gebeurt vaak op hout.
+### Waarom dit werkt
 
-Soms kort, soms langer.
+Vintage-tannine en concentratie dragen Stilton: zout, romig vet en umami vragen lengte en zoetheid in balans — de klassieke zout-zoet-structuurmatch.
 
-Dat beïnvloedt stijl en kleur.
+## Pro insight
 
----
-
-### Hoe smaakt White Port?
-
-Typische aroma’s:
-
-- citrus
-- honing
-- amandel
-- gedroogd fruit
-- sinaasappelschil
-
-White Port heeft vaak:
-
-- frisse zuren
-- lichtere body
-- elegante structuur
-
-Jonge White Port is frisser.
-
-Oudere White Port krijgt meer notige tonen.
-
----
-
-### White Port & Tonic
-
-Een moderne klassieker:
-
-White Port + tonic.
-
-Vaak geserveerd met:
-
-- ijs
-- citroen
-- munt
-
-Dit heeft White Port populairder gemaakt.
-
-Vooral als aperitief.
-
----
-
-### Service
-
-Droge White Port:
-
-8–10°C
-
-Zoetere White Port:
-
-10–12°C
-
-Food pairing:
-
-- olijven
-- amandelen
-- zoute snacks
-- lichte desserts
+Vintage verkopen is bewaaradvies verkopen. Vraag altijd: drinken of bewaren? Dat bepaalt service, glas en pairing — en voorkomt teleurstelling.',
+    '- Vintage
+- declaratie
+- IVDP
+- flesrijping
+- tannine
 ',
-    '- White Port
-- witte druiven
-- aperitief
-- tonic
-- frisheid
-
-# PORT_025.md',
-    'White Port wordt in Portugal al veel langer als aperitief gedronken dan buiten Portugal.
+    'White Port & Tonic is in Londen en Amsterdam uitgegroeid tot een zomerklassieker, maar in Porto en de Douro-regio wordt White Port al generaties lang puur of met tonic als aperitief gedronken — lang vóór de internationale hype.
 ',
-    '- White Port wordt gemaakt van witte druiven
-- Kan droog tot zoet zijn
-- Frisser en lichter dan Ruby/Tawny
-- Zeer geschikt als aperitief
-- White Port & Tonic is populair
+    '- White Port komt van witte druiven: Malvasia Fina, Gouveio, Viosinho en meer
+- Stijlen lopen van droog tot zoet — frisser en lichter dan Ruby/Tawny
+- Ideaal als aperitief; White Port & Tonic is de moderne serveerklassieker
+- Citrus, honing en amandel domineren het jonge profiel
 ',
     '### Opdracht
 
-Proef een White Port.
+Proef een White Port en analyseer:
 
-Analyseer:
+- zoetheid (droog, halfdroog of zoet)
+- zuur en frisheid
+- aroma''s: citrus, honing, amandel
+- geschiktheid als aperitief
 
-- zoetheid
-- zuur
-- aroma’s
-- stijl
+Maak optioneel een White Port & Tonic en noteer hoe tonic het profiel verandert.
 
 ### Checklist
 
-- Ik heb de druivenstijl begrepen
-- Ik heb het smaakprofiel geanalyseerd
-- Ik heb de zoetheid ingeschat
+- Ik begrijp dat White Port van witte druiven komt
+- Ik heb zoetheid en frisheid ingeschat
+- Ik kan uitleggen waarom White Port als aperitief werkt
+
 
 ### Reflectievraag
 
-Zou jij White Port eerder als aperitief of dessertwijn inzetten?
-',
-    8,
+Wat weegt zwaarder bij Vintage-advies: het declaratiejaar, de producent of het bewaarpotentieel — en hoe leg je dat aan een verzamelaar uit?',
+    10,
     4
   ),
   (
-    'rose-port',
-    'Rosé Port',
-    'Na deze les kun jij uitleggen wat Rosé Port is, hoe deze stijl wordt gemaakt en waarin Rosé Port verschilt van andere Portstijlen.
+    'vintage-vs-lbv',
+    'Vintage versus LBV',
+    'Na deze les kun jij Vintage en LBV vergelijken op potentieel, toegankelijkheid en gastmoment.
 ',
-    'Rosé Port is een relatief moderne stijl binnen Port.
+    'Rosé Port is een relatief jonge, moderne en commercieel erkende stijl — officieel sinds 2008 — ontwikkeld om Port toegankelijker te maken voor een nieuw publiek. Net als Ruby wordt hij gemaakt van blauwe druiven, maar het schilcontact is veel korter: minuten in plaats van dagen. Daardoor blijft de kleur lichtroze tot zalmroze, met minder tannines en een frissere, speelsere structuur.
 
-Deze stijl werd ontwikkeld om Port toegankelijker te maken voor een jonger publiek.
+Het smaakprofiel is fruitig en lichtzoet: aardbei, framboos, rode bes, kers en florale tonen. Rosé Port heeft minder complexiteit dan Tawny of Vintage, maar juist die directheid maakt hem populair als aperitief, met ijs, met tonic of als basis in cocktails. Het is geen traditionele Douro-stijl, maar commercieel een belangrijke instap.
 
-Rosé Port wordt gemaakt van blauwe druiven, net als Ruby en Tawny.
+Serveer gekoeld op 8–10°C. Na opening blijft Rosé meestal twee tot vier weken goed. Pairings: zomerse desserts, rood fruit, lichte kazen en tapas. Vergelijk met Ruby om het effect van schilcontact op kleur en tannine te ervaren.
 
-Het grote verschil zit in de schilweking.
 
-Bij Rosé Port is het contact tussen sap en schillen veel korter.
+## Food pairing
 
-Dat zorgt voor:
+### Beste pairing
 
-- lichtere kleur
-- minder tannines
-- frissere stijl
-- zachtere structuur
+LBV → chocoladefondant 
+Vintage → Stilton
 
-De kleur varieert van lichtroze tot zalmroze.
+### Waarom dit werkt
+
+LBV-fruit bij chocolade werkt via structuur; Vintage bij kaas via tannine en lengte — kies op rijpingsfilosofie, niet op prijs alleen.
+
+## Pro insight
+
+Vintage versus LBV is geen kwaliteitsrangorde maar rijpingsfilosofie. Verticale spanning tegen horizontale toegankelijkheid — gebruik die taal in advies.',
+    '- Vintage
+- LBV
+- rijpingstraject
+- toegankelijkheid
+- keuze
 
 ---
+### Module 6 — Specialist Styles II
 
-### Smaakprofiel
-
-Rosé Port is vaak:
-
-- fruitig
-- fris
-- lichtzoet
-- speels
-
-Typische aroma’s:
-
-- aardbei
-- framboos
-- rode bes
-- kersen
-- bloemen
-
-Rosé Port heeft minder complexiteit dan Tawny of Vintage.
-
-Maar juist daardoor is hij toegankelijk.
-
----
-
-### Gebruik
-
-Rosé Port wordt vaak gebruikt:
-
-- als aperitief
-- in cocktails
-- met ijs
-- met tonic
-
-Het is een moderne, casual stijl.
-
-Niet traditioneel, maar commercieel belangrijk.
-
----
-
-### Service
-
-Serveertemperatuur:
-
-8–10°C
-
-Food pairing:
-
-- zomerse desserts
-- rood fruit
-- lichte kazen
-- tapas
-
-Na opening blijft Rosé meestal 2–4 weken goed.
+**Level:** Specialist
+**Framework pillar:** Stijl & Identiteit
+**Module goal:** Verdiep je in White Port, Rosé Port en niche- en premiumcategorieën.
 ',
-    '- Rosé Port
-- schilcontact
-- fruitigheid
-- aperitief
-- cocktails
-
-# PORT_026.md',
-    'Rosé Port bestaat officieel pas sinds 2008 als erkende commerciële stijl.
+    'Rosé Port bestaat pas sinds 2008 als officieel erkende commerciële categorie bij de Portproducenten. De stijl werd bewust ontwikkeld om jongere drinkers en cocktailbars te bereiken — met succes in zomerse markten wereldwijd.
 ',
-    '- Rosé Port is modern
-- Kort schilcontact geeft lichte kleur
-- Fruitig en fris
-- Minder tannines
-- Populair als aperitief en cocktailbasis
+    '- Rosé Port: blauwe druiven met zeer kort schilcontact — lichtroze kleur
+- Fruitig, fris en lichtzoet met minder tannines dan Ruby
+- Modern en toegankelijk; ideaal als aperitief, met ijs of in cocktails
+- Minder complex dan Tawny of Vintage, maar commercieel belangrijk
 ',
     '### Opdracht
 
-Vergelijk een Rosé Port met Ruby Port.
+Vergelijk een Rosé Port met een Ruby Port. Noteer:
 
-Analyseer:
-
-- kleur
-- fruitintensiteit
-- body
-- frisheid
+- kleurverschil (roze vs. robijn)
+- fruitintensiteit en frisheid
+- body en tannine
+- geschiktheid als aperitief
 
 ### Checklist
 
-- Ik heb het kleurverschil gezien
-- Ik heb het smaakverschil geproefd
-- Ik begrijp de stijlverschillen
+- Ik heb het effect van kort schilcontact begrepen
+- Ik herken het fruitige, lichte profiel van Rosé
+- Ik kan Rosé onderscheiden van Ruby en Tawny
+
 
 ### Reflectievraag
 
-Zie jij Rosé Port als serieuze Portstijl of meer als moderne instapstijl?
-',
-    8,
+Voor een diner over tien jaar: kies jij Vintage of ongefilterde LBV — en welk rijpingsargument is doorslaggevend?',
+    10,
     5
-  ),
-  (
-    'crusted-port',
-    'Crusted Port',
-    'Na deze les kun jij uitleggen wat Crusted Port is, hoe deze stijl wordt gemaakt en waarin Crusted Port verschilt van Vintage en LBV.
-',
-    'Crusted Port is een bijzondere Portstijl.
-
-Het is een blend van meerdere oogstjaren.
-
-Dat maakt het anders dan Vintage of LBV.
-
-Toch lijkt de stijl er vaak sterk op.
-
-Waarom?
-
-Omdat Crusted Port ongefilterd wordt gebotteld.
-
-Daardoor ontstaat depot in de fles.
-
-Dit depot noemen we de “crust”.
-
-Daar komt de naam vandaan.
-
----
-
-### Hoe wordt Crusted gemaakt?
-
-Crusted Port rijpt eerst enkele jaren op vat.
-
-Daarna wordt hij ongefilterd gebotteld.
-
-Vervolgens rijpt hij verder op fles.
-
-Dat zorgt voor:
-
-- meer complexiteit
-- meer structuur
-- meer flesontwikkeling
-
-Crusted combineert vaak:
-
-- fruitkracht
-- kruidigheid
-- rijpingscomplexiteit
-
----
-
-### Verschil met Vintage
-
-Vintage Port:
-
-- één oogstjaar
-- topkwaliteit
-- lange flesrijping
-
-Crusted Port:
-
-- blend van meerdere jaren
-- vaak betaalbaarder
-- vergelijkbare stijl
-
-Veel liefhebbers zien Crusted als “Vintage-light”.
-
----
-
-### Service
-
-Crusted Port moet meestal worden gedecanteerd.
-
-Door het depot.
-
-Serveertemperatuur:
-
-14–16°C
-
-Food pairing:
-
-- blauwe kaas
-- wild
-- pure chocolade
-',
-    '- Crusted
-- depot
-- ongefilterd
-- decanteren
-- flesrijping
-
-# PORT_027.md',
-    'Crusted Port is één van de minst bekende maar meest geliefde stijlen onder traditionele Portliefhebbers.
-',
-    '- Crusted is ongefilterd
-- Blend van meerdere jaren
-- Ontwikkelt depot
-- Lijkt op Vintage
-- Moet vaak gedecanteerd worden
-',
-    '### Opdracht
-
-Zoek een Crusted Port op en vergelijk het etiket met een Vintage Port.
-
-### Checklist
-
-- Ik begrijp het verschil met Vintage
-- Ik weet waarom er depot ontstaat
-- Ik weet waarom decanteren nodig is
-
-### Reflectievraag
-
-Zou jij Crusted eerder kiezen dan LBV? Waarom?
-',
-    8,
-    6
   )
 ) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
 
--- portstijlen-verdiept (4 lessons)
+-- portstijlen-verdiept (5 lessons)
 with m as (
   select m.id from academy.modules m
   join academy.tracks t on t.id = m.track_id
@@ -2568,805 +1594,323 @@ select m.id, v.slug, v.title, v.objective, v.theory, v.key_concepts, v.did_you_k
 from m
 cross join (values
   (
-    'vintage-port-deel-1',
-    'Vintage Port Deel 1: Wat is Vintage Port?',
-    'Na deze les kun jij uitleggen wat Vintage Port is, waarom deze stijl als de hoogste categorie binnen Port wordt gezien en hoe Vintage Port wordt geproduceerd.
+    'white-port',
+    'White Port',
+    'Na deze les kun jij White Port herkennen, de belangrijkste witte druiven benoemen en uitleggen wanneer deze stijl als aperitief of in cocktails het beste past.
 ',
-    'Vintage Port wordt vaak gezien als de koning van Port.
+    'White Port is de frisse tegenpool binnen het Port-assortiment. Waar Ruby en Tawny van blauwe druiven komen, wordt White Port gemaakt van witte rassen: Malvasia Fina, Gouveio, Viosinho, Rabigato en Codega. Het spectrum loopt van droog tot zoet — een veelzijdigheid die Ruby en Tawny niet bieden.
 
-Waarom?
+Jonge White Port is citrus, honing en amandel; langere houtcontact geeft body en notige lagen. De lagere druk en frisheid maken White ideaal als aperitief — in Portugal al generaties vóór de internationale hype.
 
-Omdat het de meest prestigieuze en vaak meest complexe stijl is.
+De moderne klassieker: White Port & Tonic met ijs, citroen en munt. Droge White op 8–10°C; zoetere varianten op 10–12°C. Het besliskader: wil de gast frisheid en lichtheid vóór het diner? Dan is White vaak de slimste eerste keuze — niet Ruby.
 
-Vintage Port wordt gemaakt uit:
 
-**één uitzonderlijk oogstjaar**
+## Food pairing
 
-Niet elk jaar wordt Vintage gedeclareerd.
+### Beste pairing
 
-Alleen de beste jaren.
+Olijven, amandelen, zoute tapas en lichte geitenkaas.
 
-Dat maakt Vintage zeldzaam.
+### Waarom dit werkt
 
----
+Frisse zuur en lichte zoetheid in White Port tegen zout in olijven en amandelen; lage intensiteit vraagt geen zware tannine of oxidatie.
 
-### Wat betekent "gedeclareerd"?
+### Vermijd
 
-Een Port house beslist zelf of een oogstjaar goed genoeg is.
+Zware chocoladedesserts of rood vlees — daar past Ruby of Tawny beter.
 
-Als dat zo is, wordt het jaar officieel gedeclareerd.
+## Pro insight
 
-Dat betekent:
-
-- topkwaliteit druiven
-- perfecte balans
-- groot rijpingspotentieel
-
-Niet elk jaar haalt dat niveau.
-
-Soms zitten er meerdere jaren tussen.
-
----
-
-### Korte houtrijping
-
-Vintage Port rijpt meestal slechts:
-
-**2 jaar op vat**
-
-Daarna gaat hij op fles.
-
-Waarom zo kort?
-
-Om zoveel mogelijk:
-
-- fruit
-- kracht
-- tannines
-- concentratie
-
-te behouden.
-
-De echte rijping gebeurt op fles.
-
-Dat is uniek.
-
----
-
-### Smaakprofiel
-
-Jonge Vintage Port is vaak:
-
-- intens
-- krachtig
-- diep fruitig
-- tanninerijk
-
-Typische aroma’s:
-
-- zwarte kersen
-- braam
-- pruim
-- viooltjes
-- cacao
-
-Met leeftijd ontwikkelen zich:
-
-- leer
-- tabak
-- specerijen
-- gedroogd fruit
+White Port op tonic is uw instap voor niet-Port-drinkers: lage drempel, hoge conversie naar serieuze stijlen later op de avond.',
+    '- White Port
+- aperitief
+- witte druiven
+- tonic
+- frisheid
 ',
-    '- Vintage
-- declaratie
-- single vintage
-- flesrijping
-- topjaar
-
-# PORT_028.md',
-    'Veel Vintage Ports kunnen 30 tot 50 jaar rijpen.
-
-Sommige zelfs langer.
+    'White Port & Tonic werd populair in cocktailbars wereldwijd, maar in Porto en de Douro wordt White Port al decennialang puur of met tonic als aperitief gedronken.
 ',
-    '- Vintage = hoogste Portcategorie
-- Slechts één oogstjaar
-- Alleen in topjaren
-- Korte vatrijping
-- Lange flesrijping
-',
+    '- White Port komt van witte druiven — frisser en lichter dan Ruby/Tawny
+- Stijlen lopen van droog tot zoet; citrus en amandel domineren jong
+- Ideaal als aperitief; White Port & Tonic is de moderne serveerklassieker
+- Serveer 8–12°C afhankelijk van zoetheid',
     '### Opdracht
 
-Zoek drie Vintage Ports op van verschillende huizen.
-
-Bekijk:
-
-- welk jaar
-- of het gedeclareerd is
-- prijsverschillen
+Proef een White Port (puur of als tonic). Noteer zoetheid, frisheid en geschiktheid als aperitief. Voeg de fles toe in de Way of Tasting-app.
 
 ### Checklist
 
-- Ik begrijp declaratie
-- Ik begrijp korte vatrijping
-- Ik begrijp flesrijping
+- Ik herken witte-druivenprofiel (citrus, honing, amandel)
+- Ik kan uitleggen waarom White als aperitief werkt
+- Ik heb serveertemperatuur genoteerd
+
 
 ### Reflectievraag
 
-Waarom denk jij dat Vintage Port als topcategorie wordt gezien?
-',
+Zou jij White Port puur of als tonic inzetten op een warme avond — en welke gastvraag bepaalt die keuze?',
     8,
     1
   ),
   (
-    'vintage-port-deel-2',
-    'Vintage Port Deel 2: Rijping & Potentieel',
-    'Na deze les kun jij uitleggen hoe Vintage Port rijpt, waarom decanteren vaak nodig is en waarom deze stijl zo’n enorm bewaarpotentieel heeft.
+    'rose-port',
+    'Rosé Port',
+    'Na deze les kun jij Rosé Port herkennen, uitleggen hoe kort schilcontact de stijl vormt en inschatten wanneer deze moderne Port als aperitief of cocktailbasis past.
 ',
-    'Vintage Port is gebouwd voor lange rijping.
+    'Rosé Port is de jongste officiële categorie (sinds 2008): blauwe druiven, maar schilcontact van minuten in plaats van dagen. De kleur is lichtroze tot zalm; tannines blijven zacht, het profiel fruitig en lichtzoet met aardbei, framboos en florale tonen.
 
-Waar veel Port relatief snel drinkbaar is, ontwikkelt Vintage zich langzaam.
+Rosé is geen traditionele Douro-stijl, maar commercieel strategisch: toegankelijk, gekoeld, met tonic of in cocktails. Minder complex dan Tawny of Vintage — en dat is bewust. Het besliskader: gast zoekt zomer, lichtheid en direct plezier? Rosé wint van Ruby.
 
-De meeste rijping gebeurt op fles.
+Serveer 8–10°C. Na opening twee tot vier weken houdbaar. Vergelijk bewust met Ruby om schilcontact te ervaren als variabele.
 
-Dat maakt Vintage uniek.
 
-Tijdens flesrijping verandert de wijn:
+## Food pairing
 
-- fruit wordt complexer
-- tannines worden zachter
-- aroma’s verdiepen
-- structuur integreert
+### Beste pairing
 
-Dat proces kan tientallen jaren duren.
+Rood fruit, zomerse desserts, lichte kazen en tapas.
 
----
+### Waarom dit werkt
 
-### Depot
+Fruitige frisheid en lichte structuur in Rosé spiegelen rood fruit en zachte zuren in aperitiefhapjes zonder zoetheidsconflict met hartige tonen.
 
-Omdat Vintage Port ongefilterd wordt gebotteld, ontstaat er depot.
+### Vermijd
 
-Depot bestaat uit:
+Zware blauwschimmelkaas of pure bittere chocolade.
 
-- kleurstoffen
-- tannines
-- vaste bestanddelen
+## Pro insight
 
-Dat is normaal.
-
-Sterker nog:
-
-veel depot betekent vaak veel concentratie.
-
-Maar het betekent ook:
-
-**decanteren is meestal nodig.**
-
----
-
-### Rijpingsfases
-
-Jonge Vintage (0–10 jaar):
-
-- veel fruit
-- krachtig
-- tanninerijk
-
-Middelbare Vintage (10–25 jaar):
-
-- meer balans
-- meer complexiteit
-- zachtere structuur
-
-Oude Vintage (25+ jaar):
-
-- tertiaire aroma’s
-- enorme complexiteit
-- zijdezachte textuur
-
-Elke fase heeft zijn charme.
-
----
-
-### Waarom bewaren?
-
-Vintage Port kan enorm in waarde stijgen.
-
-Waarom?
-
-Omdat:
-
-- productie beperkt is
-- topjaren schaars zijn
-- rijping kwaliteit verhoogt
-
-Top Vintage is daardoor vaak verzamelobject.
-
----
-
-### Service
-
-Altijd voorzichtig openen.
-
-Vaak decanteren.
-
-Serveertemperatuur:
-
-16–18°C
-
-Food pairing:
-
-- Stilton
-- pure chocolade
-- noten
-- sigaar (klassiek)
+Behandel Rosé niet als ''minder Port'' maar als moment-specifieke stijl — aperitief en jonge doelgroep, niet als digestief-vervanger.',
+    '- Rosé Port
+- schilcontact
+- aperitief
+- fruit
+- modern
 ',
-    '- flesrijping
-- depot
-- decanteren
-- bewaarpotentieel
-- tertiaire aroma’s
-
-# PORT_029.md',
-    'Sommige Vintage Ports uit de 19e eeuw zijn nog steeds drinkbaar.
+    'Rosé Port werd bewust ontwikkeld om jongere drinkers en cocktailbars te bereiken — met succes in zomerse markten wereldwijd.
 ',
-    '- Vintage rijpt op fles
-- Depot is normaal
-- Decanteren is vaak nodig
-- Kan tientallen jaren rijpen
-- Waarde stijgt vaak met leeftijd
-',
+    '- Rosé: kort schilcontact, lichtroze, fruitig en fris
+- Officieel sinds 2008; modern en toegankelijk
+- Ideaal gekoeld als aperitief of met tonic
+- Minder complex dan Tawny/Vintage — dat is de functie',
     '### Opdracht
 
-Zoek drie Vintage Ports op van verschillende leeftijden.
-
-Vergelijk:
-
-- prijs
-- leeftijd
-- drinkadvies
+Vergelijk Rosé met Ruby. Noteer kleur, tannine, frisheid en aperitief-geschiktheid.
 
 ### Checklist
 
-- Ik begrijp depot
-- Ik begrijp rijpingsfases
-- Ik begrijp waarom decanteren nodig is
+- Ik begrijp het effect van kort schilcontact
+- Ik kan Rosé onderscheiden van Ruby op structuur
+- Ik weet wanneer ik Rosé adviseer
+
 
 ### Reflectievraag
 
-Zou jij een Vintage jong drinken of oud bewaren?
-',
+Is Rosé Port voor jou een serieuze stijl of een instap — en verandert tonic met ijs je antwoord bij een jonge doelgroep?',
     8,
     2
   ),
   (
-    'single-quinta-vintage-port',
-    'Single Quinta Vintage Port',
-    'Na deze les kun jij uitleggen wat Single Quinta Vintage Port is, hoe deze stijl verschilt van klassieke Vintage Port en waarom de Quinta zo belangrijk is.
+    'tawny-port',
+    'Tawny Port',
+    'Na deze les kun jij Tawny Port fundamenteel uitleggen, de oxidatieve rijpingslogica toepassen en 10, 20, 30 en 40 Years onderscheiden op smaak, inzet en pairing.
 ',
-    'Single Quinta Vintage Port is een Vintage Port uit:
+    'Tawny is geen oude Ruby — het is een andere filosofie. Ruby bewaart fruit in reductieve omgeving; Tawny bouwt bewust op oxidatie in hout. Rood fruit wijkt voor noten, karamel, vijg en toffee. Dat is ontwerp, geen veroudering.
 
-- één oogstjaar
-- één Quinta (wijndomein)
+**Basis-Tawny** rijpt korter; fruit en lichte oxidatie blijven in balans. **10 Years** is de brug: nog fruit, al duidelijke oxidatieve lagen — vaak de meest veelzijdige aged Tawny in restaurants. **20 Years** verschuift naar complexiteit: noten, sinaasappelschil, koffie; gastronomisch sterk bij notendesserts. **30 & 40 Years** zijn finesse-categorieën: gedroogd fruit, specerijen, extreme lengte — niet voor elk moment, wel voor memorabele afsluiting.
 
-Dat maakt deze stijl uniek.
+Belangrijk: het jaartal is een **gemiddelde leeftijd** van het blend, geen exacte flesleeftijd. Serveer Tawny koeler dan Vintage (12–14°C) — finesse instort bij te veel warmte. Het besliskader: wil je oxidatieve verfijning zonder decanteren? Kies Tawny boven Vintage.
 
-Bij klassieke Vintage Port kunnen druiven uit meerdere Quintas komen.
 
-Bij Single Quinta komt alles van één domein.
+## Food pairing
 
-Dat geeft een duidelijker terroir-profiel.
+### Beste pairing
 
----
+10 Years: appeltaart. 20 Years: pecannotentaart of crème brûlée. 30/40 Years: pure noten of oude Comté.
 
-### Wanneer wordt Single Quinta gemaakt?
+### Waarom dit werkt
 
-Vaak in jaren die goed zijn, maar niet sterk genoeg voor volledige Vintage-declaratie.
+Oxidatieve noten in Tawny spiegelen geroosterde noten en karamel in dessert; textuur en aroma lopen parallel — flavor bridging op aroma-overlap.
 
-Een huis kan dan:
+### Vermijd
 
-- geen algemene Vintage declareren
-- wel een Single Quinta bottelen
+Zure citrusdesserts bij oude Tawny — zuur en oxidatie botsen.
 
-Dit gebeurt regelmatig.
+## Pro insight
 
-Daardoor zijn Single Quinta’s vaak toegankelijker én betaalbaarder.
-
----
-
-### Wat proef je?
-
-Single Quinta heeft vaak:
-
-- veel fruit
-- structuur
-- concentratie
-- terroirexpressie
-
-Omdat alles van één plek komt, proef je vaak meer identiteit.
-
-Dat maakt deze stijl interessant voor gevorderde proevers.
-
----
-
-### Bekende voorbeelden
-
-- Quinta do Noval Nacional
-- Quinta de Vargellas
-- Quinta da Roêda
-
-Deze namen zijn beroemd in de Portwereld.
-
-De naam van de Quinta op het etiket is belangrijk.
-
----
-
-### Rijping & service
-
-Net als Vintage:
-
-- korte vatrijping
-- lange flesrijping
-- vaak depot
-- vaak decanteren
-
-Serveertemperatuur:
-
-16–18°C
+Leeftijdslabel op Tawny is gemiddelde leeftijd, geen exacte jaargang. Leg dat uit vóór de prijs — anders ontstaat verwachtingsfout bij proef.',
+    '- Tawny
+- oxidatieve rijping
+- leeftijdslabel
+- noten
+- gemiddelde leeftijd
 ',
-    '- Single Quinta
-- terroir
-- Vintage
-- domein
-- flesrijping
-
-# PORT_030.md',
-    'Veel Single Quinta Ports worden later beter gewaardeerd dan sommige algemene Vintage Ports.
+    'Een ''20 Years Tawny'' kan wijnen bevatten die ouder én jonger zijn dan twintig jaar — het getal beschrijft het gemiddelde smaakprofiel, niet één oogst.
 ',
-    '- Eén oogstjaar
-- Eén Quinta
-- Meer terroir-expressie
-- Vaak betaalbaarder dan Vintage
-- Zeer interessant voor kenners
-',
+    '- Tawny = oxidatieve rijping; amber, notig, geen primair fruit als Ruby
+- 10 Years: brug fruit/oxidatie; 20 Years: gastronomisch premium
+- 30/40 Years: finesse en lengte voor speciale momenten
+- Leeftijdsaanduiding = gemiddelde blendleeftijd
+- Serveer 12–14°C; pairing met noten, karamel en harde kazen',
     '### Opdracht
 
-Zoek drie Single Quinta Vintage Ports op.
-
-Vergelijk:
-
-- Quinta
-- prijs
-- jaargang
+Proef of vergelijk twee Tawny-niveaus (bijv. 10 en 20 Years). Noteer oxidatie, zoetheid en pairing.
 
 ### Checklist
 
-- Ik begrijp het verschil met Vintage
-- Ik begrijp de rol van de Quinta
-- Ik herken een Single Quinta etiket
+- Ik kan Tawny onderscheiden van Ruby op kleur en neus
+- Ik begrijp gemiddelde leeftijd vs oogstjaar
+- Ik ken serveertemperatuur en glaskeuze
+
 
 ### Reflectievraag
 
-Denk jij dat één domein meer karakter geeft dan meerdere domeinen samen?
-',
-    8,
+Voor welk gastmoment kies jij bewust 10 Years Tawny — en wanneer investeer je in 30 of 40 Years in plaats van Vintage?',
+    12,
     3
   ),
   (
-    'tawny-met-leeftijd',
-    'Tawny Port met Leeftijdsaanduiding',
-    'Na deze les kun jij uitleggen wat Tawny Port met leeftijdsaanduiding is, hoe deze stijl wordt opgebouwd en wat 10, 20, 30 en 40 years betekenen.
-',
-    'Tawny Port met leeftijdsaanduiding is een premium categorie binnen Tawny.
-
-Op het etiket zie je vaak:
-
-- 10 Years
-- 20 Years
-- 30 Years
-- 40 Years
-
-Belangrijk:
-
-dit is niet de exacte leeftijd.
-
-Het is de gemiddelde stijl en rijpingsindruk.
-
-Dat betekent:
-
-een 20 Years Tawny kan wijn bevatten van meerdere leeftijden.
-
-De blender zoekt een consistent profiel.
-
----
-
-### Hoe rijpt Aged Tawny?
-
-Deze Ports rijpen langdurig op kleine houten vaten.
-
-Dat zorgt voor veel oxidatie.
-
-Meer oxidatie betekent:
-
-- lichtere kleur
-- zachtere structuur
-- meer notige aroma’s
-- grotere complexiteit
-
-Hoe ouder de Tawny:
-
-hoe meer tertiaire ontwikkeling.
-
----
-
-### Smaakprofielen per leeftijd
-
-**10 Years**
-
-- nog relatief fruitig
-- noten
-- karamel
-
-**20 Years**
-
-- complexer
-- meer balans
-- gedroogd fruit
-
-**30 Years**
-
-- diep oxidatief
-- noten
-- koffie
-- kruiden
-
-**40 Years**
-
-- zeer geconcentreerd
-- extreem complex
-- verfijnd
-- lang
-
----
-
-### Service
-
-Serveertemperatuur:
-
-12–14°C
-
-Food pairing:
-
-- notentaart
-- crème brûlée
-- harde kazen
-- caramel desserts
-
-Na opening blijft Aged Tawny vaak maanden goed.
-',
-    '- Aged Tawny
-- leeftijdsaanduiding
-- oxidatie
-- houtrijping
-- complexiteit
-
-# PORT_031.md',
-    'Een goede 40 Years Tawny kan soms complexer smaken dan veel Vintage Ports.
-',
-    '- Leeftijd = stijl, niet exacte leeftijd
-- Langdurige houtrijping
-- Veel oxidatie
-- Meer complexiteit met leeftijd
-- Premium Tawny categorie
-',
-    '### Opdracht
-
-Vergelijk een 10 Years en 20 Years Tawny.
-
-Analyseer:
-
-- kleur
-- aroma
-- structuur
-- lengte
-
-### Checklist
-
-- Ik begrijp leeftijdsaanduiding
-- Ik begrijp oxidatie
-- Ik herken stijlverschillen
-
-### Reflectievraag
-
-Welke leeftijd spreekt jou het meest aan en waarom?
-',
-    8,
-    4
-  )
-) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
-
--- port-premium (2 lessons)
-with m as (
-  select m.id from academy.modules m
-  join academy.tracks t on t.id = m.track_id
-  where t.slug = 'port' and m.slug = 'port-premium'
-)
-insert into academy.lessons (
-  module_id, slug, title, learning_objective, theory_markdown,
-  key_concepts_markdown, did_you_know, summary_markdown, practice_assignment_markdown,
-  duration_minutes, sort_order, is_published
-)
-select m.id, v.slug, v.title, v.objective, v.theory, v.key_concepts, v.did_you_know, v.summary, v.practice, v.duration, v.sort_order, true
-from m
-cross join (values
-  (
     'colheita-port',
-    'Colheita Port',
-    'Na deze les kun jij uitleggen wat Colheita Port is, hoe deze stijl verschilt van Vintage en Tawny, en waarom Colheita zo uniek is.
+    'Colheita',
+    'Na deze les kun jij Colheita uitleggen als single-harvest Tawny, het onderscheid met leeftijds-Tawny en Vintage onderbouwen en het etiket correct lezen.
 ',
-    'Colheita betekent letterlijk:
+    'Colheita betekent letterlijk ''oogst'' — en dat woord is de sleutel tot de stijl. Colheita Port is een Tawny uit één enkel oogstjaar: geen blend van meerdere vintagejaren, maar de expressie van één seizoen dat jarenlang oxidatief op vat heeft gerijpt. Dat combineert jaargang-identiteit met de notige, zachte wereld van Tawny.
 
-**oogst**
+De wettelijke minimale houtlagering bedraagt zeven jaar, maar veel producenten gaan veel verder: twintig, dertig of zelfs vijftig jaar op hout is geen uitzondering. Die lange houtlagering drijft oxidatie, geeft walnoten, karamel en sinaasappelschil, en maakt de wijn ronder en complexer dan een jonge Ruby. Het botteljaar op het etiket vertelt wanneer de wijn definitief werd afgesloten; het oogstjaar vertelt welke druiven het fundament vormden.
 
-Colheita Port is een Tawny Port uit:
+Het contrast met Vintage is fundamenteel. Vintage rijpt kort op vat en lang in de fles — reductief, tanninerijk, met enorm bewaarpotentieel. Colheita rijpt lang op vat en is vaak direct drinkbaar na botteling: oxidatief, toegankelijk, maar niet minder verfijnd. Single harvest maakt Colheita tot de brug tussen jaargangswijn en oxidatieve rijpingswereld.
 
-**één enkel oogstjaar**
+Serveer Colheita licht gekoeld (12–14°C), meestal zonder decanteren. Na opening blijft de wijn weken tot maanden stabiel dankzij de al bestaande oxidatieve rijping — een voordeel dat Ruby en Vintage niet hebben.
 
-Dat maakt Colheita bijzonder.
 
-Bij gewone Tawny zijn meerdere oogstjaren gemengd.
+## Food pairing
 
-Bij Colheita komt alles uit één jaar.
+### Beste pairing
 
-Dat combineert:
+Oude Colheita met notendessert, foie gras of harde oude kaas.
 
-- jaargang-identiteit
-- oxidatieve rijping
-- terroirexpressie
+### Waarom dit werkt
 
----
+Oxidatieve diepte en jaargangskarakter vragen rijke, gelaagde partners: noten, vet en zout versterken de complexiteit zonder de wijn plat te maken.
 
-### Rijping
+### Vermijd
 
-Colheita moet minimaal:
+Lichte citrusdesserts of te zuur fruit — die laten Colheita log en eenzijdig aanvoelen.
 
-**7 jaar op vat rijpen**
+## Pro insight
 
-Maar vaak is dat veel langer.
-
-Soms:
-
-20, 30 of zelfs 50 jaar.
-
-De wijn blijft op hout.
-
-Dat geeft:
-
-- oxidatie
-- notige tonen
-- zachtheid
-- complexiteit
-
----
-
-### Verschil met Vintage
-
-Vintage:
-
-- één jaar
-- korte vatrijping
-- lange flesrijping
-
-Colheita:
-
-- één jaar
-- lange vatrijping
-- vaak sneller drinkbaar
-
-Dat maakt Colheita toegankelijker.
-
-Maar vaak net zo complex.
-
----
-
-### Smaakprofiel
-
-Typische aroma’s:
-
-- walnoten
-- karamel
-- sinaasappelschil
-- vijgen
-- koffie
-- specerijen
-
-Oudere Colheita’s kunnen extreem verfijnd zijn.
-
----
-
-### Service
-
-Serveertemperatuur:
-
-12–14°C
-
-Meestal niet decanteren nodig.
-
-Na opening vaak lang houdbaar.
-',
+Colheita is vaak de meest onderschatte premiumcategorie: oxidatieve diepte met oogstverhaal. Ideaal voor gasten die Tawny kennen maar meer persoonlijkheid willen.',
     '- Colheita
 - single harvest
-- vatrijping
-- oxidatie
+- houtlagering
+- oogstjaar
 - botteljaar
-
-# PORT_032.md',
-    'Sommige Colheita’s worden pas na tientallen jaren gebotteld en dragen zowel oogstjaar als botteljaar op het etiket.
 ',
-    '- Colheita = Tawny uit één jaar
-- Minimaal 7 jaar vatrijping
-- Vaak veel langer
-- Complex en oxidatief
-- Geen blend van jaren
+    'Sommige Colheita''s worden pas na tientallen jaren houtlagering gebotteld en dragen zowel oogstjaar als botteljaar op het etiket — een dubbele tijdsaanduiding die nergens anders in de Portwereld zo consequent wordt toegepast.
+',
+    '- Colheita = Tawny uit één oogstjaar (single harvest)
+- Minimaal zeven jaar houtlagering; oxidatie en notige complexiteit
+- Oogstjaar én botteljaar op het etiket
+- Brug tussen Vintage (flesrijping) en gewone Tawny (blend)
+- Licht gekoeld serveren; lang houdbaar na opening
 ',
     '### Opdracht
 
-Zoek een Colheita op en noteer:
+Zoek een Colheita op (wijnwinkel, kelder of online) en noteer:
 
 - oogstjaar
 - botteljaar
-- aantal jaren vatrijping
+- vermelde houtlagering (indien aanwezig)
+- producent en regio
+
+Vergelijk het etiket met een gewone Tawny en een Vintage uit dezelfde producent of prijsklasse. Wat valt op in terminologie en verwachting?
 
 ### Checklist
 
-- Ik begrijp het verschil met Tawny
-- Ik begrijp het verschil met Vintage
-- Ik herken een Colheita etiket
+- Ik begrijp het verschil met een gewone Tawny-blend
+- Ik begrijp het verschil met Vintage Port
+- Ik herken oogstjaar en botteljaar op een Colheita-etiket
+- Ik kan uitleggen waarom Colheita oxidatief rijpt
+
 
 ### Reflectievraag
 
-Wat spreekt jou meer aan: Vintage of Colheita?
-',
+Colheita of 20 Years Tawny bij dezelfde prijs: kies jij consistentie of jaargangskarakter — en hoe verkoop je dat verschil?',
     8,
-    1
+    4
   ),
   (
     'garrafeira-port',
-    'Garrafeira Port',
-    'Na deze les kun jij uitleggen wat Garrafeira Port is, waarom deze stijl extreem zeldzaam is en hoe de rijping verschilt van andere Portcategorieën.
+    'Garrafeira',
+    'Na deze les kun jij Garrafeira Port uitleggen, de combinatie van hout- en glasrijping onderscheiden van Vintage en Colheita, en inschatten wanneer deze zeldzame stijl past.
 ',
-    'Garrafeira is één van de zeldzaamste Portstijlen ter wereld.
+    'Garrafeira is een van de zeldzaamste Portstijlen. Na een eerste periode op hout (drie tot zes jaar, Ruby-achtig) volgt rijping in grote glazen demijohns — soms tientallen jaren. Het resultaat is noch volledig oxidatief (Tawny) noch volledig reductief (Vintage): gedroogde sinaasappel, noten, koffie, specerijen en indrukwekkende lengte met zachte textuur.
 
-Het is een unieke combinatie van:
+Niepoort maakte de stijl wereldberoemd. Productie is beperkt; veel liefhebbers proeven Garrafeira nooit. Het besliskader: gast zoekt zeldzaamheid en finesse zonder Vintage-depot? Garrafeira is het antwoord.
 
-- lange vatrijping
-- extra flesrijping
+Serveer 14–16°C, eventueel licht gedecanteerd. Pairing: oude kaas, pure chocolade, noten.
 
-Maar niet op de normale manier.
 
-Garrafeira begint meestal als:
+## Food pairing
 
-**Ruby-stijl Port uit één oogstjaar**
+### Beste pairing
 
-Daarna rijpt de wijn eerst jaren op hout.
+Oude Gouda, pure chocolade (70%+), gedroogde vijgen.
 
-Vaak 3 tot 6 jaar.
+### Waarom dit werkt
 
-Tot zover lijkt het op Vintage.
+Complexiteit en zachte oxidatie in Garrafeira vragen rijke partners: zout in oude kaas en vet in pure chocolade dragen de gelaagde mondtextuur.
 
-Maar daarna gebeurt iets bijzonders.
+### Vermijd
 
----
+Lichte salades of citrus — te weinig body voor Garrafeira.
 
-### Glazen demijohns
+## Pro insight
 
-Na houtrijping gaat Garrafeira in grote glazen flessen:
-
-**demijohns**
-
-Dat is uniek.
-
-Hier rijpt de wijn soms tientallen jaren verder.
-
-Deze combinatie van hout + glas geeft een heel eigen ontwikkeling.
-
-Niet volledig oxidatief.
-
-Niet volledig reductief.
-
-Een soort tussenwereld.
-
----
-
-### Waarom is dit bijzonder?
-
-De stijl ontwikkelt:
-
-- enorme complexiteit
-- zachtheid
-- diepte
-- finesse
-
-Typische aroma’s:
-
-- gedroogde sinaasappel
-- noten
-- koffie
-- specerijen
-- oude kruiden
-- karamel
-
-Vaak met enorme lengte.
-
----
-
-### Producenten
-
-Historisch vooral bekend door:
-
-**Niepoort**
-
-Zij hebben Garrafeira wereldberoemd gemaakt.
-
-Het is een nichecategorie.
-
-Veel wijnliefhebbers hebben het nooit geproefd.
-
----
-
-### Service
-
-Serveertemperatuur:
-
-14–16°C
-
-Soms licht decanteren.
-
-Food pairing:
-
-- oude kazen
-- noten
-- pure chocolade
-- sigaren
-',
+Garrafeira is zeldzaamheid en verhaal — niet voor elk menu. Reserveer voor gasten die oxidatie én finesse begrijpen; anders wint 30 Years Tawny.',
     '- Garrafeira
-- demijohn
 - glasrijping
-- Niepoort
+- demijohn
 - zeldzaamheid
+- complexiteit
 
-# PORT_033.md',
-    'Sommige Garrafeira Ports rijpen meer dan 40 jaar in glas voordat ze worden gebotteld.
+---
+### Module 7 — Service & Bewaren
+
+**Level:** Master
+**Framework pillar:** Service
+**Module goal:** Beheers serveren, decanteren, glaskeuze en bewaarlogica van Port.
 ',
-    '- Zeer zeldzame stijl
-- Eén oogstjaar
-- Eerst hout, daarna glas
-- Zeer complex
-- Vooral beroemd door Niepoort
+    'Sommige Garrafeira''s rijpen meer dan veertig jaar in glazen demijohns vóór botteling — een proces dat geen andere versterkte wijnstijl repliceert.
 ',
+    '- Garrafeira: hout + glasrijping in demijohns
+- Zeldzaam, complex, zacht — niche binnen Port
+- Niepoort is de historische referentie
+- Niet oxidatief als Tawny, niet fles-dominant als Vintage
+- Serveer 14–16°C bij oude kaas of pure chocolade',
     '### Opdracht
 
-Zoek een Garrafeira Port op en vergelijk deze met Vintage en Colheita.
+Maak een vergelijkingstabel Garrafeira vs Vintage vs Colheita: hout, glas/fles, smaak, moment.
 
 ### Checklist
 
-- Ik begrijp het glasrijpingsproces
-- Ik begrijp het verschil met Vintage
-- Ik begrijp het verschil met Colheita
+- Ik begrijp demijohn-glasrijping
+- Ik kan Garrafeira positioneren t.o.v. Vintage en Colheita
+- Ik ken een serveer- en pairingadvies
+
 
 ### Reflectievraag
 
-Waarom denk jij dat glas zo’n andere rijping geeft dan hout of fles?
-',
-    8,
-    2
+Welk element van Garrafeira verwacht je het eerst te proeven — glasrijping, houtlagering of fleskarakter — en waarom?',
+    10,
+    5
   )
 ) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
 
--- praktijk-port (4 lessons)
+-- service-port (5 lessons)
 with m as (
   select m.id from academy.modules m
   join academy.tracks t on t.id = m.track_id
-  where t.slug = 'port' and m.slug = 'praktijk-port'
+  where t.slug = 'port' and m.slug = 'service-port'
 )
 insert into academy.lessons (
   module_id, slug, title, learning_objective, theory_markdown,
@@ -3377,332 +1921,813 @@ select m.id, v.slug, v.title, v.objective, v.theory, v.key_concepts, v.did_you_k
 from m
 cross join (values
   (
-    'port-serveren',
-    'Port Serveren: Temperatuur, Glaswerk & Bewaren',
-    'Na deze les kun jij:
-
-- de juiste serveertemperatuur kiezen per Portstijl
-- het juiste glaswerk selecteren
-- uitleggen wanneer decanteren nodig is
-- correct adviseren over bewaartermijnen na openen
-- fouten in Portservice herkennen en voorkomen
+    'serveertemperatuur',
+    'Serveertemperatuur',
+    'Na deze les kun jij per stijl de juiste serveertemperatuur onderbouwen.
 ',
-    'Goede Port serveren is een vak.
+    'Temperatuur bepaalt hoe Port zich opent.
 
-Veel mensen denken:
+Te warm?
 
-“Port is Port.”
+Dan domineert alcohol.
 
-Maar dat klopt niet.
+Te koud?
 
-Net zoals bij wijn bepaalt service een groot deel van de ervaring.
+Dan sluit aroma zich af.
 
-Dezelfde Port kan totaal anders smaken wanneer:
+Dat maakt temperatuur geen detail.
 
-- hij te warm is
-- hij te koud is
-- verkeerd glas wordt gebruikt
-- hij te lang open staat
-- hij niet wordt gedecanteerd
+Maar een stuurinstrument.
 
-Service is dus geen detail.
+Ruby werkt vaak het best tussen 14–16°C.
 
-Service is onderdeel van kwaliteit.
-',
+Zo blijft fruit levendig en alcohol gecontroleerd.
+
+Tawny werkt koeler:
+
+12–14°C.
+
+Dat houdt oxidatieve spanning fris.
+
+Vintage vraagt meestal iets warmer:
+
+16–18°C.
+
+Daar heeft structuur ruimte nodig.
+
+De belangrijke vraag:
+
+Waarom serveer je oude Tawny koeler dan Vintage?
+
+Omdat finesse sneller instort bij warmte dan kracht.
+
+Dat is service-intelligentie.
+
+
+## Food pairing
+
+### Beste pairing
+
+Tawny met notendesserts.
+
+### Waarom dit werkt
+
+Koel geserveerde Tawny behoudt frisheid naast zoute kaas; te warme Port maakt zoetheid plakkerig — temperatuur is onderdeel van de pairingbalans.
+
+## Pro insight
+
+Koel Tawny één graad extra in warme zaal: de fles warmt aan tafel op naar precies serveerpunt — standaard sommelier-truc.',
     '- serveertemperatuur
-- glaswerk
-- decanteren
-- bewaartermijn
-- oxidatie
-- servicekwaliteit
-
-# PORT_034.md',
-    'Veel toprestaurants serveren 20 Years Tawny bewust rond 11–12°C om extra spanning en precisie te creëren.
-',
-    '- Temperatuur is stijl-afhankelijk
-- Glaswerk beïnvloedt alcoholbeleving
-- Vintage moet vaak gedecanteerd worden
-- Tawny en Colheita blijven langer houdbaar
-- Service maakt groot kwaliteitsverschil
-',
-    '### Opdracht
-
-Maak thuis een serviceplan voor 4 Portstijlen:
-
-- White
 - Ruby
 - Tawny
 - Vintage
+- service
+',
+    'Sommige Colheita''s worden pas na tientallen jaren houtlagering gebotteld en dragen zowel oogstjaar als botteljaar op het etiket — een dubbele tijdsaanduiding die nergens anders in de Portwereld zo consequent wordt toegepast.
+',
+    '- Colheita = Tawny uit één oogstjaar (single harvest)
+- Minimaal zeven jaar houtlagering; oxidatie en notige complexiteit
+- Oogstjaar én botteljaar op het etiket
+- Brug tussen Vintage (flesrijping) en gewone Tawny (blend)
+- Licht gekoeld serveren; lang houdbaar na opening',
+    '### Opdracht
 
-Noteer:
+Zoek een Colheita op (wijnwinkel, kelder of online) en noteer:
 
-- temperatuur
-- glas
-- decanteren ja/nee
-- bewaartermijn
+- oogstjaar
+- botteljaar
+- vermelde houtlagering (indien aanwezig)
+- producent en regio
 
----
+Vergelijk het etiket met een gewone Tawny en een Vintage uit dezelfde producent of prijsklasse. Wat valt op in terminologie en verwachting?
 
 ### Checklist
 
-- Ik ken alle serveertemperaturen
-- Ik weet welke stijlen decanteren vereisen
-- Ik begrijp bewaartermijnen
-- Ik herken servicefouten
+- Ik begrijp het verschil met een gewone Tawny-blend
+- Ik begrijp het verschil met Vintage Port
+- Ik herken oogstjaar en botteljaar op een Colheita-etiket
+- Ik kan uitleggen waarom Colheita oxidatief rijpt
 
----
 
 ### Reflectievraag
 
-Welke servicefout zie jij het vaakst in restaurants of thuis?
-',
-    12,
+Een Tawny smaakt log en plakkerig aan tafel: is de fles te warm, te oud of verkeerd gekozen — en welke temperatuurcorrigeer je als eerste?',
+    10,
     1
   ),
   (
-    'port-en-kaas',
-    'Port & Kaas',
-    'Na deze les kun jij:
-
-- uitleggen waarom Port en kaas zo goed samengaan
-- de juiste Portstijl koppelen aan verschillende kaassoorten
-- balans herkennen tussen zout, vet, zoet en structuur
-- klassieke en moderne Port-kaas pairings adviseren
+    'glaswerk',
+    'Glaswerk',
+    'Na deze les kun jij glaswerk kiezen dat aroma en alcohol in balans houdt.
 ',
-    'Port en kaas zijn één van de meest klassieke combinaties in de wijnwereld.
+    'Het juiste glas verandert hoe Port wordt ervaren.
 
-Waarom?
+Te groot?
 
-Omdat Port veel eigenschappen heeft die goed aansluiten op kaas:
+Alcohol vervliegt te snel.
 
-- zoetheid
+Te klein?
+
+Aroma krijgt geen ruimte.
+
+Port vraagt focus.
+
+Niet volume.
+
+Ruby en LBV werken goed in kleinere tulip-glazen.
+
+Dat concentreert fruit.
+
+Tawny profiteert van iets meer opening.
+
+Dat laat oxidatieve lagen ademen.
+
+Vintage vraagt vaak klassiek proefglasformaat:
+
+smal genoeg voor focus, breed genoeg voor ontwikkeling.
+
+De kernvraag:
+
+Waarom gebruik je geen groot Bordeaux-glas?
+
+Omdat Port intensiteit heeft.
+
+Je hoeft niets te forceren.
+
+Je moet sturen.
+
+
+## Food pairing
+
+### Beste pairing
+
+LBV met blauwe kaas.
+
+### Waarom dit werkt
+
+Geconcentreerd aroma in een klein glas versterkt zout-zoet perceptie bij kaas zonder dat alcohol de neus overneemt — glaswerk ondersteunt structuurmatch.
+
+## Pro insight
+
+Klein glas temt alcohol bij 20% abv. Te groot glas maakt Port branderig — gasten associëren dat ten onrechte met kwaliteit.',
+    '- glaswerk
+- tulpvorm
+- aroma
 - alcohol
 - concentratie
-- zuur
-- textuur
-
-Kaas heeft vaak:
-
-- zout
-- vet
-- umami
-- romigheid
-
-Deze elementen kunnen elkaar versterken.
-
-Maar alleen als de pairing klopt.
 ',
-    '- pairing
-- zout
-- vet
-- Stilton
-- Gouda
-- intensiteit
-
-# PORT_035.md',
-    'De Britse traditie van Stilton en Vintage Port bestaat al meer dan 200 jaar.
+    'Sommige Garrafeira Ports rijpen meer dan veertig jaar in glazen demijohns voordat ze worden gebotteld — een productieproces dat geen enkele andere versterkte wijnstijl ter wereld repliceert.
 ',
-    '- Port en kaas zijn klassiek
-- Zout en zoet werken sterk samen
-- Intensiteit moet kloppen
-- Vintage + Stilton is de klassieker
-- Tawny en oude kazen zijn vaak briljant
-',
+    '- Garrafeira: zeldzame stijl met hout- én glasrijping
+- Start als Ruby uit één jaar; daarna jaren in demijohns
+- Niet volledig oxidatief, niet volledig reductief
+- Niepoort is de historische referentieproducent
+- Complex, zacht en elegant — bij oude kaas of pure chocolade',
     '### Opdracht
 
-Maak thuis een mini pairing-flight:
+Zoek informatie over een Garrafeira Port (bij voorkeur Niepoort) en vergelijk het rijpingsproces met Vintage en Colheita. Maak een tabel met drie kolommen:
 
-- White Port + Manchego
-- Ruby + blauwe kaas
-- Tawny + oude Gouda
-
-Noteer:
-
-- balans
-- contrast
-- favoriet
-
----
+- rijping op hout (duur en doel)
+- rijping op glas of fles (duur en doel)
+- verwacht smaakprofiel
 
 ### Checklist
 
-- Ik begrijp zout + zoet
-- Ik herken intensiteitsbalans
-- Ik heb minimaal 2 pairings getest
+- Ik begrijp het glasrijpingsproces in demijohns
+- Ik kan Garrafeira onderscheiden van Vintage en Colheita
+- Ik ken de rol van Niepoort in deze stijl
+- Ik weet waarom glas een ander rijpingspad geeft dan hout
 
----
 
 ### Reflectievraag
 
-Welke kaas verraste jou het meest met Port?
-',
-    12,
+Waarom schenk je Port in een kleiner glas dan Bordeaux — en wanneer zou je toch bewust iets meer volume geven aan Vintage?',
+    8,
     2
   ),
   (
-    'port-en-desserts',
-    'Port & Desserts',
-    'Na deze les kun jij:
-
-- Port combineren met desserts op hoog niveau
-- het juiste type Port koppelen aan verschillende dessertstijlen
-- balans herkennen tussen zoetheid, zuur, bitterheid en textuur
-- klassieke fouten in dessertpairing voorkomen
+    'decanteren',
+    'Decanteren',
+    'Na deze les kun jij bepalen wanneer decanteren nodig is en hoe je het uitvoert.
 ',
-    'Port en desserts lijken vanzelfsprekend.
+    'Decanteren is geen ritueel.
 
-Zoet bij zoet.
+Het is techniek.
 
-Maar zo simpel is het niet.
+Bij Port heeft het twee functies:
 
-Bij dessertpairing geldt een belangrijke regel:
+bezinksel scheiden en zuurstof geven.
 
-**De wijn moet minstens even zoet zijn als het dessert.**
+Vintage en Crusted vragen bijna altijd decanteren.
 
-Waarom?
+Door ongefilterde botteling vormen ze sediment.
 
-Als het dessert zoeter is dan de Port:
+Dat wil je niet in het glas.
 
-- lijkt de Port zuur
-- verliest hij fruit
-- voelt alcohol harder aan
+Tawny meestal niet.
 
-Port werkt goed door:
+Daar is de wijn al ontwikkeld en helder.
 
-- restsuiker
-- alcohol
-- concentratie
-- aromatische intensiteit
+Belangrijke vraag:
 
-Maar de juiste stijl is cruciaal.
+Waarom decanteer je Vintage wel, maar oude Tawny meestal niet?
+
+Omdat Vintage nog opent.
+
+Tawny is al open.
+
+Te veel zuurstof kan oude Tawny juist breken.
+
+Dat is een essentieel serviceverschil.
+
+
+## Food pairing
+
+### Beste pairing
+
+Vintage met Stilton.
+
+### Waarom dit werkt
+
+Decanteren verwijdert depot dat bitterheid zou toevoegen naast zoute kaas; heldere structuur laat zoetheid en zout correct interacteren.
+
+## Pro insight
+
+Decanteer niet uit traditie maar uit depot en textuur. Tawny en Colheita zijn al oxidatief stabiel — onnodig decanteren verliest aromatische finesse.',
+    '- decanteren
+- depot
+- Vintage
+- lucht
+- textuur
 ',
-    '- dessertpairing
-- zoetheidsbalans
-- flavor bridging
-- intensiteit
-- chocolade
-- karamel
-
-# PORT_036.md',
-    'Veel topchefs bouwen desserts rondom Tawny Port in plaats van andersom.
+    'Veel toprestaurants serveren 20 Years Tawny bewust rond 11–12°C om extra spanning en precisie te creëren — een graden verschil dat amateur- en professionele service scheidt.
 ',
-    '- Wijn moet even zoet of zoeter zijn
-- Match intensiteit
-- Gebruik smaakspiegeling
-- Ruby en chocolade zijn klassiek
-- Tawny werkt briljant met karamel en noten
-',
+    '- Temperatuur per stijl: White/Rosé 8–10°C, Tawny 12–14°C, Ruby/LBV 14–16°C, Vintage 16–18°C
+- Portglas: klein, tulpvorm, minder alcoholimpact
+- Decanteren bij Vintage, Crusted en ongefilterde LBV; niet bij Tawny of White
+- Houdbaarheid na opening: Vintage dagen, Tawny/Colheita weken tot maanden',
     '### Opdracht
 
-Maak thuis 3 pairings:
+Maak een serviceplan voor vier Portstijlen (White, Ruby, Tawny, Vintage). Noteer per stijl:
 
-- Ruby + chocolade
-- Tawny + caramel dessert
-- White + citroendessert
-
-Beoordeel:
-
-- balans
-- intensiteit
-- contrast
-- favoriet
-
----
+- serveertemperatuur
+- glastype
+- decanteren (ja/nee + motivatie)
+- bewaartermijn na opening
+- één logische food pairing
 
 ### Checklist
 
-- Ik ken de zoetheidsregel
-- Ik begrijp flavor bridging
-- Ik heb meerdere pairings getest
+- Ik ken de temperatuurrange per hoofdgroep
+- Ik weet welke stijlen decanteren vereisen
+- Ik begrijp waarom Portglas kleiner is dan roodwijnglas
+- Ik kan houdbaarheid na opening inschatten
 
----
 
 ### Reflectievraag
 
-Welke dessertstijl lijkt jou het lastigst om goed te pairen met Port?
-',
-    12,
+Je twijfelt of decanteren nodig is: welke drie signalen aan fles, leeftijd of stijl beslissen voor jou — zonder het etiket te raadplegen?',
+    8,
     3
   ),
   (
-    'port-in-gastronomie',
-    'Port in Gastronomie',
-    'Na deze les kun jij:
-
-- Port strategisch inzetten in de gastronomie
-- begrijpen wanneer Port als pairing werkt en wanneer als ingrediënt
-- Port gebruiken in sauzen, reducties en desserts
-- adviseren welke Portstijl past bij verschillende gerechten
+    'bewaren-na-openen',
+    'Bewaren na openen',
+    'Na deze les kun jij houdbaarheid na opening inschatten per stijl.
 ',
-    'Port is niet alleen een drank.
+    'Niet elke Port leeft even lang na openen.
 
-In gastronomie is Port een instrument.
+Dat is essentieel in service.
 
-Toprestaurants gebruiken Port op drie manieren:
+Ruby en LBV blijven vaak enkele weken goed.
 
-1. **Als pairing**
-2. **Als ingrediënt**
-3. **Als smaakversterker**
+Door hun fruitgedreven profiel.
 
-Port is krachtig.
+Tawny kan vaak langer open blijven.
 
-Door zijn:
+Oxidatie is al onderdeel van de stijl.
 
-- suiker
-- alcohol
-- concentratie
-- zuur
-- aromatische diepte
+Vintage is kwetsbaarder.
 
-kan het veel meer dan gewone wijn.
+Na openen verandert hij sneller.
+
+Vaak binnen enkele dagen tot een week optimaal.
+
+De kernvraag:
+
+Waarom blijft Tawny langer stabiel dan Vintage?
+
+Omdat oxidatie daar al geïntegreerd is.
+
+Vintage verliest juist spanning.
+
+Dat maakt bewaarkennis praktisch waardevol.
+
+Voor thuis én horeca.
+
+
+## Food pairing
+
+### Beste pairing
+
+Tawny per glas bij desserts.
+
+### Waarom dit werkt
+
+Oxidatief stabiele Tawny blijft weken drinkbaar na opening bij kaasplank; Vintage vraagt kortere service — houdbaarheid bepaalt pairingplanning.
+
+## Pro insight
+
+Geopende Vintage niet weken laten staan; Tawny wel. Communiceer dat bij verkoop van dure flessen — voorkomt klachten en voedt herhaalaankoop.',
+    '- houdbaarheid
+- oxidatie
+- opening
+- koel bewaren
+- stijl
 ',
-    '- gastronomie
-- reductie
-- pairing
-- saus
-- smaakversterking
-- menu-opbouw
-
-# PORT_037.md',
-    'Portreductie is één van de meest gebruikte luxe sauzen in klassieke Franse keuken.
+    'De Britse traditie van Stilton met Vintage Port bestaat al meer dan tweehonderd jaar en werd populair toen Engelse handelshuizen zowel Port als blauwe kaas importeerden en aan tafel combineerden.
 ',
-    '- Port is breder inzetbaar dan dessertwijn
-- Kan pairing én ingrediënt zijn
-- Ruby en LBV zijn sterk in sauzen
-- Tawny blinkt uit in desserts
-- White Port is sterker in lichte keuken
-',
+    '- Port en kaas: zout + zoet, vet + alcohol, intensiteitsmatch
+- Klassieker: Vintage + Stilton; Tawny + oude Gouda
+- Manchego + White Port en Brie + Rosé als moderne alternatieven
+- Kaas op kamertemperatuur; Port in klein glas op juiste temperatuur',
     '### Opdracht
 
-Ontwerp een 4-gangen menu met Port:
+Maak thuis een mini pairing-flight met drie combinaties:
 
-- aperitief
-- gerecht
-- kaas
-- dessert
+- White Port + Manchego
+- Ruby of LBV + blauwe kaas
+- Tawny (10 of 20 Years) + oude Gouda
 
-Kies bij elke gang een stijl en motiveer.
-
----
+Noteer per combinatie: balans, contrast, intensiteitsmatch en favoriet.
 
 ### Checklist
 
-- Ik begrijp Port als pairing
-- Ik begrijp Port als ingrediënt
-- Ik kan stijlen koppelen aan gerechten
+- Ik begrijp het principe zout + zoet
+- Ik herken intensiteitsbalans tussen kaas en Port
+- Ik heb minimaal twee pairings fysiek getest
+- Ik serveerde kaas op kamertemperatuur
 
----
 
 ### Reflectievraag
 
-Waar zie jij de grootste kans voor Port buiten dessert?
-',
-    12,
+Hoe lang laat jij een geopende Vintage staan versus een Tawny — en welke oxidatieve logica leg je daaraan ten grondslag?',
+    8,
     4
+  ),
+  (
+    'wanneer-welke-port',
+    'Wanneer serveer je welke Port?',
+    'Na deze les kun jij per moment de meest logische Portstijl adviseren.
+',
+    'Port is context.
+
+Niet categorie.
+
+White Port werkt als aperitief.
+
+Ruby werkt bij chocolade en informele momenten.
+
+LBV is breed inzetbaar.
+
+Vintage is ceremonieel.
+
+Tawny past perfect na diner of bij desserts.
+
+Dat maakt service geen productkennis.
+
+Maar timing.
+
+De vraag is nooit:
+
+Welke Port is goed?
+
+Maar:
+
+Welke Port past nu?
+
+Dat is het verschil tussen schenken en adviseren.
+
+En dat is precies waar premium service ontstaat.
+
+
+## Food pairing
+
+### Beste pairing
+
+White → olijven 
+Ruby → chocolade 
+Tawny → notendessert 
+Vintage → Stilton
+
+### Waarom dit werkt
+
+Aperitief vraagt frisheid (White/Rosé), digestief oxidatie (Tawny) en kaas structuur (Vintage/LBV) — moment bepaalt welke smaakcomponent (zuur, zoet, tannine) leidt.
+
+## Pro insight
+
+Moment bepaalt stijl, niet favoriet of voorraad. Eén gerichte vraag over aperitief, kaas of digestief bespaart tien minuten uitleg.',
+    '- moment
+- aperitief
+- digestief
+- stijlkeuze
+- advies
+
+---
+### Module 8 — Food Pairing & Gastronomie
+
+**Level:** Master
+**Framework pillar:** Pairing
+**Module goal:** Koppel Port bewust aan gerechten, momenten en gastprofielen.
+',
+    'Veel topchefs bouwen desserts rondom Tawny Port in plaats van andersom — de wijn wordt het startpunt van het gerecht, niet de bijzaak na de maaltijd.
+',
+    '- Gouden regel: wijn even zoet of zoeter dan het dessert
+- Ruby + pure chocolade; Tawny + karamel/noten; White + citrus
+- Flavor bridging: overlappende smaakfamilies versterken de pairing
+- Vermijd mint, extreme zuur en zoet-op-zoet zonder balans',
+    '### Opdracht
+
+Maak thuis drie dessertpairings:
+
+- Ruby + pure chocolade (min. 70% cacao)
+- Tawny + karamel- of vanilledessert
+- White + citroendessert of taart
+
+Beoordeel per combinatie: zoetheidsbalans, intensiteit, contrast en favoriet.
+
+### Checklist
+
+- Ik ken de zoetheidsregel en heb die toegepast
+- Ik begrijp flavor bridging met een concreet voorbeeld
+- Ik heb minimaal twee pairings fysiek getest
+- Ik kan uitleggen waarom mint lastig is
+
+
+### Reflectievraag
+
+Een gast bestelt koffie en wil ''iets zoets'': welke Port stel jij voor vóór digestief — en welke vraag stel je om niet automatisch Tawny te pushen?',
+    10,
+    5
   )
 ) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
 
--- examen-port (4 lessons)
+-- pairing-port (5 lessons)
+with m as (
+  select m.id from academy.modules m
+  join academy.tracks t on t.id = m.track_id
+  where t.slug = 'port' and m.slug = 'pairing-port'
+)
+insert into academy.lessons (
+  module_id, slug, title, learning_objective, theory_markdown,
+  key_concepts_markdown, did_you_know, summary_markdown, practice_assignment_markdown,
+  duration_minutes, sort_order, is_published
+)
+select m.id, v.slug, v.title, v.objective, v.theory, v.key_concepts, v.did_you_know, v.summary, v.practice, v.duration, v.sort_order, true
+from m
+cross join (values
+  (
+    'port-en-kaas',
+    'Port & Kaas',
+    'Na deze les kun jij Port systematisch aan kaas koppelen per stijl.
+',
+    'Port en kaas vormen één van de sterkste gastronomische allianties in de wijnwereld. De combinatie werkt omdat tegengestelde elementen elkaar versterken: zout in kaas maakt zoetheid in Port aantrekkelijker, vet wordt doorgesneden door alcohol, en umami in rijpe kazen vindt een tegenhanger in de concentratie van Port.
+
+Drie principes sturen elke succesvolle pairing. Eerst: zout plus zoet — blauwe kaas en Port zijn het schoolvoorbeeld. Tweede: vet plus alcohol — alcohol maakt de mond frisser na een romige hap. Derde: intensiteit moet kloppen — lichte kaas met zware Port of omgekeerd laat één van beide verdwijnen.
+
+De klassieker is Stilton met Vintage Port: zout, romigheid en kracht tegen fruit, tannine en lengte. Aged Gouda met 20 Years Tawny spiegelt kristallen, zout en karamel in de kaas met noten en oxidatie in de wijn. Manchego met White Port is ondergewaardeerd: frisheid en amandel tegen zout en nootachtige vet. LBV werkt vaak beter dan Vintage bij blauwe kaas voor wie toegankelijkheid zoekt. Serveer kaas altijd op kamertemperatuur — koude kaas maakt pairing vlak.
+
+
+## Food pairing
+
+### Beste pairing
+
+Vintage + Stilton; Tawny 20 Years + oude Gouda; White Port + Manchego.
+
+### Waarom dit werkt
+
+Zout versterkt zoetheidsperceptie; vet in kaas wordt doorgesneden door alcohol; tannine in Vintage/Ruby balanceert romigheid in blauwschimmel.
+
+### Vermijd
+
+Lichte White Port bij krachtige Roquefort, of zoete Ruby bij milde Brie — de intensiteit klopt dan niet.
+
+## Pro insight
+
+Kaas eerst proeven, dan Port — niet omgekeerd. Die volgorde maakt zout-zoet balans zichtbaar en versterkt upsell naar tweede glas.',
+    '- kaas
+- zout
+- zoetheid
+- vet
+- intensiteitsmatch
+',
+    'De Britse traditie van Stilton met Vintage Port bestaat al meer dan tweehonderd jaar en werd populair toen Engelse handelshuizen zowel Port als blauwe kaas importeerden en aan tafel combineerden.
+',
+    '- Port en kaas: zout + zoet, vet + alcohol, intensiteitsmatch
+- Klassieker: Vintage + Stilton; Tawny + oude Gouda
+- Manchego + White Port en Brie + Rosé als moderne alternatieven
+- Kaas op kamertemperatuur; Port in klein glas op juiste temperatuur
+- Intensiteit van kaas en Port moet gelijk oplopen
+',
+    '### Opdracht
+
+Maak thuis een mini pairing-flight met drie combinaties:
+
+- White Port + Manchego
+- Ruby of LBV + blauwe kaas
+- Tawny (10 of 20 Years) + oude Gouda
+
+Noteer per combinatie: balans, contrast, intensiteitsmatch en favoriet.
+
+### Checklist
+
+- Ik begrijp het principe zout + zoet
+- Ik herken intensiteitsbalans tussen kaas en Port
+- Ik heb minimaal twee pairings fysiek getest
+- Ik serveerde kaas op kamertemperatuur
+
+
+### Reflectievraag
+
+Bij blauwe kaas: kies jij LBV of Vintage — en welk argument over zout, zoet en tannine gebruik je om de gast te overtuigen?',
+    10,
+    1
+  ),
+  (
+    'port-en-chocolade',
+    'Port & Chocolade',
+    'Na deze les kun jij Port aan chocolade koppelen op structuur en intensiteit, niet alleen op zoetheid.
+',
+    'Port en chocolade zijn een klassieke combinatie — maar alleen wanneer je op structuur matcht, niet op zoetheid alleen. Pure chocolade (70% cacao of meer) vraagt fruit, bitters en tannine om de cacao-bitterheid te dragen; daar blinken Ruby en LBV uit met zwart fruit en lengte. Melkchocolade vraagt zachtere integratie: vet en lactose temperen bitterheid, en een Tawny met karamel en noten sluit daar eleganter op aan.
+
+De veelgemaakte fout is te oude Tawny bij pure chocolade: dubbele oxidatie en dubbele bitterheid kunnen hard botsen in plaats van harmonieus te bouwen. Match eerst intensiteit en textuur — dan pas suiker. Een romige ganache vraagt andere Port dan een krokante tablet; flavor bridging werkt wanneer cacao-tonen in Ruby de bitterheid in pure chocolade spiegelen, of wanneer karamel in Tawny melkchocolade versterkt.
+
+Hoe donkerder de chocolade, hoe meer structuur je nodig hebt — niet automatisch meer zoetheid. Bij een chocoladeflight: begin met melkchocolade en Ruby, eindig met pure cacao en LBV of jonge Vintage.
+
+
+## Food pairing
+
+### Beste pairing
+
+Ruby Reserve of LBV met pure chocolade (minimaal 70% cacao).
+
+### Waarom dit werkt
+
+Zwart fruit en tannine in Ruby dragen cacao-bitterheid en vet in pure chocolade; structuur houdt de wijn levendig terwijl bitter en zoet in balans blijven.
+
+### Vermijd
+
+40 Years Tawny bij pure bittere chocolade — oxidatie en cacao-bitter kunnen elkaar versterken tot een harde, eenzijdige indruk.
+
+## Pro insight
+
+Donkerder chocolade vraagt meer structuur, niet meer zoetheid. Bij twijfel wint Ruby Reserve boven oude Tawny bij pure cacao — voorkomt bitter-op-bitter.',
+    '- chocolade
+- bitter
+- structuur
+- Ruby
+- intensiteit
+',
+    'Premium-chocolatiers filteren bij Portpairings eerst op cacao-percentage — niet op suikergehalte — omdat bitterheid en vet de Portkeuze sturen.
+',
+    '- Pure chocolade vraagt Ruby of LBV: fruit, bitters en structuur
+- Melkchocolade past vaker bij Tawny: zachtere oxidatieve integratie
+- Match op intensiteit en textuur vóór zoetheid
+- Te oude Tawny bij pure cacao kan hard botsen
+- Donkerder chocolade = meer structuur, niet per se zoeter Port
+',
+    '### Opdracht
+
+Maak thuis twee pairings en noteer je bevindingen:
+
+- Ruby of LBV met pure chocolade (min. 70% cacao)
+- Tawny 10 of 20 Years met melkchocolade of karamelpraline
+
+Beoordeel per combinatie: zoetheidsbalans, intensiteit, textuur en favoriet.
+
+### Checklist
+
+- Ik heb structuur vóór zoetheid als criterium gebruikt
+- Ik kan uitleggen waarom pure cacao Ruby/LBV vraagt
+- Ik heb minimaal één pairing fysiek getest
+- Ik kan de Tawny-fout bij pure chocolade benoemen
+
+
+### Reflectievraag
+
+Pure chocolade 85%: waarom is Ruby/LBV hier sterker dan oude Tawny — en hoe leg je bitterheid en structuur uit zonder over zoetheid te praten?',
+    10,
+    2
+  ),
+  (
+    'port-en-notendesserts',
+    'Port & Notendesserts',
+    'Na deze les kun jij Tawny en notendesserts in balans brengen via oxidatieve spiegeling.
+',
+    'Notendesserts en Tawny Port spreken dezelfde oxidatieve taal: walnoot, hazelnoot, karamel en toffee zitten vaak al in de wijn vóór ze op het bord staan. Dat maakt spiegeling — flavor bridging via overlappende aroma-families — tot het sterkste principe bij deze pairing.
+
+Ruby werkt hier meestal minder goed: primair fruit en tannine missen de notige aansluiting die geroosterde noten en boter in het dessert vragen. Een 10 of 20 Years Tawny brengt precies die gelaagdheid: oxidatie, zachtheid en karamelachtige diepte die pecantaart, hazelnootschuim of amandelkrokant versterken in plaats van overstemmen.
+
+Textuur telt mee: krokant notenkorstje vraagt andere balans dan romige notenmousse. Serveer Tawny licht gekoeld (12–14°C) zodat zoetheid niet plakkerig wordt naast rijke desserts. De zoetheidsregel blijft gelden: de Port moet minstens even zoet aanvoelen als het dessert.
+
+
+## Food pairing
+
+### Beste pairing
+
+20 Years Tawny met pecannotentaart of hazelnootkrokant.
+
+### Waarom dit werkt
+
+Geroosterde noten in dessert en oxidatieve noten in Tawny delen aroma-families; textuur in taart en mondgevoel in de wijn versterken elkaar zonder zuurconflict.
+
+### Vermijd
+
+Jonge Ruby bij pure notentaart — fruit en tannine domineren waar oxidatie en karamel de brug moeten slaan.
+
+## Pro insight
+
+Tawny bij noten is de veiligste dessertpairing in hospitality: oxidatieve spiegeling, weinig risico — ideaal als standaard dessertaanbeveling.',
+    '- noten
+- Tawny
+- oxidatie
+- aroma-spiegeling
+- textuur
+',
+    'Veel topchefs bouwen notendesserts rondom Tawny Port in plaats van andersom — de wijn wordt het startpunt van het gerecht, niet de bijzaak na de maaltijd.
+',
+    '- Notendesserts vragen Tawny: oxidatieve aroma-spiegeling
+- Walnoot, karamel en toffee in wijn en dessert versterken elkaar
+- Ruby mist vaak de oxidatieve aansluiting bij noten
+- Textuur en zoetheidsbalans bepalen de finale harmonie
+- Lichte koeling houdt Tawny fris naast rijke desserts
+',
+    '### Opdracht
+
+Proef Tawny 10 of 20 Years naast een notendessert (pecantaart, nougatine of hazelnootijs). Noteer:
+
+- welke aroma''s spiegelen tussen wijn en dessert
+- of de zoetheidsbalans klopt
+- of textuur (krokant vs. romig) de pairing beïnvloedt
+
+### Checklist
+
+- Ik kan oxidatieve spiegeling uitleggen
+- Ik heb Tawny gekozen boven Ruby met motivatie
+- Ik heb zoetheidsbalans beoordeeld
+- Ik kan een alternatief notendessert benoemen
+
+
+### Reflectievraag
+
+Waarom werkt aroma-spiegeling bij notendesserts beter dan contrast — en wanneer zou jij toch bewust Ruby inzetten?',
+    8,
+    3
+  ),
+  (
+    'port-en-vlees',
+    'Port & Vlees',
+    'Na deze les kun jij Port in vleesgerechten positioneren op reductie en umami.
+',
+    'Port bij vlees is niche, maar wanneer de match klopt, is hij uitzonderlijk overtuigend. Het verschil met droge rode wijn is restsuiker: Port is niet breed inzetbaar bij elke biefstuk, maar gericht bij wild, eend en rijke sauzen waar fruit, tannine en concentratie eiwit en umami dragen.
+
+Vintage Port past bij hert, wildzwijn en krachtige wildgerechten: stevige tannine, diepte en lengte tegen gamey tonen en vet. Ruby en LBV werken bij eend, rijke roderechten en sauzen met fruitcomponent — de zoetheid moet dan bewust gebalanceerd zijn door zout, bitter of umami in het gerecht. Tawny is zelden de eerste keuze bij vlees: te weinig grip en te veel oxidatieve finesse voor eiwitrijke hoofdgerechten.
+
+In de keuken blinkt Port vooral als reductie: Ruby of LBV reduceert tot fruitige, krachtige saus bij wild of eend — suiker karamelliseert, alcohol verdampt, concentratie blijft. Gebruik Port bij vlees als sauscomponent of finale pairing, niet als standaard tafelwijn naast een biefstuk.
+
+
+## Food pairing
+
+### Beste pairing
+
+Vintage Port met hert of wildzwijn; LBV-reductie bij eendenborst.
+
+### Waarom dit werkt
+
+Tannine en concentratie in Vintage dragen gamey eiwit; reductie met Ruby/LBV karamelliseert suiker en versterkt umami in de saus.
+
+### Vermijd
+
+Tawny als standaard tafelwijn bij biefstuk — te weinig structuur en te veel oxidatieve zachtheid voor neutraal rood vlees.
+
+## Pro insight
+
+Port bij vlees is niche: verkoop het als reductie of wildpairing, niet als tafelwijn naast biefstuk — restsuiker verstoort dan de balans.',
+    '- wild
+- reductie
+- tannine
+- Vintage
+- umami
+',
+    'Portreductie is één van de meest gebruikte luxe sauzen in klassieke Franse keuken — een traditie die teruggaat tot de negentiende eeuw toen Britse Port in continentale keukens populair werd.
+',
+    '- Port bij vlees: niche, maar sterk bij wild, eend en rijke sauzen
+- Vintage voor game; Ruby/LBV voor eend en fruitige sauzen
+- Restsuiker beperkt brede inzet bij standaard rood vlees
+- Portreductie met Ruby/LBV is de klassieke keukentoepassing
+- Tawny zelden eerste keuze bij eiwitrijke hoofdgerechten
+',
+    '### Opdracht
+
+Bedenk twee vleesgerechten waarbij Port logisch past:
+
+- één als reductie (welke stijl en waarom)
+- één als glas pairing (welk vlees en welke Port)
+
+Motivere per keuze op structuur, umami en zoetheidsbalans.
+
+### Checklist
+
+- Ik kan uitleggen waarom Port niet breed bij rood vlees past
+- Ik kies Vintage of Ruby/LBV met onderbouwing
+- Ik begrijp Port als reductie-ingrediënt
+- Ik kan Tawny bij vlees bewust afwijzen
+
+
+### Reflectievraag
+
+Waarom is Port geen vervanger van droge rode wijn bij biefstuk — en bij welk gerecht zou jij wél Vintage naast het bord zetten?',
+    10,
+    4
+  ),
+  (
+    'port-in-gastronomie',
+    'Port in gastronomie',
+    'Na deze les kun jij Port als gastronomisch ingrediënt inzetten.
+',
+    'In professionele gastronomie is Port geen alleen digestief: het is een instrument voor pairing, reductie en smaakversterking op meerdere momenten in een menu. Door suiker, alcohol, concentratie en aromatische diepte kan Port meer dan gewone wijn — als aperitief, bij tussengerecht, in de hoofdgang, bij kaas en in desserts.
+
+Als aperitief blinken White Port, White Port & Tonic en Rosé Port uit. Bij hoofdgerecht is Port minder gebruikelijk maar krachtig: wild met LBV, eend met Ruby, hert met Vintage — rijke eiwitten dragen de alcohol. Als ingrediënt is Port vooral waardevol in reducties: Ruby of LBV reduceert tot fruitige saus; Tawny in desserts geeft notigheid; White Port in lichte marinades is subtieler.
+
+Veelgemaakte fouten: te zoete Port in hartige saus, Vintage koken, White bij zware pure chocolade, Tawny bij zeer zure desserts. Gebruik de stijl bewust: Ruby voor fruitcomponent, Tawny voor oxidatieve diepte, White voor aromatische lift.
+
+
+## Food pairing
+
+### Beste pairing
+
+Portreductie met wild of eend; Tawny in karameldessert.
+
+### Waarom dit werkt
+
+Gereduceerde Port concentreert suiker en fruit tot sausdiepte; umami in wild wordt versterkt zonder dat restsuiker het gerecht zoet maakt.
+
+### Vermijd
+
+Vintage in de pan — te kostbaar en te complex voor keukengebruik.
+
+## Pro insight
+
+Houd kook-Port apart van drinkvoorraad. Eén fles Ruby/LBV voor de keuken voorkomt dat je per ongeluk Vintage in de pan gooit.',
+    '- gastronomie
+- reductie
+- smaakversterker
+- Ruby
+- Tawny
+
+---
+### Module 9 — Integratie & Mastery
+
+**Level:** Master
+**Framework pillar:** Integratie & Mastery
+**Module goal:** Integreer kennis in kaartlezen, blindproeven, advies en eindbeoordeling.
+',
+    'Portreductie is één van de meest gebruikte luxe sauzen in klassieke Franse keuken — een traditie die teruggaat tot de negentiende eeuw toen Britse Port in continentale keukens populair werd.
+',
+    '- Port als aperitief (White/Rosé), pairing (kaas, wild) én ingrediënt (reductie)
+- Ruby/LBV voor hartige sauzen; Tawny voor desserts; White voor lichte keuken
+- Nooit Vintage koken; wel kook-Port apart houden
+- Umami-versterker in kleine dosering bij paddenstoelen en wild
+- Stijlkeuze volgt functie in het gerecht, niet gewoonte
+',
+    '### Opdracht
+
+Ontwerp een viergangenmenu met Port op elk moment:
+
+- aperitief (White of Rosé)
+- gerecht (Ruby/LBV — pairing of reductie)
+- kaas (Vintage of Tawny)
+- dessert (Tawny of Ruby)
+
+Motivere per gang: stijl, temperatuur en pairing-principe.
+
+### Checklist
+
+- Ik begrijp Port als pairing én als ingrediënt
+- Ik kan per stijl een gerecht koppelen
+- Ik weet waarom Vintage zelden in de keuken hoort
+- Ik heb minimaal één reductie of pairing bedacht met concrete stijl
+
+
+### Reflectievraag
+
+Waar zie jij de grootste kans voor Port buiten het dessert: aperitief, reductie of kaas — en welke stijl zet je daar het eerst op de kaart?',
+    10,
+    5
+  )
+) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
+
+-- examen-port (5 lessons)
 with m as (
   select m.id from academy.modules m
   join academy.tracks t on t.id = m.track_id
@@ -3717,240 +2742,443 @@ select m.id, v.slug, v.title, v.objective, v.theory, v.key_concepts, v.did_you_k
 from m
 cross join (values
   (
-    'blindproeven-ruby-vs-tawny',
-    'Blindproeven: Ruby vs Tawny',
-    'Na deze les kun jij:
-
-- blind het verschil herkennen tussen Ruby en Tawny Port
-- kleur, aroma en structuur analyseren zonder etiket
-- primaire en oxidatieve kenmerken onderscheiden
-- systematisch blindproeven toepassen
+    'portkaart-lezen',
+    'Portkaart lezen',
+    'Na deze les kun jij een Portkaart lezen op inzetbaarheid, niet alleen prijs.
 ',
-    'Blindproeven is de ultieme test.
+    'Een Portkaart lezen is meer dan labels herkennen.
 
-Niet weten wat in het glas zit.
+Je leest structuur, stijl, leeftijd en inzetbaarheid.
 
-Alleen vertrouwen op:
+Ruby, Tawny, LBV, Vintage, Colheita.
 
-- kijken
-- ruiken
-- proeven
-- analyseren
+Dat zijn geen losse categorieën.
 
-Bij Port is Ruby vs Tawny de belangrijkste eerste blindtest.
+Dat zijn servicebeslissingen.
 
-Waarom?
+Een goede Portkaart vertelt:
 
-Omdat ze fundamenteel anders rijpen.
+wat is direct drinkbaar?
+
+wat vraagt decanteren?
+
+wat is gastronomisch breed?
+
+wat is exclusief?
+
+Professionals kijken niet eerst naar prijs.
+
+Maar naar inzet.
+
+De kernvraag:
+
+Welke fles lost welk gastmoment op?
+
+Dat is de echte functie van een Portkaart.
+
+Niet verkoop.
+
+Maar navigatie.
+
+
+## Food pairing
+
+### Beste pairing
+
+Koppel per stijl:
+
+Ruby → chocolade 
+Tawny → noten 
+LBV → blauwe kaas 
+Vintage → Stilton 
+White → aperitief
+
+### Waarom dit werkt
+
+Ruby bij chocolade via fruit-tannine; Tawny bij noten via oxidatie; LBV bij blauwe kaas via zout-zoet — de kaart groepeert stijlen op inzetbare structuur, niet op prijs.
+
+## Pro insight
+
+Sterke sommeliers kennen niet elke fles maar wel elke categorie-inzet. Groepeer de kaart op moment, niet op prijs — dat versnelt verkoop.',
+    '- portkaart
+- stijl
+- inzetbaarheid
+- service
+- navigatie
 ',
-    '- blindproeven
-- Ruby
-- Tawny
-- oxidatie
-- primaire aroma’s
-- tertiaire aroma’s
-
-# PORT_038.md',
-    'Veel beginners herkennen Tawny sneller dan Ruby omdat oxidatieve aroma’s uitgesprokener zijn.
-',
-    '- Ruby = fruit + diepe kleur
-- Tawny = oxidatie + noten
-- Kleur is eerste sleutel
-- Aroma bevestigt
-- Structuur helpt beslissen
-',
+    'Sommige grote Portproducenten groeperen hun kaart op inzetbaarheid (aperitief, digestief, decanteerbaar) in plaats van op prijs — dat versnelt servicebeslissingen aan tafel.',
+    '- Een Portkaart lees je op stijl, leeftijd en inzetbaarheid, niet op prijs alleen
+- Ruby, Tawny, LBV, Vintage en Colheita zijn servicebeslissingen, geen losse labels
+- De kernvraag: welke fles lost welk gastmoment op?
+- Groepeer per stijl om navigatie en advies te versnellen
+- Sterke sommeliers kennen categorie-inzet, niet elke individuele fles',
     '### Opdracht
 
-Blind proef 2 glazen:
-
-- 1 Ruby
-- 1 Tawny
-
-Maak volledige analyse.
-
----
+Pas de kennis uit «Portkaart lezen» toe op een fles uit je kelder of een kaart. Noteer je bevindingen in de Way of Tasting-app.
 
 ### Checklist
 
-- Ik analyseerde kleur
-- Ik benoemde aroma’s
-- Ik gaf conclusie met motivatie
+- Ik heb een Portkaart op stijlcategorieën ingedeeld
+- Ik heb per stijl het juiste serveermoment benoemd
+- Ik kan uitleggen wanneer decanteren nodig is
 
----
+
 
 ### Reflectievraag
 
-Wat vond jij moeilijker: kleur of geur interpreteren?
-',
-    15,
+Je hebt tien seconden om een gast door de Portkaart te leiden: welke drie categorieën noem je eerst — en waarom die volgorde?',
+    10,
     1
   ),
   (
-    'blindproeven-vintage-vs-lbv',
-    'Blindproeven: Vintage vs LBV',
-    'Na deze les kun jij:
-
-- blind het verschil herkennen tussen Vintage Port en LBV
-- analyseren op structuur, concentratie en complexiteit
-- filtering en flesrijping meenemen in je beoordeling
-- verklaren waarom deze stijlen vaak dicht bij elkaar liggen
+    'blindproef-examen',
+    'Blindproef examen',
+    'Na deze les kun jij blind systematisch elimineren in plaats van gokken.
 ',
-    'Vintage en LBV zijn de lastigste blindvergelijking binnen Port.
+    'Blindproeven is de ultieme test.
 
-Waarom?
+Niet omdat je alles moet weten.
 
-Omdat beide stijlen:
+Maar omdat je logisch moet denken.
 
-- donker zijn
-- krachtig zijn
-- fruitgedreven zijn
-- vaak uit één oogstjaar komen
+Port geeft duidelijke ankers:
 
-Maar er zijn fundamentele verschillen.
-',
+kleur, fruit, oxidatie, structuur, afdronk.
+
+Maar onder druk vervallen veel proevers in gokken.
+
+Dat is de fout.
+
+Blindproeven is elimineren.
+
+Niet raden.
+
+Ruby of Tawny?
+
+Dan leeftijd.
+
+Dan categorie.
+
+Dan kwaliteit.
+
+De vraag is niet:
+
+Wat is het?
+
+Maar:
+
+Wat kan het níet zijn?
+
+Dat versnelt precisie.
+
+Dat is professionele proeflogica.
+
+
+## Food pairing
+
+### Beste pairing
+
+Niet relevant.
+
+Focus volledig op analyse.
+
+## Pro insight
+
+Elimineer systematisch: kleur → oxidatie → structuur. Gokken op één cue is hoe beginners Ruby en oude Tawny verwarren.',
     '- blindproeven
-- Vintage
-- LBV
-- spanning
-- tannine
-- bewaarpotentieel
-
-# PORT_039.md',
-    'Veel proevers verwarren jonge Vintage met ongefilterde LBV bij eerste analyse.
-',
-    '- Beide zijn krachtig
-- Vintage heeft meer spanning
-- LBV is toegankelijker
-- Structuur is vaak de sleutel
-- Tannines geven veel informatie
-',
-    '### Opdracht
-
-Blind proef:
-
-- 1 Vintage
-- 1 LBV
-
-Analyseer:
-
-- kleur
-- geur
+- eliminatie
 - structuur
-- tannine
-- conclusie
+- logica
+- analyse
+',
+    'Professionele Port-blindpanels trainen vaak eerst op kleur en oxidatieniveau voordat ze stijl benoemen — dat vermindert vergissingen tussen Ruby en jonge Tawny.',
+    '- Blindproeven start met visuele en aromatische hypothese, niet met het etiket
+- Kleur en oxidatie scheiden Ruby van Tawny sneller dan fruit alleen
+- Structuur en zoetheid bevestigen of verwerpen je eerste hypothese
+- Noteer bewijs per stap voordat je een stijl noemt
+- Integratie van Module 1–8 bepaalt de kwaliteit van je eindoordeel',
+    '### Opdracht — Blindproef examen
 
----
+Zet twee tot drie Ports klaar (minimaal Ruby + Tawny; voeg LBV of Vintage toe indien mogelijk). Werk met eliminatielogica:
+
+- Wat kan het NIET zijn?
+- Welke structuur past?
+- Welke stijl blijft over?
+
+Noteer elke stap. Geen etiket tot na conclusie.
 
 ### Checklist
 
-- Ik beoordeelde structuur
-- Ik beoordeelde tannine
-- Ik gaf onderbouwde conclusie
+- Ik heb kleur en oxidatie apart genoteerd
+- Ik heb een onderbouwde stijlhypothese geformuleerd
+- Ik heb mijn conclusie met minstens drie proefankers onderbouwd
 
----
+
 
 ### Reflectievraag
 
-Wat vond je moeilijker: intensiteit of rijpingsniveau herkennen?
-',
+Welke cue gaf je de meeste zekerheid bij blindproeven — en welke observatie leidde bijna tot een verkeerde stijlconclusie?',
     15,
     2
   ),
   (
-    'praktijkexamen-port',
-    'Praktijkexamen Port',
-    'Na deze les kun jij:
-
-- een volledige Portproeverij zelfstandig uitvoeren
-- stijlen herkennen zonder hulp
-- service en pairing correct onderbouwen
-- je theoretische kennis toepassen in praktijk
+    'port-adviseren',
+    'Port adviseren',
+    'Na deze les kun jij Port adviseren vanuit gastcontext en behoefte.
 ',
-    'Dit is je eerste volledige praktijkexamen.
+    'Adviseren is de hoogste vorm van kennis.
 
-Geen nieuwe theorie.
+Want nu draait het niet om jouw smaak.
 
-Vanaf hier draait alles om integratie.
+Maar om die van de gast.
 
-Je combineert:
+De fout van beginners:
 
-- stijlherkenning
-- servicekennis
-- pairingkennis
-- blindproefvaardigheid
-- analyse
+adviseren vanuit voorkeur.
 
-Dit is exact hoe echte sommeliers leren.
+Professionals adviseren vanuit context.
 
-Niet door losse feiten.
+Vraag altijd:
 
-Maar door toepassing.
+wat is het moment?
+
+wat eet je erbij?
+
+hoe ervaren ben je?
+
+wil je fruit of complexiteit?
+
+wil je direct drinken of bewaren?
+
+Daarmee bouw je richting.
+
+Niet vanuit product.
+
+Maar vanuit behoefte.
+
+Dat maakt advies premium.
+
+
+## Food pairing
+
+### Beste pairing
+
+Volledig afhankelijk van gastcontext.
+
+Dat is de les.
+
+## Pro insight
+
+Eén open vraag over moment en ervaring levert betere match dan drie minuten monoloog over jaargangen — en verhoogt gemiddelde bonwaarde.',
+    '- advies
+- gastcontext
+- moment
+- behoefte
+- verkoop
 ',
-    '- praktijkexamen
-- analyse
-- blindproeven
-- service
-- pairing
-- integratie
+    'In premium restaurants stijgt de conversie naar Port wanneer het advies start bij het gastmoment (digestief, kaas, chocolade) in plaats van bij de producentnaam.',
+    '- Portadvies begint bij gastmoment en gerecht, niet bij de duurste fles
+- Stijl, leeftijd en structuur bepalen of een suggestie past
+- Eén onderbouwd advies per moment werkt beter dan een lange kaartmonoloog
+- Temperatuur en glas zijn onderdeel van het advies, niet een voetnoot
+- Vertrouwen groeit wanneer je keuzes kunt uitleggen in serveertermen',
+    '### Opdracht
 
-# PORT_040.md',
-    'Veel WSET- en sommelierexamens gebruiken exact deze systematiek.
-',
-    '- Theorie wordt praktijk
-- Volledige analyse is verplicht
-- Stijl + service + pairing = totaalbeeld
-- Onderbouwing is essentieel
-',
-    '### Officieel examen
-
-Voer dit examen volledig uit.
-
-Schrijf per glas je volledige analyse.
-
----
+Pas de kennis uit «Port adviseren» toe op een fles uit je kelder of een kaart. Noteer je bevindingen in de Way of Tasting-app.
 
 ### Checklist
 
-- Ik analyseerde visueel
-- Ik analyseerde geur
-- Ik analyseerde smaak
-- Ik bepaalde stijl
-- Ik gaf serviceadvies
-- Ik gaf pairingadvies
+- Ik heb een gastprofiel en moment gekozen
+- Ik heb één Portstijl met onderbouwing geadviseerd
+- Ik heb temperatuur en glas meegenomen in mijn advies
 
----
+
 
 ### Reflectievraag
 
-Waar zat jouw grootste onzekerheid tijdens dit praktijkexamen?
-',
-    20,
+Een gast zegt ''ik hou niet van zoet'': welke vraag stel jij vóór je überhaupt een stijl noemt — en welke Port ondermijn je die angst?',
+    10,
     3
   ),
   (
-    'theorie-examen-port',
-    'Theorie-examen Port Academy',
-    'Na dit examen kun jij aantonen dat je de volledige Port Track theoretisch beheerst:
-oorsprong, productie, stijlen, druiven, service, pairing en blindproeven.
+    'port-bewaren-kelder',
+    'Port bewaren (kelderdenken)',
+    'Na deze les kun jij kelder- en bewaarstrategie per stijl uitleggen.
 ',
-    '',
-    '- examen
-- certificering
-- theorie
-- integratie
-- blindproeven',
-    '',
-    '',
-    'Beantwoord de volgende open examenvragen:
+    'Kelderdenken is anders dan drinken.
 
-1. Leg het volledige productieproces van Port uit.
-2. Beschrijf het verschil tussen Ruby en Tawny rijping.
-3. Welke rol speelt fortificatie in smaakontwikkeling?
-4. Welke Portstijl combineer je met blauwschimmelkaas en waarom?
-5. Hoe herken je Vintage Port blind?
+Niet elke Port wordt beter.
+
+Ruby Reserve?
+
+Meestal niet.
+
+LBV?
+
+Soms beperkt.
+
+Vintage?
+
+Ja.
+
+Colheita?
+
+Afhankelijk van bottelmoment.
+
+Tawny?
+
+Minder noodzakelijk.
+
+Hier zit de belangrijke spanning:
+
+Waarom bewaren als een wijn al ontwikkeld is?
+
+Dat hoeft niet altijd.
+
+Professionals bewaren potentie.
+
+Niet alleen leeftijd.
+
+Dat maakt kelderen strategisch.
+
+Niet emotioneel.
+
+De beste vraag is:
+
+Wat wint deze wijn nog?
+
+Als het antwoord “weinig” is, open hem.
+
+
+## Food pairing
+
+### Beste pairing
+
+Vintage met oude kaas.
+
+### Waarom dit werkt
+
+Vintage bij Stilton na jaren flesrijping: tannine is gezacht maar structuur blijft; zout en vet vragen de concentratie die alleen lange rijping levert.
+
+## Pro insight
+
+Kelder zonder geduld koop Ruby; kelder met visie koop Vintage. Wees eerlijk over welke gast welke categorie is — dat bouwt vertrouwen.',
+    '- kelder
+- flesrijping
+- Vintage
+- bewaren
+- potentieel
 ',
-    25,
+    'Vintage Port kan decennia rijpen in fles, maar na opening versnelt oxidatie sterk — daarom is portiegrootte en timing na decanteren cruciaal voor kwaliteitsbeleving.',
+    '- Bewaren verschilt per stijl: Ruby kort, Tawny en Vintage lang in fles
+- Keldercondities (koel, donker, stabiel) beschermen rijping
+- Na opening is oxidatie de grootste vijand, vooral bij Vintage
+- Decanteer alleen wanneer sediment of ontwikkeling dat vraagt
+- Kelderlogica is onderdeel van professioneel Portadvies',
+    '### Opdracht
+
+Pas de kennis uit «Port bewaren (kelderdenken)» toe op een fles uit je kelder of een kaart. Noteer je bevindingen in de Way of Tasting-app.
+
+### Checklist
+
+- Ik heb bewaaradvies per stijl onderscheiden
+- Ik kan uitleggen wanneer decanteren zinvol is
+- Ik heb een openings- en bewaarplan voor één fles beschreven
+
+
+
+### Reflectievraag
+
+Je koopt één fles om twintig jaar te bewaren en één om morgen te drinken: welke stijlen kies je — en welke bewaarfout wil je absoluut vermijden?',
+    10,
     4
+  ),
+  (
+    'eindintegratie-port',
+    'Eindintegratie Port',
+    'Na deze les kun jij Port als geïntegreerd systeem toepassen: stijl → structuur → context → keuze.
+',
+    'Port begrijpen is keuzes begrijpen.
+
+Fruit of oxidatie.
+
+Direct drinken of bewaren.
+
+Blend of oorsprong.
+
+Kracht of finesse.
+
+Door deze track heb je geleerd:
+
+hoe Port wordt gemaakt, hoe hij proeft, hoe hij rijpt, hoe hij serveert, hoe hij paired, hoe hij adviseert.
+
+Dat is geen losse kennis.
+
+Dat is een systeem.
+
+En precies dat maakt Way of Tasting anders.
+
+Niet weten wát Port is.
+
+Maar begrijpen hoe Port werkt.
+
+De eindvraag is niet:
+
+Wat is mijn favoriete Port?
+
+Maar:
+
+Wanneer kies ik welke Port?
+
+Als je dat kunt beantwoorden, beheers je de basis professioneel.
+
+
+## Food pairing
+
+### Beste pairing
+
+Volledig afhankelijk van stijl.
+
+Dat is de eindtest.
+
+## Pro insight
+
+Port mastery is integratie: stijl, structuur en context in één beslissing. Als je die drie kunt benoemen bij elke glaskeuze, ben je examenklaar.',
+    '- integratie
+- stijl
+- structuur
+- context
+- professionaliteit
+',
+    'Het Douro DOC-systeem uit 1756 is een van de oudste beschermde herkomstaanduidingen ter wereld — Port draagt daarmee een van de langste gereguleerde wijntradities.',
+    '- Eindintegratie verbindt productie, stijl, service, pairing en advies
+- Een sterke Portprofessional denkt in ketens: herkomst → stijl → moment → gast
+- Blindproef, kaartlezen en kelderlogica zijn drie kanten van dezelfde expertise
+- Consistente terminologie maakt teamadvies betrouwbaarder
+- Mastery betekent onderbouwen, niet alles uit het hoofd kennen',
+    '### Opdracht — Eindintegratie
+
+Beantwoord schriftelijk vijf scenario''s (zonder hulpmiddelen):
+
+1. Aperitief op terras — welke Port en waarom?
+2. Blauwschimmelkaas — welke stijl en serveertemperatuur?
+3. Gast wil ''krachtig maar nu drinkbaar'' — advies?
+4. Fles Vintage 15 jaar — decanteren ja/nee en waarom?
+5. Portkaart met 8 stijlen — hoe lees je inzetbaarheid?
+
+### Checklist
+
+- Ik heb drie kerncompetenties van de track benoemd
+- Ik kan één volledig Portadvies van kaart tot glas uitwerken
+- Ik heb mijn zwakste module geïdentificeerd voor herhaling
+
+
+
+### Reflectievraag
+
+Welke Portstijl kies jij voor jouw perfecte avond — en welke drie factoren (stijl, structuur, context) bepalen die keuze in die volgorde?',
+    15,
+    5
   )
 ) as v(slug, title, objective, theory, key_concepts, did_you_know, summary, practice, duration, sort_order);
 
@@ -3966,200 +3194,215 @@ insert into academy.quiz_questions (lesson_id, sort_order, prompt, options, corr
 select l.id, v.sort_order, v.prompt, v.options::jsonb, v.correct_index, v.explanation
 from l
 join (values
-  ('intro-port', 'wat-is-port', 1, 'Waar komt Port vandaan?', '["Spanje", "Portugal", "Italië", "Frankrijk"]', 1, 'Correct: Portugal'),
-  ('intro-port', 'wat-is-port', 2, 'Wat voor wijn is Port?', '["Versterkte wijn", "Mousserende wijn", "Rosé", "Likeur"]', 0, 'Correct: Versterkte wijn'),
-  ('intro-port', 'wat-is-port', 3, 'Wat gebeurt er tijdens het maken van Port?', '["Fortificatie", "Distillatie", "Pasteurisatie", "Koeling"]', 0, 'Correct: Fortificatie'),
-  ('intro-port', 'wat-is-port', 4, 'Hoeveel alcohol bevat Port meestal?', '["10–12%", "13–15%", "19–22%", "30–35%"]', 2, 'Correct: 19–22%'),
-  ('intro-port', 'wat-is-port', 5, 'Port is vaak:', '["Zoet", "Bitter", "Zout", "Droog"]', 0, 'Correct: Zoet'),
-  ('intro-port', 'fortificatie', 1, 'Wat is fortificatie?', '["Alcohol toevoegen", "Koelen", "Filteren", "Rijpen"]', 0, 'Correct: Alcohol toevoegen'),
-  ('intro-port', 'fortificatie', 2, 'Wat stopt door fortificatie?', '["Gisting", "Oxidatie", "Filtering", "Houtrijping"]', 0, 'Correct: Gisting'),
-  ('intro-port', 'fortificatie', 3, 'Waarom blijft suiker behouden?', '["Gisting stopt vroeg", "Suiker wordt toegevoegd", "Wijn rijpt langer", "Druiven drogen"]', 0, 'Correct: Gisting stopt vroeg'),
-  ('intro-port', 'fortificatie', 4, 'Welke alcohol wordt gebruikt?', '["Aguardente", "Whisky", "Cognac", "Rum"]', 0, 'Correct: Aguardente'),
-  ('intro-port', 'fortificatie', 5, 'Fortificatie zorgt voor:', '["Meer zoetheid", "Minder alcohol", "Minder smaak", "Minder kleur"]', 0, 'Correct: Meer zoetheid'),
-  ('intro-port', 'waarom-is-port-uniek', 1, 'Wat maakt Port uniek?', '["Fortificatie", "Koeling", "Koolzuur", "Distillatie"]', 0, 'Correct: Fortificatie'),
-  ('intro-port', 'waarom-is-port-uniek', 2, 'Port komt altijd uit:', '["Douro", "Rioja", "Bordeaux", "Toscane"]', 0, 'Correct: Douro'),
-  ('intro-port', 'waarom-is-port-uniek', 3, 'Vintage Port wordt gemaakt:', '["Alleen in topjaren", "Elk jaar", "Alleen wit", "Alleen oud"]', 0, 'Correct: Alleen in topjaren'),
-  ('intro-port', 'waarom-is-port-uniek', 4, 'Port combineert goed met:', '["Kaas", "Water", "Bier", "Sushi"]', 0, 'Correct: Kaas'),
-  ('intro-port', 'waarom-is-port-uniek', 5, 'Port kan vaak:', '["Lang rijpen", "Niet rijpen", "Alleen jong", "Niet ouderen"]', 0, 'Correct: Lang rijpen'),
-  ('intro-port', 'geschiedenis-van-port', 1, 'In welke eeuw ontstond Port?', '["15e", "16e", "17e", "18e"]', 2, 'Correct: 17e'),
-  ('intro-port', 'geschiedenis-van-port', 2, 'Wie speelde een grote rol?', '["Engelsen", "Duitsers", "Amerikanen", "Italianen"]', 0, 'Correct: Engelsen'),
-  ('intro-port', 'geschiedenis-van-port', 3, 'Waarom werd alcohol toegevoegd?', '["Houdbaarheid", "Meer kleur", "Minder zuur", "Meer suiker"]', 0, 'Correct: Houdbaarheid'),
-  ('intro-port', 'geschiedenis-van-port', 4, 'Wanneer werd de Douro beschermd?', '["1700", "1756", "1800", "1850"]', 1, 'Correct: 1756'),
-  ('intro-port', 'geschiedenis-van-port', 5, 'Waarom Engelse namen?', '["Handelaren", "Klimaat", "Wetgeving", "Productie"]', 0, 'Correct: Handelaren'),
-  ('intro-port', 'portcategorieen', 1, 'Welke stijl is jong en fruitig?', '["Ruby", "Tawny", "White", "Vintage"]', 0, 'Correct: Ruby'),
-  ('intro-port', 'portcategorieen', 2, 'Welke stijl rijpt oxidatief?', '["Ruby", "Tawny", "White", "Vintage"]', 1, 'Correct: Tawny'),
-  ('intro-port', 'portcategorieen', 3, 'White Port wordt gemaakt van:', '["Witte druiven", "Rode druiven", "Gedroogde druiven", "Gemengde druiven"]', 0, 'Correct: Witte druiven'),
-  ('intro-port', 'portcategorieen', 4, 'Welke stijl heeft meestal de hoogste status?', '["Vintage", "Ruby", "White", "Tawny"]', 0, 'Correct: Vintage'),
-  ('intro-port', 'portcategorieen', 5, 'Welke stijl heeft vaak notige tonen?', '["Tawny", "Ruby", "White", "Rosé"]', 0, 'Correct: Tawny'),
-  ('productie-port', 'druiven-van-port', 1, 'Waaruit bestaat Port meestal?', '["Eén druif", "Een blend", "Alleen witte druiven", "Alleen oude druiven"]', 1, 'Correct: Een blend'),
-  ('productie-port', 'druiven-van-port', 2, 'Welke druif is het belangrijkst?', '["Merlot", "Touriga Nacional", "Syrah", "Cabernet"]', 1, 'Correct: Touriga Nacional'),
-  ('productie-port', 'druiven-van-port', 3, 'Wat geeft Touriga Nacional?', '["Zuur", "Structuur", "Minder kleur", "Minder aroma"]', 1, 'Correct: Structuur'),
-  ('productie-port', 'druiven-van-port', 4, 'Waarom blenden?', '["Voor balans", "Voor minder smaak", "Voor minder kleur", "Voor minder alcohol"]', 0, 'Correct: Voor balans'),
-  ('productie-port', 'druiven-van-port', 5, 'Hoeveel druiven zijn toegestaan?', '["10", "20", "Meer dan 80", "200"]', 2, 'Correct: Meer dan 80'),
-  ('productie-port', 'douro-vallei', 1, 'Waar ligt de Douro?', '["Spanje", "Frankrijk", "Portugal", "Italië"]', 2, 'Correct: Portugal'),
-  ('productie-port', 'douro-vallei', 2, 'Hoeveel zones heeft de Douro?', '["2", "3", "4", "5"]', 1, 'Correct: 3'),
-  ('productie-port', 'douro-vallei', 3, 'Welke zone is topgebied?', '["Baixo Corgo", "Cima Corgo", "Douro Superior", "Porto"]', 1, 'Correct: Cima Corgo'),
-  ('productie-port', 'douro-vallei', 4, 'Wat zorgt voor concentratie?', '["Hoge opbrengst", "Lage opbrengst", "Veel regen", "Koeling"]', 1, 'Correct: Lage opbrengst'),
-  ('productie-port', 'douro-vallei', 5, 'Hoe liggen veel wijngaarden?', '["Vlak", "Ondergronds", "Terrassen", "Kas"]', 2, 'Correct: Terrassen'),
-  ('productie-port', 'klimaat-en-terroir', 1, 'Hoe zijn de zomers?', '["Koud", "Nat", "Heet", "Mild"]', 2, 'Correct: Heet'),
-  ('productie-port', 'klimaat-en-terroir', 2, 'Welke bodem is belangrijk?', '["Kalk", "Leisteen", "Klei", "Zand"]', 1, 'Correct: Leisteen'),
-  ('productie-port', 'klimaat-en-terroir', 3, 'Wat doet leisteen?', '["Koelt af", "Houdt warmte vast", "Houdt water vast", "Verwijdert zuur"]', 1, 'Correct: Houdt warmte vast'),
-  ('productie-port', 'klimaat-en-terroir', 4, 'Wat is terroir?', '["Alleen klimaat", "Combinatie van omgeving", "Alleen bodem", "Alleen druif"]', 1, 'Correct: Combinatie van omgeving'),
-  ('productie-port', 'klimaat-en-terroir', 5, 'Stress zorgt voor:', '["Minder smaak", "Meer concentratie", "Minder kleur", "Minder alcohol"]', 1, 'Correct: Meer concentratie'),
-  ('productie-port', 'houtlagering', 1, 'Wat doet houtlagering?', '["Meer zuur", "Meer complexiteit", "Minder smaak", "Minder alcohol"]', 1, 'Correct: Meer complexiteit'),
-  ('productie-port', 'houtlagering', 2, 'Welke stijl rijpt langer?', '["Ruby", "Tawny", "White", "Rosé"]', 1, 'Correct: Tawny'),
-  ('productie-port', 'houtlagering', 3, 'Wat gebeurt met tannines?', '["Harder", "Zachter", "Bitterder", "Sterker"]', 1, 'Correct: Zachter'),
-  ('productie-port', 'houtlagering', 4, 'Wat ontstaat vaak?', '["Notige aroma’s", "Koolzuur", "Minder kleur", "Minder geur"]', 0, 'Correct: Notige aroma’s'),
-  ('productie-port', 'houtlagering', 5, 'Ruby blijft vaak:', '["Ouder", "Fruitiger", "Notiger", "Droger"]', 1, 'Correct: Fruitiger'),
-  ('productie-port', 'oxidatie-uitgelegd', 1, 'Wat is oxidatie?', '["Koeling", "Contact met zuurstof", "Distillatie", "Filteren"]', 1, 'Correct: Contact met zuurstof'),
-  ('productie-port', 'oxidatie-uitgelegd', 2, 'Wat verandert?', '["Alleen alcohol", "Alleen kleur", "Kleur en smaak", "Alleen suiker"]', 2, 'Correct: Kleur en smaak'),
-  ('productie-port', 'oxidatie-uitgelegd', 3, 'Welke stijl is oxidatief?', '["Ruby", "Tawny", "White", "Rosé"]', 1, 'Correct: Tawny'),
-  ('productie-port', 'oxidatie-uitgelegd', 4, 'Welke aroma’s ontstaan vaak?', '["Citrus", "Noten", "Gras", "Bloemen"]', 1, 'Correct: Noten'),
-  ('productie-port', 'oxidatie-uitgelegd', 5, 'Is oxidatie altijd fout?', '["Ja", "Nee", "Alleen bij Ruby", "Alleen bij White"]', 1, 'Correct: Nee'),
-  ('proeven-port', 'proefnotitie-port', 1, 'Wat is de eerste stap bij professioneel proeven?', '["Ruiken", "Proeven", "Kijken", "Concluderen"]', 2, 'Correct: Kijken'),
-  ('proeven-port', 'proefnotitie-port', 2, 'Wat kan viscositeit vaak aangeven?', '["Leeftijd", "Alcohol en suiker", "Herkomst", "Druivenras"]', 1, 'Correct: Alcohol en suiker'),
-  ('proeven-port', 'proefnotitie-port', 3, 'Welke aroma’s passen het best bij Tawny Port?', '["Kers en braam", "Citrus en appel", "Walnoot en karamel", "Gras en limoen"]', 2, 'Correct: Walnoot en karamel'),
-  ('proeven-port', 'proefnotitie-port', 4, 'Welke structuurcomponent geeft frisheid?', '["Zoetheid", "Alcohol", "Zuur", "Body"]', 2, 'Correct: Zuur'),
-  ('proeven-port', 'proefnotitie-port', 5, 'Waarom maak je proefnotities?', '["Om sneller te drinken", "Om smaken beter te onthouden", "Om wijn warmer te maken", "Om alcohol te meten"]', 1, 'Correct: Om smaken beter te onthouden'),
-  ('proeven-port', 'structuur-herkennen', 1, 'Wat is het skelet van Port?', '["Aroma", "Structuur", "Kleur", "Leeftijd"]', 1, 'Correct: Structuur'),
-  ('proeven-port', 'structuur-herkennen', 2, 'Wat zorgt vooral voor frisheid?', '["Zoetheid", "Alcohol", "Zuur", "Body"]', 2, 'Correct: Zuur'),
-  ('proeven-port', 'structuur-herkennen', 3, 'Waar voel je tannines vaak?', '["Tong", "Lippen", "Tandvlees", "Neus"]', 2, 'Correct: Tandvlees'),
-  ('proeven-port', 'structuur-herkennen', 4, 'Wat is body?', '["Alcoholpercentage", "Gewicht in de mond", "Zoetheid", "Kleur"]', 1, 'Correct: Gewicht in de mond'),
-  ('proeven-port', 'structuur-herkennen', 5, 'Wat bepaalt uiteindelijk kwaliteit?', '["Leeftijd", "Alcohol", "Balans", "Druif"]', 2, 'Correct: Balans'),
-  ('proeven-port', 'aromas-herkennen', 1, 'Welke aroma’s komen direct van de druif?', '["Secundair", "Tertiair", "Primair", "Oxidatief"]', 2, 'Correct: Primair'),
-  ('proeven-port', 'aromas-herkennen', 2, 'Welke stijl heeft meestal de meeste fruitaroma’s?', '["Tawny", "Ruby", "White", "Colheita"]', 1, 'Correct: Ruby'),
-  ('proeven-port', 'aromas-herkennen', 3, 'Welke aroma’s passen bij Tawny?', '["Braam en kers", "Walnoot en karamel", "Citrus en limoen", "Appel en peer"]', 1, 'Correct: Walnoot en karamel'),
-  ('proeven-port', 'aromas-herkennen', 4, 'Wat zijn tertiaire aroma’s?', '["Aroma’s uit rijping", "Aroma’s uit druiven", "Aroma’s uit alcohol", "Aroma’s uit temperatuur"]', 0, 'Correct: Aroma’s uit rijping'),
-  ('proeven-port', 'aromas-herkennen', 5, 'Waarom is aroma-training belangrijk?', '["Voor meer alcohol", "Voor betere blindherkenning", "Voor lagere suiker", "Voor langere rijping"]', 1, 'Correct: Voor betere blindherkenning'),
-  ('proeven-port', 'ruby-vs-tawny-blind', 1, 'Welke kleur past meestal bij Ruby?', '["Amber", "Diep rood", "Goud", "Oranje"]', 1, 'Correct: Diep rood'),
-  ('proeven-port', 'ruby-vs-tawny-blind', 2, 'Welke aroma’s passen vaak bij Tawny?', '["Kers en braam", "Walnoot en karamel", "Citrus en appel", "Bloemen en gras"]', 1, 'Correct: Walnoot en karamel'),
-  ('proeven-port', 'ruby-vs-tawny-blind', 3, 'Welke stijl heeft meestal stevigere tannines?', '["Tawny", "Ruby", "White", "Colheita"]', 1, 'Correct: Ruby'),
-  ('proeven-port', 'ruby-vs-tawny-blind', 4, 'Welke stijl is meer oxidatief?', '["Ruby", "Tawny", "White", "Rosé"]', 1, 'Correct: Tawny'),
-  ('proeven-port', 'ruby-vs-tawny-blind', 5, 'Waarom is blindproeven belangrijk?', '["Voor sneller drinken", "Voor objectieve herkenning", "Voor meer alcohol", "Voor goedkopere wijn"]', 1, 'Correct: Voor objectieve herkenning'),
-  ('proeven-port', 'mini-toets-port-proeven', 1, 'Wat is de eerste stap bij proeven?', '["Ruiken", "Proeven", "Kijken", "Schrijven"]', 2, 'Correct: Kijken'),
-  ('proeven-port', 'mini-toets-port-proeven', 2, 'Welke structuurcomponent zorgt voor frisheid?', '["Zoetheid", "Alcohol", "Zuur", "Body"]', 2, 'Correct: Zuur'),
-  ('proeven-port', 'mini-toets-port-proeven', 3, 'Welke aroma’s wijzen meestal op Tawny?', '["Kers en braam", "Walnoot en karamel", "Citrus en appel", "Framboos en aardbei"]', 1, 'Correct: Walnoot en karamel'),
-  ('proeven-port', 'mini-toets-port-proeven', 4, 'Welke stijl is meestal fruitiger?', '["Tawny", "Ruby", "White", "Colheita"]', 1, 'Correct: Ruby'),
-  ('proeven-port', 'mini-toets-port-proeven', 5, 'Waarom is proeftraining belangrijk?', '["Om sneller te drinken", "Om patronen sneller te herkennen", "Om alcohol te verlagen", "Om wijn te bewaren"]', 1, 'Correct: Om patronen sneller te herkennen'),
-  ('oorsprong-port', 'waar-komt-port-vandaan', 1, 'Uit welk land komt Port?', '["Spanje", "Italië", "Portugal", "Frankrijk"]', 2, 'Correct: Portugal'),
-  ('oorsprong-port', 'waar-komt-port-vandaan', 2, 'Uit welke regio komt Port?', '["Rioja", "Douro", "Bordeaux", "Alentejo"]', 1, 'Correct: Douro'),
-  ('oorsprong-port', 'waar-komt-port-vandaan', 3, 'Waarom heet Port “Port”?', '["Door de druif", "Door de havenstad Porto", "Door de kleur", "Door de stijl"]', 1, 'Correct: Door de havenstad Porto'),
-  ('oorsprong-port', 'waar-komt-port-vandaan', 4, 'In welk jaar werd de Douro officieel beschermd?', '["1756", "1820", "1900", "1955"]', 0, 'Correct: 1756'),
-  ('oorsprong-port', 'waar-komt-port-vandaan', 5, 'Waarom is herkomst belangrijk?', '["Alleen voor de prijs", "Voor stijl en authenticiteit", "Alleen voor export", "Alleen voor belasting"]', 1, 'Correct: Voor stijl en authenticiteit'),
-  ('oorsprong-port', 'druiven-van-port', 1, 'Wat is de belangrijkste druif van Port?', '["Merlot", "Touriga Nacional", "Cabernet Sauvignon", "Pinot Noir"]', 1, 'Correct: Touriga Nacional'),
-  ('oorsprong-port', 'druiven-van-port', 2, 'Wat geeft Touriga Franca vooral?', '["Elegantie", "Meer alcohol", "Minder kleur", "Minder zuur"]', 0, 'Correct: Elegantie'),
-  ('oorsprong-port', 'druiven-van-port', 3, 'Welke druif is internationaal bekend als Tempranillo?', '["Tinto Cão", "Tinta Roriz", "Touriga Franca", "Tinta Barroca"]', 1, 'Correct: Tinta Roriz'),
-  ('oorsprong-port', 'druiven-van-port', 4, 'Waarom blenden wijnmakers?', '["Om minder smaak te krijgen", "Om meer balans te creëren", "Om minder alcohol te maken", "Om goedkoper te werken"]', 1, 'Correct: Om meer balans te creëren'),
-  ('oorsprong-port', 'druiven-van-port', 5, 'Welke druif helpt vaak met frisheid en levensduur?', '["Tinto Cão", "Merlot", "Syrah", "Chardonnay"]', 0, 'Correct: Tinto Cão'),
-  ('oorsprong-port', 'douro-vallei', 1, 'Hoeveel subregio’s heeft de Douro?', '["Twee", "Drie", "Vier", "Vijf"]', 1, 'Correct: Drie'),
-  ('oorsprong-port', 'douro-vallei', 2, 'Welke regio staat bekend om topkwaliteit?', '["Baixo Corgo", "Cima Corgo", "Douro Superior", "Porto"]', 1, 'Correct: Cima Corgo'),
-  ('oorsprong-port', 'douro-vallei', 3, 'Welke regio is meestal koeler en natter?', '["Douro Superior", "Baixo Corgo", "Cima Corgo", "Porto"]', 1, 'Correct: Baixo Corgo'),
-  ('oorsprong-port', 'douro-vallei', 4, 'Waarom worden terrassen gebruikt?', '["Voor meer alcohol", "Voor erosiebeheersing en betere wijnbouw", "Voor sneller oogsten", "Voor meer regen"]', 1, 'Correct: Voor erosiebeheersing en betere wijnbouw'),
-  ('oorsprong-port', 'douro-vallei', 5, 'Waarom is de Douro UNESCO-erfgoed?', '["Door de rivier", "Door de stad Porto", "Door het unieke wijnlandschap", "Door de druiven"]', 2, 'Correct: Door het unieke wijnlandschap'),
-  ('oorsprong-port', 'klimaat-en-terroir', 1, 'Wat betekent terroir?', '["Alleen bodem", "Alleen klimaat", "Combinatie van natuurlijke factoren", "Alleen druiven"]', 2, 'Correct: Combinatie van natuurlijke factoren'),
-  ('oorsprong-port', 'klimaat-en-terroir', 2, 'Hoe is het klimaat in de Douro meestal?', '["Koud en nat", "Warm en droog", "Mild en vochtig", "Tropisch"]', 1, 'Correct: Warm en droog'),
-  ('oorsprong-port', 'klimaat-en-terroir', 3, 'Wat is de belangrijkste bodemsoort in de Douro?', '["Kalk", "Klei", "Leisteen", "Zand"]', 2, 'Correct: Leisteen'),
-  ('oorsprong-port', 'klimaat-en-terroir', 4, 'Waarom is leisteen belangrijk?', '["Het koelt af", "Het houdt warmte vast", "Het maakt wijn zoeter", "Het verlaagt alcohol"]', 1, 'Correct: Het houdt warmte vast'),
-  ('oorsprong-port', 'klimaat-en-terroir', 5, 'Wat helpt om zuur te behouden?', '["Warme nachten", "Koele nachten", "Meer regen", "Meer alcohol"]', 1, 'Correct: Koele nachten'),
-  ('oorsprong-port', 'classificatie-douro', 1, 'Welke classificatie gebruikt de Douro?', '["1–10", "A–F", "I–V", "Gold–Silver"]', 1, 'Correct: A–F'),
-  ('oorsprong-port', 'classificatie-douro', 2, 'Wat is de hoogste classificatie?', '["B", "C", "A", "F"]', 2, 'Correct: A'),
-  ('oorsprong-port', 'classificatie-douro', 3, 'Wat verhoogt vaak kwaliteit?', '["Hoge opbrengsten", "Lage opbrengsten", "Meer regen", "Meer alcohol"]', 1, 'Correct: Lage opbrengsten'),
-  ('oorsprong-port', 'classificatie-douro', 4, 'Wat is een Quinta?', '["Een druif", "Een wijndomein", "Een vat", "Een gistsoort"]', 1, 'Correct: Een wijndomein'),
-  ('oorsprong-port', 'classificatie-douro', 5, 'Waarom is classificatie belangrijk?', '["Alleen voor export", "Voor kwaliteit en waarde", "Alleen voor belasting", "Alleen voor opslag"]', 1, 'Correct: Voor kwaliteit en waarde'),
-  ('portstijlen', 'ruby-port', 1, 'Waarom heet Ruby Port Ruby?', '["Door de fles", "Door de kleur", "Door de druif", "Door de regio"]', 1, 'Correct: Door de kleur'),
-  ('portstijlen', 'ruby-port', 2, 'Hoe lang rijpt Ruby meestal?', '["2–3 jaar", "10 jaar", "20 jaar", "30 jaar"]', 0, 'Correct: 2–3 jaar'),
-  ('portstijlen', 'ruby-port', 3, 'Waarom grote vaten?', '["Meer oxidatie", "Minder oxidatie", "Meer alcohol", "Meer suiker"]', 1, 'Correct: Minder oxidatie'),
-  ('portstijlen', 'ruby-port', 4, 'Welke aroma’s passen bij Ruby?', '["Noten en karamel", "Kers en braam", "Citrus en appel", "Honing en amandel"]', 1, 'Correct: Kers en braam'),
-  ('portstijlen', 'ruby-port', 5, 'Wat past goed bij Ruby?', '["Oesters", "Chocolade", "Sushi", "Salade"]', 1, 'Correct: Chocolade'),
-  ('portstijlen', 'tawny-port', 1, 'Waar rijpt Tawny meestal?', '["Fles", "Klein houten vat", "Beton", "RVS"]', 1, 'Correct: Klein houten vat'),
-  ('portstijlen', 'tawny-port', 2, 'Wat veroorzaakt de lichtere kleur?', '["Meer suiker", "Oxidatie", "Minder alcohol", "Minder druiven"]', 1, 'Correct: Oxidatie'),
-  ('portstijlen', 'tawny-port', 3, 'Welke aroma’s passen bij Tawny?', '["Kers en braam", "Walnoten en karamel", "Citrus en appel", "Framboos en aardbei"]', 1, 'Correct: Walnoten en karamel'),
-  ('portstijlen', 'tawny-port', 4, 'Wat betekent 20 years op Tawny?', '["Exact 20 jaar oud", "Gemiddelde stijl/leeftijd", "Alleen oogstjaar", "Botteldatum"]', 1, 'Correct: Gemiddelde stijl/leeftijd'),
-  ('portstijlen', 'tawny-port', 5, 'Hoe lang blijft Tawny vaak goed na opening?', '["2 dagen", "1 week", "4–8 weken", "6 maanden"]', 2, 'Correct: 4–8 weken'),
-  ('portstijlen', 'late-bottled-vintage', 1, 'Waaruit wordt LBV gemaakt?', '["Meerdere jaren", "Eén oogstjaar", "Alleen witte druiven", "Alleen Tawny"]', 1, 'Correct: Eén oogstjaar'),
-  ('portstijlen', 'late-bottled-vintage', 2, 'Hoe lang rijpt LBV meestal op vat?', '["1–2 jaar", "2–3 jaar", "4–6 jaar", "10 jaar"]', 2, 'Correct: 4–6 jaar'),
-  ('portstijlen', 'late-bottled-vintage', 3, 'Wat is vaak het voordeel van gefilterde LBV?', '["Meer depot", "Direct drinkbaar", "Meer zuur", "Meer oxidatie"]', 1, 'Correct: Direct drinkbaar'),
-  ('portstijlen', 'late-bottled-vintage', 4, 'Wat is vaak het voordeel van ongefilterde LBV?', '["Minder complex", "Meer complexiteit", "Kortere houdbaarheid", "Minder fruit"]', 1, 'Correct: Meer complexiteit'),
-  ('portstijlen', 'late-bottled-vintage', 5, 'Waarin lijkt LBV het meest op?', '["White Port", "Vintage Port", "Rosé Port", "Tawny 40 years"]', 1, 'Correct: Vintage Port'),
-  ('portstijlen', 'white-port', 1, 'Waarvan wordt White Port gemaakt?', '["Rode druiven", "Witte druiven", "Rosé druiven", "Blend van rood en wit"]', 1, 'Correct: Witte druiven'),
-  ('portstijlen', 'white-port', 2, 'Welke stijl kan White Port zijn?', '["Alleen zoet", "Alleen droog", "Droog tot zoet", "Alleen oxidatief"]', 2, 'Correct: Droog tot zoet'),
-  ('portstijlen', 'white-port', 3, 'Welke aroma’s passen vaak bij White Port?', '["Kers en braam", "Citrus en amandel", "Walnoot en karamel", "Koffie en cacao"]', 1, 'Correct: Citrus en amandel'),
-  ('portstijlen', 'white-port', 4, 'Wat is een populaire serveerstijl?', '["White Port & Cola", "White Port & Tonic", "White Port & Bier", "White Port & Soda"]', 1, 'Correct: White Port & Tonic'),
-  ('portstijlen', 'white-port', 5, 'Wanneer wordt White Port vaak gedronken?', '["Als aperitief", "Alleen na diner", "Alleen bij kaas", "Alleen bij dessert"]', 0, 'Correct: Als aperitief'),
-  ('portstijlen', 'rose-port', 1, 'Waarvan wordt Rosé Port gemaakt?', '["Witte druiven", "Blauwe druiven", "Alleen blend van wit en rood", "Alleen Tawny"]', 1, 'Correct: Blauwe druiven'),
-  ('portstijlen', 'rose-port', 2, 'Waarom is Rosé lichter van kleur?', '["Meer alcohol", "Minder schilcontact", "Meer suiker", "Meer zuur"]', 1, 'Correct: Minder schilcontact'),
-  ('portstijlen', 'rose-port', 3, 'Welke aroma’s passen vaak bij Rosé Port?', '["Walnoten en karamel", "Aardbei en framboos", "Vijgen en toffee", "Koffie en cacao"]', 1, 'Correct: Aardbei en framboos'),
-  ('portstijlen', 'rose-port', 4, 'Waar wordt Rosé Port vaak voor gebruikt?', '["Alleen dessert", "Cocktails", "Alleen rijping", "Alleen blindproeven"]', 1, 'Correct: Cocktails'),
-  ('portstijlen', 'rose-port', 5, 'Sinds wanneer is Rosé Port commercieel erkend?', '["1756", "1900", "2008", "2020"]', 2, 'Correct: 2008'),
-  ('portstijlen', 'crusted-port', 1, 'Waaruit bestaat Crusted Port?', '["Eén oogstjaar", "Meerdere oogstjaren", "Alleen witte druiven", "Alleen Tawny"]', 1, 'Correct: Meerdere oogstjaren'),
-  ('portstijlen', 'crusted-port', 2, 'Waarom heet het Crusted?', '["Door de kleur", "Door het depot in de fles", "Door de flesvorm", "Door de druif"]', 1, 'Correct: Door het depot in de fles'),
-  ('portstijlen', 'crusted-port', 3, 'Moet Crusted meestal worden gedecanteerd?', '["Nee", "Ja", "Alleen gekoeld", "Alleen oud"]', 1, 'Correct: Ja'),
-  ('portstijlen', 'crusted-port', 4, 'Waarin lijkt Crusted het meest op?', '["White Port", "Vintage Port", "Rosé Port", "Tawny"]', 1, 'Correct: Vintage Port'),
-  ('portstijlen', 'crusted-port', 5, 'Waarom is Crusted populair?', '["Goedkoper en complex", "Minder alcohol", "Geen depot", "Meer suiker"]', 0, 'Correct: Goedkoper en complex'),
-  ('portstijlen-verdiept', 'vintage-port-deel-1', 1, 'Waaruit wordt Vintage Port gemaakt?', '["Meerdere jaren", "Eén oogstjaar", "Alleen witte druiven", "Alleen Tawny"]', 1, 'Correct: Eén oogstjaar'),
-  ('portstijlen-verdiept', 'vintage-port-deel-1', 2, 'Wordt elk jaar Vintage gedeclareerd?', '["Ja", "Nee", "Alleen door één huis", "Alleen in Portugal"]', 1, 'Correct: Nee'),
-  ('portstijlen-verdiept', 'vintage-port-deel-1', 3, 'Hoe lang rijpt Vintage meestal op vat?', '["2 jaar", "10 jaar", "20 jaar", "30 jaar"]', 0, 'Correct: 2 jaar'),
-  ('portstijlen-verdiept', 'vintage-port-deel-1', 4, 'Waar rijpt Vintage vooral verder?', '["Vat", "Tank", "Fles", "Beton"]', 2, 'Correct: Fles'),
-  ('portstijlen-verdiept', 'vintage-port-deel-1', 5, 'Waarom is Vintage zo bijzonder?', '["Altijd goedkoop", "Alleen witte druiven", "Alleen topjaren", "Geen alcohol"]', 2, 'Correct: Alleen topjaren'),
-  ('portstijlen-verdiept', 'vintage-port-deel-2', 1, 'Waar rijpt Vintage vooral?', '["Tank", "Vat", "Fles", "Beton"]', 2, 'Correct: Fles'),
-  ('portstijlen-verdiept', 'vintage-port-deel-2', 2, 'Waarom ontstaat depot?', '["Door filtering", "Door ongefilterde botteling", "Door suiker", "Door koeling"]', 1, 'Correct: Door ongefilterde botteling'),
-  ('portstijlen-verdiept', 'vintage-port-deel-2', 3, 'Wat gebeurt er met tannines bij rijping?', '["Ze worden harder", "Ze verdwijnen direct", "Ze verzachten", "Ze worden zoeter"]', 2, 'Correct: Ze verzachten'),
-  ('portstijlen-verdiept', 'vintage-port-deel-2', 4, 'Waarom stijgt Vintage vaak in waarde?', '["Meer alcohol", "Minder kleur", "Schaarste en rijping", "Lagere belasting"]', 2, 'Correct: Schaarste en rijping'),
-  ('portstijlen-verdiept', 'vintage-port-deel-2', 5, 'Wat is vaak nodig voor service?', '["Koelen", "Decanteren", "Schudden", "Verdunnen"]', 1, 'Correct: Decanteren'),
-  ('portstijlen-verdiept', 'single-quinta-vintage-port', 1, 'Waaruit bestaat Single Quinta Vintage?', '["Eén jaar, één Quinta", "Meerdere jaren", "Alleen Tawny", "Alleen White"]', 0, 'Correct: Eén jaar, één Quinta'),
-  ('portstijlen-verdiept', 'single-quinta-vintage-port', 2, 'Wat is een Quinta?', '["Druif", "Wijndomein", "Vat", "Gist"]', 1, 'Correct: Wijndomein'),
-  ('portstijlen-verdiept', 'single-quinta-vintage-port', 3, 'Waarom wordt Single Quinta vaak gemaakt?', '["In zwakke jaren", "In goede maar niet gedeclareerde jaren", "Alleen in topjaren", "Alleen in oude jaren"]', 1, 'Correct: In goede maar niet gedeclareerde jaren'),
-  ('portstijlen-verdiept', 'single-quinta-vintage-port', 4, 'Wat is vaak het voordeel?', '["Meer terroir-expressie", "Minder smaak", "Minder structuur", "Minder alcohol"]', 0, 'Correct: Meer terroir-expressie'),
-  ('portstijlen-verdiept', 'single-quinta-vintage-port', 5, 'Moet Single Quinta vaak worden gedecanteerd?', '["Nee", "Ja", "Alleen gekoeld", "Alleen jong"]', 1, 'Correct: Ja'),
-  ('portstijlen-verdiept', 'tawny-met-leeftijd', 1, 'Wat betekent 20 Years op Tawny?', '["Exact 20 jaar oud", "Gemiddelde stijl/leeftijd", "Oogstjaar", "Botteldatum"]', 1, 'Correct: Gemiddelde stijl/leeftijd'),
-  ('portstijlen-verdiept', 'tawny-met-leeftijd', 2, 'Waar rijpt Aged Tawny?', '["Fles", "Klein houten vat", "Tank", "Beton"]', 1, 'Correct: Klein houten vat'),
-  ('portstijlen-verdiept', 'tawny-met-leeftijd', 3, 'Wat gebeurt er bij meer oxidatie?', '["Donkerder kleur", "Lichtere kleur", "Meer zuur", "Minder smaak"]', 1, 'Correct: Lichtere kleur'),
-  ('portstijlen-verdiept', 'tawny-met-leeftijd', 4, 'Welke leeftijd is meestal complexer?', '["10 Years", "20 Years", "30 Years", "40 Years"]', 3, 'Correct: 40 Years'),
-  ('portstijlen-verdiept', 'tawny-met-leeftijd', 5, 'Hoe lang blijft Aged Tawny vaak goed na opening?', '["2 dagen", "1 week", "Maanden", "1 dag"]', 2, 'Correct: Maanden'),
-  ('port-premium', 'colheita-port', 1, 'Wat betekent Colheita?', '["Blend", "Oogst", "Vat", "Fles"]', 1, 'Correct: Oogst'),
-  ('port-premium', 'colheita-port', 2, 'Waaruit bestaat Colheita?', '["Meerdere jaren", "Eén jaar", "Alleen witte druiven", "Alleen Ruby"]', 1, 'Correct: Eén jaar'),
-  ('port-premium', 'colheita-port', 3, 'Hoe lang moet Colheita minimaal rijpen?', '["2 jaar", "5 jaar", "7 jaar", "10 jaar"]', 2, 'Correct: 7 jaar'),
-  ('port-premium', 'colheita-port', 4, 'Waar rijpt Colheita vooral?', '["Fles", "Vat", "Tank", "Beton"]', 1, 'Correct: Vat'),
-  ('port-premium', 'colheita-port', 5, 'Wat zie je vaak op het etiket?', '["Alleen botteljaar", "Oogstjaar en botteljaar", "Alleen alcoholpercentage", "Geen jaartal"]', 1, 'Correct: Oogstjaar en botteljaar'),
-  ('port-premium', 'garrafeira-port', 1, 'Wat maakt Garrafeira uniek?', '["Alleen witte druiven", "Rijping op glas", "Alleen jonge stijl", "Geen rijping"]', 1, 'Correct: Rijping op glas'),
-  ('port-premium', 'garrafeira-port', 2, 'Waar begint Garrafeira meestal mee?', '["Tawny", "Ruby-stijl uit één jaar", "White Port", "Rosé Port"]', 1, 'Correct: Ruby-stijl uit één jaar'),
-  ('port-premium', 'garrafeira-port', 3, 'Wat zijn demijohns?', '["Kleine houten vaten", "Grote glazen flessen", "Tanks", "Kurken"]', 1, 'Correct: Grote glazen flessen'),
-  ('port-premium', 'garrafeira-port', 4, 'Welke producent is beroemd om Garrafeira?', '["Graham’s", "Taylor’s", "Niepoort", "Fonseca"]', 2, 'Correct: Niepoort'),
-  ('port-premium', 'garrafeira-port', 5, 'Waarom is Garrafeira zeldzaam?', '["Simpele productie", "Lange unieke rijping", "Lage alcohol", "Alleen witte druiven"]', 1, 'Correct: Lange unieke rijping'),
-  ('praktijk-port', 'port-serveren', 1, 'Welke stijl serveer je meestal het warmst?', '["White", "Tawny", "Vintage", "Rosé"]', 2, 'Correct: Vintage'),
-  ('praktijk-port', 'port-serveren', 2, 'Welke stijl blijft meestal het kortst goed na openen?', '["Vintage", "Tawny", "Colheita", "White"]', 0, 'Correct: Vintage'),
-  ('praktijk-port', 'port-serveren', 3, 'Waarom gebruik je kleiner glas?', '["Minder wijn", "Minder alcoholimpact en meer focus", "Goedkoper", "Meer kleur"]', 1, 'Correct: Minder alcoholimpact en meer focus'),
-  ('praktijk-port', 'port-serveren', 4, 'Welke stijl hoeft meestal NIET gedecanteerd te worden?', '["Vintage", "Crusted", "Tawny", "Ongefilterde LBV"]', 2, 'Correct: Tawny'),
-  ('praktijk-port', 'port-serveren', 5, 'Waarom serveer je Tawny koeler dan Vintage?', '["Minder alcohol", "Meer oxidatie vraagt frisheid", "Meer suiker", "Minder kleur"]', 1, 'Correct: Meer oxidatie vraagt frisheid'),
-  ('praktijk-port', 'port-en-kaas', 1, 'Welke pairing is de klassieker?', '["Rosé + Brie", "Vintage + Stilton", "White + Cheddar", "Ruby + Mozzarella"]', 1, 'Correct: Vintage + Stilton'),
-  ('praktijk-port', 'port-en-kaas', 2, 'Waarom werkt zout goed met Port?', '["Minder smaak", "Versterkt zoetheid", "Verlaagt alcohol", "Minder vet"]', 1, 'Correct: Versterkt zoetheid'),
-  ('praktijk-port', 'port-en-kaas', 3, 'Wat past vaak goed bij Aged Tawny?', '["Jonge geitenkaas", "Oude Gouda", "Mozzarella", "Feta"]', 1, 'Correct: Oude Gouda'),
-  ('praktijk-port', 'port-en-kaas', 4, 'Waarom moet kaas op kamertemperatuur?', '["Mooier bord", "Meer aroma en textuur", "Minder zout", "Minder vet"]', 1, 'Correct: Meer aroma en textuur'),
-  ('praktijk-port', 'port-en-kaas', 5, 'Welke stijl is vaak toegankelijk bij blauwe kaas?', '["White", "LBV", "Rosé", "Colheita"]', 1, 'Correct: LBV'),
-  ('praktijk-port', 'port-en-desserts', 1, 'Wat is de gouden regel bij dessertpairing?', '["Dessert zoeter dan wijn", "Wijn even zoet of zoeter dan dessert", "Minder alcohol", "Meer zuur"]', 1, 'Correct: Wijn even zoet of zoeter dan dessert'),
-  ('praktijk-port', 'port-en-desserts', 2, 'Wat past klassiek bij Ruby?', '["Citroentaart", "Pure chocolade", "Appeltaart", "Sorbet"]', 1, 'Correct: Pure chocolade'),
-  ('praktijk-port', 'port-en-desserts', 3, 'Wat past vaak goed bij Tawny?', '["Karamel desserts", "Mint", "Sorbet", "Yoghurt"]', 0, 'Correct: Karamel desserts'),
-  ('praktijk-port', 'port-en-desserts', 4, 'Welke stijl past vaak goed bij citroen?', '["White Port", "Vintage", "Crusted", "Colheita"]', 0, 'Correct: White Port'),
-  ('praktijk-port', 'port-en-desserts', 5, 'Waarom zijn mintdesserts lastig?', '["Te zout", "Verstoren balans", "Te vet", "Te warm"]', 1, 'Correct: Verstoren balans'),
-  ('praktijk-port', 'port-in-gastronomie', 1, 'Welke stijl is vaak ideaal voor aperitief?', '["Vintage", "White Port", "Crusted", "Garrafeira"]', 1, 'Correct: White Port'),
-  ('praktijk-port', 'port-in-gastronomie', 2, 'Welke stijl wordt vaak gebruikt voor reducties?', '["Ruby / LBV", "White", "Vintage", "Rosé"]', 0, 'Correct: Ruby / LBV'),
-  ('praktijk-port', 'port-in-gastronomie', 3, 'Welke stijl werkt sterk in karameldesserts?', '["Tawny", "Rosé", "White", "Ruby"]', 0, 'Correct: Tawny'),
-  ('praktijk-port', 'port-in-gastronomie', 4, 'Waarom is Vintage zelden kook-Port?', '["Te weinig smaak", "Te kostbaar en te complex", "Te licht", "Te zuur"]', 1, 'Correct: Te kostbaar en te complex'),
-  ('praktijk-port', 'port-in-gastronomie', 5, 'Waar blinkt Port traditioneel het meest in uit?', '["Ontbijt", "Kaasgang", "Soep", "Salades"]', 1, 'Correct: Kaasgang'),
-  ('examen-port', 'blindproeven-ruby-vs-tawny', 1, 'Welke kleur hoort vaker bij Ruby?', '["Amber", "Robijnrood", "Oranje", "Geel"]', 1, 'Correct: Robijnrood'),
-  ('examen-port', 'blindproeven-ruby-vs-tawny', 2, 'Welke aroma’s passen bij Tawny?', '["Kers en braam", "Walnoot en karamel", "Citrus en appel", "Framboos"]', 1, 'Correct: Walnoot en karamel'),
-  ('examen-port', 'blindproeven-ruby-vs-tawny', 3, 'Welke stijl is oxidatiever?', '["Ruby", "Tawny", "Rosé", "White"]', 1, 'Correct: Tawny'),
-  ('examen-port', 'blindproeven-ruby-vs-tawny', 4, 'Waar kijk je eerst naar?', '["Smaak", "Kleur", "Alcohol", "Etiket"]', 1, 'Correct: Kleur'),
-  ('examen-port', 'blindproeven-ruby-vs-tawny', 5, 'Wat is vaak krachtiger?', '["Tawny", "Ruby", "White", "Colheita"]', 1, 'Correct: Ruby'),
-  ('examen-port', 'blindproeven-vintage-vs-lbv', 1, 'Welke stijl rijpt langer op vat?', '["Vintage", "LBV", "Crusted", "Ruby"]', 1, 'Correct: LBV'),
-  ('examen-port', 'blindproeven-vintage-vs-lbv', 2, 'Welke stijl heeft meestal meer tannines?', '["Tawny", "Vintage", "White", "Rosé"]', 1, 'Correct: Vintage'),
-  ('examen-port', 'blindproeven-vintage-vs-lbv', 3, 'Welke stijl is vaak direct toegankelijker?', '["Vintage", "LBV", "Single Quinta", "Crusted"]', 1, 'Correct: LBV'),
-  ('examen-port', 'blindproeven-vintage-vs-lbv', 4, 'Wat is vaak de sleutel in blindproeven?', '["Alcohol", "Structuur en spanning", "Zoetheid", "Kleur alleen"]', 1, 'Correct: Structuur en spanning'),
-  ('examen-port', 'blindproeven-vintage-vs-lbv', 5, 'Welke stijl heeft vaak meer bewaarpotentieel?', '["LBV", "Vintage", "White", "Rosé"]', 1, 'Correct: Vintage'),
-  ('examen-port', 'praktijkexamen-port', 1, 'Wat beoordeel je als eerste?', '["Smaak", "Geur", "Kleur", "Alcohol"]', 2, 'Correct: Kleur'),
-  ('examen-port', 'praktijkexamen-port', 2, 'Wat hoort NIET bij de analyse?', '["Pairing", "Glaswerk", "Flesprijs", "Structuur"]', 2, 'Correct: Flesprijs'),
-  ('examen-port', 'praktijkexamen-port', 3, 'Waarom is onderbouwing belangrijk?', '["Voor lengte", "Voor logica en vakkennis", "Alleen voor punten", "Voor snelheid"]', 1, 'Correct: Voor logica en vakkennis'),
-  ('examen-port', 'praktijkexamen-port', 4, 'Welke stijl past vaak bij Stilton?', '["White", "Vintage", "Rosé", "Ruby"]', 1, 'Correct: Vintage'),
-  ('examen-port', 'praktijkexamen-port', 5, 'Wat is het doel van dit examen?', '["Alleen theorie", "Integratie van alles", "Alleen proeven", "Alleen service"]', 1, 'Correct: Integratie van alles')
+  ('intro-port', 'wat-is-port', 1, 'Wat maakt Port fundamenteel anders dan gewone wijn?', '["Lagere alcohol", "Fortificatie tijdens de gisting", "Geen houtlagering", "Minder suiker"]', 1, 'Correct: Fortificatie tijdens de gisting'),
+  ('intro-port', 'wat-is-port', 2, 'Waar komt echte Port vandaan?', '["Bordeaux", "Douro", "Rioja", "Toscane"]', 1, 'Correct: Douro'),
+  ('intro-port', 'wat-is-port', 3, 'Een gast bestelt pure chocolade en zoekt een fruitige Port.', '["White Port", "Ruby Reserve", "Dry White", "Tawny 30 Years"]', 1, 'Correct: Ruby Reserve'),
+  ('intro-port', 'wat-is-port', 4, 'Waarom blijft Port vaak zoet?', '["Door suiker na botteling", "Door vroeg stoppen van gisting", "Door koude opslag", "Door houtlagering"]', 1, 'Correct: Door vroeg stoppen van gisting'),
+  ('intro-port', 'wat-is-port', 5, 'Waarom kiest een producent soms voor oxidatie?', '["Om fouten te verbergen", "Om notige complexiteit te bouwen", "Om alcohol te verlagen", "Om fruit te versterken"]', 1, 'Correct: Om notige complexiteit te bouwen'),
+  ('intro-port', 'fortificatie', 1, 'Wat is aguardente in de Portproductie?', '["Een zoete druivenmost", "Neutrale gedistilleerde druivenalcohol voor fortificatie", "Een type eiken vat", "Een Portstijl uit de negentiende eeuw"]', 1, 'Correct: Neutrale gedistilleerde druivenalcohol voor fortificatie'),
+  ('intro-port', 'fortificatie', 2, 'Waarom blijft er restsuiker in Port achter?', '["Suiker wordt na botteling bijgevoegd", "Gisting stopt door fortificatie voordat alle suiker is omgezet", "De druiven bevatten geen suiker", "Hout absorbeert alle alcohol"]', 1, 'Correct: Gisting stopt door fortificatie voordat alle suiker is omgezet'),
+  ('intro-port', 'fortificatie', 3, 'Wat gebeurt er als je later fortificeert?', '["De wijn wordt altijd zoeter", "Meer suiker is al omgezet; de wijn wordt droger", "De alcohol daalt", "De wijn wordt automatisch White Port"]', 1, 'Correct: Meer suiker is al omgezet; de wijn wordt droger'),
+  ('intro-port', 'fortificatie', 4, 'Welke factor is minstens zo belangrijk als de hoeveelheid aguardente?', '["Kleur van het etiket", "Timing van de fortificatie", "Het glaswerk bij serveren", "De maand van botteling"]', 1, 'Correct: Timing van de fortificatie'),
+  ('intro-port', 'fortificatie', 5, 'Je proeft een zeer zoete, explosief fruitige jonge Port. Wat is de meest logische verklaring?', '["Zeer late fortificatie", "Geen houtlagering ooit", "Vroege fortificatie met veel restsuiker", "Rijping uitsluitend in glazen dammen"]', 2, 'Correct: Vroege fortificatie met veel restsuiker'),
+  ('intro-port', 'waarom-is-port-uniek', 1, 'Wat is het grootste methodische verschil tussen Port en gewone droge rode wijn?', '["Andere druivensoorten alleen", "Fortificatie die gisting stopzet", "Altijd rijping in stalen tanks", "Geen gebruik van schist"]', 1, 'Correct: Fortificatie die gisting stopzet'),
+  ('intro-port', 'waarom-is-port-uniek', 2, 'Waarvoor dienen terrassen in de Douro?', '["Alleen voor toeristische routes", "Wijnbouw op steile hellingen met drainage en zon", "Om opbrengst maximaal te verhogen", "Om witte druiven te scheiden"]', 1, 'Correct: Wijnbouw op steile hellingen met drainage en zon'),
+  ('intro-port', 'waarom-is-port-uniek', 3, 'Welke uitspraak over traditie in de Douro is het meest correct?', '["Traditie is vooral marketing", "Traditie beïnvloedt oogst en kwaliteit direct", "Traditie geldt alleen voor Vintage Port", "Traditie is vervangen door machines overal"]', 1, 'Correct: Traditie beïnvloedt oogst en kwaliteit direct'),
+  ('intro-port', 'waarom-is-port-uniek', 4, 'Waarom is Port ''uniek'' in internationale context?', '["Het is de enige zoete drank ter wereld", "Landschap, fortificatie en rijpingstraditie vormen één geheel", "Het bevat geen druivenalcohol", "Het wordt nergens anders gekopieerd omdat het verboden is"]', 1, 'Correct: Landschap, fortificatie en rijpingstraditie vormen één geheel'),
+  ('intro-port', 'waarom-is-port-uniek', 5, 'Je proeft een droge Douro-tafelwijn naast een Ruby Port van hetzelfde jaar. Wat verwacht je?', '["Identiek smaakprofiel", "Port met meer zoetheid, body en warmte", "Tafelwijn met hoger alcoholpercentage", "Ruby zonder fruit"]', 1, 'Correct: Port met meer zoetheid, body en warmte'),
+  ('intro-port', 'geschiedenis-van-port', 1, 'Waarom werden Britse handelaren in de 17e–18e eeuw geïnteresseerd in Portugese wijn?', '["Portugal verbood Franse wijn", "Franse wijn was schaars door conflicten; Portugal bood alternatief", "De Douro produceerde alleen witte wijn", "Britten mochten geen wijn importeren uit Spanje"]', 1, 'Correct: Franse wijn was schaars door conflicten; Portugal bood alternatief'),
+  ('intro-port', 'geschiedenis-van-port', 2, 'Waarom werden lodges vooral in Vila Nova de Gaia gebouwd?', '["Daar groeien de beste druiven", "Koelere kustnabijheid en handelslogistiek voor rijping", "Het is wettelijk verboden elders te rijpen", "Alleen daar mogen Britten wonen"]', 1, 'Correct: Koelere kustnabijheid en handelslogistiek voor rijping'),
+  ('intro-port', 'geschiedenis-van-port', 3, 'Wat was een oorspronkelijke reden om alcohol toe te voegen aan wijn voor export?', '["Smaak altijd zoeter maken", "Houdbaarheid tijdens lange zeereizen", "Etiketten kleurrijker maken", "Belasting te verlagen"]', 1, 'Correct: Houdbaarheid tijdens lange zeereizen'),
+  ('intro-port', 'geschiedenis-van-port', 4, 'Welke uitspraak over Britse namen op Portflessen klopt?', '["Ze komen van wijngaarden in Engeland", "Ze herinneren aan Britse investeerders en handelshuizen", "Ze betekenen dat de wijn in Londen wordt gebotteld", "Ze zijn verplicht voor Ruby Port"]', 1, 'Correct: Ze herinneren aan Britse investeerders en handelshuizen'),
+  ('intro-port', 'geschiedenis-van-port', 5, 'Je bezoekt een lodge in Gaia. Wat verwacht je daar te zien?', '["Steile terrassen met druivenpluk", "Grote kelders met houten vaten voor rijping", "Alleen een winkel zonder opslag", "Uitsluitend stalen tanks in de open lucht"]', 1, 'Correct: Grote kelders met houten vaten voor rijping'),
+  ('intro-port', 'portcategorieen', 1, 'Welke Portcategorie is typisch het meest fruitig en jong?', '["Tawny 30 Years", "Ruby", "Vintage na twintig jaar fles", "Colheita"]', 1, 'Correct: Ruby'),
+  ('intro-port', 'portcategorieen', 2, 'Waar herken je Tawny het snelst aan?', '["Dieprode kleur en korte rijping", "Bruine tint en noten door houtlagering", "Altijd witte druiven", "Altijd één jaargang op fles"]', 1, 'Correct: Bruine tint en noten door houtlagering'),
+  ('intro-port', 'portcategorieen', 3, 'White Port wordt gemaakt van:', '["Alleen Touriga Nacional", "Witte druivenrassen", "Gedistilleerde aguardente", "Gemengde jaargangen zonder druiven"]', 1, 'Correct: Witte druivenrassen'),
+  ('intro-port', 'portcategorieen', 4, 'Wat maakt Vintage Port bijzonder?', '["Altijd minstens veertig jaar op hout", "Wijn van één uitmuntend jaar met flesrijping", "Geen fortificatie", "Alleen voor koken"]', 1, 'Correct: Wijn van één uitmuntend jaar met flesrijping'),
+  ('intro-port', 'portcategorieen', 5, 'Een gast wil na het diner één Port voor kaas én pure chocolade. Meest logische richting?', '["White Port", "LBV of Ruby Reserve", "Tawny 40 Years", "Rosé Port"]', 1, 'Correct: LBV of Ruby Reserve'),
+  ('productie-port', 'druiven-van-port', 1, 'Waarom is Port zelden van één druivenras?', '["Wetgeving verbiedt monorassen", "Blend combineert structuur, fruit en finesse in productie", "Er is maar één ras in de Douro", "Witte druiven domineren altijd"]', 1, 'Correct: Blend combineert structuur, fruit en finesse in productie'),
+  ('productie-port', 'druiven-van-port', 2, 'Welk ras staat bekend om concentratie en stevige tannines?', '["Tinta Roriz", "Touriga Nacional", "Tinto Cão", "Malvasia Fina"]', 1, 'Correct: Touriga Nacional'),
+  ('productie-port', 'druiven-van-port', 3, 'Welke rol heeft Tinta Roriz typisch in een Portblend?', '["Alleen kleur geven", "Volume en rood fruit in het midden", "Verdunners voor alcohol", "Geen rol in rode Port"]', 1, 'Correct: Volume en rood fruit in het midden'),
+  ('productie-port', 'druiven-van-port', 4, 'Waarom wordt Tinto Cão gewaardeerd ondanks lage opbrengst?', '["Hij geeft de hoogste opbrengst per hectare", "Aromatische finesse en complexiteit", "Hij vervangt aguardente", "Alleen voor White Port"]', 1, 'Correct: Aromatische finesse en complexiteit'),
+  ('productie-port', 'druiven-van-port', 5, 'Een Vintage Port mist pit en lengte. Welke blend-aanpassing is logisch?', '["Meer Touriga Nacional", "Alleen Malvasia", "Geen fortificatie", "Minder rijping in vat altijd"]', 0, 'Correct: Meer Touriga Nacional'),
+  ('productie-port', 'douro-vallei', 1, 'Welk deel van de Douro-vallei staat bekend als kwaliteitshart voor premium Port?', '["Baixo Corgo", "Cima Corgo", "Vinho Verde", "Alentejo"]', 1, 'Correct: Cima Corgo'),
+  ('productie-port', 'douro-vallei', 2, 'Wat kenmerkt Baixo Corgo in productietermen?', '["Droogste en heetste zone", "Relatief meer regen en hogere opbrengst", "Geen terrassen", "Alleen witte druiven"]', 1, 'Correct: Relatief meer regen en hogere opbrengst'),
+  ('productie-port', 'douro-vallei', 3, 'Douro Superior staat vooral bekend om:', '["Koel zeeklimaat", "Extreme hitte en geconcentreerde druiven", "Hoogste regenval in Portugal", "Alleen bulkproductie zonder kwaliteit"]', 1, 'Correct: Extreme hitte en geconcentreerde druiven'),
+  ('productie-port', 'douro-vallei', 4, 'Waarom zijn terrassen essentieel in de hele Douro-vallei?', '["Voor wandeltoerisme alleen", "Wijnbouw op steile hellingen met drainage", "Om irrigatie te vermijden", "Alleen in Baixo Corgo verplicht"]', 1, 'Correct: Wijnbouw op steile hellingen met drainage'),
+  ('productie-port', 'douro-vallei', 5, 'Een producent zoekt maximale concentratie per druif voor Vintage. Logische focus?', '["Vlakke velden in Baixo Corgo", "Steile terrassen in Cima Corgo of Douro Superior", "Kustgebied nabij Porto", "Irrigatie-intensieve laagvlakten"]', 1, 'Correct: Steile terrassen in Cima Corgo of Douro Superior'),
+  ('productie-port', 'klimaat-en-terroir', 1, 'Wat doet extreme hitte in de Douro met de druiven?', '["Verlaagt suikergehalte", "Versnelt rijping en verhoogt concentratie", "Maakt schil dunner zonder effect", "Voorkomt fortificatie"]', 1, 'Correct: Versnelt rijping en verhoogt concentratie'),
+  ('productie-port', 'klimaat-en-terroir', 2, 'Waarom is schist belangrijk voor Portproductie?', '["Het houdt veel water vast oppervlakkig", "Warmte, drainage en diepe wortels door rots", "Het vervangt aguardente", "Het maakt wijn automatisch wit"]', 1, 'Correct: Warmte, drainage en diepe wortels door rots'),
+  ('productie-port', 'klimaat-en-terroir', 3, 'Waarom kiezen kwaliteitsproducenten voor lage opbrengst?', '["Hogere opbrengst geeft altijd betere Port", "Minder kilo's per hectare betekent rijker extract", "Wet verplicht lage opbrengst voor Ruby", "Lage opbrengst voorkomt houtlagering"]', 1, 'Correct: Minder kilo''s per hectare betekent rijker extract'),
+  ('productie-port', 'klimaat-en-terroir', 4, 'Welke combinatie past het best bij krachtige Vintage-productie?', '["Koel klimaat en klei", "Hitte, schist en geconcentreerde druiven", "Hoogopbrengende vlakten", "Alleen irrigatie zonder terrassen"]', 1, 'Correct: Hitte, schist en geconcentreerde druiven'),
+  ('productie-port', 'klimaat-en-terroir', 5, 'Je leest ''minerale spanning'' in een Portbeschrijving. Meest waarschijnlijke bron?', '["Toegevoegde mineralen in fles", "Terroir met schist en stress in de wijngaard", "Korte flessenrijping", "White Port blend"]', 1, 'Correct: Terroir met schist en stress in de wijngaard'),
+  ('productie-port', 'houtlagering', 1, 'Wat is het hoofddoel van houtlagering bij Port?', '["Alcohol verlagen", "Rijping, oxidatie en smaakontwikkeling", "Suiker verwijderen", "Kleur altijd roder maken"]', 1, 'Correct: Rijping, oxidatie en smaakontwikkeling'),
+  ('productie-port', 'houtlagering', 2, 'Waarom rijpen Tawny''s vaak in grote vaten?', '["Snellere houtextractie", "Langzame, milde oxidatie over lange tijd", "Geen contact met zuurstof", "Alleen voor White Port"]', 1, 'Correct: Langzame, milde oxidatie over lange tijd'),
+  ('productie-port', 'houtlagering', 3, 'Kleine vaten verschillen van grote vaten doordat:', '["Ze geen houtinvloed geven", "Meer oppervlak per liter snellere extractie geeft", "Ze alleen in de Douro staan", "Ze fortificatie vervangen"]', 1, 'Correct: Meer oppervlak per liter snellere extractie geeft'),
+  ('productie-port', 'houtlagering', 4, 'Waarom rijpt Vintage Port maar kort op hout?', '["Wettelijk maximum één week", "Om fruit en tannine voor flesrijping te behouden", "Vintage mag nooit hout zien", "Alleen voor export"]', 1, 'Correct: Om fruit en tannine voor flesrijping te behouden'),
+  ('productie-port', 'houtlagering', 5, 'Je proeft noten en karamel maar weinig fris fruit. Meest logische verklaring?', '["Geen houtlagering ooit", "Lange houtlagering in grote vaten", "Alleen fortificatie op dag één", "Jonge Ruby zonder rijping"]', 1, 'Correct: Lange houtlagering in grote vaten'),
+  ('productie-port', 'oxidatie-uitgelegd', 1, 'Wat gebeurt er bij oxidatieve rijping van Port?', '["Fruit wordt sterker en purperder", "Fruit verandert richting noten en karamel", "Alcohol verdwijnt volledig", "Wijn wordt altijd droog zonder suiker"]', 1, 'Correct: Fruit verandert richting noten en karamel'),
+  ('productie-port', 'oxidatie-uitgelegd', 2, 'Welke stijl is bewust weinig blootgesteld aan oxidatie?', '["Tawny 30 Years", "Ruby", "Colheita oud", "Tawny met leeftijd"]', 1, 'Correct: Ruby'),
+  ('productie-port', 'oxidatie-uitgelegd', 3, 'Waarom heeft Tawny vaak een amberkleur?', '["Kunstmatige kleurstof", "Langdurige oxidatie en kleurverlies in hout", "Geen contact met druiven", "Korte flessenrijping alleen"]', 1, 'Correct: Langdurige oxidatie en kleurverlies in hout'),
+  ('productie-port', 'oxidatie-uitgelegd', 4, 'Je proeft hazelnoot en toffee zonder fris bramenfruit. Meest waarschijnlijk?', '["Jonge Ruby", "Tawny met oxidatieve rijping", "Onfortified tafelwijn", "White Port zonder rijping"]', 1, 'Correct: Tawny met oxidatieve rijping'),
+  ('productie-port', 'oxidatie-uitgelegd', 5, 'Zuurstof in de Portproductie is vooral:', '["Altijd schadelijk en te vermijden", "Een stuurinstrument voor smaakprofiel", "Alleen relevant voor witte wijn", "Vervangen door aguardente"]', 1, 'Correct: Een stuurinstrument voor smaakprofiel'),
+  ('proeven-port', 'proefnotitie-port', 1, 'Wat is de eerste stap in de Way-of-Tasting-structuur voor Port?', '["Proeven", "Ruiken", "Kijken", "Concluderen"]', 2, 'Correct: Kijken'),
+  ('proeven-port', 'proefnotitie-port', 2, 'Wat kan viscositeit in het glas vaak suggereren?', '["Alleen leeftijd", "Alcohol en restsuiker", "Alleen druivenras", "Schenktemperatuur"]', 1, 'Correct: Alcohol en restsuiker'),
+  ('proeven-port', 'proefnotitie-port', 3, 'Waar analyseer je tannine en body het best?', '["Alleen bij kleur", "Alleen bij de neus", "Bij smaak en structuur", "Alleen in de conclusie"]', 2, 'Correct: Bij smaak en structuur'),
+  ('proeven-port', 'proefnotitie-port', 4, 'Wat is het doel van de conclusie in een proefnotitie?', '["Het glas beschrijven", "Waarnemingen koppelen aan stijl en kwaliteit", "De prijs bepalen", "Het etiket samenvatten"]', 1, 'Correct: Waarnemingen koppelen aan stijl en kwaliteit'),
+  ('proeven-port', 'proefnotitie-port', 5, 'Waarom schrijf je proefnotities systematisch op?', '["Om sneller te drinken", "Om patronen te herkennen en te vergelijken", "Om alcohol te meten", "Om de serveertemperatuur te verhogen"]', 1, 'Correct: Om patronen te herkennen en te vergelijken'),
+  ('proeven-port', 'structuur-herkennen', 1, 'Wat beschrijft structuur bij Port het best?', '["Alleen het aroma", "Hoe de wijn in de mond aanvoelt", "Alleen de kleur", "De flesvorm"]', 1, 'Correct: Hoe de wijn in de mond aanvoelt'),
+  ('proeven-port', 'structuur-herkennen', 2, 'Waar voel je tannine vooral?', '["Op de tongpunt", "Op het tandvlees", "In de neus", "In de afdronk alleen"]', 1, 'Correct: Op het tandvlees'),
+  ('proeven-port', 'structuur-herkennen', 3, 'Wat is body?', '["Het alcoholpercentage", "Het gewicht en volume in de mond", "De kleurintensiteit", "De serveertemperatuur"]', 1, 'Correct: Het gewicht en volume in de mond'),
+  ('proeven-port', 'structuur-herkennen', 4, 'Wat kan branderige alcohol suggereren?', '["Perfecte integratie", "Onevenwicht of te jonge indruk", "Te weinig zoetheid", "Te veel tannine"]', 1, 'Correct: Onevenwicht of te jonge indruk'),
+  ('proeven-port', 'structuur-herkennen', 5, 'Wat bepaalt uiteindelijk de kwaliteitsindruk van structuur?', '["Alleen zoetheid", "Balans tussen alle componenten", "Alleen alcoholpercentage", "Alleen de afdronklengte"]', 1, 'Correct: Balans tussen alle componenten'),
+  ('proeven-port', 'aromas-herkennen', 1, 'Welke aroma''s passen het best bij een jonge Ruby Port?', '["Walnoot en toffee", "Kers, braam en pruim", "Alleen citrus en appel", "Rook en leer"]', 1, 'Correct: Kers, braam en pruim'),
+  ('proeven-port', 'aromas-herkennen', 2, 'Wat wijzen noten en karamel meestal op?', '["Zeer jonge vinificatie", "Rijping en langere ontwikkeling", "Te lage alcohol", "Alleen white Port"]', 1, 'Correct: Rijping en langere ontwikkeling'),
+  ('proeven-port', 'aromas-herkennen', 3, 'Welke tonen zijn typisch oxidatief?', '["Vers gras en limoen", "Toffee, vijg en gedroogd fruit", "Alleen pure framboos", "Brooddeeg en gist"]', 1, 'Correct: Toffee, vijg en gedroogd fruit'),
+  ('proeven-port', 'aromas-herkennen', 4, 'Waarom is kruidigheid relevant bij Port?', '["Het verlaagt altijd de alcohol", "Het voegt diepte en complexiteit toe", "Het betekent altijd een fout", "Het komt alleen van houten vaten"]', 1, 'Correct: Het voegt diepte en complexiteit toe'),
+  ('proeven-port', 'aromas-herkennen', 5, 'Waarom ruik je Port meerdere keren in het glas?', '["Om de alcohol te verdampen", "Omdat aroma's evolueren naarmate de wijn opent", "Om de kleur te bevestigen", "Om de temperatuur te meten"]', 1, 'Correct: Omdat aroma''s evolueren naarmate de wijn opent'),
+  ('proeven-port', 'ruby-vs-tawny-blind', 1, 'Welke kleur wijst het sterkst op Tawny Port?', '["Diep paarsrobijn", "Amber en oranjebruin", "Bleek strogeel", "Helder grasgroen"]', 1, 'Correct: Amber en oranjebruin'),
+  ('proeven-port', 'ruby-vs-tawny-blind', 2, 'Welke neus past het best bij Ruby?', '["Walnoot en toffee", "Vers kers- en braamfruit", "Alleen gedroogde vijg", "Rook en tabak"]', 1, 'Correct: Vers kers- en braamfruit'),
+  ('proeven-port', 'ruby-vs-tawny-blind', 3, 'Blind: diep robijn, braam op de neus, stevige tannine. Meest waarschijnlijk?', '["Tawny 20 Years", "Ruby of jonge Ruby-stijl", "White Port", "Colheita 1970"]', 1, 'Correct: Ruby of jonge Ruby-stijl'),
+  ('proeven-port', 'ruby-vs-tawny-blind', 4, 'Waarom is de afdronk nuttig bij blindproeven?', '["Hij verandert de kleur", "Hij bevestigt vaak je eerdere hypothese", "Hij meet het alcoholpercentage", "Hij vervangt de neus"]', 1, 'Correct: Hij bevestigt vaak je eerdere hypothese'),
+  ('proeven-port', 'ruby-vs-tawny-blind', 5, 'Wat is de kern van blindproeven?', '["Het etiket raden", "Objectief waarnemen zonder voorafkennis", "Alleen op prijs letten", "De oudste fles kiezen"]', 1, 'Correct: Objectief waarnemen zonder voorafkennis'),
+  ('oorsprong-port', 'waar-komt-port-vandaan', 1, 'Uit welk land komt echte Port?', '["Spanje", "Frankrijk", "Portugal", "Italië"]', 2, 'Correct: Portugal'),
+  ('oorsprong-port', 'waar-komt-port-vandaan', 2, 'Waarom heet de wijn ''Port''?', '["Naar de druif Porta", "Naar de havenstad Porto", "Naar de kleur porto-rood", "Naar het woord 'portie'"]', 1, 'Correct: Naar de havenstad Porto'),
+  ('oorsprong-port', 'waar-komt-port-vandaan', 3, 'Waar lagen historisch de beroemde Port-lodges?', '["In Lissabon", "In Vila Nova de Gaia", "In Madrid", "In Bordeaux"]', 1, 'Correct: In Vila Nova de Gaia'),
+  ('oorsprong-port', 'waar-komt-port-vandaan', 4, 'In welk jaar werd de Douro officieel afgebakend?', '["1756", "1820", "1900", "2000"]', 0, 'Correct: 1756'),
+  ('oorsprong-port', 'waar-komt-port-vandaan', 5, 'Waarom is herkomstbescherming belangrijk?', '["Alleen voor hogere prijzen", "Voor authenticiteit en uniek terroir", "Alleen voor exportbelasting", "Alleen voor etiketdesign"]', 1, 'Correct: Voor authenticiteit en uniek terroir'),
+  ('oorsprong-port', 'druiven-regionaliteit', 1, 'Wat is het focusverschil met les 6 over druiven?', '["Alleen alcoholpercentage", "Regionaliteit en quintatraditie, niet productiemechanica", "Alleen export", "Alleen glaswerk"]', 1, 'Correct: Regionaliteit en quintatraditie, niet productiemechanica'),
+  ('oorsprong-port', 'druiven-regionaliteit', 2, 'Welk ras is het meest iconisch voor Douro-identiteit?', '["Merlot", "Touriga Nacional", "Chardonnay", "Pinot Noir"]', 1, 'Correct: Touriga Nacional'),
+  ('oorsprong-port', 'druiven-regionaliteit', 3, 'Wat betekent quintatraditie?', '["Eén druif per fles", "Generaties blends en perceelkennis binnen een domein", "Alleen machine-oogst", "Import uit Spanje"]', 1, 'Correct: Generaties blends en perceelkennis binnen een domein'),
+  ('oorsprong-port', 'druiven-regionaliteit', 4, 'Wat is terroiridentiteit in deze context?', '["Alleen het etiket", "Welke rassen en stijlen een plek uniek maken", "Alleen de fleskleur", "De serveertemperatuur"]', 1, 'Correct: Welke rassen en stijlen een plek uniek maken'),
+  ('oorsprong-port', 'druiven-regionaliteit', 5, 'Waarom zijn meer dan 80 rassen toegestaan?', '["Voor willekeur", "Als levend archief voor regionale expressie", "Om alcohol te verlagen", "Om export te vermijden"]', 1, 'Correct: Als levend archief voor regionale expressie'),
+  ('oorsprong-port', 'douro-cultureel-landschap', 1, 'Hoeveel subzones heeft de Douro-vallei?', '["Twee", "Drie", "Vijf", "Zeven"]', 1, 'Correct: Drie'),
+  ('oorsprong-port', 'douro-cultureel-landschap', 2, 'Welke subzone wordt vaak het ''hart'' van top-Port genoemd?', '["Baixo Corgo", "Cima Corgo", "Douro Superior", "Alentejo"]', 1, 'Correct: Cima Corgo'),
+  ('oorsprong-port', 'douro-cultureel-landschap', 3, 'Wat is een quinta in deze context?', '["Een glastype", "Een wijndomein en identiteitsanker in het landschap", "Een exporthaven", "Een druivenras"]', 1, 'Correct: Een wijndomein en identiteitsanker in het landschap'),
+  ('oorsprong-port', 'douro-cultureel-landschap', 4, 'Waarom staan terrassen centraal in het Douro-landschap?', '["Voor decoratie", "Ze maken wijnbouw op steile hellingen mogelijk", "Ze verlagen alcohol", "Ze vervangen rijping"]', 1, 'Correct: Ze maken wijnbouw op steile hellingen mogelijk'),
+  ('oorsprong-port', 'douro-cultureel-landschap', 5, 'Waarom is de Douro UNESCO Werelderfgoed?', '["Alleen vanwege de rivier", "Vanwege het unieke cultuur- en wijnlandschap", "Vanwege de stad Porto alleen", "Vanwege exportcijfers"]', 1, 'Correct: Vanwege het unieke cultuur- en wijnlandschap'),
+  ('oorsprong-port', 'quintas-en-port-houses', 1, 'Wat is mesoclimaat?', '["Alleen wereldwijd klimaat", "Lokaal klimaat op helling of in een subzone", "Alleen kelder temperatuur", "Alleen exportklimaat"]', 1, 'Correct: Lokaal klimaat op helling of in een subzone'),
+  ('oorsprong-port', 'quintas-en-port-houses', 2, 'Welke bodem is het terroir-icoon van de Douro?', '["Kalksteen", "Leisteen (schist)", "Puin", "Veen"]', 1, 'Correct: Leisteen (schist)'),
+  ('oorsprong-port', 'quintas-en-port-houses', 3, 'Wat doet diurnaal temperatuurverschil?', '["Verlaagt altijd alcohol", "Helpt zuur te behouden ondanks warme dagen", "Maakt wijn altijd zoeter", "Voorkomt rijping"]', 1, 'Correct: Helpt zuur te behouden ondanks warme dagen'),
+  ('oorsprong-port', 'quintas-en-port-houses', 4, 'Waarom dwingt leisteen wortels diep?', '["Door veel oppervlaktewater", "Door scheuren, drainage en warmteopslag", "Door zandige toplaag", "Door kunstmatige irrigatie alleen"]', 1, 'Correct: Door scheuren, drainage en warmteopslag'),
+  ('oorsprong-port', 'quintas-en-port-houses', 5, 'Wat is zonekarakter?', '["Alleen het IVDP-logo", "Hoe mesoclimaat en bodem per subzone smaak kleuren", "Alleen de flesvorm", "Alleen het alcoholpercentage"]', 1, 'Correct: Hoe mesoclimaat en bodem per subzone smaak kleuren'),
+  ('oorsprong-port', 'producenten-herkennen', 1, 'Wie beheert de officiële Douro-classificatie?', '["Europese Unie alleen", "IVDP", "UNESCO", "Individuele exporteurs"]', 1, 'Correct: IVDP'),
+  ('oorsprong-port', 'producenten-herkennen', 2, 'Welke letter is de hoogste wijngaardclassificatie?', '["C", "F", "A", "E"]', 2, 'Correct: A'),
+  ('oorsprong-port', 'producenten-herkennen', 3, 'Wat verhoogt meestal concentratie per druif?', '["Hoge opbrengst per stok", "Lage opbrengst per stok", "Meer regen", "Jongere stokken alleen"]', 1, 'Correct: Lage opbrengst per stok'),
+  ('oorsprong-port', 'producenten-herkennen', 4, 'Welke factoren tellen mee in classificatie?', '["Alleen flesvorm", "Ligging, zon, helling, bodem, opbrengst", "Alleen exportmarkt", "Alleen alcoholpercentage"]', 1, 'Correct: Ligging, zon, helling, bodem, opbrengst'),
+  ('oorsprong-port', 'producenten-herkennen', 5, 'Waar begint volgens dit systeem grote Port?', '["In de haven", "In de geclassificeerde wijngaard", "Alleen in het glas", "Bij het etiket"]', 1, 'Correct: In de geclassificeerde wijngaard'),
+  ('portstijlen', 'ruby-reserve', 1, 'Waarom heet Ruby Port Ruby?', '["Door de druivensoort", "Door de robijnrode kleur", "Door de regio", "Door de bottelvorm"]', 1, 'Correct: Door de robijnrode kleur'),
+  ('portstijlen', 'ruby-reserve', 2, 'Hoe lang rijpt Ruby Port meestal?', '["2–3 jaar", "10 jaar", "20 jaar", "30 jaar"]', 0, 'Correct: 2–3 jaar'),
+  ('portstijlen', 'ruby-reserve', 3, 'Waarom rijpt Ruby in grote vaten?', '["Voor meer oxidatie", "Voor minder oxidatie en meer fruitbehoud", "Voor hogere alcohol", "Voor meer suiker"]', 1, 'Correct: Voor minder oxidatie en meer fruitbehoud'),
+  ('portstijlen', 'ruby-reserve', 4, 'Welke aroma''s passen typisch bij Ruby?', '["Walnoten en karamel", "Kers, braam en pruim", "Citrus en appel", "Honing en amandel"]', 1, 'Correct: Kers, braam en pruim'),
+  ('portstijlen', 'ruby-reserve', 5, 'Wat past klassiek bij Ruby Port?', '["Oesters", "Pure chocolade", "Sushi", "Groene salade"]', 1, 'Correct: Pure chocolade'),
+  ('portstijlen', 'late-bottled-vintage', 1, 'Waar rijpt Tawny Port meestal?', '["Op fles", "In kleinere houten vaten", "In betonnen tanks", "Alleen in RVS"]', 1, 'Correct: In kleinere houten vaten'),
+  ('portstijlen', 'late-bottled-vintage', 2, 'Wat veroorzaakt de lichtere amberkleur van Tawny?', '["Meer suiker", "Oxidatie tijdens houtlagering", "Minder alcohol", "Witte druiven"]', 1, 'Correct: Oxidatie tijdens houtlagering'),
+  ('portstijlen', 'late-bottled-vintage', 3, 'Welke aroma''s passen typisch bij Tawny?', '["Kers en braam", "Walnoten en karamel", "Citrus en appel", "Framboos en aardbei"]', 1, 'Correct: Walnoten en karamel'),
+  ('portstijlen', 'late-bottled-vintage', 4, 'Gast wil oogstjaar-Port voor binnen vijf jaar drinken, geen decanteren. Beste advies?', '["Vintage 2011", "LBV gefilterd", "Garrafeira", "Crusted zonder depot"]', 1, 'Correct: LBV gefilterd'),
+  ('portstijlen', 'late-bottled-vintage', 5, 'Hoe lang blijft Tawny vaak goed na opening?', '["2 dagen", "1 week", "4–8 weken", "6 maanden zonder kwaliteitsverlies"]', 2, 'Correct: 4–8 weken'),
+  ('portstijlen', 'crusted-port', 1, 'Waaruit wordt LBV gemaakt?', '["Meerdere oogstjaren", "Één oogstjaar", "Alleen witte druiven", "Alleen Tawny-blends"]', 1, 'Correct: Één oogstjaar'),
+  ('portstijlen', 'crusted-port', 2, 'Hoe lang rijpt LBV meestal op vat?', '["2 jaar", "4–6 jaar", "20 jaar", "30 jaar"]', 1, 'Correct: 4–6 jaar'),
+  ('portstijlen', 'crusted-port', 3, 'Waarin verschilt LBV van Vintage Port?', '["LBV rijpt langer op vat en is directer drinkbaar", "LBV heeft geen oogstjaar", "Vintage rijpt alleen op vat", "LBV is altijd wit"]', 0, 'Correct: LBV rijpt langer op vat en is directer drinkbaar'),
+  ('portstijlen', 'crusted-port', 4, 'Welke aroma''s passen typisch bij LBV?', '["Citrus en appel", "Zwarte kersen, pruimen en cacao", "Walnoten en toffee", "Framboos en munt"]', 1, 'Correct: Zwarte kersen, pruimen en cacao'),
+  ('portstijlen', 'crusted-port', 5, 'Waarom zien sommigen LBV als brugstijl?', '["Minder alcohol dan Ruby", "Meer karakter dan Ruby, minder geduld dan Vintage", "Geen fruit", "Alleen voor cocktails"]', 1, 'Correct: Meer karakter dan Ruby, minder geduld dan Vintage'),
+  ('portstijlen', 'vintage-port', 1, 'Waarvan wordt White Port gemaakt?', '["Rode druiven", "Witte druiven", "Rosé-druiven", "Een blend van rood en wit"]', 1, 'Correct: Witte druiven'),
+  ('portstijlen', 'vintage-port', 2, 'Welke stijlen kan White Port hebben?', '["Alleen zoet", "Alleen droog", "Droog tot zoet", "Alleen oxidatief"]', 2, 'Correct: Droog tot zoet'),
+  ('portstijlen', 'vintage-port', 3, 'Welke aroma''s passen vaak bij White Port?', '["Kers en braam", "Citrus en amandel", "Walnoot en karamel", "Koffie en cacao"]', 1, 'Correct: Citrus en amandel'),
+  ('portstijlen', 'vintage-port', 4, 'Wat is een populaire moderne serveerwijze?', '["White Port & Cola", "White Port & Tonic", "White Port & Bier", "White Port warm"]', 1, 'Correct: White Port & Tonic'),
+  ('portstijlen', 'vintage-port', 5, 'Wanneer wordt White Port vaak gedronken?', '["Als aperitief", "Alleen na het diner", "Alleen bij kaas", "Alleen bij dessert"]', 0, 'Correct: Als aperitief'),
+  ('portstijlen', 'vintage-vs-lbv', 1, 'Waarvan wordt Rosé Port gemaakt?', '["Witte druiven", "Blauwe druiven met kort schilcontact", "Alleen Tawny-blends", "Alleen rosé-druiven"]', 1, 'Correct: Blauwe druiven met kort schilcontact'),
+  ('portstijlen', 'vintage-vs-lbv', 2, 'Waarom is Rosé Port lichter van kleur dan Ruby?', '["Meer alcohol", "Minder schilcontact", "Meer suiker", "Langere houtlagering"]', 1, 'Correct: Minder schilcontact'),
+  ('portstijlen', 'vintage-vs-lbv', 3, 'Welke aroma''s passen vaak bij Rosé Port?', '["Walnoten en karamel", "Aardbei en framboos", "Vijgen en toffee", "Koffie en cacao"]', 1, 'Correct: Aardbei en framboos'),
+  ('portstijlen', 'vintage-vs-lbv', 4, 'Waar wordt Rosé Port vaak voor gebruikt?', '["Alleen bij dessert", "Als aperitief en in cocktails", "Alleen voor langdurige rijping", "Alleen blindproeven"]', 1, 'Correct: Als aperitief en in cocktails'),
+  ('portstijlen', 'vintage-vs-lbv', 5, 'Sinds wanneer is Rosé Port commercieel erkend?', '["1756", "1900", "2008", "2020"]', 2, 'Correct: 2008'),
+  ('portstijlen-verdiept', 'white-port', 1, 'Waarvan wordt White Port gemaakt?', '["Rode druiven", "Witte druiven", "Rosé-druiven", "Gedistilleerde druiven"]', 1, 'Correct: Witte druiven'),
+  ('portstijlen-verdiept', 'white-port', 2, 'Welke serveerwijze is modern populair?', '["White Port & Cola", "White Port & Tonic", "White Port warm", "White Port met ijs alleen"]', 1, 'Correct: White Port & Tonic'),
+  ('portstijlen-verdiept', 'white-port', 3, 'Wanneer past White Port het best?', '["Als aperitief", "Alleen bij blauwe kaas", "Alleen na Vintage", "Alleen bij vlees"]', 0, 'Correct: Als aperitief'),
+  ('portstijlen-verdiept', 'white-port', 4, 'Welke temperatuur is ideaal voor droge White?', '["16–18°C", "8–10°C", "Kamertemperatuur", "4°C"]', 1, 'Correct: 8–10°C'),
+  ('portstijlen-verdiept', 'white-port', 5, 'Een gast wil iets fris vóór het diner. Eerste advies?', '["Vintage Port", "20 Years Tawny", "White Port", "Crusted Port"]', 2, 'Correct: White Port'),
+  ('portstijlen-verdiept', 'rose-port', 1, 'Wat maakt Rosé Port licht van kleur?', '["Witte druiven", "Kort schilcontact", "Geen fortificatie", "Lange houtlagering"]', 1, 'Correct: Kort schilcontact'),
+  ('portstijlen-verdiept', 'rose-port', 2, 'Sinds wanneer is Rosé officieel erkend?', '["1756", "1980", "2008", "2020"]', 2, 'Correct: 2008'),
+  ('portstijlen-verdiept', 'rose-port', 3, 'Ideale serveertemperatuur?', '["16–18°C", "8–10°C", "20°C", "4°C"]', 1, 'Correct: 8–10°C'),
+  ('portstijlen-verdiept', 'rose-port', 4, 'Rosé vs Ruby: wat verwacht je meer?', '["Tannine en diepte", "Frisheid en licht fruit", "Noten en karamel", "Depot"]', 1, 'Correct: Frisheid en licht fruit'),
+  ('portstijlen-verdiept', 'rose-port', 5, 'Welk moment past het best?', '["Zware digestief na vlees", "Aperitief of zomerse avond", "Alleen bij Stilton", "Celaring 30 jaar"]', 1, 'Correct: Aperitief of zomerse avond'),
+  ('portstijlen-verdiept', 'tawny-port', 1, 'Wat onderscheidt Tawny fundamenteel van Ruby?', '["Minder alcohol", "oxidatieve rijping in hout", "Witte druiven", "Geen fortificatie"]', 1, 'Correct: oxidatieve rijping in hout'),
+  ('portstijlen-verdiept', 'tawny-port', 2, 'Wat betekent ''20 Years'' op het etiket?', '["Exact 20 jaar oude fles", "Gemiddelde leeftijd van het blend", "20 jaar op fles", "20% alcohol"]', 1, 'Correct: Gemiddelde leeftijd van het blend'),
+  ('portstijlen-verdiept', 'tawny-port', 3, 'Waarom serveer je Tawny koeler dan Vintage?', '["Minder suiker", "Finesse blijft beter behouden", "Meer tannine", "Depot"]', 1, 'Correct: Finesse blijft beter behouden'),
+  ('portstijlen-verdiept', 'tawny-port', 4, 'Welke Tawny is vaak de gastronomische brug?', '["Basic Ruby-style", "10 Years", "20 Years", "White Port"]', 2, 'Correct: 20 Years'),
+  ('portstijlen-verdiept', 'tawny-port', 5, 'Gast wil notendessert. Eerste richting?', '["Jonge Ruby", "20 Years Tawny", "Vintage 2 jaar", "White Dry"]', 1, 'Correct: 20 Years Tawny'),
+  ('portstijlen-verdiept', 'colheita-port', 1, 'Wat betekent Colheita?', '["Blend", "Oogst", "Vat", "Fles"]', 1, 'Correct: Oogst'),
+  ('portstijlen-verdiept', 'colheita-port', 2, 'Waaruit bestaat Colheita?', '["Meerdere oogstjaren", "Eén oogstjaar", "Alleen witte druiven", "Alleen Ruby"]', 1, 'Correct: Eén oogstjaar'),
+  ('portstijlen-verdiept', 'colheita-port', 3, 'Hoe lang moet Colheita minimaal op vat rijpen?', '["2 jaar", "5 jaar", "7 jaar", "10 jaar"]', 2, 'Correct: 7 jaar'),
+  ('portstijlen-verdiept', 'colheita-port', 4, 'Waar rijpt Colheita vooral?', '["Fles", "Vat", "Tank", "Beton"]', 1, 'Correct: Vat'),
+  ('portstijlen-verdiept', 'colheita-port', 5, 'Wat zie je vaak op het etiket?', '["Alleen botteljaar", "Oogstjaar en botteljaar", "Alleen alcoholpercentage", "Geen jaartal"]', 1, 'Correct: Oogstjaar en botteljaar'),
+  ('portstijlen-verdiept', 'garrafeira-port', 1, 'Wat is uniek aan Garrafeira-rijping?', '["Alleen staaltank", "glasrijping in demijohns", "Geen fortificatie", "Alleen rosé"]', 1, 'Correct: glasrijping in demijohns'),
+  ('portstijlen-verdiept', 'garrafeira-port', 2, 'Welke producent is iconisch voor Garrafeira?', '["Sandeman", "Niepoort", "Cockburn", "Fonseca"]', 1, 'Correct: Niepoort'),
+  ('portstijlen-verdiept', 'garrafeira-port', 3, 'Garrafeira vs Vintage: wat klopt?', '["Beide alleen flesrijping", "Garrafeira gebruikt glas na hout", "Vintage is altijd zoeter", "Geen verschil"]', 1, 'Correct: Garrafeira gebruikt glas na hout'),
+  ('portstijlen-verdiept', 'garrafeira-port', 4, 'Ideale serveertemperatuur?', '["8°C", "14–16°C", "22°C", "4°C"]', 1, 'Correct: 14–16°C'),
+  ('portstijlen-verdiept', 'garrafeira-port', 5, 'Beste pairing?', '["Olijven", "Oude kaas en pure chocolade", "Sushi", "Spritz"]', 1, 'Correct: Oude kaas en pure chocolade'),
+  ('service-port', 'serveertemperatuur', 1, 'Wat betekent Colheita?', '["Blend", "Oogst", "Vat", "Fles"]', 1, 'Correct: Oogst'),
+  ('service-port', 'serveertemperatuur', 2, 'Waaruit bestaat Colheita?', '["Meerdere oogstjaren", "Eén oogstjaar", "Alleen witte druiven", "Alleen Ruby"]', 1, 'Correct: Eén oogstjaar'),
+  ('service-port', 'serveertemperatuur', 3, 'Hoe lang moet Colheita minimaal op vat rijpen?', '["2 jaar", "5 jaar", "7 jaar", "10 jaar"]', 2, 'Correct: 7 jaar'),
+  ('service-port', 'serveertemperatuur', 4, 'Waar rijpt Colheita vooral?', '["Fles", "Vat", "Tank", "Beton"]', 1, 'Correct: Vat'),
+  ('service-port', 'serveertemperatuur', 5, 'Wat zie je vaak op het etiket?', '["Alleen botteljaar", "Oogstjaar en botteljaar", "Alleen alcoholpercentage", "Geen jaartal"]', 1, 'Correct: Oogstjaar en botteljaar'),
+  ('service-port', 'glaswerk', 1, 'Wat maakt Garrafeira uniek?', '["Alleen witte druiven", "Rijping op glas", "Alleen jonge stijl", "Geen rijping"]', 1, 'Correct: Rijping op glas'),
+  ('service-port', 'glaswerk', 2, 'Waar begint Garrafeira meestal mee?', '["Tawny", "Ruby-stijl uit één jaar", "White Port", "Rosé Port"]', 1, 'Correct: Ruby-stijl uit één jaar'),
+  ('service-port', 'glaswerk', 3, 'Wat zijn demijohns?', '["Kleine houten vaten", "Grote glazen flessen", "Tanks", "Kurken"]', 1, 'Correct: Grote glazen flessen'),
+  ('service-port', 'glaswerk', 4, 'Welke producent is beroemd om Garrafeira?', '["Graham's", "Taylor's", "Niepoort", "Fonseca"]', 2, 'Correct: Niepoort'),
+  ('service-port', 'glaswerk', 5, 'Waarom is Garrafeira zeldzaam?', '["Simpele productie", "Lange unieke rijping", "Lage alcohol", "Alleen witte druiven"]', 1, 'Correct: Lange unieke rijping'),
+  ('service-port', 'decanteren', 1, 'Welke stijl serveer je meestal het warmst?', '["White", "Tawny", "Vintage", "Rosé"]', 2, 'Correct: Vintage'),
+  ('service-port', 'decanteren', 2, 'Welke stijl blijft meestal het kortst goed na openen?', '["Vintage", "Tawny", "Colheita", "White"]', 0, 'Correct: Vintage'),
+  ('service-port', 'decanteren', 3, 'Waarom gebruik je een kleiner Portglas?', '["Minder wijn per glas", "Minder alcoholimpact en meer aroma-focus", "Goedkoper glaswerk", "Meer kleur zichtbaar"]', 1, 'Correct: Minder alcoholimpact en meer aroma-focus'),
+  ('service-port', 'decanteren', 4, 'Welke stijl hoeft meestal NIET gedecanteerd te worden?', '["Vintage", "Crusted", "Tawny", "Ongefilterde LBV"]', 2, 'Correct: Tawny'),
+  ('service-port', 'decanteren', 5, 'Waarom serveer je Tawny koeler dan Vintage?', '["Minder alcohol", "Oxidatieve stijl vraagt frisheid voor balans", "Meer suiker", "Minder kleur"]', 1, 'Correct: Oxidatieve stijl vraagt frisheid voor balans'),
+  ('service-port', 'bewaren-na-openen', 1, 'Welke pairing is de klassieker?', '["Rosé + Brie", "Vintage + Stilton", "White + Cheddar", "Ruby + Mozzarella"]', 1, 'Correct: Vintage + Stilton'),
+  ('service-port', 'bewaren-na-openen', 2, 'Waarom werkt zout goed met Port?', '["Minder smaak", "Versterkt zoetheidsperceptie", "Verlaagt alcohol", "Minder vet"]', 1, 'Correct: Versterkt zoetheidsperceptie'),
+  ('service-port', 'bewaren-na-openen', 3, 'Wat past vaak goed bij Aged Tawny?', '["Jonge geitenkaas", "Oude Gouda", "Mozzarella", "Feta"]', 1, 'Correct: Oude Gouda'),
+  ('service-port', 'bewaren-na-openen', 4, 'Waarom moet kaas op kamertemperatuur?', '["Mooier op het bord", "Meer aroma en textuur", "Minder zout", "Minder vet"]', 1, 'Correct: Meer aroma en textuur'),
+  ('service-port', 'bewaren-na-openen', 5, 'Welke stijl is vaak toegankelijk bij blauwe kaas?', '["White", "LBV", "Rosé", "Colheita"]', 1, 'Correct: LBV'),
+  ('service-port', 'wanneer-welke-port', 1, 'Wat is de gouden regel bij dessertpairing?', '["Dessert zoeter dan wijn", "Wijn even zoet of zoeter dan dessert", "Minder alcohol", "Meer zuur"]', 1, 'Correct: Wijn even zoet of zoeter dan dessert'),
+  ('service-port', 'wanneer-welke-port', 2, 'Wat past klassiek bij Ruby?', '["Citroentaart", "Pure chocolade", "Appeltaart", "Sorbet"]', 1, 'Correct: Pure chocolade'),
+  ('service-port', 'wanneer-welke-port', 3, 'Warme zomeravond, gast wil iets lichts vóór het eten. Meest logische Port?', '["Vintage", "White Port of Rosé", "Tawny 30 Years", "LBV ongefilterd"]', 1, 'Correct: White Port of Rosé'),
+  ('service-port', 'wanneer-welke-port', 4, 'Welke stijl past vaak goed bij citroen?', '["White Port", "Vintage", "Crusted", "Colheita"]', 0, 'Correct: White Port'),
+  ('service-port', 'wanneer-welke-port', 5, 'Waarom zijn mintdesserts lastig?', '["Te zout", "Verstoren zoetheidsbalans", "Te vet", "Te warm"]', 1, 'Correct: Verstoren zoetheidsbalans'),
+  ('pairing-port', 'port-en-kaas', 1, 'Welke pairing is de klassieker?', '["Rosé + Brie", "Vintage + Stilton", "White + Cheddar", "Ruby + Mozzarella"]', 1, 'Correct: Vintage + Stilton'),
+  ('pairing-port', 'port-en-kaas', 2, 'Waarom werkt zout goed met Port?', '["Minder smaak", "Versterkt zoetheidsperceptie", "Verlaagt alcohol", "Minder vet"]', 1, 'Correct: Versterkt zoetheidsperceptie'),
+  ('pairing-port', 'port-en-kaas', 3, 'Wat past vaak goed bij Aged Tawny?', '["Jonge geitenkaas", "Oude Gouda", "Mozzarella", "Feta"]', 1, 'Correct: Oude Gouda'),
+  ('pairing-port', 'port-en-kaas', 4, 'Waarom moet kaas op kamertemperatuur?', '["Mooier op het bord", "Meer aroma en textuur", "Minder zout", "Minder vet"]', 1, 'Correct: Meer aroma en textuur'),
+  ('pairing-port', 'port-en-kaas', 5, 'Welke stijl is vaak toegankelijk bij blauwe kaas?', '["White", "LBV", "Rosé", "Colheita"]', 1, 'Correct: LBV'),
+  ('pairing-port', 'port-en-chocolade', 1, 'Welke kleur hoort vaker bij Ruby?', '["Amber", "Robijnrood", "Oranje", "Geel"]', 1, 'Correct: Robijnrood'),
+  ('pairing-port', 'port-en-chocolade', 2, 'Welke aroma''s passen bij Tawny?', '["Kers en braam", "Walnoot en karamel", "Citrus en appel", "Framboos"]', 1, 'Correct: Walnoot en karamel'),
+  ('pairing-port', 'port-en-chocolade', 3, 'Welke stijl is oxidatiever?', '["Ruby", "Tawny", "Rosé", "White"]', 1, 'Correct: Tawny'),
+  ('pairing-port', 'port-en-chocolade', 4, 'Waar begin je bij blindproeven?', '["Smaak", "Kleur", "Alcohol", "Etiket"]', 1, 'Correct: Kleur'),
+  ('pairing-port', 'port-en-chocolade', 5, 'Wat is vaak krachtiger in structuur?', '["Tawny", "Ruby", "White", "Colheita"]', 1, 'Correct: Ruby'),
+  ('pairing-port', 'port-en-notendesserts', 1, 'Welke Portstijl past het best bij notendesserts?', '["White Port", "Tawny", "Rosé Port", "Jonge Ruby"]', 1, 'Correct: Tawny'),
+  ('pairing-port', 'port-en-notendesserts', 2, 'Waarom past Tawny sterk bij notendesserts?', '["Hoge tannine", "Oxidatieve aroma-spiegeling", "Lage alcohol", "Geen restsuiker"]', 1, 'Correct: Oxidatieve aroma-spiegeling'),
+  ('pairing-port', 'port-en-notendesserts', 3, 'Waarom werkt Ruby hier minder goed?', '["Te weinig alcohol", "Te veel primair fruit, te weinig oxidatieve aansluiting", "Te veel zuur", "Te weinig zoetheid"]', 1, 'Correct: Te veel primair fruit, te weinig oxidatieve aansluiting'),
+  ('pairing-port', 'port-en-notendesserts', 4, 'Welke pairing is een klassieker?', '["Ruby + citroentaart", "20 Years Tawny + pecantaart", "White + chocolade", "Vintage + sorbet"]', 1, 'Correct: 20 Years Tawny + pecantaart'),
+  ('pairing-port', 'port-en-notendesserts', 5, 'Wat is het kernprincipe bij notendesserts?', '["Altijd de zoetste Port kiezen", "Spiegeling van aroma-families en textuur", "Altijd decanteren", "Zo hoog mogelijke serveertemperatuur"]', 1, 'Correct: Spiegeling van aroma-families en textuur'),
+  ('pairing-port', 'port-en-vlees', 1, 'Welke Port past vaak bij wild?', '["White Port", "Vintage", "Rosé Port", "Tawny 40 Years"]', 1, 'Correct: Vintage'),
+  ('pairing-port', 'port-en-vlees', 2, 'Waarom is Port minder breed inzetbaar bij rood vlees?', '["Minder kleur", "Restsuiker kan balans verstoren", "Minder alcohol", "Geen tannine"]', 1, 'Correct: Restsuiker kan balans verstoren'),
+  ('pairing-port', 'port-en-vlees', 3, 'Welke stijl wordt vaak gebruikt in reducties?', '["Ruby of LBV", "White Port", "Garrafeira", "Tawny 40 Years"]', 0, 'Correct: Ruby of LBV'),
+  ('pairing-port', 'port-en-vlees', 4, 'Waarom past Tawny zelden bij vlees?', '["Te veel tannine", "Te weinig grip voor eiwitrijke gerechten", "Te veel fruit", "Te hoge zuur"]', 1, 'Correct: Te weinig grip voor eiwitrijke gerechten'),
+  ('pairing-port', 'port-en-vlees', 5, 'Wat is de beste professionele inzet van Port bij vlees?', '["Altijd als tafelwijn", "Sauscomponent of gerichte finale pairing", "Alleen bij vis", "Nooit in de keuken"]', 1, 'Correct: Sauscomponent of gerichte finale pairing'),
+  ('pairing-port', 'port-in-gastronomie', 1, 'Welke stijl past het best bij een notige sausreductie?', '["Ruby", "Tawny", "White", "Rosé"]', 1, 'Correct: Tawny'),
+  ('pairing-port', 'port-in-gastronomie', 2, 'Waarom werkt Port in de keuken?', '["Door hoge zuur", "Als smaakversterker en reductiebasis", "Alleen als dessert", "Geen alcohol"]', 1, 'Correct: Als smaakversterker en reductiebasis'),
+  ('pairing-port', 'port-in-gastronomie', 3, 'White Port in sabayon geeft vooral:', '["Bitterheid", "Frisse aromatische lift", "Tannine", "Depot"]', 1, 'Correct: Frisse aromatische lift'),
+  ('pairing-port', 'port-in-gastronomie', 4, 'Gastronomische Port vraagt eerst:', '["Prijs", "Functie in het gerecht", "Etiketkleur", "Jaartal"]', 1, 'Correct: Functie in het gerecht'),
+  ('pairing-port', 'port-in-gastronomie', 5, 'Beste moment voor culinaire Port?', '["Alleen digestief", "Wanneer structuur het gerecht ondersteunt", "Alleen bij vis", "Nooit in keuken"]', 1, 'Correct: Wanneer structuur het gerecht ondersteunt'),
+  ('examen-port', 'portkaart-lezen', 1, 'Wat lees je eerst op een Portkaart?', '["Prijs", "Stijlcategorie", "Flesgewicht", "Alcohol"]', 1, 'Correct: Stijlcategorie'),
+  ('examen-port', 'portkaart-lezen', 2, 'Waarom groepeer je per stijl?', '["Voor marketing", "Voor inzetbaarheid en servicebeslissing", "Alfabetisch", "Op jaartal alleen"]', 1, 'Correct: Voor inzetbaarheid en servicebeslissing'),
+  ('examen-port', 'portkaart-lezen', 3, 'Vintage op de kaart vraagt vooral:', '["Ijsbucket", "Decanteeradvies", "Tonic", "Lange koeling"]', 1, 'Correct: Decanteeradvies'),
+  ('examen-port', 'portkaart-lezen', 4, 'Tawny op de kaart positioneer je vaak bij:', '["Aperitief", "Dessert en noten", "Salade", "Sushi"]', 1, 'Correct: Dessert en noten'),
+  ('examen-port', 'portkaart-lezen', 5, 'Goede kaartnavigatie volgt:', '["prijs → stijl", "stijl → leeftijd → service → pairing", "alleen producent", "willekeur"]', 1, 'Correct: stijl → leeftijd → service → pairing'),
+  ('examen-port', 'port-adviseren', 1, 'Eerste stap bij advies?', '["Duurste fles", "Moment en context van de gast", "Eigen favoriet", "Voorraad opruimen"]', 1, 'Correct: Moment en context van de gast'),
+  ('examen-port', 'port-adviseren', 2, 'Gast wil rijk, zacht, niet te zwaar. Richting?', '["Jonge Vintage", "Tawny 20 Years", "White Dry", "Basic Ruby"]', 1, 'Correct: Tawny 20 Years'),
+  ('examen-port', 'port-adviseren', 3, 'Goede vragen leiden tot:', '["Langere monologen", "Betere stijlmatch", "Minder verkoop", "Alleen prijsdiscussie"]', 1, 'Correct: Betere stijlmatch'),
+  ('examen-port', 'port-adviseren', 4, 'Adviesvolgorde Way of Tasting:', '["stijl → prijs", "moment → gerecht → ervaring → stijl", "producent → jaartal", "random"]', 1, 'Correct: moment → gerecht → ervaring → stijl'),
+  ('examen-port', 'port-adviseren', 5, 'Professioneel advies is:', '["Voorkeur pushen", "Context-gedreven", "Altijd Vintage", "Altijd goedkoopste optie"]', 1, 'Correct: Context-gedreven'),
+  ('examen-port', 'port-bewaren-kelder', 1, 'Welke Port wordt vaak beter op fles?', '["Basic Ruby", "Vintage", "White aperitief", "Rosé"]', 1, 'Correct: Vintage'),
+  ('examen-port', 'port-bewaren-kelder', 2, 'Kelderdenken vraagt vooral:', '["Alleen kleur", "Rijpingstraject en geduld", "Direct drinken", "Warm bewaren"]', 1, 'Correct: Rijpingstraject en geduld'),
+  ('examen-port', 'port-bewaren-kelder', 3, 'Ongeopende Vintage bewaar je idealiter:', '["Staand warm", "Liggend, koel en donker", "In de keuken", "Open in koelkast"]', 1, 'Correct: Liggend, koel en donker'),
+  ('examen-port', 'port-bewaren-kelder', 4, 'LBV vs Vintage bewaren:', '["Identiek", "Vintage heeft meer flespotentieel", "LBV altijd langer", "Geen verschil"]', 1, 'Correct: Vintage heeft meer flespotentieel'),
+  ('examen-port', 'port-bewaren-kelder', 5, 'Kelder zonder geduld past bij:', '["Alleen Vintage kopen", "Stijlen kiezen die bij je horizon passen", "Alles direct openen", "Geen Port kopen"]', 1, 'Correct: Stijlen kiezen die bij je horizon passen')
 ) as v(module_slug, lesson_slug, sort_order, prompt, options, correct_index, explanation)
   on l.module_slug = v.module_slug and l.lesson_slug = v.lesson_slug;

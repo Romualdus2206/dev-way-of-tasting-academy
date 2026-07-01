@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild supabase/seed/academy_red_wine.sql from content/ROOD_MODULES.md."""
+"""Rebuild supabase/seed/academy_red_wine.sql from content/pipeline/RED_PIPELINE_CONTENT.md."""
 
 from __future__ import annotations
 
@@ -9,6 +9,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TRACK_SLUG = "red-wine"
+SOURCE_FALLBACKS = (
+    ROOT / "content/RED_FINAL_CONTENT.md",
+    ROOT / "content/pipeline/RED_PIPELINE_CONTENT.md",
+    ROOT / "content/archive/legacy/ROOD_MODULES.md",
+)
 
 MODULE_REGISTRY: dict[int, dict[str, str]] = {
     1: {"slug": "intro-red-wine", "title": "Fundament", "level": "explorer"},
@@ -33,6 +38,9 @@ def load_importer():
 
 
 def split_red_modules(text: str) -> list[str]:
+    if re.search(r"^### Module \d+ — ", text, re.M):
+        parts = re.split(r"(?=\n### Module \d+ — )", text)
+        return [p.strip() for p in parts if re.match(r"### Module \d+", p.strip())]
     parts = re.split(r"# RED_MODULE_\d+\.md\s*\n", text)
     return [p.strip() for p in parts if p.strip()]
 
@@ -72,7 +80,7 @@ def merge_quiz_feedback(new_lines: list[str]) -> None:
 
 def rebuild() -> None:
     imp = load_importer()
-    source = ROOT / "content/ROOD_MODULES.md"
+    source = next((p for p in SOURCE_FALLBACKS if p.exists()), SOURCE_FALLBACKS[-1])
     modules_text = split_red_modules(source.read_text(encoding="utf-8"))
     if len(modules_text) != len(MODULE_REGISTRY):
         raise SystemExit(f"Expected {len(MODULE_REGISTRY)} modules, found {len(modules_text)}")

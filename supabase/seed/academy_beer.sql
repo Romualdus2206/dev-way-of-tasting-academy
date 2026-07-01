@@ -1,5 +1,6 @@
--- Bier track seed (na 20260625140000_academy_v1_tracks.sql)
+-- Bier track seed V2 (na 20260625140000_academy_v1_tracks.sql)
 -- 1 track · 9 modules · 40 lessons · quizvragen per les
+-- Bron: content/BIER_FINAL_CONTENT.md
 
 delete from academy.tracks where slug = 'beer';
 
@@ -45,33 +46,44 @@ cross join (values
   (
     'wat-is-bier',
     'Wat is bier?',
-    'Na deze les kun jij uitleggen wat bier is, hoe het wordt gemaakt en waarom bier wereldwijd zo belangrijk is.
+    'Na deze les kun je uitleggen wat bier is, welke vier ingrediënten de basis vormen en waarom gisting het karakter van elke stijl bepaalt.
 ',
-    'Bier is een alcoholische drank die wordt gemaakt van vier basisingrediënten: water, mout, hop en gist.
+    'Bier is geen enkelvoudig product maar een gefermenteerd matrixsysteem waarin water, alcohol, opgeloste koolhydraten, hopbestanddelen, gistmetabolieten en koolzuur samen de proefervaring vormen. Daardoor beoordeel je bier niet op een los aroma, maar op de balans tussen geurintensiteit, bitterheid, zoetheid, zuurgraad en textuur.
 
-Door vergisting worden suikers omgezet in alcohol en koolzuur.
+Voor professionele proevers is bierdefinitie functioneel: je wilt kunnen onderscheiden wat grondstofgedreven is en wat procesgedreven. Mout levert vergistbare suikers en body (structuurgewicht), hop structureert bitterheid (hopimpact), gist maakt alcohol en aroma, en lagering stabiliseert het product zodat rijping als effect leesbaar wordt in glas en neus.
 
-Bier is één van de oudste door mensen gemaakte dranken en wordt wereldwijd in duizenden stijlen geproduceerd.
+In servicecontext betekent dit dat je elk bier tegelijk technisch en gastgericht benadert. Blind geproefd zoek je eerst stijlmarkers en attenuatie-indruk, aan tafel vertaal je dat naar begrijpelijke taal zonder precisie te verliezen, zodat advies niet alleen correct is maar ook verkoopbaar en herhaalbaar.
 
-De basis is altijd vergelijkbaar, maar kleine verschillen in ingrediënten en techniek zorgen voor enorme variatie.
 
-Bier kan licht, donker, bitter, zoet, fris, zuur of zwaar zijn.
+## Food pairing
 
-Dat maakt bier één van de meest veelzijdige dranken ter wereld.
-',
-    '- bier
-- fermentatie
-- alcohol
-- CO2
-- bierstijl
+### Beste pairing
+
+Gezouten pretzels, milde Goudse kaas en mosselen.
+
+### Waarom dit werkt
+
+Koolzuur lift vet van het palet, bitterheid snijdt door umami, en lichte zoetheid voorkomt dat de combinatie te hard eindigt.
+
+### Vermijd
+
+Zoete desserts of agressief zure sauzen bij een neutraal instapbier.
+
+## Pro insight
+
+Gasten die bier ''te bitter'' vinden, kennen vaak alleen massamarkt-lager. Vraag naar moment en gerecht vóór je stijl noemt — moutzoetheid en koolzuur openen verkoop zonder push.',
+    '- fermentatie
+- balans
+- koolzuur
+- mondgevoel
+- afdronk
 ',
     'De oudste sporen van bierproductie zijn meer dan 7000 jaar oud.
 ',
-    '- Bier is een gefermenteerde drank
-- Bier bestaat uit vier basisingrediënten
-- Gisting maakt alcohol en CO2
-- Bier kent enorme stijlvariatie
-- Bier is cultureel wereldwijd belangrijk
+    '- Bier is een gefermenteerd matrixsysteem van water, mout, hop en gist
+- Gisting bepaalt alcohol, koolzuur en aroma
+- Kleine procesverschillen produceren duizenden stijlen
+- Proeven begint bij balans, niet bij etiket
 ',
     '### Opdracht
 
@@ -83,42 +95,54 @@ Pak een bierfles of blik en bekijk het etiket.
 - Ik heb de bierstijl gevonden
 - Ik heb de ingrediënten bekeken
 
+
 ### Reflectievraag
 
-Welke bierstijl heb jij gekozen?
-',
+Je moet een gast snel adviseren: kies je eerst voor uitleg over stijl of voor een vraag naar gewenst mondgevoel, en waarom levert die keuze een betrouwbaarder resultaat op?',
     8,
     1
   ),
   (
     'vier-basisingredienten',
     'De vier basisingrediënten',
-    'Na deze les kun jij uitleggen welke vier ingrediënten bier vormen en wat hun functie is.
+    'Na deze les kun je elk basisingrediënt koppelen aan zijn rol in smaak, structuur en productie — en dat in één heldere uitleg geven.
 ',
-    'Water vormt meestal meer dan 90% van bier.
+    'De vier basisingrediënten — water, mout, hop en gist — vormen een gekoppeld systeem waarin elke keuze direct doorwerkt in smaak en mondgevoel. Water vormt het grootste deel van bier, maar bepaalt veel meer dan volume alleen: mineraalstructuur, mondgevoel en zelfs historische stijlontwikkeling in regio''s als Pilsen of Burton-on-Trent.
 
-Mout levert de suikers die later alcohol worden.
+Mout levert vergistbare suikers en bepaalt body (structuurgewicht) en roast; hop structureert bitterheid (hopimpact) en aroma; gist zet suikers om in alcohol, esters en fenolen. Technisch is receptuur verhouding en timing — dezelfde hopgift gedraagt zich anders bij hogere beginstamwort, terwijl giststam en temperatuur attenuatie en aromatische expressie sturen.
 
-Hop zorgt voor bitterheid, aroma en stabiliteit.
+Voor blindproeven en service lees je daarom interacties: lage body met hoge bitterheid wijst op hop-vergistingsbalans; volle body met milde bitterheid op moutopbouw. Dat causale lezen maakt advies scherper dan stijlnaam alleen.
 
-Gist zet suiker om in alcohol en ontwikkelt aroma’s.
 
-De balans tussen deze vier bepaalt de stijl.
+## Food pairing
 
-Zelfs kleine aanpassingen kunnen grote smaakverschillen geven.
-',
-    '- water
-- mout
-- hop
-- gist
-- ingrediënten
+### Beste pairing
+
+Vers brood met boter, jonge kaas en lichte vis.
+
+### Waarom dit werkt
+
+Zoetheid uit mout vangt zout op, bitterheid structureert vet, en koolzuur houdt de slok schoon tussen happen.
+
+### Vermijd
+
+Zware BBQ-sauzen die een specifiek hopprofiel vereisen.
+
+## Pro insight
+
+Verkoop geen merk maar uitkomst: koppel elk ingrediënt aan een herkenbare smaakverwachting (frisheid, body, bitterheid). Dat verlaagt retour door verkeerde verwachting.',
+    '- waterchemie
+- moutstort
+- hopgift
+- giststam
+- extract
 ',
     'De waterkwaliteit bepaalt historisch vaak welke bierstijl in een regio ontstond.
 ',
-    '- Water is de basis
-- Mout levert suiker
-- Hop geeft bitterheid
-- Gist maakt alcohol
+    '- Water bepaalt mineraalstructuur en mondgevoel
+- Mout levert suikers, kleur en roast
+- Hop structureert bitterheid en aroma
+- Gist maakt alcohol en esters — interactie is doorslaggevend
 ',
     '### Opdracht
 
@@ -130,42 +154,54 @@ Bekijk drie verschillende bieretiketten.
 - Ik heb verschillen gezien
 - Ik herken de basiscomponenten
 
+
 ### Reflectievraag
 
-Welke ingrediënten vielen extra op?
-',
+Als twee bieren dezelfde IBU hebben maar anders smaken, welke twee basisingrediënten onderzoek je eerst en welke causale hypothese toets je daarna?',
     8,
     2
   ),
   (
     'alcoholische-gisting',
     'Alcoholische gisting uitgelegd',
-    'Na deze les begrijp jij hoe alcohol ontstaat in bier.
+    'Na deze les kun je uitleggen hoe alcoholische gisting werkt en welke factoren alcoholgehalte, koolzuur en smaakprofiel sturen.
 ',
-    'Gisting is het proces waarbij gist suikers opeet.
+    'Alcoholische gisting is de metabole omzetting waarbij gist vergistbare suikers omzet naar ethanol, koolzuur en warmte, met talrijke nevenproducten die geur en smaak dragen. Dat proces is geen zwart-wit aan/uit-moment maar een dynamische fase waarin temperatuur, gistvitaliteit en zuurstofbeheer de uitkomst direct sturen.
 
-Tijdens dat proces ontstaan alcohol, CO2 en aroma’s.
+Attenuatie is hier de sleutelvariabele: ze bepaalt hoeveel restsuiker overblijft en dus hoe droog of rond het bier aanvoelt. Hogere attenuatie kan een bier strakker en slanker maken, terwijl lagere attenuatie zoetindruk en body ondersteunt. Daardoor verandert niet alleen smaakbalans maar ook hoe bitterheid wordt waargenomen.
 
-Dit gebeurt in afgesloten tanks.
+In praktijk en blindproef-logica kijk je daarom naar vergistingssporen: droge finale met schone afdronk kan op hoge attenuatie wijzen, terwijl warme esters en restzoet vaak op een ander gistgedrag duiden. Wie gisting begrijpt, kan fouten in service sneller herkennen, bijvoorbeeld een bier dat te warm geserveerd wordt en daardoor alcoholscherpte overdrijft.
 
-Temperatuur is hierbij cruciaal.
 
-Te warm geeft andere aroma’s dan te koud.
+## Food pairing
 
-De gist bepaalt voor een groot deel het karakter van het bier.
-',
-    '- gisting
-- fermentatie
-- alcohol
-- CO2
-- temperatuur
+### Beste pairing
+
+Pizza margherita, pasta met tomatensaus en gegrilde groenten.
+
+### Waarom dit werkt
+
+Bij hogere attenuatie en droogte werkt koolzuur als reiniger, terwijl umami in het gerecht door beperkte zoetheid scherper leesbaar blijft.
+
+### Vermijd
+
+Delicate sashimi zonder zout of structuurcontrast.
+
+## Pro insight
+
+Servicefout: vergistingsaroma te koud serveren maskeert gistsignatuur en doet het product generiek lijken — temperatuur is hier kwaliteitsbewijs, geen detail.',
+    '- attenuatie
+- ethanol
+- koolzuurproductie
+- vergistingswarmte
+- restsuiker
 ',
     'Veel fruitige aroma’s in bier komen direct uit de gist.
 ',
-    '- Gist eet suikers
-- Alcohol ontstaat door gisting
-- CO2 is een bijproduct
-- Temperatuur beïnvloedt smaak
+    '- Gisting zet suikers om in alcohol en CO₂
+- Attenuatie stuurt droogheid en body
+- Temperatuur beïnvloedt gistexpressie direct
+- Servicefouten maskeeren vaak vergistingskarakter
 ',
     '### Opdracht
 
@@ -177,42 +213,54 @@ Vergelijk twee bieren en let op fruitigheid.
 - Ik heb fruitigheid herkend
 - Ik heb verschillen benoemd
 
+
 ### Reflectievraag
 
-Welk bier leek gistiger?
-',
+Je proeft onverwachte zoetrest in een ogenschijnlijk droog bier: kies je als primaire verklaring voor lagere attenuatie of voor serveertemperatuur, en welke observatie beslist?',
     8,
     3
   ),
   (
     'ondergisting-vs-bovengisting',
     'Ondergisting vs bovengisting',
-    'Na deze les kun jij het verschil uitleggen tussen ondergistende en bovengistende bieren.
+    'Na deze les kun je ondergisting en bovengisting onderscheiden op temperatuur, giststam en typisch smaakprofiel.
 ',
-    'Ondergisting gebeurt bij lagere temperaturen.
+    'Het onderscheid tussen ondergisting en bovengisting is fundamenteel omdat het tegelijk proces, aromaprofiel en servicelogica bepaalt. Ondergisting werkt typisch koeler en levert vaak een schoner profiel waarin mout, hopbitterheid en koolzuurstructuur duidelijk leesbaar zijn; bovengisting opereert warmer en toont sneller esters en complexere fermentatielagen.
 
-Dit levert vaak frisse, strakke en schone smaken op.
+Dit verschil is geen waardeoordeel maar een interpretatiekader voor balans. Bij ondergisting valt elke afwijking in bitterheidsopbouw of zwaveltoon sneller op, terwijl bij bovengisting de uitdaging ligt in het onderscheiden van gewenste fruitigheid versus onevenwichtige fermentatie-uitdrukking. Temperatuurimpact is daarom stijlafhankelijk en nooit generiek.
 
-Pils is het bekendste voorbeeld.
+Voor service betekent dit dat je glaswerk en schenkmoment aanpast aan aromadoel. Te koud serveren kan bovengisting aromatisch afknijpen; te warm serveren kan ondergisting onnodig hard maken in bitterheid. Professioneel advies koppelt dus vergistingstype direct aan serveertemperatuur en proefvolgorde.
 
-Bovengisting gebeurt warmer.
 
-Dit geeft vaak fruitigere, kruidigere en complexere aroma’s.
+## Food pairing
 
-Veel Belgische en ambachtelijke stijlen gebruiken bovengisting.
-',
+### Beste pairing
+
+Duitse worst, kipsaté en lichte salade met vinaigrette.
+
+### Waarom dit werkt
+
+ondergisting ondersteunt zout en vet met strakke bitterheid, bovengisting kan via esters en fenolen aromatische bruggen leggen.
+
+### Vermijd
+
+Zware stoof zonder roast-contrast bij een te lichte ale.
+
+## Pro insight
+
+Ondergisting en bovengisting vragen verschillende serveervensters; één koude standaard maakt je kaart sensorisch vlak en ondermijnt blindproef-training.',
     '- ondergisting
 - bovengisting
-- pils
-- ale
-- lager
+- temperatuurregime
+- esterprofiel
+- zuiverheid
 ',
     'Meer dan 80% van al het bier wereldwijd is ondergistend.
 ',
-    '- Ondergisting = koud en strak
-- Bovengisting = warmer en aromatischer
-- Pils is ondergistend
-- Tripel is bovengistend
+    '- ondergisting: koel, strak, schoon profiel
+- bovengisting: warmer, esterrijker, expressiever
+- Temperatuur en glaswerk zijn stijlafhankelijk
+- Blindproeven start bij vergistingstype, niet kleur
 ',
     '### Opdracht
 
@@ -224,46 +272,54 @@ Vergelijk een pils met een blond bier.
 - Ik heb smaak vergeleken
 - Ik herken verschillen
 
+
 ### Reflectievraag
 
-Welke stijl vond jij expressiever?
-',
+In een blindproef twijfel je tussen ondergisting en bovengisting: welke ene indicator krijgt prioriteit, en welk risico accepteer je met die keuze?',
     8,
     4
   ),
   (
     'biercategorieen',
     'Belangrijkste biercategorieën',
-    'Na deze les herken jij de belangrijkste biercategorieën.
+    'Na deze les kun je de belangrijkste biercategorieën herkennen en koppelen aan smaak, productie en serveermoment.
 ',
-    'Bier wordt vaak verdeeld in hoofdgroepen.
+    'Biercategorieën zijn analytische hulpmiddelen om verwachting, techniek en communicatie te structureren, niet om creativiteit op slot te zetten. Een categorie vat doorgaans vergistingstype, alcoholbereik, bitterheidsniveau, kleur, aroma-intensiteit en mondgevoel samen zodat proevers dezelfde referentietaal gebruiken.
 
-Lager is fris en strak.
+Op seniorniveau lees je categorieën als probabiliteit, niet als absolute grens. Een bier kan binnen een stijl vallen en toch afwijken door hopkeuze, waterprofiel of lagering. Daarom combineer je categoriekennis met zintuiglijk bewijs: wat staat op etiket is hypothese, wat in glas zit is data.
 
-Ale is fruitiger en voller.
+In verkooplogica helpt categoriebeheer om gastverwachting te sturen zonder te simplificeren. Je vertaalt technische assen - droog versus rond, bitter versus zacht, esterrijk versus clean - naar keuzevragen die leiden tot hogere tevredenheid en minder retour door mismatch.
 
-Tarwebier is vaak zacht en fris.
 
-Donkere bieren zoals stout en porter zijn rijker en geroosterder.
+## Food pairing
 
-IPA draait sterk om hop.
+### Beste pairing
 
-Deze basisgroepen vormen de fundering voor alle latere lessen.
+Pils met bitterballen, Weizen met Weißwurst, Stout met chocoladetaart.
+
+### Waarom dit werkt
+
+Een categorie met hogere bitterheid dempt vet, terwijl een categorie met meer zoetheid en esters beter omgaat met mild zuur.
+
+### Vermijd
+
+Eén categorie forceren op alle gerechten.
+
+## Pro insight
+
+Classificeer blind eerst op structuur en vergistingskarakter, pas daarna op stijlnaam — dat beperkt etiketvooringenomenheid en verhoogt nauwkeurigheid.',
+    '- stijldefinitie
+- classificatie
+- verwachtingsmanagement
+- typiciteit
+- variatie
 ',
-    '- lager
-- ale
-- wheat
-- stout
-- IPA
-
-# Way of Tasting Academy',
     'IPA is wereldwijd één van de snelst groeiende biercategorieën.
 ',
-    '- Lager = fris
-- Ale = fruitig
-- Wheat = zacht
-- Dark = geroosterd
-- IPA = hopgedreven
+    '- Categorieën structureren verwachting en communicatie
+- Lager, ale, tarwe, donker en IPA als ankerpunten
+- Etiket is hypothese; glas is data
+- Verkoop werkt op structuur-assen, niet op merk alleen
 ',
     '### Opdracht
 
@@ -275,10 +331,10 @@ Maak een lijst van vijf bieren die je kent.
 - Ik heb stijlen bepaald
 - Ik heb categorieën gekoppeld
 
+
 ### Reflectievraag
 
-Welke categorie drink jij het meest?
-',
+Een gast vraagt om ''iets toegankelijks'': kies je een categorie op alcoholniveau of op bitterheids- en body-as, en waarom is dat commercieel sterker?',
     8,
     5
   )
@@ -301,34 +357,44 @@ cross join (values
   (
     'mouten-uitgelegd',
     'Mouten uitgelegd',
-    'Na deze les kun jij uitleggen wat mout is en waarom het essentieel is voor bier.
+    'Na deze les kun je uitleggen wat mouten doet met graan en hoe moutkleur en moutprofiel het bier bepalen.
 ',
-    'Mout ontstaat door granen — meestal gerst — gecontroleerd te laten kiemen en daarna te drogen.
+    'Mouten vormen het structurele hart van bier omdat ze vergistbare suikers, kleurstoffen, stikstofverbindingen en smaakprecursoren aanleveren. Basismouten leveren vooral enzymkracht en extract, terwijl speciale mouten body, karameltonen of roast toevoegen en daarmee de finale balans diepgaand wijzigen.
 
-Tijdens dit proces ontstaan enzymen die later zetmeel kunnen omzetten in suiker.
+De moutstort bepaalt niet alleen kleur maar ook fermentatiegedrag en mondgevoel. Meer kristalmout verhoogt doorgaans restzoetindruk en viscositeit, terwijl hoge roast-fractie bitterheidsperceptie kan aanscherpen zonder extra hop. Daardoor kan dezelfde IBU analytisch gelijk zijn maar sensorisch heel anders landen.
 
-Die suikers zijn nodig voor alcoholproductie.
+Voor blindproeven is moutanalyse essentieel: broodkorst, biscuit, karamel of cacao-aroma zijn vaak sleutelmarkers voor stijlbepaling. In pairing en service vertaal je dat naar textuurtaal: body (structuurgewicht) en roast-intensiteit sturen welke gerechten het bier kan dragen.
 
-De manier van drogen bepaalt ook kleur en smaak.
 
-Licht gedroogde mout geeft frisse tonen.
+## Food pairing
 
-Donker geroosterde mout geeft smaken zoals karamel, koffie en chocolade.
+### Beste pairing
 
-Mout is dus de basis van body, kleur en alcohol.
-',
-    '- mout
-- gerst
-- kleur
-- suikers
-- body
+Geroosterde kip, notenbrood en oude kaas.
+
+### Waarom dit werkt
+
+Roast en zoetheid spiegelen karamellisatie, bitterheid voorkomt plakkerigheid, en umami uit geroosterde tonen verdiept de match.
+
+### Vermijd
+
+Te lichte salades zonder vet of umami.
+
+## Pro insight
+
+Pairing start bij moutintensiteit en roast, niet bij kleur; hopniveau is pas de tweede beslisstap bij geroosterde gerechten.',
+    '- enzymkracht
+- kleurvorming
+- karamelisatie
+- roast
+- dextrine
 ',
     'Bijna alle bierkleur komt uit mout.
 ',
-    '- Mout is gekiemd graan
-- Mout levert suikers
-- Mout bepaalt kleur
-- Mout beïnvloedt smaak
+    '- Mout bepaalt kleur, zoetheid en fermentatiegedrag
+- Kristalmout verhoogt body; roast verhoogt bitterheidsperceptie
+- Blind: brood-, karamel- en cacao-tonen wijzen op moutstort
+- Pairing volgt roast-intensiteit en structuurgewicht
 ',
     '### Opdracht
 
@@ -340,42 +406,54 @@ Bekijk drie verschillende bieren en vergelijk kleur.
 - Ik heb donkere bieren bekeken
 - Ik heb kleurverschillen herkend
 
+
 ### Reflectievraag
 
-Welke moutstijl lijkt jou het interessantst?
-',
+Je detecteert roast en karamel in hetzelfde bier: koppel je het eerst aan moutstort of aan lageringseffect, en welke sensorische data moet je dan hebben?',
     8,
     1
   ),
   (
     'maischen',
     'Maischen',
-    'Na deze les begrijp jij wat maischen is en waarom het belangrijk is.
+    'Na deze les kun je het maischproces beschrijven en uitleggen hoe suikers vrijkomen voor de gisting.
 ',
-    'Maischen is het mengen van gemalen mout met warm water.
+    'Maischen is de enzymatische fase waarin zetmeel uit mout wordt omgezet in vergistbare en onvergistbare suikers, gestuurd door temperatuur, tijd en pH. Het proces bepaalt in hoge mate de vergistbaarheid van het wort en vormt daarmee de basis voor attenuatie en restzoet.
 
-Tijdens dit proces zetten enzymen zetmeel om in vergistbare suikers.
+Een lager temperatuurvenster bevordert doorgaans beta-amylase-activiteit en levert meer vergistbare suikers, wat een drogere finale mogelijk maakt. Hogere rusten ondersteunen alfa-amylase en dextrinevorming, waardoor body toeneemt. Het is dus een precisie-instrument voor mondgevoel, niet alleen een voorbereidende stap.
 
-Temperatuur speelt hierbij een grote rol.
+In proefsituaties kun je maisschema-effecten vaak indirect herkennen via textuur en uitvergistingsgraad. Servicefouten ontstaan wanneer deze techniek genegeerd wordt: een bier met hoge dextrinefractie te koud schenken drukt aroma en maakt het log, terwijl een droger bier warm juist te scherp kan uitkomen.
 
-Lagere temperaturen zorgen vaak voor drogere bieren.
 
-Hogere temperaturen geven vaak vollere bieren.
+## Food pairing
 
-Na het maischen ontstaat wort: de zoete vloeistof waar bier van gemaakt wordt.
-',
-    '- maischen
-- wort
-- enzymen
-- temperatuur
-- suiker
+### Beste pairing
+
+Stoofvlees, aardappelpuree en paddenstoelentoast.
+
+### Waarom dit werkt
+
+Meer body vraagt vaak om vet en zout als tegengewicht, terwijl koolzuur en bitterheid de textuur in balans houden.
+
+### Vermijd
+
+Rauwe citrusgerechten die alleen zuur zoeken.
+
+## Pro insight
+
+Een bier met hoge dextrinefractie in een te smal, ijskoud glas wordt plomp en verliest textuur — glaswerk en temperatuur zijn hier één beslissing.',
+    '- maisschema
+- beta-amylase
+- alfa-amylase
+- vergistbaarheid
+- pH
 ',
     'Kleine temperatuurverschillen kunnen grote smaakverschillen veroorzaken.
 ',
-    '- Maischen zet zetmeel om
-- Water en mout worden gemengd
-- Temperatuur is cruciaal
-- Wort ontstaat
+    '- Maischen bepaalt vergistbaarheid en attenuatie
+- Beta-amylase: meer vergistbare suikers, drogere finale
+- Alfa-amylase: meer dextrinen, voller mondgevoel
+- Maischschema lees je terug in textuur en afdronk
 ',
     '### Opdracht
 
@@ -387,44 +465,54 @@ Zoek op hoe een brouwerij maischt.
 - Ik begrijp de rol van temperatuur
 - Ik weet wat wort is
 
+
 ### Reflectievraag
 
-Waarom zou temperatuur zo belangrijk zijn?
-',
+Bij twee identieke recepten met ander maisschema: welke uitkomst verwacht je op body (structuurgewicht), en hoe vertaal je dat naar serveertemperatuur?',
     8,
     2
   ),
   (
     'hop-en-bitterheid',
     'Hop en bitterheid',
-    'Na deze les begrijp jij hoe hop bier beïnvloedt.
+    'Na deze les kun je hop koppelen aan bitterheid, aroma en balans — en IBU in context plaatsen.
 ',
-    'Hop is de plant die bier bitter maakt.
+    'Hop levert bitterheid, aroma en stabiliserende polyfenolstructuren, maar de sensorische uitkomst hangt af van timing en matrix. Vroege giften bouwen vooral bitterheid op, late giften en dryhop versterken vluchtige aromacomponenten. Dezelfde hopsoort kan dus uiteenlopende resultaten geven.
 
-Hop zorgt voor balans tegenover de zoetheid van mout.
+Bitterheid is meer dan IBU: perceptie wordt mede bepaald door restzoet, koolzuurdruk, alcohol en waterprofiel. Een bier met hoge attenuatie kan dezelfde analytische bitterheid harder tonen dan een zoeter bier, omdat minder restsuiker de hopimpact minder afdempt. Daarom proef je bitterheid altijd relationeel.
 
-Daarnaast geeft hop aroma’s zoals citrus, bloemen, hars en tropisch fruit.
+In blindproef-logica zoek je naar bitterheidskwaliteit: kort en schoon, lang en harsig, of scherp en ruw. Voor service en verkoop helpt dat onderscheid direct bij foodpairing en gastadvies, omdat niet elke bittere indruk hetzelfde gerecht vraagt.
 
-De kookduur bepaalt hoeveel bitterheid wordt afgegeven.
 
-Vroege hopgiften geven vooral bitterheid.
+## Food pairing
 
-Late hopgiften geven vooral aroma.
+### Beste pairing
 
-Dit wordt vaak gemeten in IBU.
-',
-    '- hop
-- IBU
-- bitterheid
-- aroma
-- balans
+IPA bij spicy taco''s, Pils bij fish and chips, Blond bij kip met kruiden.
+
+### Waarom dit werkt
+
+Hopgedreven bitterheid snijdt vet, koolzuur reset het palet, en esters kunnen kruidige of citrusachtige componenten verbinden.
+
+### Vermijd
+
+Subtiele witvis zonder zout of vet.
+
+## Pro insight
+
+Leg het verschil uit tussen analytische IBU en ervaren bitterheid; gasten vertrouwen advies sneller wanneer je perceptie relationeel uitlegt.',
+    '- bitterheid
+- iso-alfazuren
+- hopimpact
+- dryhop
+- perceptie
 ',
     'IPA’s bevatten vaak veel meer hop dan pils.
 ',
-    '- Hop geeft bitterheid
-- Hop geeft aroma
-- Timing is belangrijk
-- IBU meet bitterheid
+    '- Hop levert bitterheid, aroma en stabiliteit
+- IBU meet analytisch; perceptie is relationeel
+- Dryhop versterkt aroma zonder IBU-lineair te stijgen
+- Bitterheid proef je altijd in context van moutzoetheid
 ',
     '### Opdracht
 
@@ -436,44 +524,54 @@ Vergelijk een pils met een IPA.
 - Ik heb aroma vergeleken
 - Ik herken hopinvloed
 
+
 ### Reflectievraag
 
-Welke hopstijl sprak jou meer aan?
-',
+Een bier toont harde bitterheid met beperkte aromahop: kies je waterprofiel of attenuatie als eerste oorzaak, en welke proefnoot moet je zien om gelijk te krijgen?',
     8,
     3
   ),
   (
     'gist-en-aroma',
     'Gist en aromaontwikkeling',
-    'Na deze les begrijp jij hoe gist smaak beïnvloedt.
+    'Na deze les kun je uitleggen hoe gist smaak en aroma vormt en waarom giststam en temperatuur doorslaggevend zijn.
 ',
-    'Gist maakt niet alleen alcohol.
+    'Gist is de primaire aromamotor van bier: naast alcohol en koolzuur produceert gist esters, hogere alcoholen, zwavelverbindingen en andere metabolieten die stijlidentiteit bepalen. Keuze van stam, pitch-rate en vergistingsregime bepaalt of fruitigheid, kruidigheid of neutraliteit dominant wordt.
 
-Tijdens fermentatie ontstaan ook esters en fenolen.
+Fermentatiebeheer vereist controle op zuurstof en temperatuur om gewenste expressie te maximaliseren en off-flavors te beperken. Te weinig vitale gist of stress tijdens vergisting kan ongewenste tonen geven die in blindproef ten onrechte als stijlkenmerk worden gelezen. Professionele beoordeling vraagt daarom proceskennis naast neuservaring.
 
-Esters geven fruitige aroma’s.
+Temperatuurimpact in service is hier groot: esters openen bij oplopende temperatuur sneller dan hoparoma in sommige stijlen, waardoor het profiel verschuift in glas. Correct serveren betekent dus kiezen voor een venster waarin gistaroma leesbaar is zonder balansverlies in alcohol of bitterheid.
 
-Fenolen geven kruidige of peperige tonen.
 
-Elke gistsoort werkt anders.
+## Food pairing
 
-Daarom smaken stijlen zo verschillend.
+### Beste pairing
 
-Gist is misschien wel de meest onderschatte smaakmaker in bier.
-',
-    '- gist
-- esters
+Weizen met Hefezopf, Saison met geitenkaas, Dubbel met stoof.
+
+### Waarom dit werkt
+
+Esters sluiten aan op fruitige sauzen, fenolen kunnen specerijen oppakken, en koolzuur voorkomt aromatische oververzadiging.
+
+### Vermijd
+
+Gerechten waar gistfouten dominant worden (te zoet dessert).
+
+## Pro insight
+
+Esterrijke bieren vragen iets warmer service dan hopgedreven stijlen; anders wint koolzuurprikkel en verdwijnt gistkarakter.',
+    '- esters
 - fenolen
-- aroma
-- fermentatie
+- pitch-rate
+- gistvitaliteit
+- fermentatieprofiel
 ',
     'Bananenaroma in Weizen komt vooral van gist.
 ',
-    '- Gist maakt alcohol
-- Gist maakt aroma
-- Esters zijn fruitig
-- Fenolen zijn kruidig
+    '- Gist is de primaire aromamotor
+- Esters en fenolen zijn stijlmarkers
+- Pitch-rate en temperatuur sturen expressie
+- Te koud serveren dempt gistkarakter onnodig
 ',
     '### Opdracht
 
@@ -485,45 +583,54 @@ Proef een Weizen en een Pils.
 - Ik heb verschillen benoemd
 - Ik herken gistinvloed
 
+
 ### Reflectievraag
 
-Welke stijl had meer gistkarakter?
-',
+Je ruikt fruitigheid in een blond: label je dit direct als esters of check je eerst hoparoma, en welke fout maak je als je te vroeg concludeert?',
     8,
     4
   ),
   (
     'lagering-en-rijping',
     'Lagering & rijping',
-    'Na deze les begrijp jij waarom bier na fermentatie vaak nog rust krijgt.
+    'Na deze les kun je uitleggen waarom lagering en rijping smaak stabiliseren en wanneer dat cruciaal is voor kwaliteit.
 ',
-    'Na de hoofdgisting is bier vaak nog ruw.
+    'Lagering is het proces van gecontroleerde rust na hoofdvergisting, bedoeld om bier te stabiliseren, smaken te harmoniseren en ongewenste nevenproducten af te bouwen. Rijping is het effect dat daaruit volgt: een integraler smaakbeeld, helderder structuur en vaak een rustiger aromatische presentatie.
 
-Tijdens lagering krijgt bier tijd om smaken te stabiliseren.
+In technische zin beïnvloedt lagering helderheid, koolzuurintegratie en smaakafronding, maar de optimale duur is stijlafhankelijk. Te korte lagering laat ruwe randen staan; te lange opslag onder onjuiste condities kan frisheid reduceren. Daarom is tijd alleen geen kwaliteitsgarantie.
 
-Ongewenste aroma’s verdwijnen.
+Voor blindproeven lees je rijping als samenhang: hoe coherent sluiten bitterheid, moutzoet en koolzuur op elkaar aan. In servicecontext helpt dit om voorraadrotatie en serveermoment te bepalen, zodat de gast bier krijgt in zijn sensorisch sterkste fase.
 
-De smaak wordt zachter en ronder.
 
-Bij sommige stijlen duurt dit weken.
+## Food pairing
 
-Bij zware bieren soms maanden.
+### Beste pairing
 
-Lagering zorgt vaak voor balans en drinkbaarheid.
-',
+Gerijpte cheddar, braadkip en notentaart.
+
+### Waarom dit werkt
+
+Rijping maakt roast en zoetheid ronder, terwijl koolzuur en bitterheid zorgen dat vetrijke gerechten niet zwaar blijven hangen.
+
+### Vermijd
+
+Zeer delicate gerechten die jeugdig, knisperend bier vereisen.
+
+## Pro insight
+
+Bij oudere flessen eerst integratie en oxidatieve richting beoordelen — lagering is proces, rijping is het effect dat je in glas leest.',
     '- lagering
 - rijping
 - stabilisatie
-- balans
-- bewaren
-
-# Way of Tasting Academy',
+- integratie
+- helderheid
+',
     'Het woord “lager” komt van het Duitse “lagern” — bewaren.
 ',
-    '- Lagering volgt op gisting
-- Smaken stabiliseren
-- Bier wordt zachter
-- Balans verbetert
+    '- Lagering stabiliseert; rijping integreert smaken
+- Tijd alleen is geen kwaliteitsgarantie
+- Frisheid versus complexiteit vraagt bewuste keuze
+- Voorraadrotatie is onderdeel van vakmanschap
 ',
     '### Opdracht
 
@@ -535,10 +642,10 @@ Zoek een bier op dat gerijpt is.
 - Ik heb de stijl bekeken
 - Ik begrijp waarom het gerijpt werd
 
+
 ### Reflectievraag
 
-Denk jij dat rijping bier beter maakt?
-',
+Twee flessen van hetzelfde bier verschillen in rondheid: kies je lageringsduur of oxidatie als hoofdverklaring, en welke aanwijzing maakt je keuze hard?',
     8,
     5
   )
@@ -561,37 +668,44 @@ cross join (values
   (
     'hoe-proef-je-bier',
     'Hoe proef je bier?',
-    'Na deze les kun jij bier systematisch analyseren zoals professionals dat doen.
+    'Na deze les kun je een gestructureerde bierproef uitvoeren en objectief notities maken van uiterlijk tot afdronk.
 ',
-    'Bier proeven doe je in vier stappen:
+    'Professioneel bier proeven begint met een vaste volgorde: visueel, olfactief, gustatief en retronasaal, gevolgd door structurele synthese. Je beoordeelt niet enkel intensiteit maar ook kwaliteit, volgorde van indrukken en persistentie in de afdronk.
 
-1. Kijken  
-2. Ruiken  
-3. Proeven  
-4. Evalueren
+Mondgevoel is daarin een volwaardige as naast aroma en smaak. Koolzuurprikkel, viscositeit, alcoholwarmte en samentrekkende bitterheid vormen samen het tactiele profiel dat vaak de stijlherkenning versnelt. Daarom noteer je zowel wat je proeft als hoe het zich fysiek gedraagt op de tong.
 
-Bij kijken let je op kleur, helderheid en schuim.
+Blindproef-logica vraagt dat je hypothesen stap voor stap aanscherpt: eerst vergistingstype, dan mout-hop-as, daarna mogelijke stijl. Zo voorkom je dat etiketkennis of voorkeur je oordeel kleurt en kun je serviceadvies op reproduceerbare observatie baseren.
 
-Bij ruiken zoek je aroma’s.
 
-Bij proeven let je op smaak, body, bitterheid, zoetheid en balans.
+## Food pairing
 
-De afdronk vertelt veel over kwaliteit.
+### Beste pairing
 
-Systematisch proeven helpt je stijlen beter herkennen.
-',
-    '- proeven
-- kijken
-- ruiken
-- smaak
-- evaluatie
+Het bier dat je proeft, met een neutraal crackersbord.
+
+### Waarom dit werkt
+
+Neutraal zout activeert het palet zonder dominante smaken; koolzuur en lichte bitterheid houden observatie schoon zodat mondgevoel en afdronk objectief leesbaar blijven.
+
+### Vermijd
+
+Sterk gekruide snacks tijdens een structuurproef.
+
+## Pro insight
+
+Train personeel om vóór conclusie drie observaties te noteren; dat verlaagt retour door verkeerd advies en verhoogt blindproef-nauwkeurigheid in service.',
+    '- proefvolgorde
+- retronasaal
+- mondgevoel
+- structuuranalyse
+- hypothesevorming
 ',
     'Veel smaakbeleving begint al vóór de eerste slok.
 ',
-    '- Bier proeven is systematisch
-- Kijken komt eerst
-- Ruiken bepaalt veel
-- Smaak en balans zijn essentieel
+    '- Proefvolgorde: uiterlijk → neus → mond → afdronk
+- mondgevoel is een volwaardige analyse-as
+- Hypotheses vóór conclusies — altijd
+- Blindproeven draait om reproduceerbare observatie
 ',
     '### Opdracht
 
@@ -604,47 +718,54 @@ Pak een bier en proef het volgens de vier stappen.
 - Ik heb geproefd
 - Ik heb geëvalueerd
 
+
 ### Reflectievraag
 
-Welke stap gaf jou de meeste informatie?
-',
+Onder tijdsdruk in blindproef: begin je met aromadetail of met structuurdiagnose, en welke volgorde minimaliseert misclassificatie?',
     8,
     1
   ),
   (
     'schuim-analyseren',
     'Schuim analyseren',
-    'Na deze les begrijp jij wat schuim vertelt over bier.
+    'Na deze les kun je schuim analyseren op stabiliteit, textuur en kwaliteit als signaal van brouwtechniek.
 ',
-    'Schuim is belangrijk voor presentatie en aroma.
+    'Schuim is een kwaliteitsindicator omdat het informatie geeft over eiwitstructuur, koolzuurbeheer, glasreinheid en serveertechniek. Standtijd, belstructuur en aanhechting aan het glas vertellen of het bier fysisch stabiel is en correct behandeld werd.
 
-Goed schuim beschermt bier tegen snelle oxidatie.
+Technisch ontstaat schuimstabiliteit uit interacties tussen moutproteinen, iso-alfazuren en koolzuurontsnapping. Vetresidu in glas of verkeerd spoelmiddel kan deze balans direct breken, waardoor schijnbaar goed bier sensorisch zwakker overkomt. Schuim lezen is dus ook service-audit.
 
-Bij analyse let je op:
+In gastpsychologie werkt schuim als eerste kwaliteitssignaal: een verzorgd kraagje verhoogt verwachtingswaarde nog voor de eerste slok. Professionele service gebruikt dit bewust, maar zonder cosmetische overdrijving die drinkbaarheid of temperatuurcontrole schaadt.
 
-- schuimhoogte
-- stabiliteit
-- textuur
-- kleur
 
-Romig schuim wijst vaak op kwaliteit.
+## Food pairing
 
-Snel verdwijnend schuim kan duiden op fouten of vervuiling.
+### Beste pairing
 
-Verschillende stijlen hebben verschillende schuimprofielen.
-',
-    '- schuim
-- stabiliteit
-- textuur
-- presentatie
-- oxidatie
+Frituur, lichte bitterballen en zoute noten.
+
+### Waarom dit werkt
+
+Stabiel schuim helpt aromadragers van esters en fenolen, terwijl koolzuur en bitterheid vetbalans ondersteunen.
+
+### Vermijd
+
+Roomachtige sauzen die schuim direct laten inzakken.
+
+## Pro insight
+
+Gecontroleerd inschenken met stabiel schuimkraagje verhoogt kwaliteitsverwachting vóór de eerste slok — gastpsychologie in pure vorm.',
+    '- schuimstabiliteit
+- eiwitmatrix
+- koolzuurdruk
+- glasreinheid
+- retentie
 ',
     'Vet in een glas kan schuim direct afbreken.
 ',
-    '- Schuim beschermt aroma
-- Stabiliteit is belangrijk
-- Textuur zegt veel
-- Glasreinheid beïnvloedt schuim
+    '- Schuim signaleert eiwit, koolzuur en glashygiëne
+- Instortend schuim wijst vaak op service, niet op bier
+- Schuimkraag beschermt aroma en carbonatie
+- Eerste visuele cue beïnvloedt gastverwachting
 ',
     '### Opdracht
 
@@ -656,52 +777,54 @@ Schenk twee verschillende bieren.
 - Ik heb stabiliteit bekeken
 - Ik heb structuur beoordeeld
 
+
 ### Reflectievraag
 
-Welk bier had het beste schuim?
-',
+Schuim valt snel weg bij correcte carbonatie: geef je glasreinheid of receptuur prioriteit, en welke directe test voer je eerst uit?',
     8,
     2
   ),
   (
     'aromas-herkennen',
     'Aroma’s herkennen',
-    'Na deze les kun jij basisaroma’s in bier herkennen.
+    'Na deze les kun je bieraroma''s herkennen in families (mout, hop, gist, esters) en benoemen zonder te gissen.
 ',
-    'Aroma’s komen vooral van mout, hop en gist.
+    'Aromaherkenning in bier vraagt een getraind vocabulaire dat bronnen koppelt aan proces: mout (brood, karamel, roast), hop (citrus, kruid, hars), gist (esters, fenolen) en rijpingseffecten. Zonder bronkoppeling blijft beschrijven vaag en diagnostisch zwak.
 
-Mout kan geven:
+Methodisch werk je van breed naar specifiek: eerst categorie (fruitig, kruidig, geroosterd), dan intensiteit, daarna kwaliteit en plausibiliteit binnen stijl. Deze hiërarchie voorkomt dat een opvallende noot het totaalbeeld domineert en maakt vergelijkende proeverijen consistenter.
 
-- brood
-- karamel
-- chocolade
+Voor service en pairing is aroma geen doel op zichzelf maar routekaart voor verwachting. Wie esters en fenolen correct duidt, kan beter voorspellen welke gerechten resoneren en welke botsen, nog voordat de gast de eerste combinatie proeft.
 
-Hop kan geven:
 
-- citrus
-- bloemen
-- hars
+## Food pairing
 
-Gist kan geven:
+### Beste pairing
 
-- banaan
-- kruidnagel
-- peper
+Gerecht dat past bij het aroma-profiel van je proefbier.
 
-Door vaker te ruiken ontwikkel je sneller herkenning.
-',
-    '- aroma
-- mout
-- hop
-- gist
-- geur
+### Waarom dit werkt
+
+Aromatisch pairt werkt wanneer esters of fenolen bruggen bouwen en bitterheid plus zout voor structureel tegengewicht zorgen.
+
+### Vermijd
+
+Parfum of rokerige gerechten die neusproef verstoren.
+
+## Pro insight
+
+Noem per aroma een bronhypothese (mout, hop, gist, rijping); zonder bron blijft beschrijving diagnostisch zwak.',
+    '- aromawiel
+- bronherkenning
+- intensiteit
+- typiciteit
+- aromapersistentie
 ',
     'Je neus kan duizenden geurstoffen onderscheiden.
 ',
-    '- Mout geeft warme aroma’s
-- Hop geeft frisse aroma’s
-- Gist geeft fermentatie-aroma’s
-- Oefening vergroot herkenning
+    '- Aroma''s lees je in families: mout, hop, gist, rijping
+- Breed → specifiek → kwaliteit → plausibiliteit
+- Bronhypothese maakt beschrijving diagnostisch
+- Pairing volgt aroma-families, niet merkassociatie
 ',
     '### Opdracht
 
@@ -713,49 +836,54 @@ Ruik aan drie verschillende bierstijlen.
 - Ik heb hoparoma’s gezocht
 - Ik heb gistaroma’s gezocht
 
+
 ### Reflectievraag
 
-Welke aroma’s herkende jij direct?
-',
+Je detecteert kruidigheid en citrus: kies je fenolen of esters als primaire drager, en welke tweede observatie is doorslaggevend?',
     8,
     3
   ),
   (
     'structuur-en-mondgevoel',
     'Structuur en mondgevoel',
-    'Na deze les kun jij body, koolzuur en textuur in bier herkennen.
+    'Na deze les kun je structuur en mondgevoel beoordelen op body, koolzuur, bitterheid en balans.
 ',
-    'Mondgevoel is hoe bier fysiek aanvoelt.
+    'Structuur en mondgevoel beschrijven de fysieke architectuur van bier: van aanzet tot midpalate en finale, inclusief koolzuurtextuur, viscositeit, alcoholwarmte en samentrekking door bitterheid of roast. Dit bepaalt vaak sterker dan aroma of een bier als elegant of zwaar wordt ervaren.
 
-Belangrijke onderdelen:
+Body (structuurgewicht) ontstaat uit een combinatie van restextract, glycerol, alcohol en koolzuurdruk. Hoge attenuatie kan body verlagen en drinkbaarheid verhogen, terwijl dextrinerijk wort volume geeft maar ook sneller vermoeit als bitterheid of zuur onvoldoende tegenspel biedt.
 
-- body
-- koolzuur
-- viscositeit
-- alcoholwarmte
+In professionele service vertaal je structuur direct naar glaswerk en temperatuur. Een smal glas kan koolzuur scherp laten pieken, een wijder glas kan textuur ronder tonen. Door dit bewust te kiezen vermijd je servicefouten waarbij het bier stijlvreemd overkomt.
 
-Een pils voelt vaak licht.
 
-Een stout voelt vaak vol en romig.
+## Food pairing
 
-Veel koolzuur maakt bier levendiger.
+### Beste pairing
 
-Alcohol kan warmte geven.
+Ribeye, romige pasta en gekarameliseerde ui.
 
-Mondgevoel bepaalt sterk hoe bier ervaren wordt.
-',
+### Waarom dit werkt
+
+Vol mondgevoel vraagt zuur of bitterheid als snijpunt, terwijl koolzuur en zout de slok dynamisch houden.
+
+### Vermijd
+
+Te lichte gerechten bij een zwaar, zoet bier.
+
+## Pro insight
+
+Ronde kelk voor textuurfocus, slank glas voor frisheid — stem af op body (structuurgewicht), niet op esthetiek.',
     '- body
-- mondgevoel
-- koolzuur
 - viscositeit
+- carbonatie
 - alcoholwarmte
+- textuur
 ',
     'Body wordt vaak beïnvloed door maischschema en restsuiker.
 ',
-    '- Mondgevoel is fysiek
-- Body varieert per stijl
-- Koolzuur beïnvloedt frisheid
-- Alcohol geeft warmte
+    '- Structuur = body, koolzuur, alcoholwarmte, bitterheid
+- Body en alcohol zijn los van elkaar te beoordelen
+- Textuur bepaalt elegantie versus zwaarte
+- Glas en temperatuur sturen tactiele perceptie
 ',
     '### Opdracht
 
@@ -767,43 +895,53 @@ Vergelijk een pils met een stout.
 - Ik heb koolzuur vergeleken
 - Ik heb warmte beoordeeld
 
+
 ### Reflectievraag
 
-Welk bier voelde voller?
-',
+Een bier lijkt vol maar eindigt droog: beoordeel je dit als hoge body met hoge attenuatie of als temperatuurillusie, en hoe bewijs je het?',
     8,
     4
   ),
   (
     'mini-toets-bier',
     'Mini-toets bier',
-    'Na deze les toets jij jouw kennis van de eerste drie modules.
+    'Na deze les toets je geïntegreerde kennis uit fundament, productie en proeven en herken je waar je nog scherpte nodig hebt.
 ',
-    'In deze toets combineer je:
+    'Een mini-toets op seniorniveau meet geen feitjes maar besliskwaliteit: kun je waarneming vertalen naar oorzaak, en oorzaak naar advies. De kern is causale redenering over ingrediënt, proces en service in plaats van losse definities.
 
-- fundament
-- productie
-- proeven
+Goede toetsvragen dwingen tot prioriteren: welke observatie is diagnostisch het sterkst, welke afwijking is echt stijlbreuk, welke serveeractie corrigeert het meeste met minste risico. Dat maakt evaluatie direct relevant voor vloerwerk en blindproef-prestaties.
 
-Dit is jouw eerste echte integratiemoment.
+Wie deze denkwijze beheerst, werkt consistenter in teamcontext. Je feedback aan collega''s wordt specifieker, discussies over smaak worden minder subjectief, en verkoopadviezen sluiten beter aan op wat technisch in het glas gebeurt.
 
-Je laat zien dat je begrijpt:
 
-- wat bier is
-- hoe bier gemaakt wordt
-- hoe bier geanalyseerd wordt
+## Food pairing
+
+### Beste pairing
+
+Drie gangen: salade, stoof, kaas — elk met passend bier.
+
+### Waarom dit werkt
+
+Integratiepairing test koolzuur tegen vet, zoetheid tegen zout en bitterheid tegen umami over meerdere gangen — dezelfde assen als in je mini-toetsbeslissingen.
+
+### Vermijd
+
+Alleen dessertbier door het hele menu.
+
+## Pro insight
+
+Noteer per mini-toets één zwakke schakel per medewerker; dat wordt je teamtrainingsplan en voorkomt generiek ''bieradvies'' aan tafel.',
+    '- beslislogica
+- causaliteit
+- foutdetectie
+- kalibratie
+- feedback
 ',
-    '- integratie
-- bieranalyse
-- fundament
-- productie
-- proeven
-
-# Way of Tasting Academy',
     '',
-    '- Fundament + Productie + Proeven
-- Eerste integratie
-- Basis voor specialistniveau
+    '- Integratie van fundament, productie en proeven
+- Besliskwaliteit zwaarder dan feitjeskennis
+- Zwakke schakel = trainingsplan voor Specialist
+- Causale redenering is het examenproduct
 ',
     '### Opdracht
 
@@ -813,13 +951,13 @@ Proef één bier volledig en schrijf een korte analyse.
 
 - Uiterlijk beschreven
 - Aroma benoemd
-- Mondgevoel benoemd
+- mondgevoel benoemd
 - Balans beoordeeld
+
 
 ### Reflectievraag
 
-Waar voel jij nog onzekerheid?
-',
+In een mini-toets moet je een serviceadvies kiezen: ga je voor veilig generiek of voor stijlspecifiek temperatuuradvies, en waarom is een van beide professioneel superieur?',
     10,
     5
   )
@@ -842,39 +980,44 @@ cross join (values
   (
     'pilsner',
     'Pilsner',
-    'Na deze les kun jij uitleggen wat een Pilsner is en hoe je deze stijl herkent.
+    'Na deze les kun je Pilsner herkennen en uitleggen waarom deze stijl technisch veeleisend is ondanks zijn eenvoudige imago.
 ',
-    'Pilsner is de meest gedronken bierstijl ter wereld.
+    'Pilsner is een klassieke ondergisting-stijl waarin helderheid, hoge doordrinkbaarheid en strakke bitterheidslijn centraal staan. Juist door die schijnbare eenvoud vallen kleine fouten in vergisting, lagering of zuurstofbeheer onmiddellijk op.
 
-De stijl ontstond in 1842 in :contentReference[oaicite:1]{index=1}.
+De stijl vraagt balans tussen moutfrisheid en hopbitterheid zonder plakkerig restzoet. Attenuatie ligt vaak relatief hoog, waardoor de finale droog kan ogen en bitterheid exact gedoseerd moet zijn. Te veel hophardheid of te weinig body maakt het bier hoekig.
 
-Pils is ondergistend en wordt koud vergist.
+Service draait om precisie: temperatuurimpact is groot, want te koud dempt aroma en maakt de slok dun, te warm vergroot bitterheidsdruk en alcoholindruk. Correct glaswerk en vers getapte presentatie bepalen of de stijl zijn finesse toont.
 
-Daardoor ontstaat een strak, schoon en fris smaakprofiel.
 
-Typische kenmerken:
+## Food pairing
 
-- licht goudgeel
-- hoge doordrinkbaarheid
-- frisse bitterheid
-- droge afdronk
+### Beste pairing
 
-Pils lijkt eenvoudig, maar fouten vallen direct op.
+Haring, bitterballen en lichte geitenkaas.
 
-Daarom is het technisch één van de moeilijkste stijlen om perfect te brouwen.
-',
-    '- pilsner
-- lager
-- bitterheid
-- frisheid
-- afdronk
+### Waarom dit werkt
+
+Pilsner combineert sterk met vet en zout omdat koolzuur reinigt en strakke bitterheid de afdronk droog trekt.
+
+### Vermijd
+
+Blauwschimmelkaas of chocolade — te weinig body en mout.
+
+## Pro insight
+
+Pils te lang in warme tapleiding geeft harde bitterheid en vlakke neus — servicefout die zelfs perfect gebrouwen bier onherstelbaar maakt.',
+    '- Pilsner
+- ondergisting
+- attenuatie
+- hopbitterheid
+- doordrinkbaarheid
 ',
     'Vrijwel alle moderne lagers zijn afgeleid van Pilsner.
 ',
-    '- Pils is ondergistend
-- Fris en strak
-- Hoge drinkbaarheid
-- Technisch moeilijke stijl
+    '- Pilsner: ondergistend, strak, hoge doordrinkbaarheid
+- Fouten vallen direct op — technisch veeleisend
+- Frisheid en droge afdronk zijn stijlkenmerken
+- Service op temperatuur en glas is cruciaal
 ',
     '### Opdracht
 
@@ -886,44 +1029,54 @@ Proef twee verschillende pilseners.
 - Ik heb frisheid beoordeeld
 - Ik heb afdronk vergeleken
 
+
 ### Reflectievraag
 
-Welke pils vond jij het meest “clean”?
-',
+Pilsner komt hoekig over aan tafel: corrigeer je eerst temperatuur of glaswerk, en welke uitkomst verwacht je van die eerste interventie?',
     8,
     1
   ),
   (
     'blond',
     'Blond',
-    'Na deze les herken jij Blond bier.
+    'Na deze les kun je Blond herkennen op gistprofiel, moutzoetheid en typische Belgische balans.
 ',
-    'Blond bier is meestal goudkleurig en bovengistend.
+    'Blond positioneert zich vaak tussen frisheid en aromatische toegankelijkheid, meestal met bovengisting als drager van subtiele esters. De stijl is daardoor commercieel sterk, maar technisch kwetsbaar voor onevenwicht tussen fruitigheid, zoetindruk en alcohol.
 
-Het heeft vaak:
+Een geslaagde blond heeft voldoende attenuatie om levendig te blijven, terwijl body nog net genoeg structuur geeft voor gastronomische inzet. Hopbitterheid ondersteunt de finale maar mag het gistprofiel niet overstemmen. De kunst zit in evenwicht, niet in intensiteit.
 
-- fruitigheid
-- lichte kruidigheid
-- zachte moutigheid
+In verkooplogica is blond een brugstijl: je kunt gasten van pils of van zwaardere abdijbieren laten convergeren naar een middenprofiel. Dat werkt alleen wanneer je expliciet vraagt naar gewenst mondgevoel en zoetbeleving in plaats van enkel naar alcoholpercentage.
 
-Blond is toegankelijk, maar vaak rijker dan pils.
 
-Veel Belgische blond bieren combineren frisheid met complexiteit.
+## Food pairing
 
-Alcohol ligt vaak tussen 6% en 8%.
-',
-    '- blond
-- fruitig
-- kruidig
+### Beste pairing
+
+Kip met kruidenboter, mosselen en jonge Gouda.
+
+### Waarom dit werkt
+
+Blond werkt door esters met kruidigheid te verbinden, terwijl matige bitterheid en zachte zoetheid zout in balans houden.
+
+### Vermijd
+
+Zware chocolade of espresso-dessert.
+
+## Pro insight
+
+Bij blond werkt ''meer fruitigheid of meer frisheid?'' beter dan alcoholpercentage — gasten kiezen op beleving, niet op cijfers.',
+    '- Blond
 - bovengisting
-- complexiteit
+- esters
+- balans
+- drinkvenster
 ',
     'Veel Blond bieren lijken licht, maar kunnen behoorlijk krachtig zijn.
 ',
-    '- Blond is bovengistend
-- Fruitig en zacht kruidig
-- Vaak hoger in alcohol
-- Meer complexiteit dan pils
+    '- Blond: toegankelijk maar gistgedreven
+- Esters en milde moutzoetheid domineren
+- Balans tussen fruitigheid en droogheid
+- Brugstijl tussen pils en abdijbier
 ',
     '### Opdracht
 
@@ -935,46 +1088,54 @@ Vergelijk een Blond met een Pils.
 - Body vergeleken
 - Alcoholgevoel beoordeeld
 
+
 ### Reflectievraag
 
-Welke stijl vond jij rijker?
-',
+Bij blond met zoete aanzet en korte finale: adviseer je foodpairing op vet of op zout als eerste anker, en wat is je technische argument?',
     8,
     2
   ),
   (
     'weizen',
     'Weizen',
-    'Na deze les kun jij Weizen herkennen.
+    'Na deze les kun je Weizen herkennen op gistkarakter, banaan/kruidnagel-esters en troebele presentatie.
 ',
-    'Weizen is een Duits tarwebier.
+    'Weizen is een tarwegedreven bovengisting-stijl waarbij gistaroma en eiwitstructuur een herkenbaar sensorisch profiel vormen. Banaanachtige esters en kruidnagelachtige fenolen ontstaan uit giststam en vergistingsregime, terwijl tarwe bijdraagt aan romig mondgevoel en schuimpersistentie.
 
-Het bevat veel tarwemout.
+De balans is delicaat: te veel esters maakt het bier snoeperig, te dominante fenolen maken het hoekig. Koolzuur speelt een structurele rol door frisheid en lift, maar kan bij onjuiste service ook prikkelend en chaotisch worden.
 
-Typische aroma’s:
+Glaswerk is hier functioneel, niet decoratief. Een hoog weizenglas ondersteunt schuimopbouw en aromasturing, maar alleen bij gecontroleerd inschenken. Servicefouten ontstaan vaak door te snelle schenking waardoor gistdepot en koolzuur onbedoeld de balans verstoren.
 
-- banaan
-- kruidnagel
-- lichte citrus
 
-Deze aroma’s komen vooral uit gist.
+## Food pairing
 
-Weizen is vaak troebel, zacht en fris.
+### Beste pairing
 
-Door hoog koolzuur voelt het levendig aan.
-',
-    '- weizen
-- tarwe
-- banaan
-- kruidnagel
-- gist
+Weißwurst, pretzel en lichte apfelstrudel.
+
+### Waarom dit werkt
+
+Weizen past bij vettere gerechten omdat koolzuur snijdt en esters plus fenolen een aromatische brug vormen.
+
+### Vermijd
+
+Zeer hoppige of roasty gerechten.
+
+## Pro insight
+
+Weizen in pintglas verliest schuimopbouw en esterexpressie; hoog glas is functioneel voor deze stijl, niet decoratief.',
+    '- Weizen
+- tarwemout
+- fenolen
+- esters
+- schuimretentie
 ',
     'Volgens Duitse wet moet Weizen minimaal 50% tarwe bevatten.
 ',
-    '- Weizen is tarwebier
-- Banaan en kruidnagel zijn klassiek
-- Troebel en fris
-- Hoog koolzuur
+    '- Weizen: tarwe, esters, fenolen, troebele presentatie
+- Banaan/kruidnagel zijn gistmarkers, geen toevoeging
+- Hoog glas ondersteunt schuim en aroma
+- Schenktechniek bepaalt depot en balans
 ',
     '### Opdracht
 
@@ -986,45 +1147,54 @@ Proef een Weizen.
 - Kruidnagel herkend
 - Koolzuur beoordeeld
 
+
 ### Reflectievraag
 
-Welke geur viel het meest op?
-',
+In weizenproef is banaantoon dominant: kies je lagere serveertemperatuur of ander glaswerk als eerste correctie, en waarom precies die volgorde?',
     8,
     3
   ),
   (
     'witbier',
     'Witbier',
-    'Na deze les herken jij Witbier.
+    'Na deze les kun je Witbier herkennen op tarwe, koriander en fris, licht zurend profiel.
 ',
-    'Witbier is een Belgische stijl met ongemoute tarwe.
+    'Witbier combineert tarwe, kruiden en gistkarakter in een licht troebel, fris en vaak laag-bitter profiel. De stijl leunt op aromatische verfijning: citrusachtige esters, zachte fenolen en subtiele kruidtonen moeten geïntegreerd blijven.
 
-Vaak worden toegevoegd:
+Omdat bitterheid relatief mild is, dragen zuurindruk en koolzuur sterk bij aan frisheidservaring. Een te hoge serveertemperatuur kan kruidigheid log maken en de slok zwaarder laten lijken dan bedoeld; te koud serveer je het bier aromatisch doof.
 
-- koriander
-- sinaasappelschil
+Pairing-technisch is witbier waardevol bij gerechten waar aciditeit en kruidcomplexiteit gewenst zijn zonder zware body. Voor service betekent dit dat je helder communiceert over stijlverwachting, zodat gasten het niet beoordelen met pils-criteria.
 
-Dit geeft frisse citrusachtige aroma’s.
 
-Witbier is licht, zacht en verfrissend.
+## Food pairing
 
-Vaak laag in bitterheid.
+### Beste pairing
 
-Perfect voor warm weer.
-',
-    '- witbier
-- koriander
-- citrus
+Geitenkaas, salade met citrus en lichte vis.
+
+### Waarom dit werkt
+
+Witbier ondersteunt frisse gerechten via zuur en koolzuur, terwijl esters en fenolen kruiden en citrus optillen.
+
+### Vermijd
+
+Zware stoof of agressieve BBQ.
+
+## Pro insight
+
+Witbier als aromatische brug bij kruidige gerechten — maar alleen als temperatuur citrus en fenolen niet dichtzet.',
+    '- Witbier
+- kruiding
+- esters
+- fenolen
 - frisheid
-- tarwe
 ',
-    ':contentReference[oaicite:2]{index=2} bracht Witbier opnieuw tot leven in de 20e eeuw.
+    'Pierre Celis bracht witbier opnieuw tot leven in de 20e eeuw.
 ',
-    '- Witbier bevat tarwe
-- Citrus en koriander zijn typisch
-- Licht en fris
-- Lage bitterheid
+    '- Witbier: tarwe, koriander, fris en licht bitter
+- Citrus en kruid vragen juiste serveertemperatuur
+- Niet beoordelen met pils-criteria
+- Seizoensbier met gastronomische breedte
 ',
     '### Opdracht
 
@@ -1036,48 +1206,54 @@ Proef een Witbier.
 - Kruidigheid herkend
 - Frisheid beoordeeld
 
+
 ### Reflectievraag
 
-Vond jij Witbier zachter dan Weizen?
-',
+Witbier wordt als ''vlak'' ervaren: verhoog je temperatuur of wissel je naar smaller glas, en welke verandering moet direct merkbaar zijn?',
     8,
     4
   ),
   (
     'bockbier',
     'Bockbier',
-    'Na deze les herken jij Bockbier.
+    'Na deze les kun je Bockbier herkennen op moutzoetheid, alcohol en seizoenslogica.
 ',
-    'Bockbier is een moutige, krachtige bierstijl.
+    'Bockbier bouwt zijn identiteit op moutdiepte, karameltonen, soms roast-accenten en een voller bodyprofiel. De stijl vraagt gecontroleerde zoet-bitterbalans: voldoende restextract voor warmte en lengte, maar met genoeg bitterheid om plakkerigheid te voorkomen.
 
-Typische kenmerken:
+Lagering en rijping zijn hier extra belangrijk omdat zwaardere worten meer tijd vragen om alcohol, moutzoet en koolzuur te integreren. Onvoldoende rust levert vaak een losse, alcoholgedreven indruk; goede rijping geeft juist gelaagdheid en ronding.
 
-- karamel
-- toast
-- noten
-- brood
+In service is temperatuurimpact kritisch: te warm versterkt alcoholwarmte en suikerdruk, te koud maskeert complexiteit en maakt het bier monolithisch. Correct geschonken kan bock zowel digestief als foodpairing-anker functioneren.
 
-Bock is vaak seizoensgebonden.
 
-In Nederland vooral populair in de herfst.
+## Food pairing
 
-Alcohol is meestal hoger dan pils.
+### Beste pairing
 
-De focus ligt op mout, niet op hop.
+Ham, oude kaas en peperkoek.
+
+### Waarom dit werkt
+
+Bockbier matcht stoof of geroosterd voedsel via zoetheid en roast, met bitterheid als rem op vet en umami.
+
+### Vermijd
+
+Lichte zomersalade als hoofdgerecht.
+
+## Pro insight
+
+Bock net onder keldertemperatuur serveren; te warm tilt alcohol en moutzoetheid disproportioneel op en breekt pairingbalans.',
+    '- Bockbier
+- moutdiepte
+- roast
+- restextract
+- rijping
 ',
-    '- bockbier
-- mout
-- karamel
-- seizoensbier
-- body
-
-# Way of Tasting Academy',
-    'De oorsprong van Bock ligt in :contentReference[oaicite:3]{index=3}.
+    'De oorsprong van Bock ligt in Einbeck (Nedersaksen).
 ',
-    '- Bock is moutgedreven
-- Vaak herfstbier
-- Rijke smaken
-- Hogere alcohol
+    '- Bock: moutdiepte, karamel, seizoenslogica
+- Lagering integreert alcohol en moutzoetheid
+- Te warm = alcohol domineert; te koud = vlak
+- Digestief en pairing-anker in winterkeuken
 ',
     '### Opdracht
 
@@ -1089,10 +1265,10 @@ Proef een Bockbier.
 - Zoetheid beoordeeld
 - Body beoordeeld
 
+
 ### Reflectievraag
 
-Past Bock volgens jou beter bij eten?
-',
+Bockbier lijkt log in pairing: verlaag je serveertemperatuur of kies je zouter gerecht, en welke keuze levert de grootste balanswinst?',
     8,
     5
   )
@@ -1115,37 +1291,44 @@ cross join (values
   (
     'dubbel',
     'Dubbel',
-    'Na deze les kun jij een Dubbel herkennen en uitleggen.
+    'Na deze les kun je Dubbel herkennen op donkere mout, karamel en abdijtraditie.
 ',
-    'Dubbel is een klassieke Belgische bierstijl.
+    'Dubbel is een klassieke Belgische abdijstijl waarin moutdiepte centraal staat. Het profiel draait om karamel, donker gedroogd fruit en een ronde, warme textuur die vol aanvoelt zonder plakkerig te worden.
 
-Het bier is meestal donkerbruin tot kastanjekleurig.
+Historisch is Dubbel verbonden met abdijbrouwerijen die balans zochten tussen kracht, drinkbaarheid en complexiteit. De kunst zit in gecontroleerde vergisting: genoeg restzoetheid voor body, maar voldoende vergistingsgraad om de afdronk levend te houden.
 
-Typische aroma’s:
+Professioneel proef je Dubbel dus niet alleen op kleur, maar op structuur: hoe moutzoetheid, koolzuur en milde bitterheid elkaar in evenwicht houden. Dat maakt de stijl gastronomisch breed inzetbaar, vooral bij gerechten met umami, vet en gekaramelliseerde smaken.
 
-- karamel
-- rozijnen
-- gedroogde vijgen
-- broodkorst
 
-Dubbel heeft vaak een zachte zoetheid en milde kruidigheid.
+## Food pairing
 
-Alcohol ligt meestal tussen 6% en 8%.
+### Beste pairing
 
-De stijl draait vooral om mout en gistcomplexiteit.
-',
+Stoofvlees, abdijkaas en bruine boterkoek.
+
+### Waarom dit werkt
+
+Dubbel combineert sterk met stoof en abdijkaas omdat moutzoetheid zout en umami afrondt, terwijl koolzuur vet lichter maakt en milde bitterheid het geheel droog houdt.
+
+### Vermijd
+
+Te delicate witvis zonder saus.
+
+## Pro insight
+
+Verkoop Dubbel op structuur, niet op kleur: leg uit hoe karamelmout en koolzuur samen vetrijke gerechten dragen zonder zwaar te vallen.',
     '- dubbel
-- mout
-- rozijnen
-- karamel
-- gist
+- karamelmout
+- donker fruit
+- abdijstijl
+- balans
 ',
-    ':contentReference[oaicite:1]{index=1} speelde een grote rol in de ontwikkeling van Dubbel.
+    'De abdij van Westmalle speelde een grote rol in de ontwikkeling van Dubbel.
 ',
-    '- Donkere Belgische stijl
-- Moutgedreven
-- Gedroogd fruit
-- Medium tot hoog alcohol
+    '- Dubbel: karamelmout, donker fruit, abdijtraditie
+- Moutdiepte zonder plakkerige zoetheid
+- Koolzuur en milde bitterheid dragen structuur
+- Gastronomisch bij umami en gekaramelliseerde smaken
 ',
     '### Opdracht
 
@@ -1157,50 +1340,54 @@ Proef een Dubbel.
 - Ik herken gedroogd fruit
 - Ik beoordeel de balans
 
+
 ### Reflectievraag
 
-Vind jij Dubbel meer dessertachtig of gastronomisch?
-',
+Welke sensorische cue geeft jou in Dubbel de meeste zekerheid: donker fruit, karamelmout, koolzuurstructuur of afdronk - en waarom juist die?',
     8,
     1
   ),
   (
     'tripel',
     'Tripel',
-    'Na deze les herken jij Tripel en begrijp je waarom deze stijl zo iconisch is.
+    'Na deze les kun je Tripel herkennen op hoge attenuatie, kruidige gist en droge afdronk.
 ',
-    'Tripel is goudkleurig, krachtig en complex.
+    'Tripel is een Belgisch sterk blond bier dat paradoxaal werkt: hoog alcoholgehalte, maar een relatief droge en elegante afdronk. Juist die spanning maakt Tripel technisch en gastronomisch interessant.
 
-Het combineert:
+De stijl bouwt op hoge attenuatie, een expressief gistprofiel en een zorgvuldig bitter kader. Daardoor behoudt het bier spanning in het glas, in plaats van log of zoet te worden. Alcohol geeft volume, terwijl droogheid de doordrinkbaarheid bewaakt.
 
-- hoge alcohol
-- droge afdronk
-- fruitigheid
-- kruidigheid
+In professionele service behandel je Tripel als een krachtig maar verfijnd bier. Je schenkt met aandacht voor aroma-opbouw en tempo, omdat de combinatie van alcoholwarmte, kruidige esters en droge finish snel de totale beleving bepaalt.
 
-Ondanks het hoge alcoholpercentage blijft Tripel vaak elegant.
 
-Typische aroma’s:
+## Food pairing
 
-- peer
-- banaan
-- peper
-- honing
+### Beste pairing
 
-Tripel is één van de meest complexe klassieke bierstijlen.
-',
+Gevogelte met kruiden, oude kaas en asperges met hollandaise.
+
+### Waarom dit werkt
+
+Tripel werkt bij romige sauzen en gevogelte doordat hoge attenuatie en droge afdronk vet neutraliseren; kruidige esters geven aromabrug zonder extra zoetheid.
+
+### Vermijd
+
+Zoet fruitdessert zonder contrast.
+
+## Pro insight
+
+Bij Tripel waarschuw je vriendelijk op drinktempo; de droge afdronk maskeert alcohol en verhoogt het risico dat gasten de kracht onderschatten.',
     '- tripel
-- alcohol
-- droog
-- complexiteit
-- fruitigheid
+- attenuatie
+- gistprofiel
+- droge afdronk
+- alcoholwarmte
 ',
-    ':contentReference[oaicite:2]{index=2} wordt gezien als de bakermat van de moderne Tripel.
+    'De abdij van Westmalle wordt gezien als de bakermat van de moderne Tripel.
 ',
-    '- Goudkleurig
-- Sterk
-- Droog
-- Complex
+    '- Tripel: hoog alcohol, droge afdronk, kruidige esters
+- Hoge attenuatie houdt spanning in het glas
+- Droogheid maskeert alcohol — serveer met tempo-advies
+- Krachtig maar verfijnd digestief en pairingbier
 ',
     '### Opdracht
 
@@ -1212,46 +1399,54 @@ Proef een Tripel.
 - Alcoholwarmte beoordeeld
 - Droogheid geanalyseerd
 
+
 ### Reflectievraag
 
-Voelt de alcohol goed geïntegreerd?
-',
+Wanneer je Tripel als ''te zwaar'' ervaart, ligt dat dan aan alcoholwarmte, glaskeuze, serveertemperatuur of restzoetheid volgens jouw proefdata?',
     8,
     2
   ),
   (
     'quadrupel',
     'Quadrupel',
-    'Na deze les herken jij Quadrupel.
+    'Na deze les kun je Quadrupel herkennen op intensiteit, diepte en rijpe mouttonen.
 ',
-    'Quadrupel is zwaar, rijk en intens.
+    'Quadrupel is een intens, donker en gelaagd bier waarin concentratie van mout, alcohol en oxidatieve rijpingstonen vaak samenkomen. De stijl vraagt rust, aandacht en een kleiner serveervolume.
 
-De stijl bouwt voort op Dubbel, maar is groter in alles.
+In de kern draait Quadrupel om diepte: tonen van vijg, rozijn, toffee en soms lichte oxidatieve nuances zoals gedroogd fruit of notigheid. Bitterheid staat op de achtergrond en ondersteunt vooral de balans van zoetheid en warmte.
 
-Typische kenmerken:
+Voor sommeliers is Quadrupel een digestiefstijl met culinaire potentie, vooral bij kaas en desserts. De professionele toets is hier beheersing: niet zoeken naar brute kracht, maar naar de mate waarin alcohol, restzoet en aromatische complexiteit in harmonie blijven.
 
-- donkere kleur
-- hoge viscositeit
-- rijke zoetheid
-- gedroogd fruit
-- kruiden
 
-Alcohol ligt vaak tussen 9% en 12%.
+## Food pairing
 
-Quadrupel heeft vaak uitstekend rijpingspotentieel.
-',
+### Beste pairing
+
+Wild, blauwschimmelkaas en chocoladefondant.
+
+### Waarom dit werkt
+
+Quadrupel past bij wild en blauwschimmel omdat alcoholwarmte en restzoetheid de intensiteit dragen, terwijl subtiele bitterheid voorkomt dat suikers plakkerig worden.
+
+### Vermijd
+
+Lichte salade of crudo.
+
+## Pro insight
+
+Schenk Quadrupel in kleiner glas en met expliciete context als digestief; dat verhoogt beleving en verlaagt retour door ''te zwaar'' verwachtingen.',
     '- quadrupel
+- restzoetheid
+- oxidatieve rijping
+- digestief
 - intensiteit
-- rijping
-- alcohol
-- body
 ',
-    ':contentReference[oaicite:3]{index=3} gebruikte als eerste officieel de naam Quadrupel.
+    'Brouwerij De Koningshoeven (La Trappe) gebruikte als eerste officieel de naam Quadrupel.
 ',
-    '- Zwaar en rijk
-- Hoge alcohol
-- Donker fruit
-- Goed rijpbaar
+    '- Quadrupel: intens, donker, rijp fruit en toffee
+- Klein glas, rustig tempo, digestief positionering
+- Oxidatieve rijping kan diepte toevoegen
+- Pairing bij kaas, wild en chocolade
 ',
     '### Opdracht
 
@@ -1263,47 +1458,54 @@ Proef een Quadrupel.
 - Alcoholwarmte herkend
 - Body beoordeeld
 
+
 ### Reflectievraag
 
-Voelt Quadrupel als een “sipping beer”?
-',
+Hoe onderscheid jij blind Quadrupel van Barleywine als beide vergelijkbare alcohol hebben, en welke observatie is dan doorslaggevend?',
     8,
     3
   ),
   (
     'saison',
     'Saison',
-    'Na deze les herken jij Saison.
+    'Na deze les kun je Saison herkennen op droogheid, kruidigheid en boerse oorsprong.
 ',
-    'Saison ontstond als boerenbier in :contentReference[oaicite:4]{index=4}.
+    'Saison is historisch een boerenbier uit Wallonie, bedoeld als verfrissend en doordrinkbaar tafelbier voor seizoensarbeid. De moderne stijl behoudt die identiteit via droogheid, levendig koolzuur en kruidige spanning.
 
-Het werd oorspronkelijk gebrouwen voor seizoensarbeiders.
+Wat Saison onderscheidt is de combinatie van hoge vergistingsgraad en uitgesproken gistkarakter. Peperige fenolen, subtiele esters en een slanke body geven een strak maar aromatisch profiel dat zeer geschikt is voor gastronomie.
 
-Saison is droog, kruidig en levendig.
+Professioneel beoordeel je Saison op precisie: de stijl mag expressief zijn, maar nooit rommelig. Wanneer koolzuur, bitterheid en droge afdronk exact op elkaar aansluiten, ontstaat een bier dat vet, zout en kruid in gerechten uitzonderlijk goed balanceert.
 
-Typische aroma’s:
 
-- peper
-- citrus
-- kruiden
-- lichte funk
+## Food pairing
 
-De stijl is vaak hoog in koolzuur en zeer verfrissend.
+### Beste pairing
 
-Saison is gastronomisch extreem veelzijdig.
-',
+Geitenkaas, kruidige worst en gegrilde groenten.
+
+### Waarom dit werkt
+
+Saison pairt met geitenkaas en kruidige gerechten via hoog koolzuur, peperige fenolen en droge finish; dit snijdt door vet en houdt kruidigheid scherp.
+
+### Vermijd
+
+Zoete toetjes zonder bitter- of zuurcontrast.
+
+## Pro insight
+
+Saison is een servicewapen bij kruidige keuken: benoem droogheid en gistpeper als argument waarom het bier vet opruimt zonder zoet te plakken.',
     '- saison
-- droog
-- peper
+- fenolen
+- droogheid
 - koolzuur
-- gastronomie
+- boerenbier
 ',
     'Saison was historisch vaak laag in alcohol, maar moderne versies zijn vaak sterker.
 ',
-    '- Boerenbier
-- Droog
-- Kruidig
-- Gastronomisch sterk
+    '- Saison: droog, kruidig, hoge attenuatie
+- Boerenbier met gastronomische precisie
+- Fenolen en koolzuur snijden vet
+- Temperatuur bepaalt kruidexpressie
 ',
     '### Opdracht
 
@@ -1315,47 +1517,54 @@ Proef een Saison.
 - Kruidigheid herkend
 - Koolzuur geanalyseerd
 
+
 ### Reflectievraag
 
-Zou jij Saison combineren met eten?
-',
+Welke fout zie je vaker bij Saison-service: te koud schenken of onderschatte koolzuurdruk, en wat doet dat met je stijlconclusie?',
     8,
     4
   ),
   (
     'abdijbier-vs-trappist',
     'Abdijbier vs Trappist',
-    'Na deze les begrijp jij het verschil tussen Abdijbier en Trappist.
+    'Na deze les kun je Trappist en abdijbier onderscheiden op certificering, productie en positionering.
 ',
-    'Veel mensen verwarren deze twee.
+    'Abdijbier en Trappist worden vaak als synoniemen gebruikt, maar technisch en juridisch zijn het verschillende categorieën. Trappist verwijst naar gecontroleerde herkomst en productievoorwaarden, niet naar een specifiek smaakprofiel.
 
-Trappistbier moet aan strenge voorwaarden voldoen:
+Het Authentic Trappist Product-keurmerk vraagt dat brouwen onder toezicht van een trappistenabdij gebeurt en dat opbrengsten de kloostergemeenschap en goede doelen ondersteunen. Abdijbier kan stilistisch vergelijkbaar zijn, maar mist die institutionele certificering.
 
-- gebrouwen binnen een abdij
-- onder toezicht van monniken
-- winst voor de gemeenschap
+In gastcommunicatie is dit onderscheid commercieel relevant: je verkoopt transparantie en context. Een professional positioneert Trappist niet als ''beter'', maar als anders gedekt in oorsprong, governance en verhaal.
 
-Abdijbier volgt vaak dezelfde traditie, maar wordt commercieel gebrouwen.
 
-Niet elk abdijbier is dus Trappist.
+## Food pairing
 
-Maar elke Trappist heeft wel abdijwortels.
+### Beste pairing
 
-Kwalitatief kunnen beide uitstekend zijn.
-',
-    '- abdijbier
-- trappist
+Abdijkaas, notenbrood en stoof.
+
+### Waarom dit werkt
+
+Bij abdij- en trappiststijlen is pairing technisch gebaseerd op zout-vet-umami-balans: koolzuur reinigt, esters bouwen brug met rijpingstonen en bitterheid tempert zoutpiek.
+
+### Vermijd
+
+Pils bij alles — mist structuur voor zware gerechten.
+
+## Pro insight
+
+Gebruik Trappist vs abdijbier als storytelling met feiten: certificering, toezicht en bestemming van opbrengst versterken vertrouwen en upsell.',
+    '- trappist
+- abdijbier
+- certificering
 - authenticiteit
-- monniken
-- classificatie
-
-# Way of Tasting Academy',
-    'De officiële organisatie heet :contentReference[oaicite:5]{index=5}.
+- herkomstcontrole
 ',
-    '- Trappist is strikt beschermd
-- Abdijbier is breder
-- Herkomst bepaalt classificatie
-- Kwaliteit kan bij beide hoog zijn
+    'De officiële organisatie heet de International Trappist Association (ITA).
+',
+    '- Trappist = certificering; abdijbier = stijlfamilie
+- ITA-regels borgen herkomst en governance
+- Verkoop op transparantie, niet op mythe
+- Authenticiteit is commercieel onderscheidend
 ',
     '### Opdracht
 
@@ -1367,10 +1576,10 @@ Zoek twee bieren op: één Trappist en één Abdijbier.
 - Brouwerij onderzocht
 - Verschillen begrepen
 
+
 ### Reflectievraag
 
-Maakt oorsprong voor jou verschil?
-',
+Welke vraag stel je aan een etiket om Trappist en abdijbier betrouwbaar te scheiden zonder op marketingtaal te vertrouwen?',
     8,
     5
   )
@@ -1393,39 +1602,44 @@ cross join (values
   (
     'ipa',
     'IPA',
-    'Na deze les herken jij IPA en begrijp je waarom deze stijl zo invloedrijk is.
+    'Na deze les kun je IPA herkennen op hopbitterheid, aroma-intensiteit en moderne evolutie.
 ',
-    'IPA staat voor India Pale Ale.
+    'IPA is geëvolveerd van historisch exportbier naar een brede familie waarin hoparoma en hopbitterheid de centrale bouwstenen vormen. Moderne interpretaties leggen soms meer nadruk op aroma dan op harde bitterheid.
 
-De stijl ontstond in :contentReference[oaicite:1]{index=1}.
+De stijl draait technisch om hopkeuze, timing en oxidatiecontrole. Koude en late hopgiften sturen citrus, dennen, tropisch fruit of hars, terwijl moutbasis en vergistingsgraad bepalen hoe bitterheid wordt ervaren.
 
-Historisch werd extra hop toegevoegd om bier langer houdbaar te maken voor export.
+Professioneel is IPA een stijl waarin versheid cruciaal is. Goede service betekent dat je batchleeftijd, aroma-intensiteit en bitterheidsprofiel actief meeweegt in advies en pairing.
 
-Moderne IPA draait vooral om hoparoma.
 
-Typische aroma’s:
+## Food pairing
 
-- citrus
-- tropisch fruit
-- dennen
-- hars
+### Beste pairing
 
-IPA is meestal bitterder dan klassieke stijlen.
+Spicy burger, curry en gegrilde chorizo.
 
-Binnen craft beer is IPA één van de belangrijkste stijlen.
-',
-    '- IPA
-- hop
-- bitterheid
-- citrus
-- craft
+### Waarom dit werkt
+
+IPA ondersteunt pittig en vet eten doordat hopbitterheid en koolzuur capsaicine structureren; citrusachtige hopesters verfrissen rijke sauzen.
+
+### Vermijd
+
+Subtiele witvis of crème-desserts.
+
+## Pro insight
+
+Vraag bij IPA altijd naar aromavoorkeur (citrus, hars, tropisch) in plaats van alleen bitterheid; zo stuur je sneller naar een passende keuze.',
+    '- ipa
+- hopbitterheid
+- hoparoma
+- versheid
+- dry-hopping
 ',
     'IPA was de motor achter de wereldwijde craft beer revolutie.
 ',
-    '- IPA is hopgedreven
-- Bitter en aromatisch
-- Historisch exportbier
-- Moderne craft-klassieker
+    '- IPA: hopbitterheid en aroma als kern
+- Versheid en oxidatiecontrole zijn cruciaal
+- Substyllen: bitter, juicy, hazy
+- Pairing bij vet, spice en gegrild vlees
 ',
     '### Opdracht
 
@@ -1437,49 +1651,54 @@ Proef een IPA.
 - Aroma geanalyseerd
 - Afdronk beoordeeld
 
+
 ### Reflectievraag
 
-Vond jij de bitterheid prettig of dominant?
-',
+Bij IPA met veel aroma maar lage bitterheid: noem je dit stijltypisch modern of afwijkend, en op basis van welke technische argumenten?',
     8,
     1
   ),
   (
     'neipa',
     'NEIPA',
-    'Na deze les herken jij NEIPA en begrijp je het verschil met klassieke IPA.
+    'Na deze les kun je NEIPA herkennen op troebelheid, juicy hoparoma en zachte bitterheid.
 ',
-    'NEIPA staat voor New England IPA.
+    'NEIPA, of New England IPA, verschuift het IPA-paradigma van harde bitterheid naar sappige aromatische intensiteit en een zachter mondgevoel. Troebelheid is hier functioneel, geen visueel defect.
 
-De stijl ontstond in :contentReference[oaicite:2]{index=2}.
+De stijl gebruikt vaak hoge dry-hopdoseringen, chloride-gedreven waterprofielen en eiwitrijke granen om een rond, vol en ''juicy'' profiel te bouwen. Bitterheid blijft aanwezig, maar is meestal korter en zachter.
 
-NEIPA is troebel, sappig en zacht bitter.
+Voor professionals is NEIPA vooral een stijl van timing en conditie. De kwaliteitspiek ligt vroeg; oxidatie kan snel kleur en aroma veranderen. Correct voorraadbeheer is daarom even belangrijk als correcte schenktechniek.
 
-De focus ligt op fruitig hoparoma.
 
-Typische kenmerken:
+## Food pairing
 
-- mango
-- ananas
-- perzik
-- citrus
+### Beste pairing
 
-Minder bitter dan klassieke IPA.
+Fried chicken, poke bowl en softe geitenkaas.
 
-Vaak voller en zachter in mondgevoel.
-',
-    '- NEIPA
-- troebel
-- juicy
-- fruitigheid
-- soft bitterness
+### Waarom dit werkt
+
+NEIPA werkt bij fried chicken en umami bowls omdat zachte bitterheid niet botst met kruid, terwijl troebel mondgevoel en lage scherpte vet afgerond laten proeven.
+
+### Vermijd
+
+Zware roast-gerechten die bitter-chocolade vragen.
+
+## Pro insight
+
+Houd NEIPA vers op de kaart en roteer actief; transparantie over batchversheid voorkomt teleurstelling en positioneert je als vakinhoudelijk sterk.',
+    '- neipa
+- troebelheid
+- juicy profiel
+- chloridebalans
+- oxidatiegevoeligheid
 ',
     'Troebelheid is hier juist gewenst.
 ',
-    '- Troebel
-- Fruitig
-- Minder bitter
-- Zachter mondgevoel
+    '- NEIPA: troebel, juicy, zachte bitterheid
+- Houdbaarheidsvenster is kort — roteer voorraad
+- Chloride en dryhop bouwen mondgevoel
+- Oxidatie verschuift aroma snel
 ',
     '### Opdracht
 
@@ -1491,45 +1710,54 @@ Vergelijk een IPA met een NEIPA.
 - Bitterheid vergeleken
 - Fruitigheid vergeleken
 
+
 ### Reflectievraag
 
-Welke stijl vond jij toegankelijker?
-',
+Hoe beoordeel je of een NEIPA nog op piek is: welke combinatie van kleur, aromaverlies en mondgevoel gebruik je als beslisregel?',
     8,
     2
   ),
   (
     'porter',
     'Porter',
-    'Na deze les herken jij Porter.
+    'Na deze les kun je Porter herkennen op geroosterde mout, chocolade en historische context.
 ',
-    'Porter is een klassieke donkere bierstijl uit :contentReference[oaicite:3]{index=3}.
+    'Porter is een klassieke Engelse donkere stijl waarin roostermout, cacao en zachte karameltonen samenvallen tot een gebalanceerd geheel. In moderne context varieert Porter van droog en slank tot rijk en romig.
 
-De stijl ontstond in de 18e eeuw.
+Historisch ontstond Porter als stedelijk werkbier met duidelijke moutsignatuur. In vergelijking met veel stouts is roast vaak minder agressief, waardoor chocolade- en broodkorsttonen beter uitwaaieren.
 
-Porter is donker, maar vaak zachter dan Stout.
+Professioneel biedt Porter veel culinaire flexibiliteit. Het bier kan zowel hartige roostergerechten als cacao-desserts dragen, zolang de intensiteit van gerecht en roastniveau op elkaar zijn afgestemd.
 
-Typische aroma’s:
 
-- chocolade
-- toast
-- karamel
-- lichte koffie
+## Food pairing
 
-Porter heeft vaak medium body en milde roast.
-',
+### Beste pairing
+
+Biefstuk, braad en brownies.
+
+### Waarom dit werkt
+
+Porter sluit aan op geroosterd vlees en cacao door roostermout en milde zoetheid; koolzuur snijdt door vet en roast versterkt Maillard-smaken.
+
+### Vermijd
+
+Lichte citrusdesserts.
+
+## Pro insight
+
+Porter werkt uitstekend als brugstijl voor wijndrinkers: chocolade en roast bieden herkenning, terwijl koolzuur het palet schoner houdt.',
     '- porter
-- roast
-- chocolade
-- toast
-- body
+- roostermout
+- cacaotonen
+- maillard
+- moutbalans
 ',
     'Stout is oorspronkelijk een sterkere variant van Porter.
 ',
-    '- Donkere stijl
-- Zachter dan stout
-- Chocolade en toast
-- Historische stijl
+    '- Porter: roast, cacao, moutbalans
+- Minder agressief dan veel stouts
+- Gastronomisch bij gegrild en stoof
+- Roast-niveau bepaalt pairing
 ',
     '### Opdracht
 
@@ -1541,49 +1769,54 @@ Proef een Porter.
 - Body beoordeeld
 - Chocoladetonen herkend
 
+
 ### Reflectievraag
 
-Voelde Porter zachter dan verwacht?
-',
+Wanneer kies je in pairing bewust Porter boven Stout, en welke rol spelen roastintensiteit en zoetheidsbalans in die keuze?',
     8,
     3
   ),
   (
     'stout',
     'Stout',
-    'Na deze les herken jij Stout.
+    'Na deze les kun je Stout herkennen op roast, body en het verschil met Porter.
 ',
-    'Stout is intens, donker en geroosterd.
+    'Stout is een donkere bierfamilie met nadruk op geroosterde expressie: koffie, cacao, soms drop of asachtige tonen, afhankelijk van recept en moutkeuze. De stijl omvat droge, zoete, oatmeal en imperial varianten.
 
-Typische smaken:
+Waar Porter vaak ronder begint, zet Stout doorgaans steviger in op roaststructuur. De waargenomen bitterheid komt niet alleen uit hop, maar ook uit geroosterde granen. Daardoor voelt de bitterlijn anders aan dan bij IPA.
 
-- koffie
-- pure chocolade
-- espresso
-- geroosterd brood
+In professionele blindproeverij is dit onderscheid essentieel: hopbitterheid stijgt vooral in de midden- tot achtertonen, terwijl roastbitterheid eerder droog en korrelig opbouwt. Dat sensorische verschil voorkomt veel misclassificaties.
 
-Stout heeft vaak meer body en intensiteit dan Porter.
 
-Bekende subcategorieën:
+## Food pairing
 
-- Dry Stout
-- Milk Stout
-- Imperial Stout
+### Beste pairing
 
-Stout is vaak gastronomisch sterk.
-',
+Oesters, Irish stew en chocoladetaart.
+
+### Waarom dit werkt
+
+Stout combineert met oesters, stoof en chocolade omdat roastbitterheid umami verdiept, terwijl romiger body en gecontroleerde zoetheid textuurverbinding geven.
+
+### Vermijd
+
+Te lichte salade als hoofdmaaltijd.
+
+## Pro insight
+
+Train teamleden op roastniveaus zodat niet elke donkere bierorder automatisch Guinness wordt; precisie in stijladvies verhoogt geloofwaardigheid.',
     '- stout
-- roast
-- koffie
-- chocolade
-- intensiteit
+- roastbitterheid
+- koffietonen
+- body
+- stijlvariant
 ',
-    ':contentReference[oaicite:4]{index=4} is wereldwijd het bekendste stoutmerk.
+    'Guinness is wereldwijd het bekendste stoutmerk.
 ',
-    '- Donker en krachtig
-- Roastgedreven
-- Veel body
-- Gastronomisch breed
+    '- Stout: roastbitterheid, koffie, cacao
+- Onderscheid hopbitter versus roastbitter
+- Varianten van droog tot imperial
+- Temperatuur en glas bepalen expressie
 ',
     '### Opdracht
 
@@ -1595,53 +1828,54 @@ Proef een Stout.
 - Bitterheid beoordeeld
 - Body beoordeeld
 
+
 ### Reflectievraag
 
-Past Stout voor jou beter bij dessert of vlees?
-',
+Welke proefstap helpt jou het meest om roastbitterheid van hopbitterheid te scheiden in Stout-achtige bieren?',
     8,
     4
   ),
   (
     'barleywine',
     'Barleywine',
-    'Na deze les herken jij Barleywine.
+    'Na deze les kun je Barleywine herkennen op alcohol, moutzoetheid en rijpingspotentieel.
 ',
-    'Barleywine is één van de zwaarste bierstijlen.
+    'Barleywine benadert bier vanuit wijnlogica: hoge beginstamwort, stevige alcohol en potentieel voor rijping. De stijl kan Engels-georiënteerd (moutdominant) of Amerikaans-georiënteerd (meer hopgedreven) zijn.
 
-Alcohol ligt vaak tussen 9% en 14%.
+Typisch zijn tonen van toffee, gedroogd fruit, noten en warme alcohol, met een mondgevoel dat breed en langzaam ontwikkelt. Door tijd kan het profiel extra diepte krijgen, mits oxidatie beheerst verloopt.
 
-Ondanks de naam is het bier.
+Professioneel schenk je Barleywine in kleine porties en op een iets hogere temperatuur dan standaard tapbier. Dat geeft ruimte aan aroma en textuur, en positioneert het bier correct als contemplatief eindglas.
 
-De stijl combineert:
 
-- hoge moutconcentratie
-- rijke zoetheid
-- oxidatieve tonen
-- lange rijping
+## Food pairing
 
-Typische aroma’s:
+### Beste pairing
 
-- toffee
-- gedroogd fruit
-- karamel
-- noten
+Blauwschimmelkaas, sticky toffee pudding en notentaart.
 
-Barleywine wordt vaak langzaam gedronken.
-',
+### Waarom dit werkt
+
+Barleywine past bij blauwe kaas en karamel-desserts door hoge alcohol, concentratie en oxidatieve diepte; zoetheid vangt zout op en bitterheid houdt de finish strak.
+
+### Vermijd
+
+Frisse sorbet zonder structuur.
+
+## Pro insight
+
+Positioneer Barleywine als ''bier met wijnritme'': klein schenken, rustiger tempo, en expliciet adviseren bij kaas of dessert in plaats van als dorstbier.',
     '- barleywine
-- rijping
-- toffee
-- alcohol
-- complexiteit
-
-# Way of Tasting Academy',
+- hoge beginstamwort
+- rijpingspotentieel
+- alcoholstructuur
+- moutdiepte
+',
     'Veel Barleywines verbeteren sterk door flesrijping.
 ',
-    '- Zeer krachtig
-- Hoog alcohol
-- Rijpingspotentieel
-- Complex en rijk
+    '- Barleywine: wijnlogica in bier
+- Rijping kan complexiteit toevoegen
+- Klein schenken, hogere temperatuur
+- Digestief en dessertpairing
 ',
     '### Opdracht
 
@@ -1653,10 +1887,10 @@ Zoek een Barleywine op en analyseer het alcoholpercentage.
 - Smaakprofiel gelezen
 - Rijpingsadvies gelezen
 
+
 ### Reflectievraag
 
-Zou jij Barleywine bewaren?
-',
+Welke drie signalen bepalen volgens jou of een Barleywine nu schenken beter is dan verder laten rijpen?',
     8,
     5
   )
@@ -1679,42 +1913,44 @@ cross join (values
   (
     'serveertemperatuur',
     'Serveertemperatuur',
-    'Na deze les begrijp jij waarom temperatuur cruciaal is bij bier.
+    'Na deze les kun je serveertemperatuur koppelen aan stijl, aroma en mondgevoel.
 ',
-    'Temperatuur beïnvloedt hoe aroma’s en smaken worden ervaren.
+    'Serveertemperatuur is een primaire kwaliteitshefboom in bierservice. Te koud dempt aroma en maakt bitterheid hoekiger; te warm vergroot zoetheid en alcoholindruk tot onevenwicht.
 
-Te koud:
+Elke stijl heeft een functioneel temperatuurbereik waarin koolzuur, volatiliteit en mondgevoel optimaal samenwerken. Lichte lagers vragen koeler om frisheid en crispheid te behouden, terwijl complexere ales warmer kunnen om aromatische diepte te tonen.
 
-- onderdrukt aroma
-- maakt bier vlakker
+Professioneel werken met temperatuur betekent dus sturen, niet gokken. Je gebruikt stijlkennis, glaskeuze en servicesnelheid als een geheel systeem om in elk glas de bedoelde balans te leveren.
 
-Te warm:
 
-- benadrukt alcohol
-- kan balans verstoren
+## Food pairing
 
-Algemene richtlijnen:
+### Beste pairing
 
-- Pils: 4–6°C
-- Witbier: 5–7°C
-- IPA: 6–8°C
-- Tripel: 8–10°C
-- Stout: 10–13°C
+Het bier dat je serveert, op de juiste temperatuur.
 
-Hoe complexer het bier, hoe warmer het meestal geserveerd wordt.
-',
-    '- temperatuur
-- aroma
-- service
-- balans
-- stijl
+### Waarom dit werkt
+
+Juiste temperatuur laat esters en koolzuur werken: te koud dempt aroma en verhardt bitterheid; te warm vergroot zoetheid en alcohol — pairing begint bij serveerconditie.
+
+### Vermijd
+
+Eén temperatuur voor alle stijlen.
+
+## Pro insight
+
+Hang een stijl-temperatuurkaart achter de bar; discussies dalen, upsell naar speciaalbier stijgt omdat smaak consistent leesbaar wordt.',
+    '- serveertemperatuur
+- aroma-volatiliteit
+- koolzuurretentie
+- smaakbalans
+- stijlrange
 ',
     'Veel speciaalbier wordt te koud geserveerd.
 ',
-    '- Temperatuur beïnvloedt smaak
-- Te koud maskeert aroma
-- Complexere stijlen mogen warmer
-- Service begint bij temperatuur
+    '- Serveertemperatuur stuurt aroma en balans
+- Te koud dempt; te warm verstoort
+- Complexere stijlen vragen warmer venster
+- Temperatuurkaart = professionele standaard
 ',
     '### Opdracht
 
@@ -1726,49 +1962,54 @@ Meet de temperatuur van een bier vóór het drinken.
 - Stijl bepaald
 - Vergeleken met advies
 
+
 ### Reflectievraag
 
-Was het bier te koud of juist goed?
-',
+Bij een klacht ''te koud'': hoe herkalibreer jij snel temperatuur zonder stijlkarakter of schuimkwaliteit te verliezen?',
     8,
     1
   ),
   (
     'glaswerk',
     'Glaswerk',
-    'Na deze les begrijp jij waarom glaswerk belangrijk is.
+    'Na deze les kun je glaswerk kiezen op basis van stijl, schuim en aroma-ontwikkeling.
 ',
-    'Het juiste glas versterkt geur, schuim en presentatie.
+    'Glaswerk is een technisch instrument dat aroma-opbouw, schuimstabiliteit en mondperceptie actief beïnvloedt. De vorm van kelk, opening en steel verandert hoe bier op neus en tong wordt ervaren.
 
-Belangrijke effecten:
+Een smalle opening concentreert vluchtige aromaten; een bredere opening geeft snellere expressie. Hoog glas ondersteunt koolzuurlift en schuimkraag bij tarwebieren, terwijl tulpvormen complexere neuslagen bij IPA, Tripel en Stout zichtbaar maken.
 
-- aroma concentratie
-- schuimvorming
-- mondgevoel
-- temperatuurbehoud
+In professionele service kies je glas niet op esthetiek, maar op functionele match met stijl en context. Dat maakt het verschil tussen correct schenken en echt presenteren.
 
-Voorbeelden:
 
-- Pils → slank glas
-- Weizen → hoog glas
-- Tripel → kelk
-- IPA → tulpglas
-- Stout → breed glas
+## Food pairing
 
-Het verkeerde glas kan aroma’s verzwakken.
-',
+### Beste pairing
+
+Stijl-passend gerecht in het juiste glas.
+
+### Waarom dit werkt
+
+Glasvorm concentreert of opent aroma: smalle opening voor esters, brede kelk voor textuur — zelfde bier, ander glas, andere pairingconclusie.
+
+### Vermijd
+
+Pils in wijnglas — verliest koolzuur en schuim.
+
+## Pro insight
+
+Glaswerk is omzetgevoelig: juiste glaskeuze verhoogt aromabeleving en rechtvaardigt premium-prijs zonder extra productkosten.',
     '- glaswerk
-- aroma
-- presentatie
-- schuim
-- mondgevoel
+- aromaconcentratie
+- schuimstabiliteit
+- mondperceptie
+- presentatietechniek
 ',
     'Veel brouwerijen ontwikkelen hun eigen glasvormen.
 ',
-    '- Glas beïnvloedt aroma
-- Glas beïnvloedt schuim
-- Glas beïnvloedt mondgevoel
-- Correct glas verhoogt kwaliteit
+    '- Glaswerk stuurt aroma, schuim en perceptie
+- Kelkvorm kiest je bewust per stijl
+- Functioneel, niet decoratief
+- Verkeerd glas = verkeerde stijlconclusie
 ',
     '### Opdracht
 
@@ -1778,49 +2019,56 @@ Drink hetzelfde bier uit twee verschillende glazen.
 
 - Geur vergeleken
 - Schuim vergeleken
-- Mondgevoel vergeleken
+- mondgevoel vergeleken
+
 
 ### Reflectievraag
 
-Welk glas werkte beter?
-',
+Wanneer wijk jij bewust af van het klassieke glasadvies, en welk effect verwacht je dan op aroma, schuim en gastbeleving?',
     8,
     2
   ),
   (
     'schenktechniek',
     'Schenktechniek',
-    'Na deze les kun jij bier correct uitschenken.
+    'Na deze les kun je correct schenken voor optimaal schuim, koolzuur en presentatie.
 ',
-    'Goed schenken beïnvloedt schuim, koolzuur en aroma.
+    'Schenktechniek bepaalt direct de kwaliteit van het moment waarop bier wordt ervaren. Hoek, hoogte en tempo van schenken sturen schuimvorming, koolzuurretentie en aroma-release.
 
-Basisregels:
+Een gecontroleerde tweefasen-schenking geeft eerst rust in de vloeistof en bouwt daarna een stabiele schuimkraag op. Zo bescherm je oxidatiegevoelige aromaten en voorkom je zowel overschuim als vlakke presentatie.
 
-- schoon glas
-- juiste hoek (45°)
-- geleidelijk rechtop zetten
-- laatste deel eventueel apart beoordelen
+Professioneel is techniek ook economisch: consistent schenken beperkt verspilling en houdt service reproduceerbaar. Voor de gast vertaalt dat zich in een glas dat tegelijk visueel correct en sensorisch volledig is.
 
-Bij veel Belgische bieren blijft gist vaak in de fles.
 
-Bij Weizen wordt die juist vaak mee geschonken.
+## Food pairing
 
-Te hard schenken geeft teveel schuim.
+### Beste pairing
 
-Te zacht schenken kan aroma beperken.
-',
-    '- schenken
-- schuim
-- hoek
-- gist
-- presentatie
+Tapbier met perfecte kroes bij frituur of borrel.
+
+### Waarom dit werkt
+
+Stabiel schuim en intacte koolzuur reinigen vet en resetten zoutperceptie; oxidatie door slecht schenken verstoort hop- en moutbruggen in pairing.
+
+### Vermijd
+
+Bier lang laten staan voor schenken.
+
+## Pro insight
+
+Consistente schenktraining verbetert marge direct; minder overschuim betekent minder verlies en tegelijk een professionelere gastervaring.',
+    '- schenktechniek
+- tweefasen-schenking
+- schuimkraag
+- oxidatiebeperking
+- koolzuurbehoud
 ',
     'Sommige brouwerijen trainen personeel specifiek op hun eigen schenktechniek.
 ',
-    '- Schoon glas is essentieel
-- Hoek van schenken is belangrijk
-- Schuim moet gecontroleerd zijn
-- Gist kan meespelen
+    '- Schenktechniek bepaalt schuim, CO₂ en presentatie
+- Tweefasen-schenking beschermt aroma
+- Consistentie verlaagt verspilling
+- Eerste indruk is servicekwaliteit
 ',
     '### Opdracht
 
@@ -1832,54 +2080,54 @@ Schenk één bier zorgvuldig uit.
 - Juiste hoek gebruikt
 - Schuim gecontroleerd
 
+
 ### Reflectievraag
 
-Hoe stabiel bleef jouw schuim?
-',
+Welke schenkfout kost in jouw service de meeste kwaliteit: te agressieve straal, verkeerd glashoek of te late schuimopbouw?',
     8,
     3
   ),
   (
     'bewaren-en-rijping',
     'Bewaren & rijping',
-    'Na deze les begrijp jij hoe bier correct bewaard wordt en welke stijlen kunnen rijpen.
+    'Na deze les kun je bier bewaren en rijpen op temperatuur, licht en stijllogica.
 ',
-    'Niet elk bier is bedoeld om lang te bewaren.
+    'Bewaren en rijpen zijn geen synoniemen voor elk bier. Sommige stijlen profiteren van tijd, andere verliezen vooral hun kernkwaliteit door oxidatie, lichtschade of aromaverlies.
 
-Frisse stijlen zoals pils, IPA en witbier drink je jong.
+Hopgedreven bieren zoals IPA en NEIPA tonen hun beste profiel jong, terwijl sterke moutgedreven stijlen zoals Quadrupel en Barleywine gecontroleerd kunnen evolueren. Temperatuurstabiliteit, donkerte en rechtop opslag blijven de basisvoorwaarden.
 
-Zwaardere stijlen zoals:
+Professioneel voorraadbeheer betekent dat je stijltype koppelt aan rotatiesnelheid en serveermoment. Rijping is pas waardevol wanneer ze doelgericht gebeurt en je sensorisch kunt onderbouwen wat er gewonnen is.
 
-- Quadrupel
-- Imperial Stout
-- Barleywine
 
-kunnen vaak goed rijpen.
+## Food pairing
 
-Belangrijke opslagregels:
+### Beste pairing
 
-- donker
-- koel
-- stabiele temperatuur
-- rechtop bewaren
+Gerijpt bier met oude kaas of stoof (indien stijl past).
 
-Oxidatie verandert smaken.
+### Waarom dit werkt
 
-Soms positief, soms negatief.
-',
-    '- bewaren
+Bewaarde bieren tonen meer geïntegreerde zoetheid en roast; pairing verschuift van frisse zout-vet-snede naar umami en rijpe textuur — rotatie bepaalt het moment.
+
+### Vermijd
+
+NEIPA of hoppig IPA lang bewaren en bij lichte salade serveren.
+
+## Pro insight
+
+Communiceer eerlijk dat niet elk bier beter wordt met tijd; juist dat onderscheid tussen bewaren en snel drinken maakt je advies betrouwbaar.',
+    '- bewaarcondities
 - rijping
-- oxidatie
-- temperatuur
-- opslag
-
-# Way of Tasting Academy',
+- lichtschade
+- rotatiebeheer
+- houdbaarheid
+',
     'Oude Barleywines kunnen sherryachtige tonen ontwikkelen.
 ',
-    '- Niet elk bier rijpt goed
-- Zware stijlen hebben potentieel
-- Opslag is cruciaal
-- Oxidatie beïnvloedt smaak
+    '- Niet elk bier wint aan tijd
+- Hopbier drink je jong; sterke ales kunnen rijpen
+- Licht, temperatuur en rechtop opslaan
+- Drinkvenster communiceren, niet beloven
 ',
     '### Opdracht
 
@@ -1891,10 +2139,10 @@ Bekijk drie bieren in je voorraad.
 - Ik heb rijpingspotentieel beoordeeld
 - Ik heb opslagcondities bekeken
 
+
 ### Reflectievraag
 
-Welke zou jij bewaren?
-',
+Hoe bepaal je praktisch welke bieren in jouw voorraad rotatie nodig hebben en welke gecontroleerde rijping verdienen?',
     8,
     4
   )
@@ -1917,43 +2165,44 @@ cross join (values
   (
     'bier-en-kaas',
     'Bier & kaas',
-    'Na deze les begrijp jij hoe bier en kaas elkaar kunnen versterken.
+    'Na deze les kun je bier en kaas paireren op intensiteit, vet, zout en koolzuur.
 ',
-    'Bier en kaas vormen één van de sterkste klassieke pairings.
+    'Bier en kaas vormen een van de meest betrouwbare gastronomische combinaties omdat bier meerdere tegenkrachten tegelijk biedt: koolzuur tegen vet, bitterheid tegen zout en moutzoetheid tegen scherpe rijpingsranden.
 
-Waarom?
+De kernregel is intensiteitsmatching: jonge, frisse kazen vragen lichtere bieren, terwijl gerijpte of blauwe kazen om meer alcohol, body en aromatische diepte vragen. Structuur is belangrijker dan kleur.
 
-Bier heeft:
+Professioneel pair je kaas daarom niet op merknaam maar op matrix: zout, vet, umami en textuur. Dat maakt bierpairing met kaas vaak preciezer stuurbaar dan klassieke wijnpairing.
 
-- koolzuur
-- bitterheid
-- moutzoetheid
 
-Dat helpt vet en zout van kaas in balans te brengen.
+## Food pairing
 
-Voorbeelden:
+### Beste pairing
 
-- Tripel + oude kaas
-- Dubbel + blauwader
-- Weizen + jonge geitenkaas
-- Stout + gerijpte cheddar
+Tripel met oude Gouda, Dubbel met blauwschimmel, Weizen met geitenkaas.
 
-De sleutel is balans tussen intensiteit.
+### Waarom dit werkt
 
-Zware kaas vraagt vaak krachtiger bier.
-',
-    '- kaas
-- koolzuur
-- zout
-- vet
-- pairing
+Bier en kaas werkt technisch via koolzuur tegen vet, bitterheid tegen zout en moutzoetheid tegen pikante rijpingsrand; umami wordt zo dieper maar niet log.
+
+### Vermijd
+
+Pils bij blauwschimmel; Quadrupel bij jonge mozzarella.
+
+## Pro insight
+
+Bij kaasplanken verkoop je bierpairing met het argument ''koolzuur snijdt vet''; dat is voor gasten direct voelbaar en makkelijker te begrijpen dan theorie.',
+    '- bier-kaaspairing
+- vetreiniging
+- zoutbalans
+- umami
+- intensiteitsmatching
 ',
     'Bier pairt vaak makkelijker met kaas dan wijn door het koolzuur.
 ',
-    '- Koolzuur snijdt door vet
-- Bitterheid balanceert zout
-- Intensiteit moet matchen
-- Kaas en bier zijn klassiek
+    '- Kaas: koolzuur tegen vet, bitterheid tegen zout
+- Intensiteit matching is kernregel
+- Structuur vóór stijlnaam
+- Bier vaak preciezer dan wijn bij kaas
 ',
     '### Opdracht
 
@@ -1965,55 +2214,54 @@ Maak thuis één bier-kaas pairing.
 - Vetgehalte beoordeeld
 - Balans getest
 
+
 ### Reflectievraag
 
-Was de pairing complementair of contrasterend?
-',
+Bij blauwe kaas: kies je eerder Dubbel, Tripel of Quadrupel, en hoe onderbouw je dat met zout-vet-umami in plaats van smaakvoorkeur?',
     8,
     1
   ),
   (
     'bier-en-vlees',
     'Bier & vlees',
-    'Na deze les kun jij bier combineren met verschillende vleessoorten.
+    'Na deze les kun je bier en vlees paireren op eiwit, vet, roodheid en sausstructuur.
 ',
-    'Bier werkt uitstekend met vlees door zijn breedte in smaak.
+    'Bier en vlees pairing draait om de interactie tussen eiwit, vet, Maillard-tonen en sausstructuur. Bier biedt met koolzuur en bitterheid actieve reiniging waar wijn dat minder direct doet.
 
-Belangrijke regels:
+Hopprofielen kunnen gekruid of vet vlees liften, terwijl roostermout gegrilde en gekaramelliseerde tonen spiegelt. Moutzoetheid kan pittigheid afronden, maar moet voldoende bitter tegengewicht houden om niet log te worden.
 
-Licht vlees:
-- witbier
-- pils
-- saison
+Professioneel start je bij de saus, niet bij het stuk vlees alleen. De saus bepaalt vaak de dominante smaakas, en dus of je richting IPA, Dubbel, Porter of Stout moet bewegen.
 
-Gegrild vlees:
-- IPA
-- blond
-- amber
 
-Zwaar vlees:
-- dubbel
-- stout
-- quadrupel
+## Food pairing
 
-Hop werkt sterk met grill en vet.
+### Beste pairing
 
-Mout werkt goed met karamellisatie.
+IPA met burger, Porter met lam, Dubbel met stoof.
 
-Roast werkt goed met geroosterde smaken.
-',
-    '- vlees
-- grill
-- roast
-- hop
-- intensiteit
+### Waarom dit werkt
+
+Bier en vlees vraagt matching op vet, umami en roostering: hopbitterheid snijdt vet, roostermout spiegelt grilltonen en koolzuur verfrist na elke hap.
+
+### Vermijd
+
+Zware Quadrupel bij lichte kipfilet zonder saus.
+
+## Pro insight
+
+Begin vleespairing altijd bij saus en bereiding, niet bij diersoort; die aanpak voorkomt mismatch en maakt je aanbeveling concreet.',
+    '- bier-vleespairing
+- eiwitinteractie
+- roostering
+- sausdominantie
+- vetbalans
 ',
     'Stout en barbecue zijn wereldwijd een bekende pairing.
 ',
-    '- Licht bier bij licht vlees
-- Donker bier bij zwaar vlees
-- Hop werkt met grill
-- Roast werkt met barbecue
+    '- Vlees: saus bepaalt vaak de pairing
+- Roast spiegelt Maillard; koolzuur snijdt vet
+- Hop of mout volgt bereiding en vetgehalte
+- Eiwit, vet en umami als beslisassen
 ',
     '### Opdracht
 
@@ -2025,48 +2273,54 @@ Bedenk drie bier-vlees combinaties.
 - Bier gekozen
 - Match verklaard
 
+
 ### Reflectievraag
 
-Werk jij meer met contrast of intensiteit?
-',
+Wat is bij vleespairing jouw eerste beslispunt: bereiding, vetgehalte of saus, en waarom geeft dat de beste voorspelkracht?',
     8,
     2
   ),
   (
     'bier-en-desserts',
     'Bier & desserts',
-    'Na deze les begrijp jij hoe bier desserts kan versterken.
+    'Na deze les kun je bier en dessert paireren op zoetheid, bitterheid en textuur.
 ',
-    'Dessertpairing draait vaak om gelijkwaardigheid of contrast.
+    'Bier en dessert vraagt strak zoetheidsmanagement. Wanneer het bier zoeter is dan het dessert, kan de combinatie vlak worden; wanneer het bier te bitter en te dun is, wordt het dessert hard en metalig.
 
-Belangrijke regel:
+Roostermout werkt sterk bij cacao en koffiecomponenten, terwijl moutzoetheid en alcohol body geven bij romige texturen. Fruitzuren in desserts vragen juist lichtere, frissere bierstijlen met voldoende lift.
 
-Het bier moet minstens even intens zijn als het dessert.
+Professioneel kies je bewust tussen spiegeling en contrast. De beste pairing is niet per se de meest intense, maar degene die de textuur en smaaklengte van beide componenten verlengt.
 
-Voorbeelden:
 
-- Stout + chocoladetaart
-- Quadrupel + sticky toffee pudding
-- Barleywine + pecannotentaart
-- Fruitige NEIPA + citrustaart
+## Food pairing
 
-Roast en chocolade versterken elkaar sterk.
+### Beste pairing
 
-Oxidatieve tonen kunnen goed werken met karamel en noten.
+Stout met chocoladetaart, Quadrupel met brownie, Blond met crème brûlée.
+
+### Waarom dit werkt
+
+Bij desserts balanceer je zoetheid en bitterheid: roast in Stout vangt cacao, terwijl esters en alcohol in zwaardere ales romigheid dragen zonder suikerverzadiging.
+
+### Vermijd
+
+Zoet dessert + zoet fruitbier zonder zuurcontrast.
+
+## Pro insight
+
+Dessertadvies start met relatieve zoetheid: kies bier dat het dessert ondersteunt of contrasteert, maar nooit volledig overstemt.',
+    '- bier-dessertpairing
+- zoetheidsmanagement
+- contrast
+- spiegeling
+- textuurmatch
 ',
-    '- dessert
-- chocolade
-- roast
-- karamel
-- intensiteit
-
-# Way of Tasting Academy',
     'Imperial Stout wordt vaak gezien als één van de beste dessertbieren.
 ',
-    '- Bier moet intens genoeg zijn
-- Roast werkt goed met chocolade
-- Zoet en zoet kan werken
-- Oxidatie helpt bij karamel
+    '- Dessert: zoetheidsmanagement is alles
+- Contrast of spiegeling bewust kiezen
+- Roast bij cacao; frisheid bij fruit
+- Finale-lengte bepaalt pairingkwaliteit
 ',
     '### Opdracht
 
@@ -2078,10 +2332,10 @@ Kies een dessert en zoek een bier erbij.
 - Intensiteit beoordeeld
 - Structuur vergeleken
 
+
 ### Reflectievraag
 
-Zou jij voor contrast of match kiezen?
-',
+Wanneer kies jij bij dessert voor contrast en wanneer voor spiegeling, en welke fout probeer je daarmee expliciet te voorkomen?',
     8,
     3
   )
@@ -2104,47 +2358,44 @@ cross join (values
   (
     'lager-vs-ale-blind',
     'Lager vs Ale blind',
-    'Na deze les kun jij het verschil herkennen tussen Lager en Ale zonder etiket.
+    'Na deze les kun je blind Lager en Ale onderscheiden op aroma, gist en mondgevoel.
 ',
-    'Lager en Ale vormen de basis van bijna alle bierstijlen.
+    'Blind onderscheid tussen Lager en Ale vraagt discipline in observatievolgorde. Je kijkt eerst naar aromatische expressie, daarna naar gistkarakter, koolzuurindruk en afdronkstructuur.
 
-Blind herkennen draait om structuur en aroma.
+Lager toont vaak een schoner profiel met strakkere bitterlijn, terwijl Ale doorgaans meer esters en een rondere fermentatiehandtekening laat zien. Uitzonderingen bestaan, dus je werkt met waarschijnlijkheden, niet met slogans.
 
-Lager:
+Professioneel blindproeven betekent dat je hypothesen stap voor stap uitsluit. Het doel is niet snel raden, maar reproduceerbaar redeneren op basis van sensorische data.
 
-- cleaner
-- strakker
-- frisser
-- neutraler
 
-Ale:
+## Food pairing
 
-- fruitiger
-- kruidiger
-- expressiever
-- complexer
+### Beste pairing
 
-Let op:
+Blind: kies pairing na stijlconclusie.
 
-- gistkarakter
-- body
-- bitterheid
-- afdronk
+### Waarom dit werkt
 
-Blindproeven is de snelste manier om je bierkennis te verdiepen.
-',
-    '- lager
+Blind Lager vs Ale pairing wordt betrouwbaarder als je eerst gistkarakter en afdronk vastlegt; schone profielen werken vaak beter met zout/vet, esterrijke met kruid/zuur.
+
+### Vermijd
+
+Pairing kiezen vóór je stijl vastlegt.
+
+## Pro insight
+
+In blindtraining geldt: eerst neusdata noteren, dan pas stijl roepen; die volgorde verhoogt nauwkeurigheid en verlaagt gokgedrag in teamsessies.',
+    '- blindproeven
+- lager
 - ale
-- blindproeven
-- gist
-- structuur
+- esters
+- afdronkanalyse
 ',
     'Veel beginners herkennen Ale sneller door de fruitigheid.
 ',
-    '- Lager = strak
-- Ale = expressiever
-- Gist is vaak de sleutel
-- Structuur helpt bij herkenning
+    '- Lager vs ale: esters, koolzuur, afdronk
+- Kleur misleidt — structuur beslist
+- Hypothesen stap voor stap uitsluiten
+- Blind = reproduceerbaar redeneren
 ',
     '### Opdracht
 
@@ -2156,57 +2407,54 @@ Proef blind één Lager en één Ale.
 - Ik heb body beoordeeld
 - Ik heb gistkarakter gezocht
 
+
 ### Reflectievraag
 
-Wat gaf jou de doorslag?
-',
+Welke volgorde van observaties gebruik je blind om Lager vs Ale te bepalen, en waar maak je statistisch de meeste misclassificaties?',
     10,
     1
   ),
   (
     'ipa-vs-stout-blind',
     'IPA vs Stout blind',
-    'Na deze les kun jij IPA en Stout blind onderscheiden.
+    'Na deze les kun je blind IPA en Stout onderscheiden op hop, roast en structuur.
 ',
-    'IPA en Stout zijn totaal verschillende werelden.
+    'Blind IPA versus Stout onderscheiden lijkt eenvoudig op kleur, maar betrouwbare identificatie vraagt focus op bitterheidstype, aromaprofiel en mondstructuur. Visuele cues kunnen misleidend zijn door moderne interpretaties.
 
-IPA herken je vaak aan:
+IPA geeft vooral hopgedreven aromaten en een bitterlijn die vaak citrus, hars of tropisch fruit begeleidt. Stout bouwt bitterheid vanuit roast op en laat koffie, cacao en soms asachtige droogte domineren.
 
-- citrus
-- tropisch fruit
-- hars
-- bitterheid
+Professioneel hanteer je een vaste beslisvolgorde: neus, eerste slok, middenpalet, afdronk. Zo maak je onderscheid op mechanisme in plaats van op vooroordeel.
 
-Stout herken je vaak aan:
 
-- koffie
-- chocolade
-- roast
-- body
+## Food pairing
 
-Belangrijke verschillen:
+### Beste pairing
 
-- kleur
-- aroma
-- bittertype
-- textuur
+Blind: roast-gerecht bij donker, hop bij licht gekruid vlees.
 
-Bij blindproeven kijk je niet.
+### Waarom dit werkt
 
-Dus geur en mondgevoel worden extra belangrijk.
-',
-    '- IPA
-- stout
-- hop
-- roast
-- aroma
+Blind IPA vs Stout onderscheid je in pairing op bitterbron: hopbitter volgt spice en zuuraccenten, roastbitter ondersteunt cacao, braad en umami-rijke componenten.
+
+### Vermijd
+
+Alleen kleur als pairingcriterium.
+
+## Pro insight
+
+Leer personeel het verschil tussen hopbitter en roastbitter benoemen; dat ene onderscheid lost de meeste IPA/Stout-blindfouten op.',
+    '- ipa-vs-stout
+- hopbitterheid
+- roastbitterheid
+- aromaprofilering
+- sensorische beslisboom
 ',
     'Veel ervaren proevers herkennen Stout sneller door roast.
 ',
-    '- IPA = hop
-- Stout = roast
-- Aroma bepaalt veel
-- Mondgevoel bevestigt
+    '- IPA vs stout: hopbitter versus roastbitter
+- Neus → eerste slok → afdronk als volgorde
+- Visuele cues zijn onbetrouwbaar
+- Mechanisme-onderzoek voorkomt misclassificatie
 ',
     '### Opdracht
 
@@ -2218,56 +2466,91 @@ Proef blind één IPA en één Stout.
 - Bitterheid geanalyseerd
 - Body beoordeeld
 
+
 ### Reflectievraag
 
-Welke stijl herkende jij sneller?
-',
+Welke eigenschap na de eerste slok laat jou het snelst kiezen tussen IPA en Stout, los van kleur of verwachting?',
     10,
     2
   ),
   (
     'theorie-praktijk-examen',
     'Theorie- en praktijkexamen',
-    'Na deze les toon jij aan dat je Beer Academy volledig beheerst.
+    'Na deze les toon je aan dat je Beer Academy beheerst: theorie, proeven, service, pairing en blindanalyse.
 ',
-    'Dit examen combineert alle negen modules:
+    'Het examen is de integratietoets van Beer Academy: theorie, stijlkunde, service, pairing en blindanalyse komen samen in een enkele professionele prestatie. Je bewijst niet alleen kennis, maar ook toepasbaarheid.
 
-Explorer:
-- fundament
+Beoordeling draait om consistentie: kun je stijlkenmerken correct benoemen, keuzes onderbouwen en sensorische observaties vertalen naar praktische service- en pairingadviezen. Het is een toets van oordeel, niet alleen geheugen.
+
+Professioneel is dit eindpunt tegelijk een startpunt. De waarde van het certificaat ligt in de kwaliteit van je vervolgpraktijk: blijven trainen, kalibreren en verfijnen op de vloer en aan tafel.
+
+
+## Examenonderdelen
+
+### Deel 1 — Theorie
+
+20 vragen over:
+
+- ingrediënten
 - productie
-- proeven
-
-Specialist:
-- klassieke stijlen
-- Belgische stijlen
-- moderne stijlen
-
-Master:
+- stijlen
 - service
 - pairing
-- blindproeven
 
-Het examen test:
+---
 
-- kennis
-- stijlherkenning
+### Deel 2 — Praktijk
+
+Analyseer blind twee bieren:
+
+Checklist:
+
+- stijl inschatten
+- alcoholniveau inschatten
+- body beschrijven
+- aroma’s benoemen
+- pairingadvies geven
+
+---
+
+### Deel 3 — Pairing
+
+Maak drie pairings:
+
+- kaas
+- vlees
+- dessert
+
+Leg per pairing uit waarom.
+
+## Food pairing
+
+### Beste pairing
+
+Drie gangen examenmenu: kaas, vlees, dessert met passend bier.
+
+### Waarom dit werkt
+
+In het examen toon je waarom elke pairing werkt via meetbare assen: koolzuur, bitterheid, zoetheid, roast, esters, umami, vet, zout en zuur in onderlinge balans.
+
+### Vermijd
+
+Eén bier voor alle drie examenpairings.
+
+## Pro insight
+
+Plan na certificering één maandelijkse kalibratieproef; vakmanschap veroudert zonder herhaling — examen is startpunt, geen eindpunt.',
+    '- examenintegratie
+- stijlkunde
 - service
 - pairing
-- analyse
-
-Dit is jouw certificeringsmoment.
+- professionele kalibratie
 ',
-    '- examen
-- integratie
-- blindproeven
-- certificering
-- mastery',
     '',
-    '- Volledige integratie
-- Theorie + praktijk
-- Stijlherkenning
-- Service
-- Gastronomie
+    '- Volledige integratie: theorie, proeven, service, pairing
+- Oordeel zwaarder dan geheugen
+- Certificering is startpunt, geen eindpunt
+- Gerichte retraining na zwakke competentie
 ',
     '### Opdracht
 
@@ -2279,10 +2562,10 @@ Voer het volledige praktijkexamen uit.
 - Drie pairings gemaakt
 - Theorie afgerond
 
+
 ### Reflectievraag
 
-Waar ligt jouw grootste kracht: stijlkennis, proeven of pairing?
-',
+Welk examenonderdeel vraagt voor jou de hoogste transfer van kennis naar praktijk, en hoe ga je dat na certificering gericht trainen?',
     20,
     3
   )
@@ -2300,9 +2583,9 @@ insert into academy.quiz_questions (lesson_id, sort_order, prompt, options, corr
 select l.id, v.sort_order, v.prompt, v.options::jsonb, v.correct_index, v.explanation
 from l
 join (values
-  ('intro-beer', 'wat-is-bier', 1, 'Waaruit bestaat bier altijd?', '["Druiven", "Water, mout, hop en gist", "Vruchten", "Suiker en melk"]', 1, 'Correct: Water, mout, hop en gist'),
+  ('intro-beer', 'wat-is-bier', 1, 'Een gast vraagt wat bier fundamenteel anders maakt dan wijn. Wat is je kernantwoord?', '["Bier gebruikt druiven", "Bier wordt gebrouwen uit graan met hop en gist", "Bier is altijd koolzuurhoudend", "Bier bevat geen alcohol"]', 1, 'Correct: Bier wordt gebrouwen uit graan met hop en gist'),
   ('intro-beer', 'wat-is-bier', 2, 'Wat maakt alcohol in bier?', '["Water", "Hop", "Gist", "Glas"]', 2, 'Correct: Gist'),
-  ('intro-beer', 'wat-is-bier', 3, 'Wat ontstaat ook tijdens vergisting?', '["Zuurstof", "CO2", "Zout", "Stikstof"]', 1, 'Correct: CO2'),
+  ('intro-beer', 'wat-is-bier', 3, 'Wat ontstaat ook tijdens vergisting?', '["Zuurstof", "CO₂", "Zout", "Stikstof"]', 1, 'Correct: CO₂'),
   ('intro-beer', 'wat-is-bier', 4, 'Bier is:', '["Een versterkte drank", "Een gefermenteerde drank", "Een gedistilleerde drank", "Een mousserende wijn"]', 1, 'Correct: Een gefermenteerde drank'),
   ('intro-beer', 'wat-is-bier', 5, 'Bier bestaat al:', '["100 jaar", "500 jaar", "Duizenden jaren", "50 jaar"]', 2, 'Correct: Duizenden jaren'),
   ('intro-beer', 'vier-basisingredienten', 1, 'Wat vormt het grootste deel van bier?', '["Mout", "Water", "Hop", "Gist"]', 1, 'Correct: Water'),
@@ -2311,13 +2594,13 @@ join (values
   ('intro-beer', 'vier-basisingredienten', 4, 'Wat zet suiker om in alcohol?', '["Hop", "Gist", "Mout", "Water"]', 1, 'Correct: Gist'),
   ('intro-beer', 'vier-basisingredienten', 5, 'Welke factor beïnvloedt aroma sterk?', '["Gist", "Glas", "Etiket", "Licht"]', 0, 'Correct: Gist'),
   ('intro-beer', 'alcoholische-gisting', 1, 'Wat doet gist?', '["Verbrandt alcohol", "Eet suiker", "Koelt bier", "Filtert bier"]', 1, 'Correct: Eet suiker'),
-  ('intro-beer', 'alcoholische-gisting', 2, 'Wat ontstaat?', '["Alcohol en CO2", "Alleen water", "Alleen zuurstof", "Alleen suiker"]', 0, 'Correct: Alcohol en CO2'),
+  ('intro-beer', 'alcoholische-gisting', 2, 'Wat ontstaat?', '["Alcohol en CO₂", "Alleen water", "Alleen zuurstof", "Alleen suiker"]', 0, 'Correct: Alcohol en CO₂'),
   ('intro-beer', 'alcoholische-gisting', 3, 'Temperatuur beïnvloedt:', '["Etiket", "Aroma", "Glas", "Fles"]', 1, 'Correct: Aroma'),
   ('intro-beer', 'alcoholische-gisting', 4, 'Waar vindt gisting plaats?', '["Glas", "Tank", "Vat", "Flesdop"]', 1, 'Correct: Tank'),
   ('intro-beer', 'alcoholische-gisting', 5, 'Fruitige tonen komen vaak van:', '["Water", "Gist", "Hop", "Glas"]', 1, 'Correct: Gist'),
   ('intro-beer', 'ondergisting-vs-bovengisting', 1, 'Pils is meestal:', '["Bovengistend", "Ondergistend", "Mousserend", "Versterkt"]', 1, 'Correct: Ondergistend'),
-  ('intro-beer', 'ondergisting-vs-bovengisting', 2, 'Bovengisting gebeurt:', '["Kouder", "Warmer", "Zonder gist", "Zonder alcohol"]', 1, 'Correct: Warmer'),
-  ('intro-beer', 'ondergisting-vs-bovengisting', 3, 'Welke is vaak fruitiger?', '["Ondergisting", "Bovengisting", "Water", "Mout"]', 1, 'Correct: Bovengisting'),
+  ('intro-beer', 'ondergisting-vs-bovengisting', 2, 'bovengisting gebeurt:', '["Kouder", "Warmer", "Zonder gist", "Zonder alcohol"]', 1, 'Correct: Warmer'),
+  ('intro-beer', 'ondergisting-vs-bovengisting', 3, 'Je proeft sterke banaan en kruidnagel zonder donkere mout. Welke gisting past het best?', '["Ondergisting bij 8°C", "Bovengisting met Weizen-gist", "Spontane gisting", "Mixed fermentation zonder esters"]', 1, 'Correct: Bovengisting met Weizen-gist'),
   ('intro-beer', 'ondergisting-vs-bovengisting', 4, 'Welke stijl is klassiek ondergistend?', '["Pils", "Tripel", "Saison", "Weizen"]', 0, 'Correct: Pils'),
   ('intro-beer', 'ondergisting-vs-bovengisting', 5, 'Welke stijl is vaak complexer?', '["Bovengisting", "Ondergisting", "Water", "Mout"]', 0, 'Correct: Bovengisting'),
   ('intro-beer', 'biercategorieen', 1, 'Welke categorie is vaak strak en fris?', '["Lager", "Stout", "Porter", "Barleywine"]', 0, 'Correct: Lager'),
@@ -2331,12 +2614,12 @@ join (values
   ('productie-beer', 'mouten-uitgelegd', 4, 'Donkere mout geeft vaak:', '["Citrus", "Chocolade", "Zout", "Gras"]', 1, 'Correct: Chocolade'),
   ('productie-beer', 'mouten-uitgelegd', 5, 'Mout is de basis van:', '["Alcohol", "Fles", "Schuim", "Kurk"]', 0, 'Correct: Alcohol'),
   ('productie-beer', 'maischen', 1, 'Wat ontstaat na het maischen?', '["Wort", "Bier", "Alcohol", "Hop"]', 0, 'Correct: Wort'),
-  ('productie-beer', 'maischen', 2, 'Wat wordt omgezet?', '["Zetmeel", "Alcohol", "Water", "CO2"]', 0, 'Correct: Zetmeel'),
+  ('productie-beer', 'maischen', 2, 'Wat wordt omgezet?', '["Zetmeel", "Alcohol", "Water", "CO₂"]', 0, 'Correct: Zetmeel'),
   ('productie-beer', 'maischen', 3, 'Wat bepaalt het proces sterk?', '["Temperatuur", "Glas", "Schuim", "Fles"]', 0, 'Correct: Temperatuur'),
   ('productie-beer', 'maischen', 4, 'Lagere temperatuur geeft vaak:', '["Droger bier", "Zoeter bier", "Donker bier", "Bitter bier"]', 0, 'Correct: Droger bier'),
   ('productie-beer', 'maischen', 5, 'Maischen gebeurt vóór:', '["Gisting", "Bottelen", "Drinken", "Serveren"]', 0, 'Correct: Gisting'),
   ('productie-beer', 'hop-en-bitterheid', 1, 'Wat geeft hop?', '["Bitterheid", "Alcohol", "Schuim", "Water"]', 0, 'Correct: Bitterheid'),
-  ('productie-beer', 'hop-en-bitterheid', 2, 'Wat meet IBU?', '["Bitterheid", "Alcohol", "Schuim", "Temperatuur"]', 0, 'Correct: Bitterheid'),
+  ('productie-beer', 'hop-en-bitterheid', 2, 'Twee bieren hebben IBU 40. Eén proef je veel bitterder. Wat verklaart dat het vaakst?', '["Hoger alcohol", "Minder moutzoetheid", "Meer koolzuur", "Donkerdere kleur"]', 1, 'Correct: Minder moutzoetheid'),
   ('productie-beer', 'hop-en-bitterheid', 3, 'Late hopgiften geven vooral:', '["Aroma", "Alcohol", "Water", "Zuur"]', 0, 'Correct: Aroma'),
   ('productie-beer', 'hop-en-bitterheid', 4, 'IPA is vaak:', '["Hoprijk", "Zoet", "Zuur", "Plat"]', 0, 'Correct: Hoprijk'),
   ('productie-beer', 'hop-en-bitterheid', 5, 'Hop balanceert:', '["Zoetheid", "Alcohol", "Water", "Schuim"]', 0, 'Correct: Zoetheid'),
@@ -2367,9 +2650,14 @@ join (values
   ('proeven-beer', 'aromas-herkennen', 5, 'Aromaherkenning ontwikkel je door:', '["Oefening", "Kijken", "Schudden", "Koelen"]', 0, 'Correct: Oefening'),
   ('proeven-beer', 'structuur-en-mondgevoel', 1, 'Wat is mondgevoel?', '["Fysieke sensatie", "Alleen geur", "Alleen kleur", "Alleen schuim"]', 0, 'Correct: Fysieke sensatie'),
   ('proeven-beer', 'structuur-en-mondgevoel', 2, 'Wat voelt vaak voller?', '["Stout", "Pils", "Lager", "Witbier"]', 0, 'Correct: Stout'),
-  ('proeven-beer', 'structuur-en-mondgevoel', 3, 'Wat geeft frisheid?', '["Koolzuur", "Alcohol", "Mout", "Glas"]', 0, 'Correct: Koolzuur'),
+  ('proeven-beer', 'structuur-en-mondgevoel', 3, 'Blind proef je hoog alcohol maar licht mondgevoel. Welke stijl past het best?', '["Barleywine", "Tripel", "Imperial Stout", "Bock"]', 1, 'Correct: Tripel'),
   ('proeven-beer', 'structuur-en-mondgevoel', 4, 'Wat geeft warmte?', '["Alcohol", "Water", "Hop", "Gist"]', 0, 'Correct: Alcohol'),
   ('proeven-beer', 'structuur-en-mondgevoel', 5, 'Body wordt mede beïnvloed door:', '["Restsuiker", "Glas", "Dop", "Etiket"]', 0, 'Correct: Restsuiker'),
+  ('proeven-beer', 'mini-toets-bier', 1, 'Wat zijn de vier basisingrediënten?', '["Water, mout, hop, gist", "Druiven, suiker, water, gist", "Hop, fruit, gist, water", "Water, alcohol, mout, hop"]', 0, 'Correct: Water, mout, hop, gist'),
+  ('proeven-beer', 'mini-toets-bier', 2, 'Wat meet IBU?', '["Bitterheid", "Alcohol", "Schuim", "Kleur"]', 0, 'Correct: Bitterheid'),
+  ('proeven-beer', 'mini-toets-bier', 3, 'Wat analyseer je als eerste?', '["Kleur", "Smaak", "Afdronk", "Temperatuur"]', 0, 'Correct: Kleur'),
+  ('proeven-beer', 'mini-toets-bier', 4, 'Welke stijl is vaak ondergistend?', '["Pils", "Tripel", "Saison", "Weizen"]', 0, 'Correct: Pils'),
+  ('proeven-beer', 'mini-toets-bier', 5, 'Welke factor beïnvloedt mondgevoel?', '["Body", "Etiket", "Glasdikte", "Prijs"]', 0, 'Correct: Body'),
   ('klassieke-stijlen-beer', 'pilsner', 1, 'Waar ontstond Pilsner?', '["België", "Duitsland", "Tsjechië", "Nederland"]', 2, 'Correct: Tsjechië'),
   ('klassieke-stijlen-beer', 'pilsner', 2, 'Pils is:', '["Bovengistend", "Ondergistend", "Versterkt", "Zuur"]', 1, 'Correct: Ondergistend'),
   ('klassieke-stijlen-beer', 'pilsner', 3, 'Pils is meestal:', '["Donker", "Licht goudgeel", "Rood", "Bruin"]', 1, 'Correct: Licht goudgeel'),
@@ -2414,7 +2702,7 @@ join (values
   ('belgische-stijlen-beer', 'saison', 2, 'Saison is vaak:', '["Droog", "Zoet", "Rijk zoet", "Zwaar moutig"]', 0, 'Correct: Droog'),
   ('belgische-stijlen-beer', 'saison', 3, 'Typische aroma:', '["Peper", "Chocolade", "Koffie", "Rook"]', 0, 'Correct: Peper'),
   ('belgische-stijlen-beer', 'saison', 4, 'Saison heeft vaak:', '["Hoog koolzuur", "Geen koolzuur", "Lage zuren", "Lage complexiteit"]', 0, 'Correct: Hoog koolzuur'),
-  ('belgische-stijlen-beer', 'saison', 5, 'Saison is vaak:', '["Gastronomisch sterk", "Moeilijk te pairen", "Alleen dessertbier", "Alleen zomerbier"]', 0, 'Correct: Gastronomisch sterk'),
+  ('belgische-stijlen-beer', 'saison', 5, 'Saison is vaak:', '["Gastronomisch sterk", "Moeilijk te pairt", "Alleen dessertbier", "Alleen zomerbier"]', 0, 'Correct: Gastronomisch sterk'),
   ('belgische-stijlen-beer', 'abdijbier-vs-trappist', 1, 'Trappist moet gebrouwen worden:', '["In abdij", "In fabriek", "In stad", "In kelder"]', 0, 'Correct: In abdij'),
   ('belgische-stijlen-beer', 'abdijbier-vs-trappist', 2, 'Wie houdt toezicht?', '["Monniken", "Handelaren", "Sommeliers", "Exporteurs"]', 0, 'Correct: Monniken'),
   ('belgische-stijlen-beer', 'abdijbier-vs-trappist', 3, 'Abdijbier is vaak:', '["Commercieel gebrouwen", "Altijd monastiek", "Altijd klein", "Altijd biologisch"]', 0, 'Correct: Commercieel gebrouwen'),
@@ -2429,7 +2717,7 @@ join (values
   ('moderne-stijlen-beer', 'neipa', 2, 'NEIPA is vaak:', '["Troebel", "Helder", "Donker", "Rood"]', 0, 'Correct: Troebel'),
   ('moderne-stijlen-beer', 'neipa', 3, 'NEIPA is meestal:', '["Zachter bitter", "Bitterder", "Zuurder", "Zoeter dan stout"]', 0, 'Correct: Zachter bitter'),
   ('moderne-stijlen-beer', 'neipa', 4, 'Typisch aroma:', '["Mango", "Koffie", "Toast", "Noten"]', 0, 'Correct: Mango'),
-  ('moderne-stijlen-beer', 'neipa', 5, 'Mondgevoel is vaak:', '["Vol en zacht", "Licht en strak", "Plat", "Hard"]', 0, 'Correct: Vol en zacht'),
+  ('moderne-stijlen-beer', 'neipa', 5, 'mondgevoel is vaak:', '["Vol en zacht", "Licht en strak", "Plat", "Hard"]', 0, 'Correct: Vol en zacht'),
   ('moderne-stijlen-beer', 'porter', 1, 'Porter komt uit:', '["Londen", "Dublin", "Brussel", "München"]', 0, 'Correct: Londen'),
   ('moderne-stijlen-beer', 'porter', 2, 'Porter is:', '["Donker", "Licht", "Wit", "Rosé"]', 0, 'Correct: Donker'),
   ('moderne-stijlen-beer', 'porter', 3, 'Typisch aroma:', '["Chocolade", "Citrus", "Gras", "Zout"]', 0, 'Correct: Chocolade'),
@@ -2466,7 +2754,7 @@ join (values
   ('service-beer', 'bewaren-en-rijping', 4, 'Oxidatie kan:', '["Smaken veranderen", "Alcohol verwijderen", "Schuim verhogen", "Gist stoppen"]', 0, 'Correct: Smaken veranderen'),
   ('service-beer', 'bewaren-en-rijping', 5, 'Bier bewaar je vaak:', '["Rechtop", "Liggend", "Ondersteboven", "Open"]', 0, 'Correct: Rechtop'),
   ('pairing-beer', 'bier-en-kaas', 1, 'Wat helpt vet doorbreken?', '["Koolzuur", "Alcohol", "Schuim", "Glas"]', 0, 'Correct: Koolzuur'),
-  ('pairing-beer', 'bier-en-kaas', 2, 'Welke pairing klopt?', '["Tripel + oude kaas", "Pils + blauwe kaas", "Witbier + Stilton", "IPA + mascarpone"]', 0, 'Correct: Tripel + oude kaas'),
+  ('pairing-beer', 'bier-en-kaas', 2, 'Een gast bestelt blauwschimmelkaas. Welke pairing adviseer je het meest?', '["Pils", "Dubbel of Quadrupel", "Licht witbier zonder body", "NEIPA met weinig bitterheid"]', 1, 'Correct: Dubbel of Quadrupel'),
   ('pairing-beer', 'bier-en-kaas', 3, 'Kaas bevat vaak veel:', '["Vet en zout", "Bitterheid", "Koolzuur", "Alcohol"]', 0, 'Correct: Vet en zout'),
   ('pairing-beer', 'bier-en-kaas', 4, 'Bij pairing moet je letten op:', '["Intensiteit", "Kleur", "Etiket", "Prijs"]', 0, 'Correct: Intensiteit'),
   ('pairing-beer', 'bier-en-kaas', 5, 'Bier pairt vaak goed door:', '["Koolzuur", "Suiker", "Kurk", "Houtlagering"]', 0, 'Correct: Koolzuur'),
@@ -2480,15 +2768,20 @@ join (values
   ('pairing-beer', 'bier-en-desserts', 3, 'Belangrijkste regel?', '["Bier even intens als dessert", "Bier altijd lichter", "Bier altijd bitter", "Bier altijd koud"]', 0, 'Correct: Bier even intens als dessert'),
   ('pairing-beer', 'bier-en-desserts', 4, 'Roast versterkt:', '["Chocolade", "Citrus", "Zuur", "Zout"]', 0, 'Correct: Chocolade'),
   ('pairing-beer', 'bier-en-desserts', 5, 'Quadrupel werkt vaak met:', '["Sticky toffee pudding", "Sorbet", "Salade", "Sushi"]', 0, 'Correct: Sticky toffee pudding'),
-  ('examen-beer', 'lager-vs-ale-blind', 1, 'Welke stijl is meestal cleaner?', '["Ale", "Lager", "Stout", "Porter"]', 1, 'Correct: Lager'),
+  ('examen-beer', 'lager-vs-ale-blind', 1, 'Blind: frisse afdronk, weinig esters, strak koolzuur. Wat wed je?', '["Belgische Tripel", "Pils of Lager", "Weizen", "Barleywine"]', 1, 'Correct: Pils of Lager'),
   ('examen-beer', 'lager-vs-ale-blind', 2, 'Welke stijl is fruitiger?', '["Ale", "Lager", "Pils", "Bock"]', 0, 'Correct: Ale'),
   ('examen-beer', 'lager-vs-ale-blind', 3, 'Wat helpt bij blindproeven?', '["Gistkarakter", "Etiket", "Fleskleur", "Prijs"]', 0, 'Correct: Gistkarakter'),
   ('examen-beer', 'lager-vs-ale-blind', 4, 'Lager is meestal:', '["Neutraler", "Zwaarder", "Zoeter", "Donkerder"]', 0, 'Correct: Neutraler'),
   ('examen-beer', 'lager-vs-ale-blind', 5, 'Ale is vaak:', '["Complexer", "Simpeler", "Kouder", "Helderder"]', 0, 'Correct: Complexer'),
-  ('examen-beer', 'ipa-vs-stout-blind', 1, 'Welke stijl geeft citrus?', '["IPA", "Stout", "Porter", "Dubbel"]', 0, 'Correct: IPA'),
+  ('examen-beer', 'ipa-vs-stout-blind', 1, 'Blind: donkere kleur, koffie en roast, weinig hoparoma. Wat wed je?', '["IPA", "NEIPA", "Stout of Porter", "Pils"]', 2, 'Correct: Stout of Porter'),
   ('examen-beer', 'ipa-vs-stout-blind', 2, 'Welke stijl geeft koffie?', '["Stout", "IPA", "Weizen", "Saison"]', 0, 'Correct: Stout'),
   ('examen-beer', 'ipa-vs-stout-blind', 3, 'Welke stijl heeft vaak roast?', '["Stout", "IPA", "Witbier", "Blond"]', 0, 'Correct: Stout'),
   ('examen-beer', 'ipa-vs-stout-blind', 4, 'Welke stijl is vaak fruitiger?', '["IPA", "Stout", "Porter", "Bock"]', 0, 'Correct: IPA'),
-  ('examen-beer', 'ipa-vs-stout-blind', 5, 'Wat helpt het meest?', '["Geur en body", "Etiket", "Temperatuur", "Flesvorm"]', 0, 'Correct: Geur en body')
+  ('examen-beer', 'ipa-vs-stout-blind', 5, 'Wat helpt het meest?', '["Geur en body", "Etiket", "Temperatuur", "Flesvorm"]', 0, 'Correct: Geur en body'),
+  ('examen-beer', 'theorie-praktijk-examen', 1, 'Welke gistingsvorm hoort bij Pils?', '["Bovengisting", "Ondergisting", "Spontaan", "Gemengd"]', 1, 'Correct: Ondergisting'),
+  ('examen-beer', 'theorie-praktijk-examen', 2, 'Welke stijl is klassiek Belgisch?', '["Tripel", "Porter", "Lager", "Pils"]', 0, 'Correct: Tripel'),
+  ('examen-beer', 'theorie-praktijk-examen', 3, 'Wat past klassiek bij chocolade?', '["Stout", "Pils", "Saison", "Witbier"]', 0, 'Correct: Stout'),
+  ('examen-beer', 'theorie-praktijk-examen', 4, 'Welke stijl is troebel en juicy?', '["NEIPA", "Porter", "Bock", "Lager"]', 0, 'Correct: NEIPA'),
+  ('examen-beer', 'theorie-praktijk-examen', 5, 'Wat beïnvloedt aroma sterk?', '["Temperatuur", "Etiket", "Flesvorm", "Dop"]', 0, 'Correct: Temperatuur')
 ) as v(module_slug, lesson_slug, sort_order, prompt, options, correct_index, explanation)
   on l.module_slug = v.module_slug and l.lesson_slug = v.lesson_slug;

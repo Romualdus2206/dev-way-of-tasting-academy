@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild supabase/seed/academy_beer.sql from content/BIER_MODULES.md."""
+"""Rebuild supabase/seed/academy_beer.sql from content/BIER_FINAL_CONTENT.md."""
 
 from __future__ import annotations
 
@@ -9,6 +9,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TRACK_SLUG = "beer"
+SOURCE_FALLBACKS = (
+    ROOT / "content/BIER_FINAL_CONTENT.md",
+    ROOT / "content/pipeline/BIER_FINAL_PIPELINE_CONTENT.md",
+    ROOT / "content/pipeline/BIER_PIPELINE_CONTENT.md",
+    ROOT / "content/archive/legacy/BIER_MODULES.md",
+)
 
 MODULE_REGISTRY: dict[int, dict[str, str]] = {
     1: {"slug": "intro-beer", "title": "Fundament", "level": "explorer"},
@@ -72,7 +78,7 @@ def merge_quiz_feedback(new_lines: list[str]) -> None:
 
 def rebuild() -> None:
     imp = load_importer()
-    source = ROOT / "content/BIER_MODULES.md"
+    source = next((p for p in SOURCE_FALLBACKS if p.exists()), SOURCE_FALLBACKS[-1])
     modules_text = split_bier_modules(source.read_text(encoding="utf-8"))
     if len(modules_text) != len(MODULE_REGISTRY):
         raise SystemExit(f"Expected {len(MODULE_REGISTRY)} modules, found {len(modules_text)}")
@@ -106,8 +112,9 @@ def rebuild() -> None:
         for num, cfg in sorted(MODULE_REGISTRY.items())
     )
 
-    header = f"""-- Bier track seed (na 20260625140000_academy_v1_tracks.sql)
+    header = f"""-- Bier track seed V2 (na 20260625140000_academy_v1_tracks.sql)
 -- 1 track · {len(MODULE_REGISTRY)} modules · {lesson_count} lessons · quizvragen per les
+-- Bron: {source.relative_to(ROOT)}
 
 delete from academy.tracks where slug = '{TRACK_SLUG}';
 
@@ -138,6 +145,7 @@ cross join (values
     merge_quiz_feedback(feedback_lines)
 
     quiz_lessons = sum(len([l for l in les if l["quiz"]]) for _, les in all_modules)
+    print(f"Source: {source.relative_to(ROOT)}")
     print(f"Rebuilt seed: {seed_path.name}")
     print(f"Modules: {len(MODULE_REGISTRY)}, lessons: {lesson_count}, with quiz: {quiz_lessons}")
     print(f"New feedback entries: {len(feedback_lines)}")

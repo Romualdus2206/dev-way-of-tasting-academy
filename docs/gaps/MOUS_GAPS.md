@@ -1,6 +1,6 @@
 # Mousserend — content gaps
 
-**Laatste audit:** 2026-06-29
+**Laatste audit:** 2026-06-30
 
 Wat nog ontbreekt in de bron-markdown voordat deze track op 10/10 staat.
 Bijwerken: `python3 scripts/audit_academy_gaps.py`
@@ -8,7 +8,7 @@ Bijwerken: `python3 scripts/audit_academy_gaps.py`
 ---
 
 **Track slug:** `sparkling` · **App-chip:** `champagne`
-**Bron:** `content/MOUS_MODULES.md` · **Lessen:** 40
+**Bron:** `content/archive/legacy/MOUS_MODULES.md` · **Lessen:** 40
 **Seed:** `supabase/seed/academy_sparkling.sql` · **Rebuild:** `scripts/rebuild_mous_track.py`
 
 ## Samenvatting

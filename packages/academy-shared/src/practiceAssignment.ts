@@ -19,13 +19,20 @@ export type PracticeAssignmentParsed =
   | PracticeAssignmentPlain
   | PracticeAssignmentEmpty;
 
+function cleanSectionText(text: string): string {
+  return text
+    .replace(/(?:\n---\s*)+$/g, '')
+    .replace(/(?:^|\n)---\s*(?=\n|$)/g, '\n')
+    .trim();
+}
+
 function sectionBody(markdown: string, heading: string): string {
   const re = new RegExp(
     `###\\s+${heading}\\s*\\n([\\s\\S]*?)(?=\\n###\\s+|$)`,
     'i'
   );
   const match = markdown.match(re);
-  return match?.[1]?.trim() ?? '';
+  return cleanSectionText(match?.[1] ?? '');
 }
 
 function parseChecklistItems(raw: string): string[] {

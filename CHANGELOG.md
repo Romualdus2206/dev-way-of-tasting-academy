@@ -8,6 +8,20 @@ _(Bij upload: patch bump in `version.json` + bullet hier — zie [`docs/VERSIE.m
 
 ---
 
+## v0.1.5 — Final Content canon + Global QA repair
+
+*Juli 2026.*
+
+- **Content-structuur:** leidende bron per track is `{TRACK}_FINAL_CONTENT.md`; pipeline in `content/pipeline/`; legacy/repair in `content/archive/`; paden via `scripts/content_paths.py`
+- **Specialist tracks (Gold Master → LOCKED):** Wit, Rood, Rosé — `*_FINAL_CONTENT.md` + rebuild-seeds
+- **Global QA repair** (rapport `Way_of_Tasting_Academy_QA_Rapport.pdf`): Rosé LES 41–43 hernummering; 12 quizvragen naar 4 opties (Mous/Wine/Rosé); Port schema-gelijktrekking + LES 41–45; Wine LES 21; Bier 0.0 LES 1 regelgeving; Bio quiz-feedback hedging; Cocktail module-structuur gevalideerd
+- Scripts: `apply_qa_global_repair.py`, `qa_repair_data.py`, `migrate_content_paths.py`, build/polish/rebuild per track
+- **Alle 10 track-seeds** herbouwd uit `*_FINAL_CONTENT.md`
+- **App:** quiz-feedback parsing, praktijk-checklist UI, kernbegrippen-vet (`keyConcepts.ts`), les-voortgang pills
+- Migratie: `20260626190000_academy_bio_key_concepts_nl.sql` (BIO kernbegrippen NL in DB)
+
+---
+
 ## v0.1.4 — BIO track premium repair
 
 *Juni 2026.*

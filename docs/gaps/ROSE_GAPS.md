@@ -1,6 +1,6 @@
 # Rosé — content gaps
 
-**Laatste audit:** 2026-06-29
+**Laatste audit:** 2026-06-30
 
 Wat nog ontbreekt in de bron-markdown voordat deze track op 10/10 staat.
 Bijwerken: `python3 scripts/audit_academy_gaps.py`
@@ -8,7 +8,7 @@ Bijwerken: `python3 scripts/audit_academy_gaps.py`
 ---
 
 **Track slug:** `rose-wine` · **App-chip:** `rose-wine`
-**Bron:** `content/ROSE_MODULES.md` · **Lessen:** 43
+**Bron:** `content/archive/legacy/ROSE_MODULES.md` · **Lessen:** 43
 **Seed:** `supabase/seed/academy_rose_wine.sql` · **Rebuild:** `scripts/rebuild_rose_wine_track.py`
 
 ## Samenvatting

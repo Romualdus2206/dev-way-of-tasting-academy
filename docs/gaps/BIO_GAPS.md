@@ -1,6 +1,6 @@
 # Biodynamisch Proeven — content gaps
 
-**Laatste audit:** 2026-06-29
+**Laatste audit:** 2026-06-30
 
 Wat nog ontbreekt in de bron-markdown voordat deze track op 10/10 staat.
 Bijwerken: `python3 scripts/audit_academy_gaps.py`
@@ -8,15 +8,15 @@ Bijwerken: `python3 scripts/audit_academy_gaps.py`
 ---
 
 **Track slug:** `biodynamic` · **App-chip:** `biodynamic`
-**Bron:** `content/BIO_MODULES.md` · **Lessen:** 45
+**Bron:** `content/BIO_FINAL_CONTENT.md` · **Lessen:** 45
 **Seed:** `supabase/seed/academy_biodynamic.sql` · **Rebuild:** `scripts/rebuild_bio_track.py`
 
 ## Samenvatting
 
 | Onderdeel | Aanwezig | Ontbreekt | % |
 |-----------|----------|-----------|---|
-| Quiz (`## Quiz`) | 41/45 | 4 | 91% |
-| Quiz-feedback | 41/45 (41 bij quiz-lessen) | 0 | 91% |
+| Quiz (`## Quiz`) | 44/45 | 1 | 98% |
+| Quiz-feedback | 41/45 (41 bij quiz-lessen) | 3 | 91% |
 | Kernbegrippen | 45/45 | 0 | 100% |
 | Praktijkopdracht | 45/45 | 0 | 100% |
 
@@ -32,13 +32,18 @@ Bijwerken: `python3 scripts/audit_academy_gaps.py`
 | 6 | Bier, cocktails & 0.0 | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
 | 7 | Voorraad & drinkstrategie | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
 | 8 | Persoonlijke tasting intelligence | 5 | 5/5 | 5/5 | 5/5 | 5/5 |
-| 9 | Praktijkexamen | 5 | 1/5 | 1/5 | 5/5 | 5/5 |
+| 9 | Praktijkexamen | 5 | 4/5 | 1/5 | 5/5 | 5/5 |
 
 ## Geen quiz-sectie
 
 | Mod | Les-key | Titel |
 |-----|---------|-------|
-| 9 | `examen-biodynamic:praktijkproef-worteldag` | Praktijkproef op Worteldag |
-| 9 | `examen-biodynamic:praktijkproef-vruchtdag` | Praktijkproef op Vruchtdag |
-| 9 | `examen-biodynamic:vergelijking-en-analyse` | Vergelijking en analyse |
-| 9 | `examen-biodynamic:eindassessment-biodynamic-intelligence` | Eindassessment Biodynamic Intelligence |
+| 9 | `examen-biodynamic:biodynamisch-meesterschap` | Biodynamisch meesterschap |
+
+## Quiz wel, feedback ontbreekt
+
+| Mod | Les-key | Titel |
+|-----|---------|-------|
+| 9 | `examen-biodynamic:timing-versus-kwaliteit` | Timing versus kwaliteit |
+| 9 | `examen-biodynamic:persoonlijke-voorkeurspatronen` | Jouw persoonlijke voorkeurspatronen |
+| 9 | `examen-biodynamic:open-examen-biodynamisch` | Open examen |

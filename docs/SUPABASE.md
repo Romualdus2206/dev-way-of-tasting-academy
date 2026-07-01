@@ -21,7 +21,8 @@ Academy gebruikt **hetzelfde** Supabase-project als Way of tasting. Alleen het *
 | `supabase/migrations/20260620120000_academy_schema.sql` | Schema + tabellen + RLS |
 | `supabase/migrations/20260625140000_academy_v1_tracks.sql` | Tracks V1 |
 | `supabase/migrations/20260625150000_academy_schema_grants.sql` | Grants voor Data API |
-| `supabase/migrations/20260625180000_academy_aperol_spritz_lesson.sql` | LES 38 — Aperol Spritz (Module 8; bron in `COCK_MODULES.md`) |
+| `supabase/migrations/20260625180000_academy_aperol_spritz_lesson.sql` | LES 38 — Aperol Spritz (Module 8; archief in `content/archive/legacy/`) |
+| `supabase/migrations/20260626190000_academy_bio_key_concepts_nl.sql` | BIO kernbegrippen NL (`key_concepts_markdown`) |
 
 ## Seeds (`supabase/seed/`)
 
@@ -38,7 +39,7 @@ Academy gebruikt **hetzelfde** Supabase-project als Way of tasting. Alleen het *
 | `academy_cocktails.sql` | `cocktails` | `cocktails` |
 | `academy_biodynamic.sql` | `biodynamic` | `biodynamic` |
 
-Rebuild vanuit markdown: `python3 scripts/rebuild_<track>_track.py` (zie [`content/README.md`](../content/README.md)).
+Rebuild vanuit markdown: `python3 scripts/rebuild_<track>_track.py` — bron is `content/{TRACK}_FINAL_CONTENT.md` (zie [`content/README.md`](../content/README.md)).
 
 **Regel:** geen wijzigingen aan `public.*` vanuit Academy-repo. Zie [`INTEGRATIE.md`](INTEGRATIE.md).
 

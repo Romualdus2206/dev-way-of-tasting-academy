@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild supabase/seed/academy_biodynamic.sql from content/BIO_MODULES.md."""
+"""Rebuild supabase/seed/academy_biodynamic.sql from content/BIO_FINAL_CONTENT.md."""
 
 from __future__ import annotations
 
@@ -9,6 +9,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TRACK_SLUG = "biodynamic"
+SOURCE_FALLBACKS = (
+    ROOT / "content/BIO_FINAL_CONTENT.md",
+    ROOT / "content/pipeline/BIO_PIPELINE_CONTENT.md",
+    ROOT / "content/archive/legacy/BIO_MODULES.md",
+)
 
 MODULE_REGISTRY: dict[int, dict[str, str]] = {
     1: {"slug": "intro-biodynamic", "title": "Fundament", "level": "explorer"},
@@ -33,6 +38,9 @@ def load_importer():
 
 
 def split_bio_modules(text: str) -> list[str]:
+    if re.search(r"^### Module \d+ — ", text, re.M):
+        parts = re.split(r"(?=\n### Module \d+ — )", text)
+        return [p.strip() for p in parts if re.match(r"### Module \d+", p.strip())]
     parts = re.split(r"# BIO_MODULE_\d+\.md\s*\n", text)
     return [p.strip() for p in parts if p.strip()]
 
@@ -72,7 +80,7 @@ def merge_quiz_feedback(new_lines: list[str]) -> None:
 
 def rebuild() -> None:
     imp = load_importer()
-    source = ROOT / "content/BIO_MODULES.md"
+    source = next((p for p in SOURCE_FALLBACKS if p.exists()), SOURCE_FALLBACKS[-1])
     modules_text = split_bio_modules(source.read_text(encoding="utf-8"))
     if len(modules_text) != len(MODULE_REGISTRY):
         raise SystemExit(f"Expected {len(MODULE_REGISTRY)} modules, found {len(modules_text)}")
@@ -138,6 +146,7 @@ cross join (values
     merge_quiz_feedback(feedback_lines)
 
     quiz_lessons = sum(len([l for l in les if l["quiz"]]) for _, les in all_modules)
+    print(f"Source: {source.relative_to(ROOT)}")
     print(f"Rebuilt seed: {seed_path.name}")
     print(f"Modules: {len(MODULE_REGISTRY)}, lessons: {lesson_count}, with quiz: {quiz_lessons}")
     print(f"New feedback entries: {len(feedback_lines)}")

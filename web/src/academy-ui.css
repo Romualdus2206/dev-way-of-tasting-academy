@@ -447,11 +447,30 @@ button {
 
 .lesson-detail .objective {
   font-size: 0.9rem;
-  margin: 0 0 16px;
+  margin: 0 0 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.lesson-detail .objective strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.lesson-content-card {
+  margin-bottom: 16px;
+}
+
+.lesson-content-card .lesson-section {
+  margin-bottom: 14px;
+}
+
+.lesson-content-card .lesson-section:last-child {
+  margin-bottom: 0;
 }
 
 .lesson-detail .objective .prose {
-  display: inline;
   white-space: normal;
 }
 
@@ -519,9 +538,14 @@ button {
   min-height: 96px;
 }
 
-.practice-complete-btn {
+.practice-submit {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-light);
+}
+
+.practice-submit .btn-lesson {
   width: 100%;
-  margin-top: 14px;
 }
 
 .practice-done {
@@ -534,17 +558,120 @@ button {
 }
 
 .prose {
-  white-space: pre-wrap;
   font-size: 0.9rem;
   line-height: 1.55;
 }
 
-.actions {
-  display: flex;
-  flex-wrap: wrap;
+.prose-lines p {
+  margin: 0 0 0.5em;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+}
+
+.prose-lines p:last-child {
+  margin-bottom: 0;
+}
+
+.prose-lines + .prose-bullets {
+  margin-top: 0.5em;
+}
+
+.prose-bullets + .prose-lines {
+  margin-top: 0.85em;
+}
+
+.prose-bullets {
+  list-style: none;
+  margin: 0.35em 0 0;
+  padding: 0;
+}
+
+.prose-bullets li {
+  position: relative;
+  padding-left: 1.15em;
+  margin-bottom: 0.4em;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+}
+
+.prose-bullets li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
+
+.prose-bullets li:last-child {
+  margin-bottom: 0;
+}
+
+.lesson-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
+  margin-top: 4px;
+}
+
+.lesson-actions--single {
+  grid-template-columns: 1fr;
+}
+
+.btn-lesson {
+  display: flex;
   align-items: center;
-  margin-top: 20px;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: inherit;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btn-lesson-primary {
+  background: var(--app);
+  color: #fff;
+  border: 1px solid var(--app);
+}
+
+.btn-lesson-primary:hover:not(.btn-lesson--disabled) {
+  filter: brightness(0.95);
+}
+
+.btn-lesson-secondary {
+  background: var(--bg-card);
+  color: var(--app);
+  border: 1px solid var(--border);
+}
+
+.btn-lesson-secondary:hover:not(:disabled) {
+  background: var(--app-pale);
+  border-color: rgba(92, 36, 56, 0.25);
+}
+
+.btn-lesson--done {
+  background: rgba(45, 106, 79, 0.08);
+  color: #2d6a4f;
+  border: 1px solid rgba(45, 106, 79, 0.3);
+  cursor: default;
+}
+
+.btn-lesson--disabled {
+  background: var(--bg);
+  color: var(--muted);
+  border: 1px solid var(--border-light);
+  cursor: not-allowed;
+  opacity: 0.85;
 }
 
 .btn-link {
@@ -657,6 +784,11 @@ button {
   border-bottom: 1px dotted rgba(138, 101, 8, 0.45);
 }
 
+.term-intro {
+  font-weight: 700;
+  color: var(--app);
+}
+
 .progress-steps {
   list-style: none;
   padding: 0;
@@ -664,6 +796,57 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.lesson-detail--sticky {
+  margin: 0 -16px;
+  padding: 0 16px;
+}
+
+.lesson-detail-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  background: var(--bg);
+  padding: 0 0 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border-light);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.04);
+}
+
+.lesson-detail-sticky .progress-steps {
+  margin-bottom: 8px;
+}
+
+.lesson-detail-title {
+  margin-bottom: 8px;
+}
+
+.lesson-detail-position {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  text-align: center;
+}
+
+.lesson-detail-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.lesson-detail-nav-btn {
+  min-height: 40px;
+  text-decoration: none;
+}
+
+.lesson-detail-nav-btn--disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.lesson-detail-body {
+  padding-bottom: 8px;
 }
 
 .progress-steps li {
@@ -681,7 +864,13 @@ button {
 }
 
 .progress-steps .step-pending {
-  color: var(--muted);
+  color: #8a1a2e;
+  border-color: rgba(138, 26, 46, 0.28);
+  background: rgba(138, 26, 46, 0.06);
+}
+
+.progress-steps .step-pending .step-icon {
+  font-weight: 700;
 }
 
 .progress-steps .step-complete {
@@ -692,19 +881,14 @@ button {
   margin-right: 4px;
 }
 
-.lesson-steps-mini {
+.progress-steps--card {
   margin: 8px 0 0;
-  display: flex;
   gap: 6px;
-  font-size: 0.95rem;
 }
 
-.lesson-steps-mini .step-done {
-  opacity: 1;
-}
-
-.lesson-steps-mini .step-pending {
-  opacity: 0.35;
+.progress-steps--card li {
+  font-size: 0.72rem;
+  padding: 4px 8px;
 }
 
 .quiz-score {
@@ -891,14 +1075,6 @@ button {
 .confidence-nog-oefenen {
   background: rgba(138, 26, 46, 0.1);
   color: #8a1a2e;
-}
-
-.btn-start-quiz {
-  padding: 10px 14px;
-  border-radius: 10px;
-  background: var(--app);
-  color: #fff;
-  text-decoration: none;
 }
 
 .lesson-number {

@@ -79,7 +79,7 @@ TRACK_META: dict[str, dict[str, str]] = {
 TRACKS: dict[str, dict] = {
     "wine-foundation": {
         "title": "Wijn (Wine Foundation)",
-        "source": "content/WIJN_MODULES.md",
+        "source": "content/archive/legacy/WIJN_MODULES.md",
         "registry": {
             1: "intro-wine",
             2: "productie-wine",
@@ -94,7 +94,7 @@ TRACKS: dict[str, dict] = {
     },
     "red-wine": {
         "title": "Rode wijn",
-        "source": "content/ROOD_MODULES.md",
+        "source": "content/archive/legacy/ROOD_MODULES.md",
         "registry": {
             1: "intro-red-wine",
             2: "productie-red-wine",
@@ -109,7 +109,7 @@ TRACKS: dict[str, dict] = {
     },
     "white-wine": {
         "title": "Witte wijn",
-        "source": "content/WIT_MODULES.md",
+        "source": "content/archive/legacy/WIT_MODULES.md",
         "registry": {
             1: "intro-white-wine",
             2: "productie-white-wine",
@@ -124,7 +124,7 @@ TRACKS: dict[str, dict] = {
     },
     "rose-wine": {
         "title": "Rosé",
-        "source": "content/ROSE_MODULES.md",
+        "source": "content/archive/legacy/ROSE_MODULES.md",
         "registry": {
             1: "intro-rose-wine",
             2: "productie-rose-wine",
@@ -139,7 +139,7 @@ TRACKS: dict[str, dict] = {
     },
     "cocktails": {
         "title": "Cocktails",
-        "source": "content/COCK_MODULES.md",
+        "source": "content/pipeline/COCK_PIPELINE_CONTENT.md",
         "registry": {
             1: "intro-cocktails",
             2: "technieken-cocktails",
@@ -154,7 +154,7 @@ TRACKS: dict[str, dict] = {
     },
     "port": {
         "title": "Port",
-        "source": "content/PORT_MODULES.md",
+        "source": "content/archive/legacy/PORT_MODULES.md",
         "registry": {
             1: "intro-port",
             2: "productie-port",
@@ -169,7 +169,7 @@ TRACKS: dict[str, dict] = {
     },
     "sparkling": {
         "title": "Mousserend",
-        "source": "content/MOUS_MODULES.md",
+        "source": "content/archive/legacy/MOUS_MODULES.md",
         "registry": {
             1: "intro-sparkling",
             2: "productie-sparkling",
@@ -184,7 +184,7 @@ TRACKS: dict[str, dict] = {
     },
     "beer": {
         "title": "Bier",
-        "source": "content/BIER_MODULES.md",
+        "source": "content/BIER_FINAL_CONTENT.md",
         "registry": {
             1: "intro-beer",
             2: "productie-beer",
@@ -199,7 +199,7 @@ TRACKS: dict[str, dict] = {
     },
     "beer-zero": {
         "title": "Bier 0.0",
-        "source": "content/BIER_0_0_MODULES.md",
+        "source": "content/BIER_0_0_FINAL_CONTENT.md",
         "registry": {
             1: "intro-beer-zero",
             2: "productie-beer-zero",
@@ -214,7 +214,7 @@ TRACKS: dict[str, dict] = {
     },
     "biodynamic": {
         "title": "Biodynamisch Proeven",
-        "source": "content/BIO_MODULES.md",
+        "source": "content/BIO_FINAL_CONTENT.md",
         "registry": {
             1: "intro-biodynamic",
             2: "kalender-biodynamic",
@@ -264,6 +264,9 @@ def load_parts(track_slug: str) -> list[str]:
     if track_slug == "sparkling":
         return [p.strip() for p in re.split(r"# MOUS_MODULE_\d+\.md\s*\n", text) if p.strip()]
     if track_slug == "beer-zero":
+        if re.search(r"^### Module \d+ — ", text, re.M):
+            parts = re.split(r"(?=\n### Module \d+ — )", text)
+            return [p.strip() for p in parts if re.match(r"### Module \d+", p.strip())]
         return [p.strip() for p in re.split(r"# ZERO_MODULE_\d+\.md\s*\n", text) if p.strip()]
     if track_slug == "wine-foundation":
         return [p.strip() for p in re.split(r"# WINE_MODULE_\d+\.md\s*\n", text) if p.strip()]
@@ -296,7 +299,7 @@ PORT_MODULE_TITLES = {
 def audit_port_track() -> dict:
     cfg = TRACKS["port"]
     port_imp = load_port_importer()
-    text = (ROOT / "content/PORT_MODULES.md").read_text(encoding="utf-8")
+    text = (ROOT / "content/archive/legacy/PORT_MODULES.md").read_text(encoding="utf-8")
     grouped = port_imp.split_port_track(text)
     rows = []
     for num in sorted(grouped):

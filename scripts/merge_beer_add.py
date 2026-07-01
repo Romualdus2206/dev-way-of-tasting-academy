@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Merge content/ADD_BIER_MODULES.md quiz-feedback into content/BIER_MODULES.md."""
+"""Merge content/archive/legacy/ADD_BIER_MODULES.md quiz-feedback into content/archive/legacy/BIER_MODULES.md."""
 
 from __future__ import annotations
 
@@ -7,8 +7,8 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MAIN = ROOT / "content/BIER_MODULES.md"
-ADD = ROOT / "content/ADD_BIER_MODULES.md"
+MAIN = ROOT / "content/archive/legacy/BIER_MODULES.md"
+ADD = ROOT / "content/archive/legacy/ADD_BIER_MODULES.md"
 
 
 def parse_add_feedback(text: str) -> dict[int, str]:

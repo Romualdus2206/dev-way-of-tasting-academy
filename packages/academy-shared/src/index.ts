@@ -83,6 +83,14 @@ export function scoreQuizAnswers(
 }
 
 export {
+  parseKeyConceptTerms,
+  normalizeKeyConceptTerm,
+  findFirstTermMatch,
+  findNextKeyConceptIntroduction,
+} from './keyConcepts';
+export type { KeyConceptMatch } from './keyConcepts';
+
+export {
   parsePracticeAssignment,
   practiceContentRequired,
   normalizeChecklistState,

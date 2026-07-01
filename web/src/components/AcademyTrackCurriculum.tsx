@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import type { AcademyLevel, LessonListItem } from '@way-of-tasting/academy-shared';
+import { lessonCompletionRules } from '@way-of-tasting/academy-shared';
 import { isIntegratedApp } from '../config';
 import { fetchTrackLessons } from '../lib/academy';
 import { tasteCategoryForAcademy } from '../lib/tasteAcademyMap';
 import { lessonPath, type BeverageCategory } from '../navigation';
 import { useSession } from '../hooks/useSession';
+import { LessonProgressPills } from './LessonProgressPills';
 
 const LEVEL_LABEL: Record<AcademyLevel, string> = {
   explorer: 'Explorer',
@@ -40,7 +42,7 @@ function statusLabel(
   if (theoryRead && practiceDone && tested) return `Bezig · quiz ${quizScore}%`;
   if (theoryRead && practiceDone) return 'Praktijk klaar';
   if (theoryRead) return 'Gelezen';
-  if (tested) return `Getest · ${quizScore}%`;
+  if (tested) return `Quiz · ${quizScore}%`;
   if (status === 'in_progress') return 'Bezig';
   return 'Nog niet gestart';
 }
@@ -235,6 +237,10 @@ export function AcademyTrackCurriculum({
                       const tested = lesson.progress?.best_quiz_score_percent != null;
                       const quizScore = lesson.progress?.best_quiz_score_percent;
                       const milestone = isMilestoneLesson(lesson.slug);
+                      const rules = lessonCompletionRules(
+                        lesson.slug,
+                        lesson.practice_assignment_markdown
+                      );
 
                       return (
                         <li key={lesson.id}>
@@ -263,11 +269,12 @@ export function AcademyTrackCurriculum({
                               {lesson.duration_minutes ?? '?'} min
                               {milestone ? ' · Examen' : null}
                             </p>
-                            <p className="lesson-steps-mini" aria-label="Voortgang">
-                              <span className={theoryRead ? 'step-done' : 'step-pending'}>📖</span>
-                              <span className={practiceDone ? 'step-done' : 'step-pending'}>✓</span>
-                              <span className={tested ? 'step-done' : 'step-pending'}>🧠</span>
-                            </p>
+                            <LessonProgressPills
+                              progress={lesson.progress}
+                              quizRequired={rules.quizRequired}
+                              practiceRequired={rules.practiceRequired}
+                              className="progress-steps progress-steps--card"
+                            />
                           </Link>
                         </li>
                       );

@@ -8,10 +8,14 @@ Curriculum staat primair in **Postgres** (`academy.*`). Optioneel beheer je bron
 
 | Methode | Wanneer |
 |---------|---------|
-| **`*_MODULES.md`** | Canonieke bron per track — altijd up-to-date houden |
-| **SQL seed** | Demo + eerste echte cursus (`supabase/seed/`) |
-| **`ADD_*` / repair** | Archief na merge; patches horen in `*_MODULES.md` |
+| **`{TRACK}_FINAL_CONTENT.md`** | Leidende versie per track — canon voor `rebuild_*` |
+| **`content/pipeline/`** | Herbouw-tussenstappen (`build_*`, `polish_*`) |
+| **`content/archive/legacy/`** | Legacy `*_MODULES.md` (alleen voor herbouw) |
+| **SQL seed** | Demo + productie-import (`supabase/seed/`) |
+| **`ADD_*` / repair** | Archief in `content/archive/` |
 | **Dashboard + service role** | Snelle fixes, niet voor dagelijks schrijven |
+
+Zie [`content/README.md`](../content/README.md) en `scripts/content_paths.py`.
 
 De browser-app **leest** alleen gepubliceerde rijen (`published_at is not null` op course).
 

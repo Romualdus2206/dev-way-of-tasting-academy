@@ -69,18 +69,50 @@ def parse_module_text(text: str, default_module_slug: str = "intro") -> Dict:
         if feedback_m:
             feedback = re.sub(r"\n---\s*$", "", feedback_m.group(1).strip())
 
+        theory = section("Theorie")
+        examen = section("Examenonderdelen")
+        if examen:
+            theory = (
+                f"{theory}\n\n## Examenonderdelen\n\n{examen}".strip()
+                if theory
+                else f"## Examenonderdelen\n\n{examen}"
+            )
+        for extra in ("Food pairing", "Pro insight"):
+            block = section(extra)
+            if block:
+                theory = (
+                    f"{theory}\n\n## {extra}\n\n{block}".strip()
+                    if theory
+                    else f"## {extra}\n\n{block}"
+                )
+
+        practice = section("Praktijkopdracht")
+        reflectie = section("Reflectievraag")
+        if reflectie:
+            practice = (
+                f"{practice}\n\n### Reflectievraag\n\n{reflectie}".strip()
+                if practice
+                else f"### Reflectievraag\n\n{reflectie}"
+            )
+
+        quiz_block = ""
+        for quiz_name in ("Quiz", "Quiz (selectie)", "Voorbeeldvragen"):
+            quiz_block = section(quiz_name)
+            if quiz_block:
+                break
+
         lessons.append(
             {
                 "title": title,
                 "slug": slug_m.group(1) if slug_m else "",
                 "duration": int(dur_m.group(1)) if dur_m else 8,
                 "objective": section("Leerdoel"),
-                "theory": section("Theorie"),
+                "theory": theory,
                 "did_you_know": section("Wist-je-dat"),
                 "summary": section("Samenvatting"),
-                "practice": section("Praktijkopdracht"),
+                "practice": practice,
                 "key_concepts": section("Kernbegrippen (DB field)"),
-                "quiz": parse_quiz_block(section("Quiz")),
+                "quiz": parse_quiz_block(quiz_block),
                 "quiz_feedback": feedback,
             }
         )
