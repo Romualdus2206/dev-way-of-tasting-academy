@@ -1,2 +1,0 @@
--- Vervangen door supabase/seed/academy_port.sql (Port track, V1 schema)
--- Dit bestand wordt niet meer gebruikt.
