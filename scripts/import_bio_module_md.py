@@ -6,6 +6,7 @@ Handles Praktijkopdracht, Eindopdracht, Checklist, Reflectievraag and Beoordelin
 
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -181,11 +182,11 @@ def emit_quiz_sql(lessons: List[Dict], module_slug: str) -> str:
     rows = []
     for les in lessons:
         for n, q in enumerate(les["quiz"], 1):
-            opts_json = ", ".join(f'"{o.replace(chr(34), chr(92)+chr(34))}"' for o in q["options"])
+            opts_json = json.dumps(q["options"], ensure_ascii=False)
             expl = f"Correct: {q['options'][q['correct_index']]}"
             rows.append(
                 f"  ({sql_str(module_slug)}, {sql_str(les['slug'])}, {n}, {sql_str(q['prompt'])}, "
-                f"'[{opts_json}]', {q['correct_index']}, {sql_str(expl)})"
+                f"{sql_str(opts_json)}, {q['correct_index']}, {sql_str(expl)})"
             )
     return ",\n".join(rows)
 

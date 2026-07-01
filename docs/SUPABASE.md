@@ -22,6 +22,8 @@ Academy gebruikt **hetzelfde** Supabase-project als Way of tasting. Alleen het *
 | `supabase/migrations/20260625140000_academy_v1_tracks.sql` | Tracks V1 |
 | `supabase/migrations/20260625150000_academy_schema_grants.sql` | Grants voor Data API |
 | `supabase/migrations/20260625180000_academy_aperol_spritz_lesson.sql` | LES 38 — Aperol Spritz (Module 8; archief in `content/archive/legacy/`) |
+| `supabase/migrations/20260626140000_academy_lessons_key_concepts.sql` | Kolom `key_concepts_markdown` op `lessons` |
+| `supabase/migrations/20260626150000_academy_practice_progress.sql` | Praktijk-checklist voortgang |
 | `supabase/migrations/20260626190000_academy_bio_key_concepts_nl.sql` | BIO kernbegrippen NL (`key_concepts_markdown`) |
 
 ## Seeds (`supabase/seed/`)

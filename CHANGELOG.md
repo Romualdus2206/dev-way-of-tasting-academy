@@ -8,6 +8,16 @@ _(Bij upload: patch bump in `version.json` + bullet hier — zie [`docs/VERSIE.m
 
 ---
 
+## v0.1.6 — Seed SQL escaping + Supabase deploy
+
+*Juni 2026.*
+
+- **Fix:** quiz `options` JSON via `json.dumps` + `sql_str()` in import-scripts (apostrofs zoals `kilo's`, `pit` braken Port/Wine-seeds)
+- **Seeds** herbouwd en alle 10 tracks gedeployed naar Supabase (`migoblpyknayqfljihoa`)
+- Migraties live: `academy_lessons_key_concepts`, `academy_practice_progress`, `academy_bio_key_concepts_nl`
+
+---
+
 ## v0.1.5 — Final Content canon + Global QA repair
 
 *Juli 2026.*

@@ -2792,7 +2792,7 @@ join (values
   ('suiker-stijl-sparkling', 'brut', 3, 'Waarom is Brut populair?', '["Veel tannine", "Goede balans", "Veel alcohol", "Lage zuren"]', 1, 'Correct: Goede balans'),
   ('suiker-stijl-sparkling', 'brut', 4, 'Waar werkt Brut goed?', '["Alleen dessert", "Aperitief én maaltijd", "Alleen kaas", "Alleen vlees"]', 1, 'Correct: Aperitief én maaltijd'),
   ('suiker-stijl-sparkling', 'brut', 5, 'Voor wie is Brut ideaal?', '["Beginners én gevorderden", "Alleen experts", "Alleen verzamelaars", "Alleen chefs"]', 0, 'Correct: Beginners én gevorderden'),
-  ('suiker-stijl-sparkling', 'extra-dry-dry', 1, 'Is Extra Dry droger dan Brut?', '["Ja", "Nee", "Alleen bij hogere alcohol", "Ja, want 'Extra' verwijst naar extra droogheid"]', 1, 'Correct: Nee'),
+  ('suiker-stijl-sparkling', 'extra-dry-dry', 1, 'Is Extra Dry droger dan Brut?', '["Ja", "Nee", "Alleen bij hogere alcohol", "Ja, want ''Extra'' verwijst naar extra droogheid"]', 1, 'Correct: Nee'),
   ('suiker-stijl-sparkling', 'extra-dry-dry', 2, 'Hoeveel restsuiker bevat Extra Dry?', '["0–3 g/l", "12–17 g/l", "17–32 g/l", "32–50 g/l"]', 1, 'Correct: 12–17 g/l'),
   ('suiker-stijl-sparkling', 'extra-dry-dry', 3, 'Hoeveel bevat Dry?', '["0–3 g/l", "6–12 g/l", "17–32 g/l", "50–60 g/l"]', 2, 'Correct: 17–32 g/l'),
   ('suiker-stijl-sparkling', 'extra-dry-dry', 4, 'Waarom is de naam verwarrend?', '["Het klinkt droger dan het is", "Het is zoeter dan Demi-Sec", "Het is altijd Brut Nature", "Het heeft geen suiker"]', 0, 'Correct: Het klinkt droger dan het is'),

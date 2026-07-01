@@ -2801,7 +2801,7 @@ join (values
   ('klassieke-stijlen-rose-wine', 'rosado-spanje', 5, 'Rosado heeft vaak:', '["Meer direct fruit", "Minder fruit", "Geen body", "Geen zuur"]', 0, 'Correct: Meer direct fruit'),
   ('klassieke-stijlen-rose-wine', 'rosato-italie', 1, 'Rosato is afkomstig uit:', '["Spanje", "Italië", "Frankrijk", "Portugal"]', 1, 'Correct: Italië'),
   ('klassieke-stijlen-rose-wine', 'rosato-italie', 2, 'Welke stijl is vaak licht?', '["Chiaretto", "Tavel", "Bandol", "Syrah"]', 0, 'Correct: Chiaretto'),
-  ('klassieke-stijlen-rose-wine', 'rosato-italie', 3, 'Welke stijl is donkerder?', '["Chiaretto", "Cerasuolo d'Abruzzo", "Provence", "Navarra"]', 1, 'Correct: Cerasuolo d''Abruzzo'),
+  ('klassieke-stijlen-rose-wine', 'rosato-italie', 3, 'Welke stijl is donkerder?', '["Chiaretto", "Cerasuolo d''Abruzzo", "Provence", "Navarra"]', 1, 'Correct: Cerasuolo d''Abruzzo'),
   ('klassieke-stijlen-rose-wine', 'rosato-italie', 4, 'Cerasuolo betekent:', '["Aardbei", "Kersenkleur", "Citrus", "Bloemig"]', 1, 'Correct: Kersenkleur'),
   ('klassieke-stijlen-rose-wine', 'rosato-italie', 5, 'Italiaanse rosato is:', '["Zeer uniform", "Zeer divers", "Altijd licht", "Altijd zwaar"]', 1, 'Correct: Zeer divers'),
   ('klassieke-stijlen-rose-wine', 'nieuwe-wereld-rose', 1, 'Welke regio produceert alleen rosé?', '["Provence", "Tavel", "Rioja", "Toscana"]', 1, 'Correct: Tavel'),
