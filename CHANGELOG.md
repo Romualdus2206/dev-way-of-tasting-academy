@@ -15,6 +15,7 @@ _(Bij upload: patch bump in `version.json` + bullet hier — zie [`docs/VERSIE.m
 - **Fix:** quiz `options` JSON via `json.dumps` + `sql_str()` in import-scripts (apostrofs zoals `kilo's`, `pit` braken Port/Wine-seeds)
 - **Seeds** herbouwd en alle 10 tracks gedeployed naar Supabase (`migoblpyknayqfljihoa`)
 - Migraties live: `academy_lessons_key_concepts`, `academy_practice_progress`, `academy_bio_key_concepts_nl`
+- Smoke-checklist: [`docs/ACADEMY_SMOKE_CHECKLIST.md`](docs/ACADEMY_SMOKE_CHECKLIST.md)
 
 ---
 

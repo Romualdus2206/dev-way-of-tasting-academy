@@ -43,6 +43,8 @@ Academy gebruikt **hetzelfde** Supabase-project als Way of tasting. Alleen het *
 
 Rebuild vanuit markdown: `python3 scripts/rebuild_<track>_track.py` — bron is `content/{TRACK}_FINAL_CONTENT.md` (zie [`content/README.md`](../content/README.md)).
 
+**Smoke-test na deploy:** [`docs/ACADEMY_SMOKE_CHECKLIST.md`](ACADEMY_SMOKE_CHECKLIST.md).
+
 **Regel:** geen wijzigingen aan `public.*` vanuit Academy-repo. Zie [`INTEGRATIE.md`](INTEGRATIE.md).
 
 ---
